@@ -1,13 +1,15 @@
 """
-向量检索模块 —— FAISS 双索引（card_names + content）加载与搜索
+向量检索模块 —— FAISS 三索引（card_names + content + content_lora）加载与搜索
 
 面试要点：
   - 单一职责：只负责「索引加载」和「向量搜索」，不关心卡牌识别和上下文
   - FAISS IndexFlatIP: 内积搜索，因向量已归一化所以等价于余弦相似度
-  - 双库架构：
-      card_names: 名称索引 → search_names() 用全文匹配识别卡牌
-      content:    内容索引 → search_content() 用效果/问题文本搜语义相关QA+规则
-  - v4 改进点：可替换为 IndexIVFFlat（加速）、HNSW（更高精度）、加入 Cross-Encoder 重排序
+  - 三索引架构：
+      card_names   名称索引 → 原始 BGE（全文匹配识别卡牌，始终不变）
+      content      内容索引 → 原始 BGE（LoRA 关闭时使用）
+      content_lora 内容索引 → LoRA BGE（LoRA 开启时使用）
+  - 运行时根据 config.LORA_ENABLED 自动选择 content / content_lora
+  - 编码器与索引始终保持一致，无向量空间不匹配问题
 """
 
 import os
@@ -16,13 +18,14 @@ import pickle
 import numpy as np
 import faiss
 
+import config
 from config import INDEX_DIR, TOP_K
 from .embedder import encode_query
 
 
 class Retriever:
     """
-    向量检索器 —— 加载双 FAISS 索引并执行搜索。
+    向量检索器 —— 加载三 FAISS 索引并执行搜索。
 
     返回结果包含 score / text / metadata / index，供 context 模块使用。
     """
@@ -33,10 +36,15 @@ class Retriever:
         self.name_metadatas = []
         self.name_texts = []
 
-        # 内容索引
+        # 内容索引（原始 BGE）
         self.content_index = None
         self.content_metadatas = []
         self.content_texts = []
+
+        # 内容索引（LoRA BGE）
+        self.content_lora_index = None
+        self.content_lora_metadatas = []
+        self.content_lora_texts = []
 
         # 向后兼容：合并索引（供旧代码用 combined 方式访问）
         self.index = None
@@ -50,46 +58,49 @@ class Retriever:
     # ============================================================
     def _load_indices(self):
         """
-        加载双 FAISS 索引：card_names + content。
+        加载三 FAISS 索引：card_names + content + content_lora。
 
-        优先加载 card_names 和 content；
-        不兼容旧版 combined/cards/rules 索引。
+        content 和 content_lora 使用完全相同的元数据和文本，
+        但向量空间不同（原始 BGE vs LoRA BGE）。
         """
+
+        def _load_one(prefix):
+            """加载单个索引及元数据，返回 (index, metas, texts)。"""
+            idx_path = os.path.join(INDEX_DIR, f'{prefix}.faiss')
+            meta_path = os.path.join(INDEX_DIR, f'{prefix}_meta.pkl')
+            texts_path = os.path.join(INDEX_DIR, f'{prefix}_texts.pkl')
+
+            if not (os.path.exists(idx_path) and os.path.exists(meta_path)):
+                return None, [], []
+
+            index = faiss.read_index(idx_path)
+            with open(meta_path, 'rb') as f:
+                metas = pickle.load(f)
+            texts = []
+            if os.path.exists(texts_path):
+                with open(texts_path, 'rb') as f:
+                    texts = pickle.load(f)
+
+            print(f'  {prefix}: {index.ntotal} 条目')
+            return index, metas, texts
+
         # 名称索引
-        name_idx = os.path.join(INDEX_DIR, 'card_names.faiss')
-        name_meta = os.path.join(INDEX_DIR, 'card_names_meta.pkl')
-        name_texts_path = os.path.join(INDEX_DIR, 'card_names_texts.pkl')
+        print('加载 card_names (名称索引)...')
+        self.name_index, self.name_metadatas, self.name_texts = _load_one('card_names')
 
-        if os.path.exists(name_idx) and os.path.exists(name_meta):
-            print('加载 card_names (名称索引)...')
-            self.name_index = faiss.read_index(name_idx)
-            with open(name_meta, 'rb') as f:
-                self.name_metadatas = pickle.load(f)
-            if os.path.exists(name_texts_path):
-                with open(name_texts_path, 'rb') as f:
-                    self.name_texts = pickle.load(f)
-            print(f'  card_names: {self.name_index.ntotal} 条目')
+        # 内容索引（原始 BGE）
+        print('加载 content (内容索引·原始BGE)...')
+        self.content_index, self.content_metadatas, self.content_texts = _load_one('content')
 
-        # 内容索引
-        content_idx = os.path.join(INDEX_DIR, 'content.faiss')
-        content_meta = os.path.join(INDEX_DIR, 'content_meta.pkl')
-        content_texts_path = os.path.join(INDEX_DIR, 'content_texts.pkl')
-
-        if os.path.exists(content_idx) and os.path.exists(content_meta):
-            print('加载 content (内容索引)...')
-            self.content_index = faiss.read_index(content_idx)
-            with open(content_meta, 'rb') as f:
-                self.content_metadatas = pickle.load(f)
-            if os.path.exists(content_texts_path):
-                with open(content_texts_path, 'rb') as f:
-                    self.content_texts = pickle.load(f)
-            print(f'  content: {self.content_index.ntotal} 条目')
+        # 内容索引（LoRA BGE）
+        print('加载 content_lora (内容索引·LoRA BGE)...')
+        self.content_lora_index, self.content_lora_metadatas, self.content_lora_texts = _load_one('content_lora')
 
         # 向后兼容：构建合并索引
         self._build_merged()
 
-        if not self.name_index and not self.content_index:
-            print('[WARNING] 未加载任何索引，请先运行: python -m v4.indexer.build')
+        if not self.name_index and not self.content_index and not self.content_lora_index:
+            print('[WARNING] 未加载任何索引，请先运行: python v4/run.py index')
 
     def _build_merged(self):
         """向后兼容：将 card_names + content 合并为一个索引。"""
@@ -113,7 +124,6 @@ class Retriever:
             for idx in indices:
                 dim = idx.d
                 n = idx.ntotal
-                # 使用 reconstruct_n 提取向量（公共 API，兼容所有 faiss 版本）
                 vecs = idx.reconstruct_n(0, n)
                 all_vecs.append(vecs)
             all_vecs = np.vstack(all_vecs)
@@ -129,24 +139,44 @@ class Retriever:
         """
         在 card_names 索引中检索，用于通过全文匹配识别卡牌。
 
+        始终使用原始 BGE 编码（名称索引始终由原始 BGE 构建）。
         返回结果中 metadata 包含 cardno / name 等字段。
         """
         if self.name_index is None:
             return []
         return self._search_on(query, self.name_index,
-                               self.name_metadatas, self.name_texts, top_k)
+                                self.name_metadatas, self.name_texts,
+                                top_k, use_lora=False)
 
     # ============================================================
-    # 内容检索
+    # 内容检索（运行时自动选择 content / content_lora）
     # ============================================================
+    def _get_active_content(self):
+        """根据 config.LORA_ENABLED 返回当前活跃的内容索引及编码模式。"""
+        if config.LORA_ENABLED and self.content_lora_index is not None:
+            return self.content_lora_index, self.content_lora_metadatas, self.content_lora_texts, True
+        elif self.content_index is not None:
+            return self.content_index, self.content_metadatas, self.content_texts, False
+        elif self.content_lora_index is not None:
+            # 回退：content 不存在但 content_lora 存在
+            return self.content_lora_index, self.content_lora_metadatas, self.content_lora_texts, True
+        else:
+            return None, [], [], False
+
     def search_content(self, query: str, top_k: int = None) -> list[dict]:
         """
-        在 content 索引中检索，用于效果/问题语义匹配 QA 和规则。
+        在内容索引中检索，用于效果/问题语义匹配 QA 和规则。
+
+        运行时自动选择：
+          - config.LORA_ENABLED=True  → content_lora（LoRA BGE 编码）
+          - config.LORA_ENABLED=False → content（原始 BGE 编码）
+
+        编码器始终与索引保持一致。
         """
-        if self.content_index is None:
+        idx, metas, texts, use_lora = self._get_active_content()
+        if idx is None:
             return []
-        return self._search_on(query, self.content_index,
-                               self.content_metadatas, self.content_texts, top_k)
+        return self._search_on(query, idx, metas, texts, top_k, use_lora=use_lora)
 
     # ============================================================
     # 向后兼容：统一检索（搜索合并索引）
@@ -154,22 +184,29 @@ class Retriever:
     def search(self, query: str, top_k: int = None) -> list[dict]:
         """
         向量检索 top-K 相关文档（向后兼容，搜索合并索引）。
+        始终使用原始 BGE 编码。
         """
         if self.index is None:
             return []
         return self._search_on(query, self.index,
-                               self.metadatas, self.texts, top_k)
+                                self.metadatas, self.texts, top_k,
+                                use_lora=False)
 
     # ============================================================
     # 通用搜索
     # ============================================================
     def _search_on(self, query: str, faiss_index,
                    metadatas: list, texts: list,
-                   top_k: int = None) -> list[dict]:
-        """对指定索引执行搜索，返回标准化结果列表。"""
+                   top_k: int = None,
+                   use_lora: bool = False) -> list[dict]:
+        """对指定索引执行搜索，返回标准化结果列表。
+
+        Args:
+            use_lora: True=使用 LoRA BGE 编码（content_lora），False=使用原始 BGE（其他）
+        """
         k = min(top_k or TOP_K, faiss_index.ntotal)
 
-        query_vec = encode_query(query)
+        query_vec = encode_query(query, use_lora=use_lora)
         distances, indices = faiss_index.search(query_vec.astype(np.float32), k)
 
         results = []

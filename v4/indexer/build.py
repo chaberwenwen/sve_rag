@@ -1,11 +1,14 @@
 """
-索引构建模块 —— 将卡牌/QA/规则数据编码为 FAISS 向量索引（双库架构）
+索引构建模块 —— 将卡牌/QA/规则数据编码为 FAISS 向量索引（双库多索引架构）
 
 面试要点：
   - FAISS IndexFlatIP 使用内积度量，配合 L2 归一化的向量等价于余弦相似度
   - BGE 模型采用 attention-weighted mean pooling（与 BGE 官方一致）
-  - 双库架构：card_names（名称索引）+ content（内容索引：去名QA + 规则）
-  - 名称索引用全文匹配识别卡牌，内容索引用效果文本+问题文本做语义检索
+  - 三索引架构：
+      card_names  （名称索引）→ 原始 BGE 编码，用于全文匹配识别卡牌
+      content     （内容索引）→ 原始 BGE 编码，LoRA 关闭时使用
+      content_lora（内容索引）→ LoRA BGE 编码，LoRA 开启时使用
+  - content / content_lora 使用完全相同的文本数据，仅编码器不同
   - 保存 text 原文供检索时直接输出，避免回查数据库
 
 数据加载全部委托给 data/loader.py，本模块只负责「文本→向量→索引」的纯 ETL 流程。
@@ -18,6 +21,7 @@ import pickle
 
 import numpy as np
 
+import config
 from config import INDEX_DIR
 from data.loader import load_cards, load_qa_cn, load_rules
 from rag.embedder import encode_texts
@@ -59,7 +63,7 @@ def _prepare_name_texts(cards: list[dict]) -> tuple[list[str], list[dict]]:
 # 文本准备：内容索引
 # ============================================================
 def _prepare_content_texts(qa_data: dict[str, list[dict]],
-                           rules: list[dict]) -> tuple[list[str], list[dict]]:
+                            rules: list[dict]) -> tuple[list[str], list[dict]]:
     """
     内容索引：QA（无卡牌名前缀）+ 规则文本。
 
@@ -104,16 +108,22 @@ def _prepare_content_texts(qa_data: dict[str, list[dict]],
 # ============================================================
 # FAISS 索引构建
 # ============================================================
-def _build_one_index(texts: list[str], metas: list[dict], name: str):
-    """构建单个 FAISS 索引并保存到 index/ 目录。"""
+def _build_one_index(texts: list[str], metas: list[dict], name: str,
+                     use_lora: bool = False):
+    """构建单个 FAISS 索引并保存到 index/ 目录。
+
+    Args:
+        use_lora: True=使用 LoRA BGE（content_lora），False=使用原始 BGE（card_names / content）
+    """
     if not texts:
         print(f'  [跳过] {name}: 无文本')
         return
 
     os.makedirs(INDEX_DIR, exist_ok=True)
 
-    print(f'  编码 {len(texts)} 条文本 → 嵌入向量...')
-    embeddings = encode_texts(texts, normalize=True)
+    model_tag = 'LoRA BGE' if use_lora else '原始 BGE'
+    print(f'  编码 {len(texts)} 条文本 → 嵌入向量 [{model_tag}]...')
+    embeddings = encode_texts(texts, normalize=True, use_lora=use_lora)
 
     import faiss
     dim = embeddings.shape[1]
@@ -137,14 +147,16 @@ def _build_one_index(texts: list[str], metas: list[dict], name: str):
 # ============================================================
 def build_all_indices():
     """
-    构建双库索引的主流程。
+    构建三索引的主流程。
 
-    Step 1: 加载数据（委托给 data/loader.py）
-    Step 2: 转换为索引文本（名称库 + 内容库）
-    Step 3: FAISS 编码 + 保存 card_names / content
+    card_names   → 原始 BGE（名称匹配）
+    content      → 原始 BGE（LoRA 关闭时的内容检索）
+    content_lora → LoRA BGE（LoRA 开启时的内容检索）
+
+    content 和 content_lora 使用完全相同的文本数据。
     """
     print('=' * 50)
-    print('开始构建向量索引 (双库架构)')
+    print('开始构建向量索引 (三索引架构)')
     print('=' * 50)
 
     # -------- Step 1: 加载数据 --------
@@ -158,15 +170,67 @@ def build_all_indices():
     name_texts, name_metas = _prepare_name_texts(cards)
     content_texts, content_metas = _prepare_content_texts(qa_data, rules)
 
-    # -------- Step 3: 构建双索引 --------
+    # -------- Step 3: 构建索引 --------
     print('\n[3/3] 构建 FAISS 索引...')
 
-    print('\n--- 名称索引 (card_names) ---')
-    _build_one_index(name_texts, name_metas, 'card_names')
+    print('\n--- 名称索引 (card_names) [原始BGE] ---')
+    _build_one_index(name_texts, name_metas, 'card_names', use_lora=False)
 
-    print('\n--- 内容索引 (content) ---')
-    _build_one_index(content_texts, content_metas, 'content')
+    print('\n--- 内容索引 (content) [原始BGE] ---')
+    _build_one_index(content_texts, content_metas, 'content', use_lora=False)
+
+    # LoRA 内容索引（仅在 LoRA adapter 存在时构建）
+    lora_dir = config.LORA_MODEL_DIR
+    if os.path.exists(lora_dir):
+        print('\n--- 内容索引 (content_lora) [LoRA BGE] ---')
+        _build_one_index(content_texts, content_metas, 'content_lora', use_lora=True)
+    else:
+        print(f'\n[跳过] content_lora: LoRA adapter 不存在 ({lora_dir})')
 
     print('\n' + '=' * 50)
     print(f'索引构建完成 → {INDEX_DIR}')
     print('=' * 50)
+
+
+def build_names_only():
+    """仅构建名称索引（card_names），使用原始 BGE。"""
+    print('=' * 50)
+    print('仅构建名称索引 (card_names) [原始BGE]')
+    print('=' * 50)
+
+    print('\n加载卡牌数据...')
+    cards = load_cards()
+
+    print('准备名称索引文本...')
+    name_texts, name_metas = _prepare_name_texts(cards)
+
+    print('\n构建名称索引...')
+    _build_one_index(name_texts, name_metas, 'card_names', use_lora=False)
+
+    print(f'\n名称索引构建完成 → {INDEX_DIR}')
+
+
+def build_content_only():
+    """仅构建内容索引（content + content_lora）。"""
+    print('=' * 50)
+    print('仅构建内容索引 (content + content_lora)')
+    print('=' * 50)
+
+    print('\n加载 QA/规则数据...')
+    qa_data = load_qa_cn()
+    rules = load_rules()
+
+    print('准备内容索引文本...')
+    content_texts, content_metas = _prepare_content_texts(qa_data, rules)
+
+    print('\n--- content [原始BGE] ---')
+    _build_one_index(content_texts, content_metas, 'content', use_lora=False)
+
+    lora_dir = config.LORA_MODEL_DIR
+    if os.path.exists(lora_dir):
+        print('\n--- content_lora [LoRA BGE] ---')
+        _build_one_index(content_texts, content_metas, 'content_lora', use_lora=True)
+    else:
+        print(f'\n[跳过] content_lora: LoRA adapter 不存在 ({lora_dir})')
+
+    print(f'\n内容索引构建完成 → {INDEX_DIR}')

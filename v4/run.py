@@ -54,9 +54,17 @@ def _startup_lora():
 
 
 def cmd_index():
-    """构建索引"""
-    from indexer.build import build_all_indices
-    build_all_indices()
+    """构建索引（支持 --names-only / --content-only / --lora 等参数）"""
+    from indexer.build import build_all_indices, build_names_only, build_content_only
+
+    if '--names-only' in sys.argv:
+        sys.argv.remove('--names-only')
+        build_names_only()
+    elif '--content-only' in sys.argv:
+        sys.argv.remove('--content-only')
+        build_content_only()
+    else:
+        build_all_indices()
 
 
 def _select_cards_interactive(candidate_cards: list[dict]) -> list[str]:

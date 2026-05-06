@@ -1,45 +1,37 @@
 """
-Embedding 模型管理 —— BGE 模型单例封装（不依赖 sentence_transformers）
+Embedding 模型管理 —— BGE 双模型架构（原始 + LoRA）
 
 面试要点：
-  - 单例模式：全局只加载一次模型，避免重复加载
-  - 本地优先：优先从 v4/models/ 加载，其次 HF 缓存，最后 hf-mirror
-  - 延迟加载：不 import 时就加载，只在首次调用 encode() 时初始化
+  - 双模型分离：名称索引用原始 BGE，内容索引用 LoRA BGE
+  - 各自独立加载，向量空间互不干扰
+  - 若 LORA_ENABLED=False，LoRA 端自动回退到原始 BGE
+  - 延迟加载：首次调用才初始化，避免不必要的显存占用
   - mean pooling：与 BGE 官方一致的 attention-weighted mean pooling
-  - v4 改进点：可插拔 LoRA adapter（通过 PEFT 注入）
 """
 
 import os
 
 import numpy as np
 
-# EMBED_MODEL_NAME 不变，LORA_ENABLED/LORA_MODEL_DIR 在 get_embedder() 内动态读取
-# 以支持 eval_embedder 运行时切换
 from config import EMBED_MODEL_NAME
 
-# 全局单例
-_embed_model = None          # PeftModel 或原始 AutoModel
-_tokenizer = None            # AutoTokenizer
-_device = None               # torch device
-_hidden_size = None          # embedding dimension
+
+# ============================================================
+# 全局单例（双模型）
+# ============================================================
+_base_model = None       # 原始 AutoModel（名称索引用）
+_lora_model = None       # PeftModel 或原始 AutoModel（内容索引用）
+_tokenizer = None        # Tokenizer（两者共用）
+_device = None           # torch device
+_hidden_size = None      # embedding dimension
 _lora_loaded = False
 
 
-def get_embedder():
-    """
-    延迟加载模型（transformers.AutoModel + AutoTokenizer）。
-
-    加载优先级：
-      1. 项目本地 v4/models/bge-small-zh-v1.5（离线可用）
-      2. HuggingFace 本地缓存
-      3. hf-mirror.com 镜像源
-
-    若 LORA_ENABLED=True，且 LORA_MODEL_DIR 存在，则通过 PeftModel.from_pretrained
-    注入 LoRA adapter，后续编码自动使用微调后的权重。
-    """
-    global _embed_model, _tokenizer, _device, _hidden_size, _lora_loaded
-    if _embed_model is not None:
-        return _embed_model, _tokenizer, _device
+def _load_base_model():
+    """加载原始 BGE 模型（不带 LoRA）。"""
+    global _base_model, _tokenizer, _device, _hidden_size
+    if _base_model is not None:
+        return
 
     import torch
     from transformers import AutoModel, AutoTokenizer
@@ -50,12 +42,12 @@ def get_embedder():
     # 确定加载路径：本地目录优先
     if os.path.isdir(LOCAL_DIR):
         model_path = LOCAL_DIR
-        print(f'加载 Embedding 模型 (本地): {model_path}')
+        print(f'加载 Embedding 模型 [原始BGE] (本地): {model_path}')
     else:
         model_path = EMBED_MODEL_NAME
-        print(f'加载 Embedding 模型 (HF): {model_path}')
+        print(f'加载 Embedding 模型 [原始BGE] (HF): {model_path}')
 
-    # ---- Tokenizer ----
+    # ---- Tokenizer（两者共用）----
     _tokenizer = AutoTokenizer.from_pretrained(model_path)
 
     # ---- AutoModel ----
@@ -74,30 +66,77 @@ def get_embedder():
     base_model = base_model.to(_device)
     base_model.eval()
 
+    _base_model = base_model
     print(f'  模型维度: {_hidden_size}')
     print(f'  设备: {_device}')
 
-    # ---- 注入 LoRA adapter（动态读取 config，支持运行时切换）----
+
+def _load_lora_model():
+    """加载 LoRA 模型（基于原始 BGE + PEFT adapter）。若 LORA_ENABLED=False 则回退到原始 BGE。"""
+    global _lora_model, _lora_loaded
+    if _lora_model is not None:
+        return
+
+    import config
+
+    # 确保原始模型已加载
+    _load_base_model()
+
+    if not config.LORA_ENABLED:
+        # LoRA 未启用：直接复用原始模型
+        _lora_model = _base_model
+        _lora_loaded = False
+        print(f'  [内容编码] LoRA 未启用，使用原始 BGE')
+        return
+
+    lora_dir = config.LORA_MODEL_DIR
+    if not os.path.exists(lora_dir):
+        print(f'  [WARNING] LoRA adapter 不存在: {lora_dir}，回退到原始 BGE')
+        _lora_model = _base_model
+        _lora_loaded = False
+        return
+
+    try:
+        from peft import PeftModel
+        lora_model = PeftModel.from_pretrained(_base_model, lora_dir)
+        lora_model = lora_model.to(_device)
+        lora_model.eval()
+        _lora_model = lora_model
+        _lora_loaded = True
+        print(f'  已注入 LoRA adapter ← {lora_dir}')
+    except ImportError:
+        print('  [WARNING] peft 未安装，回退到原始 BGE')
+        _lora_model = _base_model
+        _lora_loaded = False
+
+
+# ============================================================
+# 向后兼容（供 eval_embedder / run.py 切换 / 旧代码）
+# ============================================================
+def get_embedder():
+    """向后兼容：返回当前活动模型（由 LORA_ENABLED 决定）。新代码请使用 encode_with_model()."""
     import config
     if config.LORA_ENABLED:
-        lora_dir = config.LORA_MODEL_DIR
-        if not os.path.exists(lora_dir):
-            print(f'  [WARNING] LoRA adapter 不存在: {lora_dir}')
-        else:
-            try:
-                from peft import PeftModel
-                base_model = PeftModel.from_pretrained(base_model, lora_dir)
-                base_model = base_model.to(_device)
-                base_model.eval()
-                _lora_loaded = True
-                print(f'  已注入 LoRA adapter ← {lora_dir}')
-            except ImportError:
-                print('  [WARNING] peft 未安装，无法加载 LoRA adapter')
-
-    _embed_model = base_model
-    return _embed_model, _tokenizer, _device
+        return get_lora_embedder()
+    else:
+        return get_base_embedder()
 
 
+def get_base_embedder():
+    """获取原始 BGE 模型（名称索引用）."""
+    _load_base_model()
+    return _base_model, _tokenizer, _device
+
+
+def get_lora_embedder():
+    """获取 LoRA BGE 模型（内容索引用，若 LORA_ENABLED=False 回退到原始 BGE）."""
+    _load_lora_model()
+    return _lora_model, _tokenizer, _device
+
+
+# ============================================================
+# Mean Pooling
+# ============================================================
 def _mean_pooling(token_embeddings, attention_mask):
     """
     attention-weighted mean pooling（与 BGE 官方一致）。
@@ -114,21 +153,31 @@ def _mean_pooling(token_embeddings, attention_mask):
     return summed / counts
 
 
-def encode_texts(texts: list[str], normalize: bool = True, batch_size: int = 32) -> np.ndarray:
+# ============================================================
+# 编码接口
+# ============================================================
+def encode_texts(texts: list[str], normalize: bool = True,
+                 batch_size: int = 32, use_lora: bool = False) -> np.ndarray:
     """
     批量编码文本为嵌入向量。
 
-    使用 attention-weighted mean pooling → L2 normalize，
-    与 BGE 官方 encode() 行为一致。
+    Args:
+        texts: 文本列表
+        normalize: 是否 L2 归一化（默认 True，用于 FAISS 内积搜索）
+        batch_size: 批次大小
+        use_lora: True=使用 LoRA 模型（内容索引），False=使用原始 BGE（名称索引）
+
+    Returns:
+        (N, D) numpy 数组
     """
     import torch
 
-    model, tokenizer, device = get_embedder()
+    model, _, device = (get_lora_embedder() if use_lora else get_base_embedder())
     all_embeddings = []
 
     for i in range(0, len(texts), batch_size):
         batch = texts[i:i + batch_size]
-        enc = tokenizer(
+        enc = _tokenizer(
             batch,
             padding=True,
             truncation=True,
@@ -152,22 +201,24 @@ def encode_texts(texts: list[str], normalize: bool = True, batch_size: int = 32)
     return np.concatenate(all_embeddings, axis=0)
 
 
-def encode_query(query: str, normalize: bool = True) -> np.ndarray:
+def encode_query(query: str, normalize: bool = True,
+                 use_lora: bool = False) -> np.ndarray:
     """编码单条查询文本。"""
-    return encode_texts([query], normalize=normalize)
+    return encode_texts([query], normalize=normalize, use_lora=use_lora)
 
 
+# ============================================================
+# 运行时切换（向后兼容，供 eval_embedder 等使用）
+# ============================================================
 def reload_embedder():
     """
     强制重新加载模型（运行时切换 LoRA 开关时调用）。
 
-    使用方式:
-        from config import LORA_ENABLED
-        LORA_ENABLED = True
-        reload_embedder()  # 此时起 encode 使用 LoRA 版本
+    注意：现在同时管理双模型，此函数重置两者。
     """
-    global _embed_model, _tokenizer, _device, _hidden_size, _lora_loaded
-    _embed_model = None
+    global _base_model, _lora_model, _tokenizer, _device, _hidden_size, _lora_loaded
+    _base_model = None
+    _lora_model = None
     _tokenizer = None
     _device = None
     _hidden_size = None

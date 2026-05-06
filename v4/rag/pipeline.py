@@ -22,7 +22,8 @@ RAG Pipeline —— 检索 + LLM 生成的总编排
   - 只做「编排」：把各组件串起来
 """
 
-from config import TOP_K, SYSTEM_PROMPT, NAME_SCORE_RATIO_THRESHOLD
+from config import TOP_K, SYSTEM_PROMPT, NAME_SCORE_RATIO_THRESHOLD, \
+    CONTENT_SCORE_MIN_THRESHOLD
 from .card_matcher import CardMatcher
 from .retriever import Retriever
 from .context import ContextBuilder
@@ -30,14 +31,51 @@ from .llm_client import LLMClient
 
 
 def _merge_results(results_a: list[dict], results_b: list[dict],
-                   top_k: int) -> list[dict]:
-    """合并两组检索结果，按 index 去重保留最高分，取 Top-K。"""
+                   top_k: int,
+                   score_threshold: float = None) -> list[dict]:
+    """合并两组检索结果，按 index 去重保留最高分，过滤低分噪声，取 Top-K。
+
+    两层过滤策略：
+      1. 绝对阈值过滤：丢弃分数 < CONTENT_SCORE_MIN_THRESHOLD 的结果
+      2. 相对比值过滤：丢弃分数 < 最高分 × CONTENT_SCORE_RATIO_THRESHOLD 的结果
+
+    两重条件取交集（二者都满足才保留），能有效过滤 LoRA 训练偏差产生的中等分噪声。
+
+    Args:
+        results_a: 效果文本检索结果（LoRA 训练过的路径，通常质量较高）
+        results_b: 用户原始问题检索结果（LoRA 未训练过的路径，可能全是噪声）
+        top_k: 最终返回数量
+        score_threshold: 最低绝对分数阈值，默认使用 CONTENT_SCORE_MIN_THRESHOLD
+    """
+    from config import CONTENT_SCORE_RATIO_THRESHOLD
+
+    abs_threshold = score_threshold if score_threshold is not None \
+        else CONTENT_SCORE_MIN_THRESHOLD
+
+    # 先合并（取最高分）
     merged = {}
     for r in results_a + results_b:
         idx = r['index']
         if idx not in merged or r['score'] > merged[idx]['score']:
             merged[idx] = r
-    sorted_results = sorted(merged.values(),
+
+    if not merged:
+        return []
+
+    # 计算相对阈值：最高分 × RATIO
+    max_score = max(r['score'] for r in merged.values())
+    rel_threshold = max_score * CONTENT_SCORE_RATIO_THRESHOLD
+
+    # 双层过滤：绝对阈值 AND 相对阈值
+    filtered = []
+    for r in merged.values():
+        if abs_threshold > 0 and r['score'] < abs_threshold:
+            continue  # 低于绝对阈值 → 丢弃
+        if rel_threshold > 0 and r['score'] < rel_threshold:
+            continue  # 低于相对阈值 → 丢弃
+        filtered.append(r)
+
+    sorted_results = sorted(filtered,
                             key=lambda x: x['score'], reverse=True)
     return sorted_results[:top_k]
 

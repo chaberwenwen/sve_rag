@@ -72,7 +72,7 @@ DEEPSEEK_API_KEY = os.getenv('DEEPSEEK_API_KEY', '')
 # ============================================================
 # LoRA 微调配置（可插拔，方便 A/B 对比效果）
 # ============================================================
-LORA_ENABLED = False                # False=原始BGE  True=加载LoRA adapter
+LORA_ENABLED = False                 # False=原始BGE  True=加载LoRA adapter
 LORA_MODEL_DIR = os.path.join(      # LoRA adapter 保存/加载路径
     PROJECT_DIR, 'finetune', 'model',
 )
@@ -81,6 +81,13 @@ LORA_MODEL_DIR = os.path.join(      # LoRA adapter 保存/加载路径
 # 检索参数
 # ============================================================
 TOP_K = 8                             # 向量检索返回的 Top-K 文档数
+
+# 内容索引分数过滤（双层过滤，防止 LoRA 训练偏差产生的中等分噪声）
+# 绝对阈值：低于此分直接丢弃；0 表示禁用
+CONTENT_SCORE_MIN_THRESHOLD = 0.55
+# 相对比值阈值：仅保留 score ≥ 最高分 × RATIO 的结果（参考 NAME 阈值逻辑）
+# 目的：当 LoRA 把所有分数挤到狭窄区间（如 0.60~0.66），通过比值拉大区分度
+CONTENT_SCORE_RATIO_THRESHOLD = 0.85
 
 # 名称索引命中分数阈值：仅保留 score ≥ 最高分 × RATIO 的命中
 # 低于阈值的低分噪音卡会污染 effect_query，把内容检索方向带偏
