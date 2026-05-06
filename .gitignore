@@ -1,0 +1,52 @@
+# 环境变量文件（含敏感信息）
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 爬虫与数据抓取脚本（敏感，不公开）
+scripts/scrape_en_qa.py
+scripts/translate_en_qa.py
+scripts/translate_qa.py
+data/fetch_cards.py
+data/extract_svehelper_qa.py
+
+# 技术文档（面试用途，不公开）
+docs/
+
+# 测试文件（含测试数据，不公开）
+tests/
+v4/tests/
+
+# 备份压缩包
+*.zip

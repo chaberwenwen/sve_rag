@@ -1,0 +1,672 @@
+{
+  "BP11-001": [
+    {
+      "number": "Q1472",
+      "question": "Can I play this follower's activated ability multiple times per turn?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1471",
+      "question": "If I have multiple copies of this follower on my field, and I play an amulet, will each copy's ability trigger?",
+      "answer": "Yes, they will."
+    }
+  ],
+  "BP11-002": [
+    {
+      "number": "Q1475",
+      "question": "If I banish a Naterran Great Tree token as part of the cost of this follower's activated ability, can I resolve the Naterran Great Tree's ability before making my choice for this follower's activated ability?",
+      "answer": "No. You must choose 1 before you pay the ability's cost. As for the Naterran Great Tree's ability, you would resolve it at the next confirmation timing after resolving this follower's activated ability."
+    },
+    {
+      "number": "Q1474",
+      "question": "I have 4 cards in my EX area. When a Mount card leaving the field causes this follower's ability to trigger, can I choose whether to put a Dutiful Steed, Bullet Bike, or Arcane Personnel Carrier token into my EX area?",
+      "answer": "Yes, you can. Similarly, if there are 3 cards in your EX area, you may choose your preferred two."
+    },
+    {
+      "number": "Q1473",
+      "question": "If I have multiple copies of this follower on my field, and a Mount card I control leaves the field, will each copy's ability trigger?",
+      "answer": "Yes, they will."
+    },
+    {
+      "number": "Q1472",
+      "question": "Can I play this follower's activated ability multiple times per turn?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP11-003": [],
+  "BP11-004": [
+    {
+      "number": "Q1479",
+      "question": "If I give this follower in my EX area +2 attack with its second activated ability, then summon it, does it keep its +2 attack?",
+      "answer": "Yes. When an effect is applied to a card in the EX area, that effect will persist even if the card is played or summoned."
+    },
+    {
+      "number": "Q1478",
+      "question": "Can this follower's second activated ability only be played while it's in my EX area?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1477",
+      "question": "I have 4 cards in my EX area. If I play this follower's first activated ability, which card do I put into my EX area?",
+      "answer": "You would put this follower into your EX area, as the cost must be paid first. Since your EX area would then be full, the top card of your deck would remain where it is."
+    },
+    {
+      "number": "Q1476",
+      "question": "Can this follower's first activated ability only be played while in hand?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP11-005": [],
+  "BP11-006": [
+    {
+      "number": "Q1480",
+      "question": "I have 4 cards in my EX area. If I play this follower's Fanfare ability, can I choose whether to put a Bullet Bike or Arcane Personnel Carrier token into my EX area?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP11-007": [],
+  "BP11-008": [
+    {
+      "number": "Q1481",
+      "question": "If multiple Mount cards are put into my EX area at the same time, does this follower's ability trigger for each of them?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP11-009": [
+    {
+      "number": "Q1481",
+      "question": "If multiple Mount cards are put into my EX area at the same time, does this follower's ability trigger for each of them?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP11-010": [
+    {
+      "number": "Q1482",
+      "question": "If I have multiple copies of this follower on my field, and a Puppet is put onto my field, will each copy's ability trigger?",
+      "answer": "Yes, they will."
+    },
+    {
+      "number": "Q1472",
+      "question": "Can I play this follower's activated ability multiple times per turn?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP11-011": [],
+  "BP11-012": [],
+  "BP11-013": [],
+  "BP11-014": [],
+  "BP11-015": [
+    {
+      "number": "Q1483",
+      "question": "Can I choose the order in which I resolve this follower's two Fanfare abilities?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP11-016": [],
+  "BP11-017": [
+    {
+      "number": "Q1484",
+      "question": "If I can't select a Puppetry card in my cemetery, can I still play this spell to put a Puppet token into my EX area?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP11-018": [
+    {
+      "number": "Q1565",
+      "question": "My opponent has a follower on the field that was given Drive by its Ride ability. If that follower becomes Boxed, does it regain Rush and Single Drive when it is no longer Boxed?",
+      "answer": "Yes, that's correct. Boxed followers will regain their abilities once they are no longer Boxed."
+    },
+    {
+      "number": "Q1564",
+      "question": "My opponent has a follower on the field that was given Ward by Death's Breath. If that follower becomes Boxed, does it regain Ward when it is no longer Boxed?",
+      "answer": "Yes, that's correct. Boxed followers will regain their abilities once they are no longer Boxed."
+    },
+    {
+      "number": "Q1490",
+      "question": "If I select Iceschillendrig, Gilded Autocrat with Nahtnaught, Cursed Queen's activated ability, does Iceschillendrig, Gilded Autocrat's automatic ability trigger?",
+      "answer": "Yes, it does. You would then resolve it at the next confirmation timing."
+    },
+    {
+      "number": "Q1489",
+      "question": "If I select an engaged enemy follower with this follower's activated ability, will it still become Boxed until the end of its controller's next turn?",
+      "answer": "Yes, it will. Although the activated ability's \"engage it\" effect will not apply to a follower that is already engaged, the following effects will still apply."
+    },
+    {
+      "number": "Q1488",
+      "question": "If a follower given the Armed trait by Draconic Weapon's effect becomes Boxed, does it lose the Armed trait?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1487",
+      "question": "Can a Boxed follower be given Ward by an ability such as Guardian Sun's Fanfare?",
+      "answer": "Yes, it can."
+    },
+    {
+      "number": "Q1486",
+      "question": "If a Boxed follower with a \"When this card is returned to hand from your field\" ability is returned to its owner's hand from the field, does the ability trigger?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1485",
+      "question": "If a Boxed follower with a Last Words ability is put into the cemetery, does the ability trigger?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP11-019": [],
+  "BP11-020": [],
+  "BP11-021": [
+    {
+      "number": "Q1492",
+      "question": "If I evolve this follower with its Fanfare ability, can I evolve another follower using its evolve ability in the same turn?",
+      "answer": "Yes. Although you can only activate one evolve ability per turn, other abilities that evolve followers do not count towards this limit."
+    },
+    {
+      "number": "Q1491",
+      "question": "Do faceup copies of Drive Point or advanced followers count as faceup evolved followers?",
+      "answer": "No, they don't."
+    }
+  ],
+  "BP11-022": [],
+  "BP11-023": [],
+  "BP11-024": [
+    {
+      "number": "Q1493",
+      "question": "If there are no Boxed enemy followers on the field, can I still play this spell to search my deck for a Wasteland follower and add it to my hand?",
+      "answer": "Yes, you can. \"Select up to 1\" means you can select 0."
+    }
+  ],
+  "BP11-025": [],
+  "BP11-026": [],
+  "BP11-027": [],
+  "BP11-028": [],
+  "BP11-029": [],
+  "BP11-030": [],
+  "BP11-031": [],
+  "BP11-032": [],
+  "BP11-033": [],
+  "BP11-034": [
+    {
+      "number": "Q1497",
+      "question": "If I select a token for this spell, does it get removed from the game?",
+      "answer": "No. It remains in your EX area after you put it there. Follower and amulet tokens may exist in the EX area, field, and resolution zone. They are only removed from the game immediately after movement to other zones."
+    },
+    {
+      "number": "Q1496",
+      "question": "If I select an advanced follower such as VII. Oluon, Runaway Chariot with this spell, do I put that follower faceup on top of my evolve deck?",
+      "answer": "No, you would put it into your EX area. Advanced followers may exist in the evolve deck area, field, EX area, and resolution zone. If they are moved elsewhere, they are put back onto the top of the evolve deck faceup immediately afterward."
+    },
+    {
+      "number": "Q1495",
+      "question": "If my EX area is full, does the follower I select still get put into the EX area?",
+      "answer": "No, it remains on your field."
+    },
+    {
+      "number": "Q1494",
+      "question": "If I put a follower into the EX area with this spell, does it lose any damage dealt or abilities given to it?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP11-035": [
+    {
+      "number": "Q1971",
+      "question": "Can I fulfill the \"Activate only if this follower has gained attack or defense this turn\" condition by super-evolving for the +1 attack and defense?",
+      "answer": "No, the condition must be fulfilled before you play the evolve ability."
+    },
+    {
+      "number": "Q1498",
+      "question": "If this follower takes 1 damage, reducing its defense to 3, and then gains +1 defense, bringing its defense to 4, does that fulfill the requirement for its evolve ability?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP11-036": [
+    {
+      "number": "Q1499",
+      "question": "My opponent's leader has 12 or less defense and I have 0 cards in my deck. If I have at least 12 cards with different base costs in my cemetery when I play this follower's On Evolve ability, do I lose the game because I can't draw a card from my deck before 12 damage is done to my opponent's leader?",
+      "answer": "No, the game would end in a draw. While the \"draw a card\" part of the On Evolve ability is resolved before the 12 damage to the opponent's leader, the game loss doesn't resolve until the next confirmation timing. Since both you and your opponent would meet the conditions for a game loss at that point, the game would end in a draw."
+    }
+  ],
+  "BP11-037": [
+    {
+      "number": "Q1501",
+      "question": "Does this follower's automatic ability trigger if I play Delta Cannon's automatic ability from my cemetery?",
+      "answer": "No, playing an automatic ability doesn't count as playing a spell."
+    },
+    {
+      "number": "Q1500",
+      "question": "If I have multiple copies of this follower on my field, and I play a spell that originally costs 1 or less, will each copy's ability trigger?",
+      "answer": "Yes, each copy's ability would trigger separately."
+    }
+  ],
+  "BP11-038": [
+    {
+      "number": "Q1502",
+      "question": "If I can't select an enemy follower on the field, can I still play this follower's automatic ability to draw a card and discard a card?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP11-039": [
+    {
+      "number": "Q1502",
+      "question": "If I can't select an enemy follower on the field, can I still play this follower's automatic ability to draw a card and discard a card?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP11-040": [],
+  "BP11-041": [
+    {
+      "number": "Q1506",
+      "question": "If a follower given the Armed trait by Draconic Weapon's effect is selected by this spell, does it lose the Armed trait?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1505",
+      "question": "If a follower with a \"When this card is returned to hand from your field\" ability loses its abilities due to this spell, then is returned to its owner's hand in the same turn, does the ability trigger?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1504",
+      "question": "If a follower with a Last Words ability loses its abilities due to this spell, then is put into the cemetery in the same turn, does the ability trigger?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1503",
+      "question": "I have at least 6 cards with different base costs in my cemetery. If I can't select an enemy follower on the field, can I still play this spell to give my leader +2 defense?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP11-042": [
+    {
+      "number": "Q1472",
+      "question": "Can I play this follower's activated ability multiple times per turn?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP11-043": [
+    {
+      "number": "Q1510",
+      "question": "If the selected enemy follower's owner's EX area is full, can I still put it into the EX area?",
+      "answer": "No, it remains on the field."
+    },
+    {
+      "number": "Q1509",
+      "question": "If I put an enemy advanced follower into the EX area from the field, do I put that follower faceup on top of its owner's evolve deck?",
+      "answer": "No. It remains in its owner's EX area after you put it there."
+    },
+    {
+      "number": "Q1508",
+      "question": "If I put an enemy token follower into the EX area from the field, is that token follower removed from the game?",
+      "answer": "No. It remains in its owner's EX area after you put it there. Follower and amulet tokens may exist in the EX area, field, and resolution zone. They are only removed from the game immediately after movement to other zones."
+    },
+    {
+      "number": "Q1507",
+      "question": "If I put a follower into the EX area, does it lose any damage dealt or abilities given to it?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1472",
+      "question": "Can I play this follower's activated ability multiple times per turn?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP11-044": [
+    {
+      "number": "Q1512",
+      "question": "If I can't select a Wasteland follower that costs 6 or less in my cemetery, can I still play this follower's Fanfare ability to summon an Arcane Personnel Carrier token?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1511",
+      "question": "If I discard this follower during my end phase because I have too many cards in my hand, do I put an Arcane Personnel Carrier token into my EX area?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP11-045": [],
+  "BP11-046": [],
+  "BP11-047": [
+    {
+      "number": "Q1513",
+      "question": "If I put a Dimension Shift into my EX area with this follower's On Evolve ability, then banish 10 spells when I play that Dimension Shift this turn, do I play it for 4 play points?",
+      "answer": "Yes. After Dimension Shift's ability changes its cost to 7, this follower's ability would reduce that by 3."
+    }
+  ],
+  "BP11-048": [
+    {
+      "number": "Q1514",
+      "question": "If I have multiple copies of this follower on my field, and a Mount card is put onto my field, will each copy's ability trigger?",
+      "answer": "Yes, they will."
+    }
+  ],
+  "BP11-049": [
+    {
+      "number": "Q1516",
+      "question": "If this follower takes damage that brings it to 0 defense or less during my opponent's turn, does its automatic ability still trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1515",
+      "question": "If this follower is attacked by an enemy follower with 0 attack, does its automatic ability still trigger?",
+      "answer": "No. A follower with 0 or less attack doesn't deal damage during combat."
+    }
+  ],
+  "BP11-050": [
+    {
+      "number": "Q1517",
+      "question": "What does \"Add 2 to a Stack on your field\" mean?",
+      "answer": "It means you put 2 Stack counters on an amulet with Stack on your field."
+    }
+  ],
+  "BP11-051": [],
+  "BP11-052": [],
+  "BP11-053": [],
+  "BP11-054": [
+    {
+      "number": "Q1518",
+      "question": "If there's an enemy Rulenye, Omen of Silence on the field, can I play the card I put into my EX area with this follower's Fanfare ability for 0 play points?",
+      "answer": "No. After this follower's effect reduces the card's cost to 0, Rulenye, Omen of Silence's ability would increase the cost to 1."
+    }
+  ],
+  "BP11-055": [],
+  "BP11-056": [],
+  "BP11-057": [
+    {
+      "number": "Q1519",
+      "question": "If multiple Wasteland cards are put onto my field at the same time during my turn, does this follower's ability trigger for each of them?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP11-058": [
+    {
+      "number": "Q1520",
+      "question": "Can this follower's activated ability only be played while it's in hand?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP11-059": [
+    {
+      "number": "Q1521",
+      "question": "Can this follower's activated ability only be played while it's in hand?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP11-060": [],
+  "BP11-061": [],
+  "BP11-062": [],
+  "BP11-063": [],
+  "BP11-064": [],
+  "BP11-065": [],
+  "BP11-066": [
+    {
+      "number": "Q1522",
+      "question": "Can this follower's activated ability only be played while it's in hand?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP11-067": [],
+  "BP11-068": [],
+  "BP11-069": [
+    {
+      "number": "Q1490",
+      "question": "If I select Iceschillendrig, Gilded Autocrat with Nahtnaught, Cursed Queen's activated ability, does Iceschillendrig, Gilded Autocrat's automatic ability trigger?",
+      "answer": "Yes, it does. You would then resolve it at the next confirmation timing."
+    }
+  ],
+  "BP11-070": [
+    {
+      "number": "Q1525",
+      "question": "If an opponent discards multiple cards during my turn, does this follower's second automatic ability trigger for each of them?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1524",
+      "question": "When selecting followers from my cemetery, can I select the card I discarded as part of the cost of this follower's ability?",
+      "answer": "No. You must select the followers before paying the cost."
+    },
+    {
+      "number": "Q1523",
+      "question": "If I have fewer than 2 followers in my cemetery, can I still play this follower's On Evolve ability?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1490",
+      "question": "If I select Iceschillendrig, Gilded Autocrat with Nahtnaught, Cursed Queen's activated ability, does Iceschillendrig, Gilded Autocrat's automatic ability trigger?",
+      "answer": "Yes, it does. You would then resolve it at the next confirmation timing."
+    }
+  ],
+  "BP11-071": [
+    {
+      "number": "Q1529",
+      "question": "There are 10 or more cards in my cemetery. If I summon and destroy this follower with Nephthys's Fanfare ability, can I select this follower in the cemetery when resolving its own Fanfare ability?",
+      "answer": "Yes. It is in the cemetery by the time you resolve its Fanfare ability, so you may select it. If you do, you do not banish it. Additionally, if you choose to resolve its Last Words ability after its Fanfare ability, you do not put it into its owner's EX area."
+    },
+    {
+      "number": "Q1528",
+      "question": "There are 10 or more cards in my cemetery. If I summon and destroy this follower with Nephthys's Fanfare ability, then resolve this follower's Fanfare ability and summon a Wasteland follower that costs 3 or less from my cemetery, do I banish this follower?",
+      "answer": "No. It is no longer on the field by the time you resolve its Fanfare ability."
+    },
+    {
+      "number": "Q1527",
+      "question": "If I summon and destroy this follower with Nephthys's Fanfare ability, can I resolve this follower's Last Words ability before its Fanfare ability?",
+      "answer": "Yes. Since its Last Words ability and Fanfare ability would both be pending at the same time, you may resolve them in any order."
+    },
+    {
+      "number": "Q1526",
+      "question": "If my EX area is full, and this follower is put into the cemetery from the field, how should I resolve its Last Words ability?",
+      "answer": "It remains in the cemetery."
+    }
+  ],
+  "BP11-072": [],
+  "BP11-073": [
+    {
+      "number": "Q1530",
+      "question": "If I attack with this follower again after it refreshes itself with its Strike ability, do I do an additional 2 damage to each enemy leader?",
+      "answer": "No, this follower's Strike ability can only be performed once per turn."
+    }
+  ],
+  "BP11-074": [
+    {
+      "number": "Q1534",
+      "question": "If I have multiple copies of this follower on my field, and a 1-cost token card I control leaves the field, will each copy's ability trigger?",
+      "answer": "Yes, they will."
+    },
+    {
+      "number": "Q1533",
+      "question": "If a 1-cost token card leaves my field during my opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1532",
+      "question": "If a Baccherus, Peppy Ghostie leaves my field, can I summon a Ghost token with this follower's automatic ability?",
+      "answer": "No, you can't. Baccherus, Peppy Ghostie is not a token card."
+    },
+    {
+      "number": "Q1531",
+      "question": "If multiple 1-cost token cards leave the field at the same time, can I choose which one to summon with this follower's ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP11-075": [
+    {
+      "number": "Q1537",
+      "question": "My opponent has an evolved Ginsetsu, Great Fox and an evolved Shuten-Doji on their field, and they attack my leader with the latter. I play this spell at quick timing, giving the evolved Shuten-Doji -2 attack and defense. Since the evolved Ginsetsu, Great Fox's ability increases Yokai followers' damage dealt by 1, does my leader take 1 damage?",
+      "answer": "No. A follower with 0 or less attack doesn't deal damage, and Ginsetsu, Great Fox's \"if a Yokai follower on your field would deal damage, it deals that much plus 1 instead\" only takes effect when damage is dealt."
+    },
+    {
+      "number": "Q1536",
+      "question": "Can a follower have negative attack?",
+      "answer": "Yes. A follower's attack can be reduced to a negative number by effects. A follower with negative attack doesn't deal attack or combat damage."
+    },
+    {
+      "number": "Q1535",
+      "question": "Can this spell's activated ability only be played while it's in the cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP11-076": [],
+  "BP11-077": [],
+  "BP11-078": [
+    {
+      "number": "Q1538",
+      "question": "Can I only play this follower's Fanfare ability if I can select both an enemy follower on the field and a Wasteland follower that costs 3 or less in my cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP11-079": [
+    {
+      "number": "Q1540",
+      "question": "If I have fewer than 10 cards in my cemetery, can I still play this spell?",
+      "answer": "Yes, you can. However, you would not fulfill the requirements for Necrocharge (10)."
+    },
+    {
+      "number": "Q1539",
+      "question": "If I have fewer than 2 Wasteland followers that cost 3 or less in my cemetery, can I still play this spell?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP11-080": [],
+  "BP11-081": [],
+  "BP11-082": [],
+  "BP11-083": [],
+  "BP11-084": [],
+  "BP11-085": [
+    {
+      "number": "Q1541",
+      "question": "Can I select an engaged enemy follower with this spell?",
+      "answer": "Yes, you can. Although the spell's \"engage it\" effect will not apply to a follower that is already engaged, the following effects will still apply."
+    }
+  ],
+  "BP11-086": [
+    {
+      "number": "Q1542",
+      "question": "If I look at the top 4 cards of my deck and they're all Wasteland cards, but there are no followers that cost 2 or less, can I select only 1 card to put into my EX area?",
+      "answer": "Yes, you can. The same is true if all 4 cards are followers that cost 2 or less."
+    }
+  ],
+  "BP11-087": [
+    {
+      "number": "Q1543",
+      "question": "If there's a Wasteland card in my EX area, but no enemy followers on the field, can I play this follower's Fanfare ability to deal 2 damage to each enemy leader?",
+      "answer": "Yes, you can. \"Select up to 2\" means you can select 0."
+    }
+  ],
+  "BP11-088": [
+    {
+      "number": "Q1544",
+      "question": "If there's a Wasteland card in my EX area, but no enemy followers on the field, can I play this follower's On Evolve ability to deal 2 damage to each enemy leader?",
+      "answer": "Yes, you can. \"Select up to 2\" means you can select 0."
+    }
+  ],
+  "BP11-089": [],
+  "BP11-090": [],
+  "BP11-091": [
+    {
+      "number": "Q1545",
+      "question": "If I can't select an enemy follower on the field, can I still play this follower's activated ability to give my leader +1 defense?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP11-092": [
+    {
+      "number": "Q1547",
+      "question": "If I have multiple copies of this card on my field, and I play one copy's activated ability and choose option 1, can I play another copy's activated ability and choose option 1 again?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1546",
+      "question": "If my leader gains defense during an opponent's turn, do I refresh this card?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP11-093": [
+    {
+      "number": "Q1548",
+      "question": "Can this follower's activated ability only be played while it's in hand?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP11-094": [],
+  "BP11-095": [
+    {
+      "number": "Q1549",
+      "question": "If a Mount card leaves my field during an opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP11-096": [],
+  "BP11-097": [],
+  "BP11-098": [],
+  "BP11-099": [],
+  "BP11-100": [],
+  "BP11-101": [],
+  "BP11-102": [],
+  "BP11-103": [
+    {
+      "number": "Q1551",
+      "question": "Can I add this follower to my hand with Maid Leader's On Evolve ability?",
+      "answer": "No. Although this follower has an ability that evolves it, it doesn't have an evolve ability."
+    },
+    {
+      "number": "Q1550",
+      "question": "If I evolve this follower with its Fanfare ability, can I evolve another follower using its evolve ability in the same turn?",
+      "answer": "Yes. Although you can only activate one evolve ability per turn, other abilities that evolve followers do not count towards this limit."
+    }
+  ],
+  "BP11-104": [
+    {
+      "number": "Q1553",
+      "question": "When this follower evolves, does it count itself as a faceup evolved follower in the evolve deck?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1552",
+      "question": "Do faceup copies of Drive Point or advanced followers count as faceup evolved followers in the evolve deck?",
+      "answer": "No, they don't."
+    }
+  ],
+  "BP11-105": [],
+  "BP11-106": [
+    {
+      "number": "Q1554",
+      "question": "Can I choose for each token whether I put it into my EX area or onto my field?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP11-107": [
+    {
+      "number": "Q1555",
+      "question": "Can this follower's activated ability only be played while it's in the cemetery?",
+      "answer": "No, you may only play it while this follower is on the field."
+    }
+  ],
+  "BP11-108": [],
+  "BP11-109": [],
+  "BP11-110": [],
+  "BP11-111": [],
+  "BP11-112": [
+    {
+      "number": "Q1557",
+      "question": "I only have 1 card in hand. Can I play this amulet's activated ability to reveal the card and summon it if it's a follower?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1556",
+      "question": "If both of the cards I reveal are followers, can I choose to only summon 1 of them?",
+      "answer": "No. As long as there is space on your field, you must summon the followers you reveal. You may only choose if your field only has space for 1."
+    }
+  ],
+  "BP11-113": [],
+  "BP11-114": [
+    {
+      "number": "Q1972",
+      "question": "If I super-evolve this follower, does its \"Whenever this follower gains attack or defense\" ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP11-115": [
+    {
+      "number": "Q1558",
+      "question": "If my field is full, do I have to put the Bullet Bike token into my EX area instead, and vice versa?",
+      "answer": "No. You may choose neither."
+    }
+  ],
+  "BP11-116": []
+}

@@ -1,0 +1,1298 @@
+{
+  "BP01-001": [
+    {
+      "question_cn": "我能否通过这个从者的起动能力，回复超过我最大PP的PP？",
+      "answer_cn": "不能。你的PP不能超过当前的最大PP。",
+      "card_name": "玫瑰皇后",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "“变身”是什么意思？",
+      "answer_cn": "变身是指将选择的卡牌从游戏中除外，并在其位置生成等量的指定衍生物。",
+      "card_name": "玫瑰皇后",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-002": [
+    {
+      "question_cn": "我能否将EX区域中的卡牌返回其拥有者的手牌来支付这个从者的入场曲能力的费用？",
+      "answer_cn": "不能。你只能将你场上的卡牌返回手牌。",
+      "card_name": "远古精灵",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "我能否将敌方场上的卡牌返回其拥有者的手牌来支付这个从者的入场曲能力的费用？",
+      "answer_cn": "不能。你只能将你场上的卡牌返回手牌。",
+      "card_name": "远古精灵",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-003": [
+    {
+      "question_cn": "我能否将EX区域中的卡牌返回其拥有者的手牌来支付这个从者的进化时能力的费用？",
+      "answer_cn": "不能。你只能将你场上的卡牌返回手牌。",
+      "card_name": "远古精灵",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "我能否将敌方场上的卡牌返回其拥有者的手牌来支付这个从者的进化时能力的费用？",
+      "answer_cn": "不能。你只能将你场上的卡牌返回手牌。",
+      "card_name": "远古精灵",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-004": [
+    {
+      "question_cn": "这个从者的入场曲能力是否也会计算对手使用过的卡牌和能力？",
+      "answer_cn": "不会。这个从者的入场曲能力只计算你使用过的卡牌。",
+      "card_name": "破魔虫",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "这个从者的入场曲能力是否也会计算我使用过的能力的数量？",
+      "answer_cn": "不会。这个从者的入场曲能力只计算你使用过的卡牌。",
+      "card_name": "破魔虫",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "这个从者在进化后，是否保留其入场曲能力带来的+X攻击力？",
+      "answer_cn": "是的。这是持续効果。",
+      "card_name": "破魔虫",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-005": [
+    {
+      "question_cn": "在结算这个从者的进化时能力时，如果我无法选择敌方场上的从者，是否可以选择选项2而不做任何事？",
+      "answer_cn": "不能。如果你无法选择敌方从者，则必须选择选项1。",
+      "card_name": "破魔虫",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果这个从者具有+1攻击力，而我选择了选项2，它会造成2点伤害吗？",
+      "answer_cn": "是的，会。",
+      "card_name": "破魔虫",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-007": [
+    {
+      "question_cn": "如果我手牌有8张或更多，这个法术会造成等同于我手牌数量的伤害吗？",
+      "answer_cn": "是的，会。",
+      "card_name": "白银的箭击",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "使用这个法术时，它会计入“你手牌数量”吗？",
+      "answer_cn": "不会。使用法术时，它已不在手牌中。",
+      "card_name": "白银的箭击",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-008": [
+    {
+      "question_cn": "如果对方场上有2个从者，一个具有灵气，另一个没有，我仍然可以使用这个法术的连击部分吗？",
+      "answer_cn": "是的。你可以选择那个没有灵气的对方从者，因此可以使用这个法术。如果你的连击数至少为5，则每个对手将自己场上每个从者（包括具有灵气的从者）置于其牌堆的顶部或底部。",
+      "card_name": "回归根源",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果对方场上唯一从者是具有灵气的，比如白骨奇美拉，我仍然可以使用这个法术的连击部分吗？",
+      "answer_cn": "不会。如果你无法选择场上的对方从者，则不能使用这个法术。",
+      "card_name": "回归根源",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的连击数为5，而对手必须将2张或更多从者放入牌堆，他们可以自行决定放在牌堆顶部或底部的顺序和数量吗？",
+      "answer_cn": "是的。他们可以决定每张卡牌的顺序和位置。",
+      "card_name": "回归根源",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-011": [
+    {
+      "question_cn": "位于EX区域的从者在被使用并置入场上时，会保留这个从者能力赋予的+1/+1吗？",
+      "answer_cn": "是的。攻击力和生命值的变更是持续性的，因此从EX区域使用或从EX区域直接移动到场上的从者会保留这些变更。",
+      "card_name": "妖精舞蹈家",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-013": [
+    {
+      "question_cn": "如果我场上有2张这个从者，我可以在同一回合使用这两张从者的起动能力吗？",
+      "answer_cn": "是的，可以。",
+      "card_name": "妖精守护圣兽",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-014": [
+    {
+      "question_cn": "如果这个从者的入场曲能力在对方场上已满时破坏了对方的“不死斗士·莫迪凯”，并召唤一个妖精替代其位置，对方仍然可以使用“不死斗士·莫迪凯”的谢幕曲能力吗？",
+      "answer_cn": "是的，可以。但是“不死斗士·莫迪凯”无法置于场上，因此他们只会支付费用。",
+      "card_name": "妖精贵族",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-015": [
+    {
+      "question_cn": "我可以使用这个法术将场上的一个护符返回其持有者的手牌吗？",
+      "answer_cn": "是的，可以。",
+      "card_name": "大自然的导引",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-018": [
+    {
+      "question_cn": "如果我使用远古精灵的入场曲能力将一名弓箭手返回手牌作为费用，我还能发动弓箭手的能力吗？",
+      "answer_cn": "可以。自动能力一旦触发后，即使拥有该能力的卡牌已离场，仍可发动。",
+      "card_name": "弓箭手",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我场上有2张这个从者的复制，并且另一名从者进入我的场上，每张复制的能力“每当另一名从者被置入你的场上时，选择敌方场上的一名从者，给予其1点伤害”会触发吗？",
+      "answer_cn": "会。两个能力都会触发。",
+      "card_name": "弓箭手",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-019": [
+    {
+      "question_cn": "如果我使用远古精灵的入场曲能力将一名弓箭手返回手牌作为费用，我还能发动弓箭手的能力吗？",
+      "answer_cn": "可以。自动能力一旦触发后，即使拥有该能力的卡牌已离场，仍可发动。",
+      "card_name": "弓箭手",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我使用这个从者的能力选择了2名敌方从者，它会各自给予他们1点伤害吗？",
+      "answer_cn": "是的，会。",
+      "card_name": "弓箭手",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我场上有2张这个从者的复制，并且另一名从者被置入场上，每张复制的能力会触发吗？",
+      "answer_cn": "会。两个能力都会触发。",
+      "card_name": "弓箭手",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-021": [
+    {
+      "question_cn": "如果我场上有2张这个从者的复制，并且另一名从者被置入我的场上，每张复制的能力会触发吗？",
+      "answer_cn": "会。两个能力都会触发。",
+      "card_name": "巨狼",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我进化我的另一名从者，这个从者会获得+1/+1吗？",
+      "answer_cn": "不会。进化不属于将从者置入场上。",
+      "card_name": "巨狼",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的场上已经达到卡牌上限，且我发动一个将从者置入场上的能力，这个从者仍然会获得+1/+1吗？",
+      "answer_cn": "不会。如果你的场上已满，你发动将从者或护符置入场上的能力时，该从者或护符实际上不会被置入场上。",
+      "card_name": "巨狼",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-022": [
+    {
+      "question_cn": "如果我场上有2张这个从者的复制，并且我的一名妖精从者攻击，每张复制的能力会触发吗？",
+      "answer_cn": "会。两个能力都会触发。",
+      "card_name": "魔法雄鹿",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-023": [
+    {
+      "question_cn": "如果我的EX区域已经达到卡牌上限，我还能用这个法术将一张妖精放入其中吗？",
+      "answer_cn": "不能，你无法放入。",
+      "card_name": "妖精的呼朋引伴",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-024": [
+    {
+      "question_cn": "当这张法术选择的从者攻击时，是否视为造成了0点伤害？",
+      "answer_cn": "不。它不视为造成了伤害。",
+      "card_name": "精灵的诅咒",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我以这张法术选择敌方持有必杀的从者，与该从者战斗的从者是否仍会被必杀破坏？",
+      "answer_cn": "是的。无论伤害如何，必杀都会破坏敌方从者。",
+      "card_name": "精灵的诅咒",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-025": [
+    {
+      "question_cn": "当这张护符处于激活状态时，我能支付其起动能力的费用吗？",
+      "answer_cn": "不能。该费用要求你将其激活，因此如果它已经激活，则无法支付费用。",
+      "card_name": "森林圣域",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-028": [
+    {
+      "question_cn": "同时持有突进和侵袭的从者，是否可以在入场的同一回合攻击敌方已激活的从者？",
+      "answer_cn": "是的，可以。",
+      "card_name": "皇家剑士·奥蕾莉亚",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "我方场上有2张凤凰的庭园，它们的能力按顺序解决，导致乌尔德和这张从者进入我方场上。我使用乌尔德的入场曲能力将敌方一个从者送至EX区域，从而使敌方场上的卡片数量减少到2张，之后才使用这张从者的入场曲能力。此时“如果敌方场上至少有3张卡片”的条件是否仍满足？",
+      "answer_cn": "不满足。到这张从者的入场曲能力被使用时，敌方场上已不再“至少有3张卡片”。",
+      "card_name": "皇家剑士·奥蕾莉亚",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "这张从者的入场曲能力能否计算敌方EX区域的卡片？",
+      "answer_cn": "不能。",
+      "card_name": "皇家剑士·奥蕾莉亚",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-029": [
+    {
+      "question_cn": "我能否用这张从者的入场曲能力选择敌方一个已激活的从者？",
+      "answer_cn": "可以。但该从者的状态不会改变。",
+      "card_name": "影夜暗杀者",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-031": [
+    {
+      "question_cn": "这张从者的谢幕曲能力是否也能让我将已在我场上的钢铁骑士激活并赋予守护？",
+      "answer_cn": "不能。这张从者的谢幕曲能力仅适用于该能力所召唤的钢铁骑士。",
+      "card_name": "铁卫战将",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-032": [
+    {
+      "question_cn": "如果我的场上有3张卡片，且我使用这张法术，能否选择要召唤哪2张从者？",
+      "answer_cn": "可以。每当法术或能力会召唤超过场上卡片上限的卡片时，该法术或能力的玩家可以选择要召唤哪些卡片。",
+      "card_name": "亚尔丽妲的号令",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的场上离卡片上限还差1张，我能否选择使用这张法术的能力召唤维京、钢铁骑士或骑士中的一张？",
+      "answer_cn": "可以。",
+      "card_name": "亚尔丽妲的号令",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-033": [
+    {
+      "question_cn": "如果我场上有2张这张护符，并且一个剑士职业从者进入我的场上，每张护符的“每当一个剑士职业从者被放置到你的场上时，使其获得+1/+1”能力会触发吗？",
+      "answer_cn": "会的。两个能力都会触发。",
+      "card_name": "皇家御用战旗",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-035": [
+    {
+      "question_cn": "使用这个从者的能力时，在将卡牌加入手牌前，是否需要从牌堆中展示该卡牌？",
+      "answer_cn": "是的。这是为了证明该卡牌是指定的卡牌之一。",
+      "card_name": "女仆事务长",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的牌堆中没有拥有进化能力的从者，我仍然可以使用这个从者的能力吗？",
+      "answer_cn": "可以。在查看牌堆后，你将其洗牌，不会将任何从者加入手牌。",
+      "card_name": "女仆事务长",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-036": [
+    {
+      "question_cn": "使用这个从者的能力时，在将卡牌加入手牌前，是否需要从牌堆中展示该卡牌？",
+      "answer_cn": "是的。这是为了证明该卡牌是指定的卡牌之一。",
+      "card_name": "执宝杖的司令官",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的牌堆中没有剑士职业从者，我仍然可以使用这个从者的能力吗？",
+      "answer_cn": "可以。在查看牌堆后，你将其洗牌，不会将任何从者加入手牌。",
+      "card_name": "执宝杖的司令官",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-038": [
+    {
+      "question_cn": "这个从者的入场曲和/或起动能力可以选择一个已结附的敌方从者吗？",
+      "answer_cn": "可以。但该从者的状态不会改变。",
+      "card_name": "剑豪",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-039": [
+    {
+      "question_cn": "使用这个从者的能力查看牌堆顶5张卡牌时，如果其中有1张费用为1的从者，我是否可以选择不将其放置到场上？",
+      "answer_cn": "可以。",
+      "card_name": "任性的公主",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-040": [
+    {
+      "question_cn": "如果我的牌堆中没有忍者卡牌，我仍然可以使用这个从者的能力吗？",
+      "answer_cn": "可以。在查看牌堆后，你将其洗牌，不会将任何卡牌加入手牌。",
+      "card_name": "忍者大师",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-041": [
+    {
+      "question_cn": "这张护符的“选择场上一个敌方从者并使其结附”起动能力可以选择一个已结附的敌方从者吗？",
+      "answer_cn": "可以。但该从者的状态不会改变。",
+      "card_name": "骑士王的威望",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-043": [
+    {
+      "question_cn": "如果我场上有2张这个从者，并且另一个从者进入我的场上，每张的“每当另一个从者被放置到你的场上时，使这个从者获得+1攻击力”能力会触发吗？",
+      "answer_cn": "会的。两个能力都会触发。",
+      "card_name": "不屈的士兵",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-044": [
+    {
+      "question_cn": "如果我场上有2张这个从者，另一张从者进入我的场上，每个从者的能力都会触发吗？",
+      "answer_cn": "是的。两个能力都会触发。",
+      "card_name": "不屈的士兵",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-049": [
+    {
+      "question_cn": "如果我的场上没有从者，我还可以使用这张法术抽1张卡吗？",
+      "answer_cn": "不。你必须能够选择1个从者才能使用这张法术。",
+      "card_name": "武装强化",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-050": [
+    {
+      "question_cn": "如果我的EX区域已达到卡片上限，且场上存在我可以选择的敌方从者，我仍然可以使用这张法术吗？",
+      "answer_cn": "是的，你可以。但是，你不能将骑士放入你的EX区域。",
+      "card_name": "猛袭",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果场上没有敌方从者，我仍然可以使用这张法术将骑士放入我的EX区域吗？",
+      "answer_cn": "不。你必须能够选择1个从者才能使用这张法术。",
+      "card_name": "猛袭",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-051": [
+    {
+      "question_cn": "如果场上没有我可以选择的敌方从者，我仍然可以支付这个从者的入场曲或起动能力的费用吗？",
+      "answer_cn": "不。你必须能够选择1个目标才能使用任一能力。",
+      "card_name": "大召唤师·伊拉斯莫斯",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果场上没有敌方从者，我可以用这个从者的入场曲或起动能力对敌方主战者造成伤害吗？",
+      "answer_cn": "不。你必须选择1个敌方从者才能对其“主战者”造成伤害。",
+      "card_name": "大召唤师·伊拉斯莫斯",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-052": [
+    {
+      "question_cn": "如果我的牌堆中没有法术卡，我仍然可以使用这个从者的入场曲能力吗？",
+      "answer_cn": "是的，你可以。查看你的牌堆后，你会将其洗牌，而不将法术卡加入手牌。",
+      "card_name": "梅林",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-053": [
+    {
+      "question_cn": "如果我的墓场中有10张法术卡，并且我使用这个从者的能力从墓场中使用了命运的指引，我是否满足命运的指引的法术连锁(10)要求？",
+      "answer_cn": "不。当你使用命运的指引时，它最初被移动到解决区域，使你的墓场中只剩下9张法术卡。",
+      "card_name": "梅林",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "这个从者的能力使用的法术卡在效果解决后会放回墓场吗？",
+      "answer_cn": "是的，会的。",
+      "card_name": "梅林",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-055": [
+    {
+      "question_cn": "如果我场上有2张这个从者，并且我使用了1张魔像从者，那张魔像从者的使用费用减少2PP吗？",
+      "answer_cn": "是的，会。",
+      "card_name": "远古炼金术师",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-056": [
+    {
+      "question_cn": "如果我在对手的回合使用这张法术牌，我是否会在对手结束阶段开始时放逐我EX区域的卡牌？",
+      "answer_cn": "不会。这只会在你自己的结束阶段开始时发生。",
+      "card_name": "神秘的礼物",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我在使用这张法术牌后，在我下一个结束阶段开始时，我EX区域的衍生物是否也会被放逐？",
+      "answer_cn": "是的。你EX区域的所有卡牌都会被放逐。",
+      "card_name": "神秘的礼物",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我在使用这张法术牌后，在我下一个结束阶段开始时，那些不是通过这张法术牌放入我EX区域的卡牌是否也会被放逐？",
+      "answer_cn": "是的。你EX区域的所有卡牌都会被放逐。",
+      "card_name": "神秘的礼物",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的EX区域已经达到卡牌上限，我仍然可以使用这张法术牌吗？",
+      "answer_cn": "是的，你可以。但是，不会有卡牌被加入你的EX区域。",
+      "card_name": "神秘的礼物",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-057": [
+    {
+      "question_cn": "如果我通过次元魔女·桃乐丝的进化时能力将次元超越的费用减少5，并且在使用那次元超越时放逐10张法术牌，我是否可以用2点PP使用它？",
+      "answer_cn": "是的。将费用变为特定值的效果会在增加或减少费用的效果之前适用。",
+      "card_name": "次元超越",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我使用这张法术牌并获得一个额外回合，然后使用另一张同名法术牌，我是否会在那之后再次获得一个额外回合？",
+      "answer_cn": "是的，你会。",
+      "card_name": "次元超越",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "在使用这张法术牌时，我可以将这张牌计入我正从墓场放逐的法术牌中吗？",
+      "answer_cn": "不能。这张牌只有在使用并解决之后才会进入墓场。",
+      "card_name": "次元超越",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-058": [
+    {
+      "question_cn": "如果我的场上已经达到卡牌上限，并且我场上有一个带有1个蓄积计数器的魔力沉淀，我可以用它来支付这个从者的起动能力的费用“召唤1个守卫魔像或突击魔像衍生物”，并召唤一个守卫魔像或突击魔像吗？",
+      "answer_cn": "可以。当你支付费用时，魔力沉淀会被送入墓场，从而为守卫魔像或突击魔像腾出场上空间。",
+      "card_name": "诺诺的秘密研究室",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-059": [
+    {
+      "question_cn": "当通过这个从者的入场曲能力查看我牌堆顶的卡牌时，如果它是法术牌，我是否可以选择不将其加入手牌？",
+      "answer_cn": "是的，你可以。",
+      "card_name": "幻影巫术师",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-061": [
+    {
+      "question_cn": "如果我的法术链是15，我是否仍然可以选择不使用减少9点PP的费用来使用这个从者？",
+      "answer_cn": "不能。如果你的法术链为15或更高，你必须使用其减少后的费用。",
+      "card_name": "魔炎毁灭者",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-062": [
+    {
+      "question_cn": "如果我场上有2张这个从者，并且我使用了一张法术牌，每个从者的“每当你使用一张法术牌时，在这张卡上放置1个法术计数”能力都会触发吗？",
+      "answer_cn": "是的。两个能力都会触发。",
+      "card_name": "龙魂契约者",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-063": [
+    {
+      "question_cn": "如果我使用巨像守护术时，我场上有4张卡，其中一张是带有1个堆积计数的堆积护符，我是否能召唤2个守护巨像？",
+      "answer_cn": "是的。当你使用巨像守护术并支付其费用时，那张堆积护符会被送入墓场，从而为你场上召唤2个守护巨像腾出空间。",
+      "card_name": "巨像守护术",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的场上已经达到卡牌数量上限，或者距离上限只差1张，我还能使用这张法术牌吗？",
+      "answer_cn": "是的，你可以。然而，你只能将尽可能多的守护巨像放置到场地上，直到上限为止。",
+      "card_name": "巨像守护术",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-065": [
+    {
+      "question_cn": "我是否能通过这张法术牌回复超过我最大PP值的PP？",
+      "answer_cn": "不。你不能拥有超过你当前最大PP值的PP。",
+      "card_name": "命运的指引",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-069": [
+    {
+      "question_cn": "我能否通过这个从者的能力，在我场上所有的堆积护符上各放置一个堆积计数？",
+      "answer_cn": "不。你必须选择1张带有堆积的护符，并在其上放置1个堆积计数。",
+      "card_name": "睿智的术士",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "这个从者的能力是否会在场上带有堆积的卡牌上放置堆积计数？",
+      "answer_cn": "是的，会。",
+      "card_name": "睿智的术士",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-070": [
+    {
+      "question_cn": "如果场上没有敌方从者，我能否通过这个从者的能力对敌方主战者造成伤害？",
+      "answer_cn": "不。你必须选择1个敌方从者，才能对“那个从者的主战者”造成伤害。",
+      "card_name": "雷光射手",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的法术链为10，这个从者是否对敌方从者造成6点伤害，并对敌方主战者造成2点伤害？",
+      "answer_cn": "不。它对所选的敌方从者造成4点伤害，并对敌方主战者造成2点伤害。",
+      "card_name": "雷光射手",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-071": [
+    {
+      "question_cn": "如果我的法术链为10，这张法术牌是否对敌方从者造成6点伤害？",
+      "answer_cn": "不。它对敌方从者造成4点伤害。",
+      "card_name": "疾风喷射",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-072": [
+    {
+      "question_cn": "我能否选择不将一张法术牌加入手牌，或者不将一张法术牌放入墓场？",
+      "answer_cn": "是的。你可以选择是否执行每个动作。",
+      "card_name": "魔力积蓄",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的牌堆少于4张牌，我还能使用这张法术吗？",
+      "answer_cn": "可以。你只需查看牌堆中的所有牌，然后将其余牌以任意顺序放回牌堆区。",
+      "card_name": "魔力积蓄",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "我可以用这张法术查看我的进化牌堆吗？",
+      "answer_cn": "不行。你只能查看你的主牌堆。",
+      "card_name": "魔力积蓄",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-073": [
+    {
+      "question_cn": "当场上没有可以选择的敌方从者时，能否使用「暗夜群袭」和「火炎粉碎术」这类法术？",
+      "answer_cn": "不能。如果卡牌文本明确指示要“选择”一个目标，且没有可选择的卡牌，则无法使用该卡牌或支付相关费用。",
+      "card_name": "火炎粉碎术",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果场上没有敌方从者，我还能使用这张法术对敌方主战者造成3点伤害吗？",
+      "answer_cn": "不能。你必须能够选择一个从者才能使用这张法术。",
+      "card_name": "火炎粉碎术",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-078": [
+    {
+      "question_cn": "我能通过这个从者的起动能力回复超过当前最大PP值的PP吗？",
+      "answer_cn": "不能。你拥有的PP不能超过当前最大值。",
+      "card_name": "吉尔尼特拉",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-079": [
+    {
+      "question_cn": "我能通过这个从者的谢幕曲能力将最大PP值提升到11吗？",
+      "answer_cn": "不能。你的最大PP值不能超过10。",
+      "card_name": "龙骑士·艾拉",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-083": [
+    {
+      "question_cn": "如果我和对手场上各有一张此护符，在我主阶段开始时，我能选择先解决对手的复制能力再解决我自己的吗？",
+      "answer_cn": "不能。主动玩家总是先于非主动玩家解决其能力。另外，如果通过此护符的能力将一张具有入场曲的从者放置到你的场上，你需要先解决该入场曲能力，然后对手再解决他们的「凤凰的庭园」的能力。",
+      "card_name": "凤凰的庭园",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果场上有多张此护符的复制，每张复制的能力都会触发吗？",
+      "answer_cn": "是的，所有能力都会触发。",
+      "card_name": "凤凰的庭园",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-084": [
+    {
+      "question_cn": "通过这个从者的能力放置到EX区域的卡牌，在其被放置到场上后，是否永久减少2点费用？",
+      "answer_cn": "不是。费用减免仅在使用该卡牌时适用。",
+      "card_name": "绯天炎龙骑兵",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我通过这个从者的能力将一张1费卡牌放入EX区域，使用它的费用会是0吗？",
+      "answer_cn": "是的。费用不能为负值，因此它会消耗0点PP。",
+      "card_name": "绯天炎龙骑兵",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-088": [
+    {
+      "question_cn": "这个从者可以攻击场上已交战状态的敌方从者吗？",
+      "answer_cn": "不可以。这个从者不能攻击敌方从者或敌方主战者。",
+      "card_name": "被封印的古代巨龙",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-091": [
+    {
+      "question_cn": "这个护符的“当这张卡牌存在于自己场上时，自己的「龙」衍生物获得突进”能力，是否会让所有龙族从者获得突进？",
+      "answer_cn": "不会。这个护符只会让名称为「龙」的衍生物获得突进。",
+      "card_name": "龙化之塔",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-095": [
+    {
+      "question_cn": "如果因为这个从者的入场曲能力而选择的从者离场，这个从者的攻击力会变成0吗？",
+      "answer_cn": "不会。即使被选择的从者离场或之后其攻击力数值发生变化，这个从者的入场曲能力所增加的值也不会改变。",
+      "card_name": "王牌龙骑士",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果因为这个从者的入场曲能力而选择的从者攻击力数值发生了变化，这个从者的攻击力会变成相同的数值吗？",
+      "answer_cn": "是的。这个从者获得与被选择从者当前攻击力数值相同的攻击力。",
+      "card_name": "王牌龙骑士",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "这个从者的入场曲能力可以选择任意一位玩家场上的从者吗？",
+      "answer_cn": "可以。",
+      "card_name": "王牌龙骑士",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-098": [
+    {
+      "question_cn": "如果自己处于觉醒状态，这个法术会对敌方从者造成6点伤害吗？",
+      "answer_cn": "不会。处于觉醒状态时，会造成4点伤害。",
+      "card_name": "炽热吐息",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-099": [
+    {
+      "question_cn": "这个法术只会对场上敌方从者造成伤害吗？",
+      "answer_cn": "不是。它会对所有玩家场上的所有从者造成伤害。",
+      "card_name": "龙之翼击",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "可以使用这个法术对场上拥有灵气的敌方从者造成伤害吗？",
+      "answer_cn": "可以。",
+      "card_name": "龙之翼击",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果自己处于觉醒状态，这个法术会对所有从者造成5点伤害吗？",
+      "answer_cn": "不会。处于觉醒状态时，会对每个从者造成3点伤害。",
+      "card_name": "龙之翼击",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-100": [
+    {
+      "question_cn": "使用这个法术查看自己牌堆顶5张卡牌时，如果有费用为5以上的龙族卡牌，可以选择不将其加入手牌吗？",
+      "answer_cn": "可以。",
+      "card_name": "龙之传令",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-101": [
+    {
+      "question_cn": "如果我的EX区域距离卡牌上限还差1张，我能否选择用这张从者的入场曲能力将一只咪咪或可可放入EX区域？",
+      "answer_cn": "可以。",
+      "card_name": "凯尔贝洛斯",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-102": [
+    {
+      "question_cn": "如果我的EX区域距离卡牌上限还差1张，我能否选择用这张从者的能力将一只咪咪或可可放入EX区域？",
+      "answer_cn": "可以。",
+      "card_name": "凯尔贝洛斯",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-103": [
+    {
+      "question_cn": "使用这张卡时，我能将场上的4个衍生物放入墓场来使其费用减少9吗？",
+      "answer_cn": "可以。这些衍生物会在从游戏中移除之前被放入墓场，因此你可以将衍生物包括在你移到墓场的4张卡中。",
+      "card_name": "骨骸王",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "我能从EX区域中消失2张卡，并从场上将2张卡放入墓场来使用这个从者吗？",
+      "answer_cn": "不能。你必须选择“将场上4张指定的深渊族卡放入墓场”或“消失EX区域中的4张深渊族卡”。",
+      "card_name": "骨骸王",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的场上已达到卡牌上限，我能将场上4张指定的卡放入墓场来使用这个从者吗？",
+      "answer_cn": "可以。",
+      "card_name": "骨骸王",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-104": [
+    {
+      "question_cn": "如果我处于“绯红之血”激活状态且我的死灵充能为10，这个从者的使用费用减少2吗？",
+      "answer_cn": "是的。",
+      "card_name": "梅杜莎",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-106": [
+    {
+      "question_cn": "如果这个从者与敌方从者战斗且两者都被破坏，我能对敌方从者的主战者造成1点伤害并使我的主战者+1防御吗？",
+      "answer_cn": "是的。",
+      "card_name": "恶魔审判官",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果这个从者与敌方从者战斗，并且双方从者都因战斗伤害而被破坏，我仍然能触发这个从者的能力吗？",
+      "answer_cn": "可以。即使双方从者都被战斗伤害破坏，能力的条件“每当敌方从者被破坏时”仍然满足。",
+      "card_name": "恶魔审判官",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我使用这个从者攻击一个攻击力为5的敌方从者，并且双方从者都被战斗伤害破坏，这个从者的“每当敌方从者被破坏时，对其主战者造成1点伤害并使你的主战者+1防御”能力会触发吗？",
+      "answer_cn": "是的。",
+      "card_name": "恶魔审判官",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的场上有2张这个从者，并且一个敌方从者被破坏，每张从者的“每当敌方从者被破坏时，对其主战者造成1点伤害并使你的主战者+1防御”能力都会触发吗？",
+      "answer_cn": "是的。两个能力都会触发。",
+      "card_name": "恶魔审判官",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-109": [
+    {
+      "question_cn": "我能通过这个从者的能力，将进化牌堆中一张表侧表示的已进化从者置入手牌吗？",
+      "answer_cn": "不行。你只能将墓场中的一张从者置入手牌。",
+      "card_name": "地狱献祭者",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-111": [
+    {
+      "question_cn": "如果对手手牌为0张，这个从者的进化时能力仍然会对我的主战者造成2点伤害吗？",
+      "answer_cn": "是的。即使对手手牌中没有卡牌，这个从者的能力仍然会对你的主战者造成2点伤害。",
+      "card_name": "疯狂的刽子手",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "我能通过这个从者的能力选择对手手牌中一张具有灵气的从者吗？",
+      "answer_cn": "可以。灵气只防止该从者在场上时被选择。",
+      "card_name": "疯狂的刽子手",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-115": [
+    {
+      "question_cn": "如果我通过死亡祝福的效果将一张路西法置入我的场上，然后将其进化，它是否仍然具有守护？",
+      "answer_cn": "是的，仍然具有。",
+      "card_name": "死亡祝福",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的墓场中有10张卡牌，并且我通过这张法术将墓场中的一张阿鲁卡德置入我的场上，那么我是否满足阿鲁卡德入场曲能力所需的唤灵(10)条件？",
+      "answer_cn": "是的。这张法术会在阿鲁卡德的入场曲能力使用之前被置入墓场，因此你的唤灵数值会达到10。",
+      "card_name": "死亡祝福",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "我通过这张法术的能力将一张不死斗士·莫迪凯置入我的场上。该不死斗士·莫迪凯被破坏，触发其谢幕曲，我将它再次置入我的场上。它是否仍然具有守护？",
+      "answer_cn": "不再具有。它在回到场上之前会暂时离场，从而失去守护。",
+      "card_name": "死亡祝福",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-116": [
+    {
+      "question_cn": "如果我的从者正受到敌方从者的攻击，但被诸如阿鲁卡德的攻击时能力、暗黑供奉、或灵魂转移等卡牌或能力破坏，那么进行攻击的从者的攻击会如何处理？",
+      "answer_cn": "如果在从者攻击期间攻击目标离场，则不会选择新的目标，进行攻击的从者保持交战状态，但不会造成战斗伤害。此外，即使在攻击期间攻击从者或攻击目标离场，具有迅捷的卡牌和能力仍然可以使用。",
+      "card_name": "灵魂转移",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我通过这张法术破坏一个具有谢幕曲的从者，该从者的谢幕曲会发动吗？",
+      "answer_cn": "是的，会发动。",
+      "card_name": "灵魂转移",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-119": [
+    {
+      "question_cn": "我必须支付这个从者入场曲能力的费用吗？",
+      "answer_cn": "不需要。如果自动能力（如入场曲或谢幕曲）具有费用，你可以在其触发时选择不支付费用从而不发动该能力。但是，如果该自动能力没有费用，则必须在可能的情况下发动。",
+      "card_name": "幽魂",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的主战者体力为1，我仍然可以支付这个从者入场曲能力的费用吗？",
+      "answer_cn": "不可以。如果支付费用会导致你的体力变为负值，则无法支付。",
+      "card_name": "幽魂",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-120": [
+    {
+      "question_cn": "如果我牌堆中少于2张卡牌，我仍然可以使用这个从者的能力吗？",
+      "answer_cn": "是的，你可以。",
+      "card_name": "尸魂战士",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-123": [
+    {
+      "question_cn": "我可以将这个从者放入我的墓场来支付其进化时能力的费用吗？",
+      "answer_cn": "是的，你可以。",
+      "card_name": "血祭侵略者",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我将一个具有谢幕曲的从者作为这个从者能力费用的一部分放入墓场，那个从者的谢幕曲能力会被触发吗？",
+      "answer_cn": "是的，会被触发。",
+      "card_name": "血祭侵略者",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-124": [
+    {
+      "question_cn": "如果这个从者在被放入场上后立即被送入墓场，我可以用它的能力将其从墓场放回手牌吗？",
+      "answer_cn": "是的。根据能力处理的时机，你可以从墓场选择这张卡并加入手牌。",
+      "card_name": "不死之王",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "我可以选择不从墓场将任何从者加入手牌吗？",
+      "answer_cn": "是的，你可以。",
+      "card_name": "不死之王",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-125": [
+    {
+      "question_cn": "如果双方主战者都有1点防御力，并且我用这张法术选择敌方主战者，游戏会以平局结束吗？",
+      "answer_cn": "是的，会平局。",
+      "card_name": "利爪的一击",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-126": [
+    {
+      "question_cn": "如果这个从者没有失去任何防御力，它是否仍然在我的结束阶段开始时获得+2防御力？",
+      "answer_cn": "是的，它获得。",
+      "card_name": "黑天月兔妖",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-129": [
+    {
+      "question_cn": "如果这个从者在我场上，并且我使用了圣女贞德的入场曲能力，这个从者的“只要这张卡在自己场上，自己的从者造成的伤害等于其防御力”能力是否会导致圣女贞德的能力对所有敌方从者造成等于其防御力的伤害？",
+      "answer_cn": "不会。这个从者的“只要这张卡在自己场上，自己的从者造成的伤害等于其防御力”能力仅适用于攻击时造成的伤害。",
+      "card_name": "大主教·雷莉亚",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-130": [
+    {
+      "question_cn": "如果这个从者没有失去任何防御力，它是否仍然在我的结束阶段开始时获得+2防御力？",
+      "answer_cn": "是的，它获得。",
+      "card_name": "大主教·雷莉亚",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果这个从者在我场上，并且我使用了圣女贞德的入场曲能力，这个从者的“只要这张卡在自己场上，自己的从者造成的伤害等于其防御力”能力是否会导致圣女贞德的能力对所有敌方从者造成等于其防御力的伤害？",
+      "answer_cn": "不会。这个从者的“只要这张卡在自己场上，自己的从者造成的伤害等于其防御力”能力仅适用于攻击时造成的伤害。",
+      "card_name": "大主教·雷莉亚",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-131": [
+    {
+      "question_cn": "我可以使用这个法术的能力破坏场上拥有「灵气」的敌方从者吗？",
+      "answer_cn": "是的，可以。",
+      "card_name": "忒弥斯的审判",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-134": [
+    {
+      "question_cn": "这个从者的「对该从者造成的伤害减少1」能力是否适用于所有伤害来源，包括敌方从者的攻击和法术？",
+      "answer_cn": "是的，适用。",
+      "card_name": "教会守护者",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-136": [
+    {
+      "question_cn": "使用这个从者的能力时，我需要先展示牌堆中的卡牌再加入手牌吗？",
+      "answer_cn": "是的，需要。这是为了证明该卡是指定卡牌之一。",
+      "card_name": "圣之光稜牧师",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的牌堆中没有护符，我仍然可以使用这个从者的能力吗？",
+      "answer_cn": "是的，可以。在查看牌堆后，你会洗切牌堆，不会将护符加入手牌。",
+      "card_name": "圣之光稜牧师",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-137": [
+    {
+      "question_cn": "如果这个从者和「大主教·雷莉亚」都在我的场上，当这个从者被攻击时，它会对攻击的从者造成等同于其防御力加4的伤害吗？",
+      "answer_cn": "是的，会的。",
+      "card_name": "教团圣枪兵",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-139": [
+    {
+      "question_cn": "我可以选择原始防御力大于3但当前防御力为3或以下的从者作为这个法术的目标吗？",
+      "answer_cn": "是的。这个法术只查看从者的当前防御力。",
+      "card_name": "漆黑法典",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-140": [
+    {
+      "question_cn": "如果我的从者正在被敌方从者攻击，但被「阿尔卡德」的「突击」能力、「暗黑供奉」或「灵魂转移」等卡牌或能力破坏，攻击方从者的攻击会怎样？",
+      "answer_cn": "如果在从者攻击过程中攻击目标离场，不会选择新目标，攻击方从者保持攻击状态，且不进行战斗伤害。此外，即使在攻击过程中攻击方从者或攻击目标离场，仍可使用具有「快速」的卡牌和能力。",
+      "card_name": "暗黑供奉",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我使用这个法术破坏一个拥有「谢幕曲」的从者，那个从者的「谢幕曲」能力会发动吗？",
+      "answer_cn": "是的，会发动。",
+      "card_name": "暗黑供奉",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-141": [
+    {
+      "question_cn": "我可以在对手的回合使用这个护符的能力吗？",
+      "answer_cn": "不可以。这个护符的能力仅在你的回合触发。",
+      "card_name": "神域守护者",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的场上有2张这张卡牌，当另一张我的护符离场时，每张卡牌的能力都会触发吗？",
+      "answer_cn": "是的。两个能力每个回合各触发一次。",
+      "card_name": "神域守护者",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-142": [
+    {
+      "question_cn": "通过这个从者的能力，我可以将墓场中的护符放到场上，是否需要支付该护符的费用？",
+      "answer_cn": "不需要。",
+      "card_name": "残暴的女修士",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-148": [
+    {
+      "question_cn": "使用这张法术时，我可以查看自己的进化牌堆吗？",
+      "answer_cn": "不可以。你只能查看自己的主牌堆。",
+      "card_name": "崇高的教义",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我的牌堆中不足5张牌，我仍然可以使用这张法术吗？",
+      "answer_cn": "可以。你会查看牌堆中所有卡牌，然后以任意顺序将剩余卡牌放回牌堆区域。",
+      "card_name": "崇高的教义",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-150": [
+    {
+      "question_cn": "当这张护符处于激活状态时，我可以支付费用来起动它的能力吗？",
+      "answer_cn": "不可以。该费用的条件要求将其激活，因此如果它已经处于激活状态，你无法支付该费用。",
+      "card_name": "死亡宣告",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "这张护符在进入场上时，是先以休息状态放置，然后再变为激活状态吗？",
+      "answer_cn": "不是。它进入场上时是激活状态。",
+      "card_name": "死亡宣告",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-152": [
+    {
+      "question_cn": "如果我通过死亡祝福的效果将路西法放置到场上，然后将其进化，它是否仍然拥有守护能力？",
+      "answer_cn": "是的，仍然拥有。",
+      "card_name": "路西法",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-153": [
+    {
+      "question_cn": "如果我通过死亡祝福的效果将路西法放置到场上，然后将其进化，它是否仍然拥有守护能力？",
+      "answer_cn": "是的，仍然拥有。",
+      "card_name": "路西法",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-155": [
+    {
+      "question_cn": "如果我将场上的敌方从者放入EX区域，它会失去所有计数物吗？",
+      "answer_cn": "是的，会失去。",
+      "card_name": "乌尔德",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果通过这个从者的入场曲能力，将场上的已进化敌方从者移入EX区域，未进化形态和进化形态的卡牌都会进入EX区域吗？",
+      "answer_cn": "不会。当已进化的从者被移入EX区域时，只有未进化形态留在EX区域。进化形态的从者会被翻面放置在进化牌堆区域。",
+      "card_name": "乌尔德",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我将场上的敌方衍生物从者放入EX区域，该衍生物从者会从游戏中移除吗？",
+      "answer_cn": "不会。衍生物可以存在于EX区域。",
+      "card_name": "乌尔德",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果我通过这个从者的入场曲能力将一个敌方从者置入EX区域，它是否会失去施加于其上的伤害和能力？",
+      "answer_cn": "是的。当一张卡从场上移至EX区域时，它会失去所有施加于其上的伤害和能力。",
+      "card_name": "乌尔德",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-156": [
+    {
+      "question_cn": "是否可以通过这个从者的能力选择并消失对方EX区域中具有光环的从者？",
+      "answer_cn": "可以。光环只在该从者位于场上时防止其被选择。",
+      "card_name": "乌尔德",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-161": [
+    {
+      "question_cn": "如果一名玩家的手牌中没有卡牌，我仍然可以打出这张法术吗？",
+      "answer_cn": "可以。",
+      "card_name": "崭新的命运",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-166": [
+    {
+      "question_cn": "如果我的牌堆中没有「烈焰·琉璃」，我仍然可以发动这个从者的能力吗？",
+      "answer_cn": "可以。检索牌堆后，无需将「烈焰·琉璃」放到你的场上，直接洗切牌堆。作为能力费用移至墓场的卡牌仍会留在墓场。",
+      "card_name": "被封印的双子·烈焰",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-170": [
+    {
+      "question_cn": "如果在结束阶段因手牌超过上限而丢弃这张卡，我是否仍会以其效果抽一张卡？",
+      "answer_cn": "是的。不过你仍需丢弃手牌直至手牌数为7张。",
+      "card_name": "光明之路",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "如果在结束阶段我的手牌有8张或更多并丢弃这张法术，是否可以用其能力抽一张卡？",
+      "answer_cn": "可以。不过你仍需丢弃手牌直至手牌数为7张。",
+      "card_name": "光明之路",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    },
+    {
+      "question_cn": "当我打出这张法术并置入墓场时，其“当此卡被丢弃时，抽一张卡”的能力是否会触发？",
+      "answer_cn": "不会。打出卡牌并不视为丢弃。",
+      "card_name": "光明之路",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ],
+  "BP01-180": [
+    {
+      "question_cn": "能否使用这张法术对场上具有光环的敌方从者造成伤害？",
+      "answer_cn": "可以。",
+      "card_name": "天使的箭雨",
+      "source": "en_official_translated",
+      "exp": "BP01"
+    }
+  ]
+}

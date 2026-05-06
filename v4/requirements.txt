@@ -1,0 +1,24 @@
+# ============================================================
+# SVE RAG v4 依赖
+# ============================================================
+# Embedding 模型（通过 transformers 直接加载 BGE 模型）
+transformers>=4.40.0
+torch>=2.0.0
+
+# LoRA 微调（可选）
+peft>=0.10.0
+
+# 向量数据库
+faiss-cpu>=1.9.0
+
+# 数值计算
+numpy>=1.24.0
+
+# HTTP 客户端（Ollama / OpenAI API）
+requests>=2.31.0
+
+# Web UI
+gradio>=5.0.0
+
+# 环境变量管理（可选，.env 文件支持）
+python-dotenv>=1.0.0

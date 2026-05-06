@@ -1,0 +1,569 @@
+{
+  "BP14_BP14-004_0": {
+    "question_cn": "这个从者拥有3个或更少的季节计数时，能否攻击交战中的敌方从者？",
+    "answer_cn": "不能。“敌方”既指敌方主战者，也指敌方从者。",
+    "card_no": "BP14-004",
+    "card_name": "四季的化身",
+    "qa_number": "Q1814"
+  },
+  "BP14_BP14-005_0": {
+    "question_cn": "这个从者拥有3个或更少的季节计数时，能否攻击交战中的敌方从者？",
+    "answer_cn": "不能。“敌方”既指敌方主战者，也指敌方从者。",
+    "card_no": "BP14-005",
+    "card_name": "四季的化身",
+    "qa_number": "Q1814"
+  },
+  "BP14_BP14-006_0": {
+    "question_cn": "如果我的手牌为空，是否还能支付这个从者的起动能力费用？",
+    "answer_cn": "可以。你可以将一张卡牌返回手牌，然后将其放回你的EX区域。",
+    "card_no": "BP14-006",
+    "card_name": "清泉之灵",
+    "qa_number": "Q1816"
+  },
+  "BP14_BP14-006_1": {
+    "question_cn": "使用这个从者的起动能力时，能否将为了支付费用而返回手牌的那张卡牌放回我的EX区域？",
+    "answer_cn": "可以，你可以这样做。",
+    "card_no": "BP14-006",
+    "card_name": "清泉之灵",
+    "qa_number": "Q1815"
+  },
+  "BP14_BP14-007_0": {
+    "question_cn": "如果这张法术牌位于EX区域，且我场上有「狸惑的女将·穗澄」，它的费用是否减少2？",
+    "answer_cn": "是的，减少2。",
+    "card_no": "BP14-007",
+    "card_name": "幻梦款待",
+    "qa_number": "Q1817"
+  },
+  "BP14_BP14-014_0": {
+    "question_cn": "“变身”是什么意思？",
+    "answer_cn": "将卡牌变身的处理方式为：将其消失，并在其位置生成指定数量的衍生物。注意，衍生物移动到场上或EX区域以外的区域时，会立即从游戏中移除。",
+    "card_no": "BP14-014",
+    "card_name": "灯笼妖精",
+    "qa_number": "Q1819"
+  },
+  "BP14_BP14-014_1": {
+    "question_cn": "这个从者的入场曲能力能否选择具有灵气的从者？",
+    "answer_cn": "可以。灵气仅在场上时防止被选择。",
+    "card_no": "BP14-014",
+    "card_name": "灯笼妖精",
+    "qa_number": "Q1818"
+  },
+  "BP14_BP14-018_0": {
+    "question_cn": "如果我使用这个从者的进阶起动能力，能否在同一回合进化另一个从者？",
+    "answer_cn": "不能。每个回合只能使用一次进阶起动能力或进化能力。",
+    "card_no": "BP14-018",
+    "card_name": "华之大将·武祇",
+    "qa_number": "Q1820"
+  },
+  "BP14_BP14-019_0": {
+    "question_cn": "使用「巅峰斗技场」时，能否选择我进化牌堆中一张表侧朝上的进阶从者？",
+    "answer_cn": "不能。进阶从者并非进化后的从者。",
+    "card_no": "BP14-019",
+    "card_name": "乐园的开辟·武祇",
+    "qa_number": "Q1822"
+  },
+  "BP14_BP14-019_1": {
+    "question_cn": "使用「白霜之风」时，能否选择敌方的进阶从者？",
+    "answer_cn": "可以。进阶从者也视为未进化的从者。",
+    "card_no": "BP14-019",
+    "card_name": "乐园的开辟·武祇",
+    "qa_number": "Q1821"
+  },
+  "BP14_BP14-023_0": {
+    "question_cn": "如果场上有一个敌方 Gentildonna，我能使用这个从者的起动能力吗？",
+    "answer_cn": "可以。Gentildonna 会阻止进化时能力触发，但这个从者的起动能力是直接发动进化时能力，而不是触发它。",
+    "card_no": "BP14-023",
+    "card_name": "天下大盗贼·治右卫门",
+    "qa_number": "Q1824"
+  },
+  "BP14_BP14-023_1": {
+    "question_cn": "通过起动能力使用这个从者的进化时能力时，我是否仍然需要支付放逐2张 Glittering Gold 的费用？",
+    "answer_cn": "是的，需要。",
+    "card_no": "BP14-023",
+    "card_name": "天下大盗贼·治右卫门",
+    "qa_number": "Q1823"
+  },
+  "BP14_BP14-026_0": {
+    "question_cn": "如果我的 EX 区域已满，我还能使用这个从者的入场曲能力给我的主战者+3防御吗？",
+    "answer_cn": "可以。你只需要不把 Glittering Gold 衍生物放入 EX 区域即可。",
+    "card_no": "BP14-026",
+    "card_name": "绝顶艺者",
+    "qa_number": "Q1826"
+  },
+  "BP14_BP14-027_0": {
+    "question_cn": "如果多张 Glittering Gold 同时放入我的 EX 区域，这个从者的能力会为每一张都触发吗？",
+    "answer_cn": "是的，会。",
+    "card_no": "BP14-027",
+    "card_name": "绝顶艺者",
+    "qa_number": "Q1827"
+  },
+  "BP14_BP14-029_0": {
+    "question_cn": "这个从者的起动能力只能在手牌中使用吗？",
+    "answer_cn": "是的，正确。",
+    "card_no": "BP14-029",
+    "card_name": "贵族盾兵",
+    "qa_number": "Q1828"
+  },
+  "BP14_BP14-030_0": {
+    "question_cn": "如果我使用这个从者的入场曲能力进化它，我可以在同一回合使用进化能力进化另一个从者吗？",
+    "answer_cn": "可以。虽然每回合只能激活一次进化能力，但其他使从者进化的能力不计入这个限制。",
+    "card_no": "BP14-030",
+    "card_name": "帐房蛙",
+    "qa_number": "Q1830"
+  },
+  "BP14_BP14-030_1": {
+    "question_cn": "如果我的 EX 区域已满，我还能使用这个从者的入场曲能力进化它吗？",
+    "answer_cn": "可以。你只需要不把 Glittering Gold 衍生物放入 EX 区域即可。",
+    "card_no": "BP14-030",
+    "card_name": "帐房蛙",
+    "qa_number": "Q1829"
+  },
+  "BP14_BP14-036_0": {
+    "question_cn": "如果我使用一张同时具有喜庆和法师特性且费用为3或以下的卡牌，这个从者的自动能力会触发2次吗？",
+    "answer_cn": "不会。",
+    "card_no": "BP14-036",
+    "card_name": "真理大文豪·幸岛",
+    "qa_number": "Q1832"
+  },
+  "BP14_BP14-036_1": {
+    "question_cn": "如果我在对手的回合使用一张费用为3或以下的法师卡牌，这个从者的自动能力会触发吗？",
+    "answer_cn": "会触发。",
+    "card_no": "BP14-036",
+    "card_name": "真理大文豪·幸岛",
+    "qa_number": "Q1831"
+  },
+  "BP14_BP14-037_0": {
+    "question_cn": "如果我有3点最大 PP，我能用这个从者的进化时能力召唤另一张相同的从者吗？",
+    "answer_cn": "不能。这个从者没有土之秘术。",
+    "card_no": "BP14-037",
+    "card_name": "精灵萨满·莱莉",
+    "qa_number": "Q1836"
+  },
+  "BP14_BP14-037_1": {
+    "question_cn": "如果我使用了2次魔法艺术家的起动能力，然后使用大地的活用，是否能满足此从者进化时能力中“本回合中你已通过土之秘术从自己场上的积层卡片上移除了至少2个积层指示物”的条件？",
+    "answer_cn": "是的，满足条件。",
+    "card_no": "BP14-037",
+    "card_name": "精灵萨满·莱莉",
+    "qa_number": "Q1835"
+  },
+  "BP14_BP14-037_2": {
+    "question_cn": "如果我使用了2次魔法艺术家的起动能力，是否能满足此从者进化时能力中“本回合中你已通过土之秘术从自己场上的积层卡片上移除了至少2个积层指示物”的条件？",
+    "answer_cn": "是的，满足条件。",
+    "card_no": "BP14-037",
+    "card_name": "精灵萨满·莱莉",
+    "qa_number": "Q1834"
+  },
+  "BP14_BP14-037_3": {
+    "question_cn": "如果我使用扩展的魔法并执行土之秘术(2)，是否能满足此从者进化时能力中“本回合中你已通过土之秘术从自己场上的积层卡片上移除了至少2个积层指示物”的条件？",
+    "answer_cn": "是的，满足条件。",
+    "card_no": "BP14-037",
+    "card_name": "精灵萨满·莱莉",
+    "qa_number": "Q1833"
+  },
+  "BP14_BP14-038_0": {
+    "question_cn": "如果我拥有3点最大PP，能否通过其进化时能力召唤另一张同名从者？",
+    "answer_cn": "不能。此从者不具备土之秘术能力。",
+    "card_no": "BP14-038",
+    "card_name": "精灵萨满·莱莉",
+    "qa_number": "Q1836"
+  },
+  "BP14_BP14-039_0": {
+    "question_cn": "如果我的EX区域有2张此从者，每张的能力都会在我的结束阶段开始时触发吗？",
+    "answer_cn": "是的，都会触发。",
+    "card_no": "BP14-039",
+    "card_name": "封禁之术·芭赛特",
+    "qa_number": "Q1838"
+  },
+  "BP14_BP14-039_1": {
+    "question_cn": "此从者的自动能力只在它位于我的EX区域时才会触发吗？",
+    "answer_cn": "是的，正确。",
+    "card_no": "BP14-039",
+    "card_name": "封禁之术·芭赛特",
+    "qa_number": "Q1837"
+  },
+  "BP14_BP14-042_0": {
+    "question_cn": "查看牌堆顶4张牌时，我可以选择不将任何牌加入手牌吗？",
+    "answer_cn": "不能。你必须展示并将其中2张加入手牌。",
+    "card_no": "BP14-042",
+    "card_name": "一生的探究",
+    "qa_number": "Q1839"
+  },
+  "BP14_BP14-044_0": {
+    "question_cn": "如果本回合我已使用1张“庆贺”类型卡牌和1张“魔法师”类型卡牌，此从者的进化时能力会造成4点伤害吗？",
+    "answer_cn": "是的，会造成4点伤害。",
+    "card_no": "BP14-044",
+    "card_name": "管弦魔法师",
+    "qa_number": "Q1841"
+  },
+  "BP14_BP14-044_1": {
+    "question_cn": "如果本回合我使用了一张同时具有“庆贺”和“魔法师”类型的卡牌，对于此从者的进化时能力，它算作2张卡牌吗？",
+    "answer_cn": "不，不算。",
+    "card_no": "BP14-044",
+    "card_name": "管弦魔法师",
+    "qa_number": "Q1840"
+  },
+  "BP14_BP14-045_0": {
+    "question_cn": "“给1个自己场上的积层”是什么意思？",
+    "answer_cn": "意思是在自己场上的1张具有积层能力的护符上放置1个积层指示物。",
+    "card_no": "BP14-045",
+    "card_name": "雷云炼金术师",
+    "qa_number": "Q1842"
+  },
+  "BP14_BP14-046_0": {
+    "question_cn": "When putting cards into my EX area with this spell, can I choose to stop before my EX area becomes full?",
+    "answer_cn": "No, you can't.",
+    "card_no": "BP14-046",
+    "card_name": "愿望的实现",
+    "qa_number": "Q1844"
+  },
+  "BP14_BP14-046_1": {
+    "question_cn": "When putting cards into my EX area with this spell, if my deck runs out of cards before my EX area becomes full, do I lose the game?",
+    "answer_cn": "No. You simply stop moving cards into your EX area. However, if you would draw a card while your deck has 0 cards, you will lose the game.",
+    "card_no": "BP14-046",
+    "card_name": "愿望的实现",
+    "qa_number": "Q1843"
+  },
+  "BP14_BP14-055_0": {
+    "question_cn": "If my Soothing Dragonspring has no divine water counters on it, can I still play this follower's Strike ability?",
+    "answer_cn": "No, you can't.",
+    "card_no": "BP14-055",
+    "card_name": "秘汤之山脉龙",
+    "qa_number": "Q1846"
+  },
+  "BP14_BP14-055_1": {
+    "question_cn": "I attack with this follower and play its Strike ability. If my opponent plays Dead to Rights at Quick timing, does this follower lose 2 attack and defense?",
+    "answer_cn": "Yes. Losing defense isn't the same as taking damage.",
+    "card_no": "BP14-055",
+    "card_name": "秘汤之山脉龙",
+    "qa_number": "Q1845"
+  },
+  "BP14_BP14-057_0": {
+    "question_cn": "Do enemy followers put onto the field after I play this follower's On Evolve ability refresh during their controller's next start phase?",
+    "answer_cn": "Yes, they do.",
+    "card_no": "BP14-057",
+    "card_name": "冰蚀之龙",
+    "qa_number": "Q1847"
+  },
+  "BP14_BP14-061_0": {
+    "question_cn": "If my Soothing Dragonspring has no divine water counters on it, can I still play this follower's activated ability?",
+    "answer_cn": "No, you can't.",
+    "card_no": "BP14-061",
+    "card_name": "烧锅龙人",
+    "qa_number": "Q1848"
+  },
+  "BP14_BP14-063_0": {
+    "question_cn": "If my Soothing Dragonspring has no divine water counters on it, can I still play this spell for 2 less?",
+    "answer_cn": "No, you can't.",
+    "card_no": "BP14-063",
+    "card_name": "龙山的鸣动",
+    "qa_number": "Q1849"
+  },
+  "BP14_BP14-066_0": {
+    "question_cn": "If my Soothing Dragonspring has no divine water counters on it, can I still play this follower's activated ability?",
+    "answer_cn": "No, you can't.",
+    "card_no": "BP14-066",
+    "card_name": "接送的走龙",
+    "qa_number": "Q1848"
+  },
+  "BP14_BP14-067_0": {
+    "question_cn": "If a Megalorca is put onto my field during my opponent's turn, does this follower's automatic ability trigger?",
+    "answer_cn": "Yes, it does.",
+    "card_no": "BP14-067",
+    "card_name": "献身的水龙",
+    "qa_number": "Q1850"
+  },
+  "BP14_BP14-068_0": {
+    "question_cn": "If I select an engaged enemy follower for this spell, will it refresh at the start of its controller's next turn?",
+    "answer_cn": "No. Although the spell's \"engage it\" effect will not apply to a follower that is already engaged, the rest will.",
+    "card_no": "BP14-068",
+    "card_name": "人鱼之歌",
+    "qa_number": "Q1851"
+  },
+  "BP14_BP14-070_0": {
+    "question_cn": "使用这张从者的起动能力时，本回合能否进化其他从者？",
+    "answer_cn": "不能。每回合只能使用1次起动能力或进化能力。",
+    "card_no": "BP14-070",
+    "card_name": "憧憬的飞跃·一剑",
+    "qa_number": "Q1820"
+  },
+  "BP14_BP14-071_0": {
+    "question_cn": "若为这张从者的入场曲能力选择2个从者，是否对其中一个造成5点伤害，对另一个造成2点伤害？",
+    "answer_cn": "是的，正确。",
+    "card_no": "BP14-071",
+    "card_name": "乐园的终焉·一剑",
+    "qa_number": "Q1854"
+  },
+  "BP14_BP14-071_1": {
+    "question_cn": "若在自己的回合中，多个敌方从者同时从场上被置入墓场，这张从者的自动能力是否会为每个从者触发？",
+    "answer_cn": "是的，会触发。",
+    "card_no": "BP14-071",
+    "card_name": "乐园的终焉·一剑",
+    "qa_number": "Q1853"
+  },
+  "BP14_BP14-071_2": {
+    "question_cn": "若在自己的回合中，敌方衍生物从者从场上被置入墓场，这张从者的自动能力是否会触发？",
+    "answer_cn": "是的，会触发。",
+    "card_no": "BP14-071",
+    "card_name": "乐园的终焉·一剑",
+    "qa_number": "Q1852"
+  },
+  "BP14_BP14-071_3": {
+    "question_cn": "使用《巅峰斗技场》时，能否选择自己进化牌堆中表侧的起动从者？",
+    "answer_cn": "不能。起动从者并非进化后的从者。",
+    "card_no": "BP14-071",
+    "card_name": "乐园的终焉·一剑",
+    "qa_number": "Q1822"
+  },
+  "BP14_BP14-071_4": {
+    "question_cn": "使用《白霜之风》时，能否选择敌方起动从者？",
+    "answer_cn": "可以。起动从者也视为未进化的从者。",
+    "card_no": "BP14-071",
+    "card_name": "乐园的终焉·一剑",
+    "qa_number": "Q1821"
+  },
+  "BP14_BP14-074_0": {
+    "question_cn": "若在结束阶段因手牌数量过多而丢弃这张从者，能否将其置入EX区域？",
+    "answer_cn": "可以。",
+    "card_no": "BP14-074",
+    "card_name": "因果的迷途之子·安瑟乔",
+    "qa_number": "Q1855"
+  },
+  "BP14_BP14-076_0": {
+    "question_cn": "若以这张从者的起动能力召唤《机动刃凿掘者》，其攻击力与生命值是多少？",
+    "answer_cn": "攻击力与生命值为1/1。之后若进化，则为2/2。",
+    "card_no": "BP14-076",
+    "card_name": "寒气死灵术师",
+    "qa_number": "Q1856"
+  },
+  "BP14_BP14-077_0": {
+    "question_cn": "若自己的EX区域已满，是否仍能使用这张法术？",
+    "answer_cn": "可以。只需不执行“将牌堆顶的1张卡置入EX区域”即可。",
+    "card_no": "BP14-077",
+    "card_name": "无尽契约",
+    "qa_number": "Q1860"
+  },
+  "BP14_BP14-077_1": {
+    "question_cn": "若无法选择墓场及/或消失区中的《贪婪的大恶魔·帕拉璱丽婕》，是否仍能使用这张法术的起动能力？",
+    "answer_cn": "可以。当提示选择“最多”或“任意数量”的卡片时，可选择0张。",
+    "card_no": "BP14-077",
+    "card_name": "无尽契约",
+    "qa_number": "Q1859"
+  },
+  "BP14_BP14-077_2": {
+    "question_cn": "这张法术的起动能力只能在我墓场中才能使用吗？",
+    "answer_cn": "是的，没错。",
+    "card_no": "BP14-077",
+    "card_name": "无尽契约",
+    "qa_number": "Q1858"
+  },
+  "BP14_BP14-077_3": {
+    "question_cn": "如果我的手牌为空，我仍然可以使用这张法术吗？",
+    "answer_cn": "是的。你只需不执行“从手牌中消失1张卡牌”即可。",
+    "card_no": "BP14-077",
+    "card_name": "无尽契约",
+    "qa_number": "Q1857"
+  },
+  "BP14_BP14-079_0": {
+    "question_cn": "如果我的EX区域已满，我仍然可以使用这个从者的进化时能力来丢弃1张卡牌吗？",
+    "answer_cn": "是的，你可以。",
+    "card_no": "BP14-079",
+    "card_name": "棘刺吸血鬼",
+    "qa_number": "Q1861"
+  },
+  "BP14_BP14-080_0": {
+    "question_cn": "如果我在手牌为空时使用这个从者的入场曲能力，我是否会同时回复2点费用并对所选择的从者的主战者造成2点伤害？",
+    "answer_cn": "是的，会。",
+    "card_no": "BP14-080",
+    "card_name": "客房服务的恶魔",
+    "qa_number": "Q1862"
+  },
+  "BP14_BP14-081_0": {
+    "question_cn": "如果我在结束阶段由于手牌数量过多而丢弃这张法术，我是否仍然选择自己场上的1个深渊职业从者并赋予其必杀？",
+    "answer_cn": "是的，会。",
+    "card_no": "BP14-081",
+    "card_name": "不惑的意志",
+    "qa_number": "Q1863"
+  },
+  "BP14_BP14-084_0": {
+    "question_cn": "什么是能力伤害？",
+    "answer_cn": "能力伤害是指除两个从者在战斗中所造成的伤害以及从者攻击主战者所造成的伤害之外的所有伤害。来自攻击时能力的伤害，尽管由攻击触发，仍被视为能力伤害。",
+    "card_no": "BP14-084",
+    "card_name": "跑酷狼人",
+    "qa_number": "Q1864"
+  },
+  "BP14_BP14-085_0": {
+    "question_cn": "如果我在手牌有3张卡牌（包括这张）时使用这个从者，我是否满足其入场曲能力的“如果手牌数为2张或以下”条件？",
+    "answer_cn": "是的，满足。",
+    "card_no": "BP14-085",
+    "card_name": "迎宾蝙蝠",
+    "qa_number": "Q1866"
+  },
+  "BP14_BP14-085_1": {
+    "question_cn": "如果我在手牌为空时使用这个从者的入场曲能力，我是否会同时赋予它+1攻击力和疾驰？",
+    "answer_cn": "是的，会。",
+    "card_no": "BP14-085",
+    "card_name": "迎宾蝙蝠",
+    "qa_number": "Q1865"
+  },
+  "BP14_BP14-087_0": {
+    "question_cn": "如果我在手牌只有这张卡牌时使用这张法术，我是否满足“如果手牌数为0张”的条件？",
+    "answer_cn": "是的，满足。",
+    "card_no": "BP14-087",
+    "card_name": "月下纵身",
+    "qa_number": "Q1867"
+  },
+  "BP14_BP14-088_0": {
+    "question_cn": "这个从者的起动能力只能在我墓场中才能使用吗？",
+    "answer_cn": "是的，没错。",
+    "card_no": "BP14-088",
+    "card_name": "千箔百面之邪神",
+    "qa_number": "Q1868"
+  },
+  "BP14_BP14-090_0": {
+    "question_cn": "如果对手进化阿撒塞勒时，我的主战者生命值至少为11，并且我场上有此从者，我的主战者生命值会变为10吗？",
+    "answer_cn": "是的。改变生命值不等于造成伤害。",
+    "card_no": "BP14-090",
+    "card_name": "永久之盾·席翁",
+    "qa_number": "Q1875"
+  },
+  "BP14_BP14-090_1": {
+    "question_cn": "我场上有此从者，对手场上有进化的三戟鱼人以及一只单尾狐。如果对手用单尾狐攻击我的主战者，我的主战者会受到多少伤害？",
+    "answer_cn": "由你决定，伤害为0或1。当有多个能力修改造成的伤害时，受到伤害的玩家决定这些能力的适用顺序。根据顺序，最终伤害计算如下：若你先适用三戟鱼人的能力，单尾狐造成的伤害先增加1变为2，再被此从者能力减少1，你的主战者受到1点伤害；若你先适用此从者能力，单尾狐造成的伤害先减少1变为0，由于三戟鱼人的能力“若你的场上有妖怪从者造成伤害，则改为造成该伤害+1”只在造成伤害时生效，而0点伤害不算造成伤害，因此该能力不生效，你的主战者受到0点伤害。",
+    "card_no": "BP14-090",
+    "card_name": "永久之盾·席翁",
+    "qa_number": "Q1874"
+  },
+  "BP14_BP14-090_2": {
+    "question_cn": "如果我使用荣华加护神·亚忒朗图的入场曲能力，选择敌方永久之盾·席翁为对象，我是否能对敌方主战者造成3点伤害？",
+    "answer_cn": "是的。永久之盾·席翁被消失后立即离场，因此在敌方主战者受到伤害时其能力不再生效。",
+    "card_no": "BP14-090",
+    "card_name": "永久之盾·席翁",
+    "qa_number": "Q1873"
+  },
+  "BP14_BP14-090_3": {
+    "question_cn": "对手场上有此从者且防御力为4或以下。如果我使用汉萨指定它为对象，我是否能对敌方主战者造成2点伤害？",
+    "answer_cn": "不能。虽然永久之盾·席翁的防御力变为0，但直到汉萨解决完毕后才被破坏，因此在敌方主战者受到伤害时其能力仍然生效。",
+    "card_no": "BP14-090",
+    "card_name": "永久之盾·席翁",
+    "qa_number": "Q1872"
+  },
+  "BP14_BP14-090_4": {
+    "question_cn": "如果对手使用死之索偿指定此从者，它会失去2点攻击力和防御力吗？",
+    "answer_cn": "是的。失去防御力不等于受到伤害。",
+    "card_no": "BP14-090",
+    "card_name": "永久之盾·席翁",
+    "qa_number": "Q1871"
+  },
+  "BP14_BP14-090_5": {
+    "question_cn": "当我场上有此从者时，如果我使用绝望的圣女·贞德的入场曲能力，我的主战者会失去2点生命值吗？",
+    "answer_cn": "是的。失去生命值不等于受到伤害。",
+    "card_no": "BP14-090",
+    "card_name": "永久之盾·席翁",
+    "qa_number": "Q1870"
+  },
+  "BP14_BP14-090_6": {
+    "question_cn": "我能被狂狼战士·阿拉加维的入场曲等能力指定而埋葬此从者吗？",
+    "answer_cn": "是的。埋葬从者不等于破坏它。",
+    "card_no": "BP14-090",
+    "card_name": "永久之盾·席翁",
+    "qa_number": "Q1869"
+  },
+  "BP14_BP14-091_0": {
+    "question_cn": "在对手的结束阶段开始时，我会在此对手能够使用具有“快速”的卡牌与能力之前解决此从者的能力吗？",
+    "answer_cn": "是的。在结束阶段开始时，所有自动能力都会触发并解决，然后当前回合玩家才能指定守护从者进行攻击，或者非当前回合玩家才能使用具有“快速”的卡牌与能力。",
+    "card_no": "BP14-091",
+    "card_name": "奈赫贝特",
+    "qa_number": "Q1878"
+  },
+  "BP14_BP14-091_1": {
+    "question_cn": "如果在我的EX区域中有2张此从者，每张的能力是否会在每个对手的结束阶段开始时触发？",
+    "answer_cn": "是的，会触发。",
+    "card_no": "BP14-091",
+    "card_name": "奈赫贝特",
+    "qa_number": "Q1877"
+  },
+  "BP14_BP14-091_2": {
+    "question_cn": "此从者的自动能力只在它位于我的EX区域时触发吗？",
+    "answer_cn": "是的，正确。",
+    "card_no": "BP14-091",
+    "card_name": "奈赫贝特",
+    "qa_number": "Q1876"
+  },
+  "BP14_BP14-092_0": {
+    "question_cn": "如果我的EX区域已满，且此从者从我的场上被置入墓场时，应如何处理其谢幕曲能力？",
+    "answer_cn": "其留在墓场中。",
+    "card_no": "BP14-092",
+    "card_name": "奈赫贝特",
+    "qa_number": "Q1879"
+  },
+  "BP14_BP14-093_0": {
+    "question_cn": "若我的主战者于对手的回合中增加生命值，此从者的自动能力是否会触发？",
+    "answer_cn": "是的，会触发。",
+    "card_no": "BP14-093",
+    "card_name": "恶浊神父",
+    "qa_number": "Q1880"
+  },
+  "BP14_BP14-096_0": {
+    "question_cn": "若我的主战者于对手的回合中增加生命值，此从者的自动能力是否会触发？",
+    "answer_cn": "是的，会触发。",
+    "card_no": "BP14-096",
+    "card_name": "警策翼人",
+    "qa_number": "Q1880"
+  },
+  "BP14_BP14-097_0": {
+    "question_cn": "若我将一个从者置入EX区域，其受到的伤害或被赋予的能力是否会消失？",
+    "answer_cn": "是的，会消失。",
+    "card_no": "BP14-097",
+    "card_name": "旋镖修女",
+    "qa_number": "Q1884"
+  },
+  "BP14_BP14-097_1": {
+    "question_cn": "若我为此从者的入场曲能力选择敌方从者时，对方的EX区域已满，会发生什么？",
+    "answer_cn": "其留在场上。",
+    "card_no": "BP14-097",
+    "card_name": "旋镖修女",
+    "qa_number": "Q1883"
+  },
+  "BP14_BP14-097_2": {
+    "question_cn": "若我使用此从者的入场曲能力，指定一个敌方衍生物从者，其是否会从游戏中移除？",
+    "answer_cn": "不会。将其置入其持有者的EX区域后，其留在该区域。衍生物从者与护符可存在于EX区域、场上及结算区。它们仅会在移动至其他区域后立即从游戏中移除。",
+    "card_no": "BP14-097",
+    "card_name": "旋镖修女",
+    "qa_number": "Q1882"
+  },
+  "BP14_BP14-097_3": {
+    "question_cn": "若我使用此从者的入场曲能力，指定一个敌方进化从者，其是否会以表侧置于其持有者的进化牌堆上方？",
+    "answer_cn": "不会。将其置入其持有者的EX区域后，其留在该区域。进化从者可存在于进化牌堆区域、场上、EX区域及结算区。它们仅会在移动至其他区域后立即以表侧置于进化牌堆上方。",
+    "card_no": "BP14-097",
+    "card_name": "旋镖修女",
+    "qa_number": "Q1881"
+  },
+  "BP14_BP14-101_0": {
+    "question_cn": "若我的主战者于对手的回合中增加生命值，此从者的自动能力是否会触发？",
+    "answer_cn": "是的，会触发。",
+    "card_no": "BP14-101",
+    "card_name": "招福狐",
+    "qa_number": "Q1880"
+  },
+  "BP14_BP14-102_0": {
+    "question_cn": "若一个主教职业的衍生物从者于对手的回合中被置入我的场上，此从者的第二个自动能力是否会触发？",
+    "answer_cn": "是的，会触发。",
+    "card_no": "BP14-102",
+    "card_name": "天马骑兵",
+    "qa_number": "Q1885"
+  },
+  "BP14_BP14-104_0": {
+    "question_cn": "若一个圣洁猎鹰于对手的回合中被置入我的场上，此护符的自动能力是否会触发？",
+    "answer_cn": "是的，会触发。",
+    "card_no": "BP14-104",
+    "card_name": "白鹫的洗礼",
+    "qa_number": "Q1886"
+  },
+  "BP14_BP14-118_0": {
+    "question_cn": "如果在我使用这个从者的入场曲能力时，EX区域只有2张Festive卡牌，我仍然给予它+1/+1吗？",
+    "answer_cn": "是的。在将一张手牌中的Festive卡牌放入EX区域以支付费用后，你会有3张卡牌在你的EX区域。",
+    "card_no": "BP14-118",
+    "card_name": "照明的引路人",
+    "qa_number": "Q1887"
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "BP12-001": [
+    {
+      "number": "Q1587",
+      "question": "If there are 10 Natura cards in my cemetery, does this follower cost 10 less to play?",
+      "answer": "Yes. If there are between 5 and 9 Natura cards in your cemetery, it costs 5 less to play. If there are between 10 and 14, it costs 10 less to play, and so on."
+    }
+  ],
+  "BP12-002": [],
+  "BP12-003": [
+    {
+      "number": "Q1588",
+      "question": "I begin my turn by playing Elf Queen of Abundant Life from hand and a Fairy from my EX area. If I then evolve Elf Queen of Abundant Life, do I fulfill the Combo (3) condition in its On Evolve ability?",
+      "answer": "No. Evolving a follower doesn't count as playing a card, so it doesn't count toward your Combo."
+    }
+  ],
+  "BP12-004": [],
+  "BP12-005": [
+    {
+      "number": "Q1590",
+      "question": "If my opponent has a Rulenye, Omen of Silence on the field and I evolve 2 copies of Carbuncle, Immortal Jewel, can I play the copies of Carbuncle's Sparkle in my EX area for 0?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1589",
+      "question": "If I evolve 2 copies of Carbuncle, Immortal Jewel, do copies of Carbuncle's Sparkle in my EX area gain \"This card costs 2 less to play\" twice?",
+      "answer": "Yes, that's correct. In that case, they would cost 4 less to play."
+    }
+  ],
+  "BP12-006": [
+    {
+      "number": "Q1592",
+      "question": "During my turn, if my opponent plays a Dead to Rights targeting this follower, does it lose 2 attack and defense?",
+      "answer": "Yes. Losing defense isn't the same as taking damage."
+    },
+    {
+      "number": "Q1591",
+      "question": "If I attack with this follower a second time after I refresh it, can I draw another card with its Strike ability?",
+      "answer": "No, you can't. Its Strike ability can only be performed once per turn."
+    }
+  ],
+  "BP12-007": [
+    {
+      "number": "Q1595",
+      "question": "If I can't select an enemy follower on the field, can I still select option 1 to return a Natura card on my field to my EX area?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1594",
+      "question": "If I select option 1 and return a token to the EX area, does it get removed from the game?",
+      "answer": "No. It remains in its owner's EX area after you put it there. Follower and amulet tokens may exist in the EX area, field, and resolution zone. They are only removed from the game immediately after movement to other zones."
+    },
+    {
+      "number": "Q1593",
+      "question": "If I select option 1 and return a follower to the EX area, does it lose any damage dealt or abilities given to it?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP12-008": [
+    {
+      "number": "Q1596",
+      "question": "If I have this follower on my field, and I attack with another Hunter follower, do I resolve this follower's ability before an opponent can play cards and abilities with Quick?",
+      "answer": "Yes. When attacking, all abilities that are triggered must be resolved before non-active players can play cards and abilities with Quick."
+    }
+  ],
+  "BP12-009": [
+    {
+      "number": "Q1596",
+      "question": "If I have this follower on my field, and I attack with another Hunter follower, do I resolve this follower's ability before an opponent can play cards and abilities with Quick?",
+      "answer": "Yes. When attacking, all abilities that are triggered must be resolved before non-active players can play cards and abilities with Quick."
+    }
+  ],
+  "BP12-010": [
+    {
+      "number": "Q1601",
+      "question": "If I play Nature's Guidance as my third or fifth card this turn and use it to return this follower to my hand, does this follower's ability trigger?",
+      "answer": "Yes. It was on the field when you played Nature's Guidance, so its ability triggers."
+    },
+    {
+      "number": "Q1600",
+      "question": "If I play this follower as my third card this turn, does it trigger its own ability?",
+      "answer": "No, it doesn't. It wasn't on the field when you played it, so its ability doesn't trigger."
+    },
+    {
+      "number": "Q1599",
+      "question": "I begin my turn by playing this follower and a Chipper Skipper. If I then evolve the Chipper Skipper, does this follower's ability trigger?",
+      "answer": "No, it doesn't. Evolving followers doesn't count as playing a card."
+    },
+    {
+      "number": "Q1598",
+      "question": "If I play this follower as my fourth card this turn, and then play a Fairy, do I draw a card with this follower's ability?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1597",
+      "question": "If I play this follower as my third or later card this turn, and then play two more cards, can I give my leader +1 defense with this follower's ability?",
+      "answer": "No, the cards you played before this follower count too. Since this follower wasn't on the field when you played your third card this turn, you can no longer give your leader +1 defense with this follower's ability this turn."
+    }
+  ],
+  "BP12-011": [],
+  "BP12-012": [],
+  "BP12-013": [],
+  "BP12-014": [],
+  "BP12-015": [],
+  "BP12-016": [
+    {
+      "number": "Q1602",
+      "question": "If my EX area is full when I play this follower, can I still select an enemy follower on the field and deal it damage equal to the number of Pixie tokens in my EX area?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP12-017": [],
+  "BP12-018": [
+    {
+      "number": "Q1603",
+      "question": "If my field is full, do I have to put a Naterran Great Tree token into my EX area instead?",
+      "answer": "No, you don't."
+    }
+  ],
+  "BP12-019": [],
+  "BP12-020": [],
+  "BP12-021": [],
+  "BP12-022": [],
+  "BP12-023": [
+    {
+      "number": "Q1604",
+      "question": "If I have this follower on my field, and I attack with a Thief follower, do I resolve this follower's ability before an opponent can play cards and abilities with Quick?",
+      "answer": "Yes. When attacking, all abilities that are triggered must be resolved before non-active players can play cards and abilities with Quick."
+    }
+  ],
+  "BP12-024": [
+    {
+      "number": "Q1606",
+      "question": "If I can't select an enemy follower on the field, can I still play this spell to give a Natura follower on my field +1 attack and defense?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1605",
+      "question": "If I can select an enemy follower on the field, but there are no Natura followers on my field, can I still play this spell?",
+      "answer": "Yes. \"Up to 1\" includes 0."
+    }
+  ],
+  "BP12-025": [
+    {
+      "number": "Q1607",
+      "question": "I have this follower and a Lecia, Sky Saber on my field. Since this follower has Assail from its passive ability, I declare an attack with it on a reserved enemy follower. If my opponent destroys the Lecia, Sky Saber on my field at Quick timing, causing this follower to lose Assail, does the attack still go through?",
+      "answer": "Yes, the attack goes through on the original target."
+    }
+  ],
+  "BP12-026": [
+    {
+      "number": "Q1607",
+      "question": "I have this follower and a Lecia, Sky Saber on my field. Since this follower has Assail from its passive ability, I declare an attack with it on a reserved enemy follower. If my opponent destroys the Lecia, Sky Saber on my field at Quick timing, causing this follower to lose Assail, does the attack still go through?",
+      "answer": "Yes, the attack goes through on the original target."
+    }
+  ],
+  "BP12-027": [
+    {
+      "number": "Q1603",
+      "question": "If my field is full, do I have to put a Naterran Great Tree token into my EX area instead?",
+      "answer": "No, you don't."
+    }
+  ],
+  "BP12-028": [
+    {
+      "number": "Q1609",
+      "question": "If I don't have a Commander follower and Officer follower on my field, can I still play this spell?",
+      "answer": "Yes, but nothing will happen."
+    },
+    {
+      "number": "Q1608",
+      "question": "If I only have 1 follower on my field, but it has both the Commander and Officer traits, does it fulfill this spell's condition?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP12-029": [],
+  "BP12-030": [],
+  "BP12-031": [],
+  "BP12-032": [],
+  "BP12-033": [],
+  "BP12-034": [],
+  "BP12-035": [
+    {
+      "number": "Q1611",
+      "question": "Can this follower's activated ability only be played while in hand?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1610",
+      "question": "If my EX area is full, can I still play this follower's activated ability?",
+      "answer": "Yes. The 2 Machina tokens would be banished from your EX area as part of the cost first, leaving space for this follower to be put into your EX area."
+    }
+  ],
+  "BP12-036": [],
+  "BP12-037": [
+    {
+      "number": "Q1613",
+      "question": "If I look at the top 3 cards of my deck and there are no Mage spells, can I still reveal a Mage follower and add it to my hand?",
+      "answer": "Yes, you can. The same is true if there's a Mage spell but no Mage followers."
+    },
+    {
+      "number": "Q1612",
+      "question": "If I put Dimension Shift into my EX area with this follower's activated ability, then banish 10 spells from my cemetery to play it this turn, how much would it cost?",
+      "answer": "It would cost 4 because effects that change cost to a specific value are applied before those which add to or subtract from it."
+    }
+  ],
+  "BP12-038": [
+    {
+      "number": "Q1669",
+      "question": "If I have at least 8 cards in my cemetery with different base costs, may I summon this card from the top 5 cards of my deck with Belphomet, Lord of Aiolon's Fanfare ability?",
+      "answer": "No, you can't. Abilities that modify costs are only in effect when playing a card. They do not affect a card's base cost."
+    }
+  ],
+  "BP12-039": [
+    {
+      "number": "Q1614",
+      "question": "If I can't select an enemy follower on the field, can I still play this follower's On Evolve ability to summon an Assembly Droid token?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP12-040": [
+    {
+      "number": "Q1615",
+      "question": "Can I choose the order in which I resolve this follower's two Fanfare abilities?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP12-041": [
+    {
+      "number": "Q1617",
+      "question": "Can I choose to not summon a Machina follower that costs 3 or less, or not put a 1-cost Runecraft spell into my EX area?",
+      "answer": "Yes. Even if both are in your deck, you can choose to \"not find\" either or both of them."
+    },
+    {
+      "number": "Q1616",
+      "question": "If I have fewer than 5 Machina cards in my cemetery, can I still play this spell?",
+      "answer": "Yes, but nothing will happen."
+    }
+  ],
+  "BP12-042": [],
+  "BP12-043": [
+    {
+      "number": "Q1618",
+      "question": "If I can't select an enemy follower on the field, but I have at least 5 Mage followers in my cemetery, can I still play this follower's On Evolve ability to draw a card?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP12-044": [],
+  "BP12-045": [
+    {
+      "number": "Q1620",
+      "question": "If I play the activated ability of a spell such as Checkmate in my cemetery, does this amulet's ability trigger?",
+      "answer": "No. Playing activated abilities isn't the same as playing a spell."
+    },
+    {
+      "number": "Q1619",
+      "question": "If I play a Runecraft spell during an opponent's turn, does this amulet's ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP12-046": [],
+  "BP12-047": [],
+  "BP12-048": [
+    {
+      "number": "Q1621",
+      "question": "If I play a Machina card during an opponent's turn, does this follower's ability still trigger?",
+      "answer": "Yes. This follower's automatic ability triggers up to once per turn, no matter whose turn it is."
+    }
+  ],
+  "BP12-049": [],
+  "BP12-050": [
+    {
+      "number": "Q1623",
+      "question": "I have an Agnes Tachyon on my field. If I play this spell's \"At the start of your end phase\" ability, does Agnes Tachyon's \"Whenever you play a spell\" ability trigger?",
+      "answer": "No. Playing automatic abilities isn't the same as playing a spell."
+    },
+    {
+      "number": "Q1622",
+      "question": "If there are 2 copies of this spell in my EX area, does each copy's ability trigger at the start of my end phase?",
+      "answer": "Yes, they do."
+    }
+  ],
+  "BP12-051": [
+    {
+      "number": "Q1624",
+      "question": "If I can't select an enemy follower on the field, but there are at least 2 Mage followers on my field, can I still play this spell to give my leader +2 defense?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP12-052": [
+    {
+      "number": "Q1627",
+      "question": "I discard a Trail of Light during my end phase because I have too many cards in my hand, causing me to draw a card because of its ability. Then, I must discard due to hand size again. How many times does this follower's automatic ability trigger?",
+      "answer": "It triggers 2 times. When you discard Trail of Light, its ability and this follower's automatic ability both trigger and become pending at the same time, and are resolved at the next Confirmation Timing. Then since your hand would be over the hand size limit, you would have to discard again, which would trigger this follower's automatic ability an additional time."
+    },
+    {
+      "number": "Q1626",
+      "question": "If I discard 2 or more cards during my end phase because I have too many cards in my hand, how many times does this follower's automatic ability trigger?",
+      "answer": "It triggers 1 time. Cards discarded during the end phase due to hand size are discarded simultaneously."
+    },
+    {
+      "number": "Q1625",
+      "question": "If I discard 2 or more cards at the same time during my turn, how many times does this follower's automatic ability trigger?",
+      "answer": "It triggers 1 time."
+    }
+  ],
+  "BP12-053": [
+    {
+      "number": "Q1627",
+      "question": "I discard a Trail of Light during my end phase because I have too many cards in my hand, causing me to draw a card because of its ability. Then, I must discard due to hand size again. How many times does this follower's automatic ability trigger?",
+      "answer": "It triggers 2 times. When you discard Trail of Light, its ability and this follower's automatic ability both trigger and become pending at the same time, and are resolved at the next Confirmation Timing. Then since your hand would be over the hand size limit, you would have to discard again, which would trigger this follower's automatic ability an additional time."
+    },
+    {
+      "number": "Q1626",
+      "question": "If I discard 2 or more cards during my end phase because I have too many cards in my hand, how many times does this follower's automatic ability trigger?",
+      "answer": "It triggers 1 time. Cards discarded during the end phase due to hand size are discarded simultaneously."
+    },
+    {
+      "number": "Q1625",
+      "question": "If I discard 2 or more cards at the same time during my turn, how many times does this follower's automatic ability trigger?",
+      "answer": "It triggers 1 time."
+    }
+  ],
+  "BP12-054": [
+    {
+      "number": "Q1629",
+      "question": "Can this follower's activated ability only be played while it's in my EX area?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1628",
+      "question": "If I discard this follower during my end phase due having too many cards in my hand, can I still put it into my EX area?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP12-055": [],
+  "BP12-056": [],
+  "BP12-057": [],
+  "BP12-058": [
+    {
+      "number": "Q1630",
+      "question": "If I can't select an enemy follower on the field, can I still play this spell to summon a Naterran Great Tree token?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP12-059": [],
+  "BP12-060": [],
+  "BP12-061": [],
+  "BP12-062": [
+    {
+      "number": "Q1631",
+      "question": "Can you give me an example of how to resolve option 2 of this spell?",
+      "answer": "If, for example, you choose X's value as 1, you would pay 1 twice for a total of 2 play points and search your deck for 1 copy of Star Phoenix to summon."
+    }
+  ],
+  "BP12-063": [
+    {
+      "number": "Q1632",
+      "question": "If I discard this follower during my end phase due to having too many cards in my hand, can I still put it into my EX area?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP12-064": [],
+  "BP12-065": [
+    {
+      "number": "Q1633",
+      "question": "Can I choose the order in which I resolve this follower's two Fanfare abilities?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP12-066": [
+    {
+      "number": "Q1634",
+      "question": "If I have 3 followers on my field including this one, and I use its Fanfare ability to put an Unbound Emotion into my EX area, does the Unbound Emotion cost 0 to play this turn?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP12-067": [],
+  "BP12-068": [
+    {
+      "number": "Q1635",
+      "question": "If I can't select an enemy follower on the field, can I still play this spell to search my deck for a Dragoncraft follower and add it to my hand?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP12-069": [],
+  "BP12-070": [],
+  "BP12-071": [
+    {
+      "number": "Q1637",
+      "question": "If I have exactly 10 cards in my cemetery including this follower, can I play its activated ability?",
+      "answer": "Yes, you can. The 10-card requirement is met at the time you play the ability."
+    },
+    {
+      "number": "Q1636",
+      "question": "Can I only play this follower's activated ability while it's in my cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP12-072": [
+    {
+      "number": "Q1640",
+      "question": "Do I evolve this follower with its Fanfare ability if it is put onto the field by an ability during an opponent's turn?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1639",
+      "question": "If I summon this follower from my deck with Aenea, Amethyst Rebel's Fanfare ability, can I play its own Fanfare ability to evolve it?",
+      "answer": "Yes. Since it was put onto the field by an ability, it would evolve."
+    },
+    {
+      "number": "Q1638",
+      "question": "If I evolve this follower with its Fanfare ability, can I evolve another follower using its evolve ability in the same turn?",
+      "answer": "Yes. Although you can only activate one evolve ability per turn, other abilities that evolve followers do not count towards this limit."
+    }
+  ],
+  "BP12-073": [],
+  "BP12-074": [
+    {
+      "number": "Q1642",
+      "question": "Can I bury a Serpent that has been turned into an amulet by Izudia, Omen of Unkilling's ability as part of the cost of this follower's activated ability?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1641",
+      "question": "If I bury a Medusiana from my EX area as part of the cost of this follower's activated ability, does the Medusiana's Last Words ability trigger?",
+      "answer": "No. Last Words abilities only trigger when a card is put into the cemetery from the field."
+    }
+  ],
+  "BP12-075": [],
+  "BP12-076": [],
+  "BP12-077": [],
+  "BP12-078": [],
+  "BP12-079": [
+    {
+      "number": "Q1643",
+      "question": "If both my and my opponent's leader are at 1 defense and I choose option 1, does the game end in a draw?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP12-080": [],
+  "BP12-081": [],
+  "BP12-082": [
+    {
+      "number": "Q1646",
+      "question": "Can I only play this follower's activated ability while it's in my cemetery?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1645",
+      "question": "If I have this follower and an Aenea, Amethyst Rebel on my field when my opponent plays a Conflagration, how much damage does this follower take?",
+      "answer": "It takes 1 damage because Aenea, Amethyst Rebel is still on the field when the damage is taken."
+    },
+    {
+      "number": "Q1644",
+      "question": "Does this follower's ability mean that it can only take 1 damage per turn?",
+      "answer": "No, it means that any instance of damage dealt to this follower will be reduced to 1 if it exceeds 1 damage."
+    }
+  ],
+  "BP12-083": [],
+  "BP12-084": [],
+  "BP12-085": [
+    {
+      "number": "Q1648",
+      "question": "If I can't select an enemy follower on the field, can I still play this spell to summon a Serpent token?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1647",
+      "question": "If I play this spell during my opponent's end phase, can the Serpent I summoned attack during my next main phase?",
+      "answer": "Yes, it can."
+    }
+  ],
+  "BP12-086": [
+    {
+      "number": "Q1650",
+      "question": "Do I evolve this follower with its Fanfare ability if it is put onto the field by an ability during an opponent's turn?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1649",
+      "question": "If I evolve this follower with its Fanfare ability, can I evolve another follower using its evolve ability in the same turn?",
+      "answer": "Yes. Although you can only activate one evolve ability per turn, other abilities that evolve followers do not count towards this limit."
+    }
+  ],
+  "BP12-087": [
+    {
+      "number": "Q1651",
+      "question": "If I can't select an enemy follower on the field, can I still choose option 1 of this follower's On Evolve ability and have nothing happen?",
+      "answer": "No. If you can't select an enemy follower, you would be required to choose option 2."
+    }
+  ],
+  "BP12-088": [
+    {
+      "number": "Q1652",
+      "question": "If I can't select an enemy follower on the field, can I still play this follower's Fanfare ability to recover 4 play points?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP12-089": [],
+  "BP12-090": [
+    {
+      "number": "Q1651",
+      "question": "If I can't select an enemy follower on the field, can I still choose option 1 of this follower's On Evolve ability and have nothing happen?",
+      "answer": "No. If you can't select an enemy follower, you would be required to choose option 2."
+    }
+  ],
+  "BP12-091": [],
+  "BP12-092": [],
+  "BP12-093": [],
+  "BP12-094": [],
+  "BP12-095": [
+    {
+      "number": "Q1653",
+      "question": "Can I only play this follower's activated ability while it's in my EX area?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP12-096": [
+    {
+      "number": "Q1654",
+      "question": "If I target a Limonia, Flawed Saint in my cemetery with this spell but my field is full, do I still put a Repair Mode token into my EX area?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP12-097": [],
+  "BP12-098": [],
+  "BP12-099": [
+    {
+      "number": "Q1655",
+      "question": "If I play a Repair Mode during my opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP12-100": [],
+  "BP12-101": [],
+  "BP12-102": [],
+  "BP12-103": [
+    {
+      "number": "Q1657",
+      "question": "If I discard this follower, can I choose not to use its ability?",
+      "answer": "Yes. In that case, nothing will happen."
+    },
+    {
+      "number": "Q1656",
+      "question": "If I discard this follower during my end phase due to having too many cards in my hand, can I still engage a Naterran Great Tree on my field to return a Natura card not named Natur Al'machinus from my cemetery to my hand?",
+      "answer": "Yes, but you would have to discard back down to 7 again."
+    }
+  ],
+  "BP12-104": [],
+  "BP12-105": [
+    {
+      "number": "Q1658",
+      "question": "If I have 2 Natura followers on my field and 3 Machina followers in my EX area, do I satisfy the requirements for this follower's On Evolve ability?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP12-106": [
+    {
+      "number": "Q1659",
+      "question": "Is the cost of an evolved follower the same as its unevolved form?",
+      "answer": "Yes, it is."
+    }
+  ],
+  "BP12-107": [],
+  "BP12-108": [],
+  "BP12-109": [
+    {
+      "number": "Q1661",
+      "question": "If I play this follower's On Evolve ability, then destroy an opponent's Exterminus Weapon, does my leader take 4 damage?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1660",
+      "question": "Can followers put onto my opponent's field after I play this follower's On Evolve ability still deal damage that turn?",
+      "answer": "Yes, they can."
+    }
+  ],
+  "BP12-110": [],
+  "BP12-111": [],
+  "BP12-112": [],
+  "BP12-113": [],
+  "BP12-114": [
+    {
+      "number": "Q1659",
+      "question": "Is the cost of an evolved follower the same as its unevolved form?",
+      "answer": "Yes, it is."
+    }
+  ],
+  "BP12-115": [
+    {
+      "number": "Q1665",
+      "question": "Do I need to declare the exact name of the card?",
+      "answer": "No. As long as you and your opponent(s) mutually understand which card you mean, there is no need to recite the exact name of the card. Additionally, if you forget the name of a card during an official tournament or event, you may ask a judge for assistance in remembering, provided you abide by said tournament or event's rules."
+    },
+    {
+      "number": "Q1664",
+      "question": "Can I declare the name of a token card, such as Fairy?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1663",
+      "question": "Can I declare a collab card's alternate name like Lelouch, Leader of the Black Knights?",
+      "answer": "No. An alternate name isn't a card name. However, if you declare Demonlord Eachtar, then reveal Lelouch, you would draw 2 cards, since Lelouch has the card name Demonlord Eachtar."
+    },
+    {
+      "number": "Q1662",
+      "question": "If the card I reveal is not the card I declared, is the 1 card I draw the same card I revealed?",
+      "answer": "Yes, that's correct. If you declared correctly, the 2 cards you draw would be the revealed card and 1 more."
+    }
+  ]
+}

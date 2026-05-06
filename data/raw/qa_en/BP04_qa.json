@@ -1,0 +1,784 @@
+{
+  "BP04-001": [
+    {
+      "number": "Q538",
+      "question": "If I select more than 1 enemy follower, and one of them only has 1 defense left, can I assign more than 1 damage to that follower out of the total X?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q537",
+      "question": "Can I select 0 followers for this follower's Fanfare ability?",
+      "answer": "Yes. When prompted to select \"any number\" of something, you can select 0."
+    }
+  ],
+  "BP04-002": [
+    {
+      "number": "Q538",
+      "question": "If I select more than 1 enemy follower, and one of them only has 1 defense left, can I assign more than 1 damage to that follower out of the total X?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q537",
+      "question": "Can I select 0 followers for this follower's Fanfare ability?",
+      "answer": "Yes. When prompted to select \"any number\" of something, you can select 0."
+    }
+  ],
+  "BP04-003": [
+    {
+      "number": "Q539",
+      "question": "If my Deepwood Anomaly has 0 attack when it attacks an enemy leader, do I still win the game?",
+      "answer": "No. When a follower with 0 (or negative) attack attacks, it doesn't deal attack damage."
+    }
+  ],
+  "BP04-004": [
+    {
+      "number": "Q539",
+      "question": "If my Deepwood Anomaly has 0 attack when it attacks an enemy leader, do I still win the game?",
+      "answer": "No. When a follower with 0 (or negative) attack attacks, it doesn't deal attack damage."
+    }
+  ],
+  "BP04-005": [
+    {
+      "number": "Q619",
+      "question": "If I return a token to hand with this follower's Fanfare ability, does the token count toward the number of cards in my hand?",
+      "answer": "No. Tokens are removed from the game immediately after moving to any zone other than the field or EX area."
+    },
+    {
+      "number": "Q618",
+      "question": "If I return Harvest Festival to hand with this follower's Fanfare ability, can I draw a card with Harvest Festival's ability before giving this follower +X/+X?",
+      "answer": "No. You finish resolving this follower's Fanfare ability before playing Harvest Festival's ability."
+    },
+    {
+      "number": "Q542",
+      "question": "If I select 0 cards to return to hand, do I still give this follower +X/+X based on the number of cards already in my hand?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q541",
+      "question": "If I already have 5 cards on my field, can I play this follower, return some cards to hand with its Fanfare ability, then put it onto my field?",
+      "answer": "No. A card's Fanfare ability triggers when the card is put onto the field. Since your field is full, you can't put this follower onto your field, and therefore can't play its Fanfare ability."
+    },
+    {
+      "number": "Q540",
+      "question": "Can I return this follower to hand with its own Fanfare ability?",
+      "answer": "Yes, you can. In that case, you would simply not perform the remainder of the Fanfare ability (giving this follower +X/+X)."
+    }
+  ],
+  "BP04-006": [],
+  "BP04-007": [],
+  "BP04-008": [
+    {
+      "number": "Q543",
+      "question": "Does playing an activated ability count toward Combo?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP04-009": [
+    {
+      "number": "Q543",
+      "question": "Does playing an activated ability count toward Combo?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP04-010": [],
+  "BP04-011": [
+    {
+      "number": "Q544",
+      "question": "If I play Sukuna, Brave and Small from my hand, then play Fairy from my EX area, then evolve Sukuna, Brave and Small, do I meet the conditions for Combo (3)?",
+      "answer": "No. Evolving a follower isn't playing a card, so it doesn't count toward Combo. Your Combo count would only be 2."
+    }
+  ],
+  "BP04-012": [],
+  "BP04-013": [
+    {
+      "number": "Q620",
+      "question": "If my field is full, can I still play this spell for the Combo (3) effect?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q545",
+      "question": "Do I give +1/+1 to the Fairy token summoned by this spell too?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP04-014": [],
+  "BP04-015": [],
+  "BP04-016": [],
+  "BP04-017": [
+    {
+      "number": "Q546",
+      "question": "Can a follower have negative attack?",
+      "answer": "Yes. A follower's attack can be reduced to a negative number by effects. A follower with negative attack doesn't deal attack or combat damage."
+    }
+  ],
+  "BP04-018": [],
+  "BP04-019": [
+    {
+      "number": "Q547",
+      "question": "If I can't select an enemy follower on the field but have a Combo of 3, can I still play this spell and deal 3 damage to an enemy leader?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't play this spell."
+    }
+  ],
+  "BP04-020": [
+    {
+      "number": "Q548",
+      "question": "If I have 2 copies of this follower on my field, and an Officer follower is put onto my field, do I give it +2 attack?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP04-021": [
+    {
+      "number": "Q551",
+      "question": "Can I use evolution points to pay for this follower's On Evolve ability?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q550",
+      "question": "Can I choose not to pay the cost of this follower's On Evolve ability?",
+      "answer": "Yes. In that case, you would simply not play the ability, meaning you would also not shuffle your deck."
+    },
+    {
+      "number": "Q549",
+      "question": "Can I choose 0 as the value of X when playing this follower's On Evolve ability?",
+      "answer": "Yes. In that case, you would search your deck for an Officer follower that costs 0 play points or less and put it onto your field. If you can't find one, or choose not to find one, you would simply shuffle your deck without putting a follower onto your field."
+    },
+    {
+      "number": "Q548",
+      "question": "If I have 2 copies of this follower on my field, and an Officer follower is put onto my field, do I give it +2 attack?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP04-022": [
+    {
+      "number": "Q555",
+      "question": "Can I reveal 1 Commander card and 1 Arthurian card to pay for this follower's Fanfare ability?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q554",
+      "question": "If I have 2 copies of this follower on my field when I play my first Commander card this turn, does it cost 2 less to play?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q553",
+      "question": "If I have 0 remaining play points and this follower is on my field, can I play a card that costs 1 play point, like Round Table Assembly if it's the first Commander card this turn?",
+      "answer": "Yes. Such a card would cost 0 play points to play with this follower's ability."
+    },
+    {
+      "number": "Q552",
+      "question": "If I play this follower after I've already played a Commander card this turn, does the next Commander card I play cost 1 less?",
+      "answer": "No. The next Commander card you play would be the second Commander card you play that turn, not the first."
+    }
+  ],
+  "BP04-023": [],
+  "BP04-024": [
+    {
+      "number": "Q556",
+      "question": "How do I resolve this follower's Last Words ability?",
+      "answer": "Put the evolved Barbarossa faceup in its owner's evolve deck, and the unevolved Barbarossa into its owner's EX area."
+    }
+  ],
+  "BP04-025": [],
+  "BP04-026": [
+    {
+      "number": "Q557",
+      "question": "If I select a Commander follower whose attack has been changed, does X equal the changed value (as opposed to its original value)?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP04-027": [
+    {
+      "number": "Q557",
+      "question": "If I select a Commander follower whose attack has been changed, does X equal the changed value (as opposed to its original value)?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP04-028": [],
+  "BP04-029": [],
+  "BP04-030": [
+    {
+      "number": "Q558",
+      "question": "If I have 2 copies of Princess Juliet on my field, does it cost 4 less to play this follower?",
+      "answer": "No, it still only costs 2 less."
+    }
+  ],
+  "BP04-031": [],
+  "BP04-032": [
+    {
+      "number": "Q559",
+      "question": "If I have 2 copies of Lord General Romeo on my field, does it cost 4 less to play this follower?",
+      "answer": "No, it still only costs 2 less."
+    }
+  ],
+  "BP04-033": [],
+  "BP04-034": [],
+  "BP04-035": [],
+  "BP04-036": [],
+  "BP04-037": [],
+  "BP04-038": [
+    {
+      "number": "Q561",
+      "question": "If I put a follower with Storm or Rush onto my field with this follower's Fanfare ability, can it attack enemies?",
+      "answer": "No, it can't."
+    },
+    {
+      "number": "Q560",
+      "question": "What does \"can't attack enemies\" mean?",
+      "answer": "If a follower can't attack enemies, then enemy followers and enemy leaders can't be selected as its attack target. In other words, it can't be used to attack enemy followers or enemy leaders."
+    }
+  ],
+  "BP04-039": [
+    {
+      "number": "Q561",
+      "question": "If I put a follower with Storm or Rush onto my field with this follower's Fanfare ability, can it attack enemies?",
+      "answer": "No, it can't."
+    },
+    {
+      "number": "Q560",
+      "question": "What does \"can't attack enemies\" mean?",
+      "answer": "If a follower can't attack enemies, then enemy followers and enemy leaders can't be selected as its attack target. In other words, it can't be used to attack enemy followers or enemy leaders."
+    }
+  ],
+  "BP04-040": [],
+  "BP04-041": [
+    {
+      "number": "Q563",
+      "question": "Do I reveal the card added to my hand by this follower's Fanfare ability?",
+      "answer": "No, you don't."
+    },
+    {
+      "number": "Q562",
+      "question": "If I have 3 cards in my deck, how do I resolve this follower's Fanfare ability?",
+      "answer": "Look at the top 3 cards of your deck, add 1 of them to your hand, put 1 into your cemetery, then put 1 on top of your (now empty) deck. You don't put anything on the bottom of your deck."
+    }
+  ],
+  "BP04-042": [
+    {
+      "number": "Q564",
+      "question": "If I can't select a faceup Europa in my evolve deck, do I still give this follower +1/+1?",
+      "answer": "No. If you can't select a faceup Europa in your evolve deck, you can't play this follower's Fanfare ability."
+    }
+  ],
+  "BP04-043": [],
+  "BP04-044": [
+    {
+      "number": "Q621",
+      "question": "If my deck has fewer than 5 cards, can I still play this spell?",
+      "answer": "Yes. In fact, you can play this spell even if your deck is empty."
+    },
+    {
+      "number": "Q565",
+      "question": "If I have 9 spells in my cemetery when I play this spell, do I meet the conditions for Spellchain (10)?",
+      "answer": "No. The spell currently being resolved doesn't count toward Spellchain."
+    }
+  ],
+  "BP04-045": [
+    {
+      "number": "Q621",
+      "question": "If my deck has fewer than 5 cards, can I still play this spell?",
+      "answer": "Yes. In fact, you can play this spell even if your deck is empty."
+    },
+    {
+      "number": "Q565",
+      "question": "If I have 9 spells in my cemetery when I play this spell, do I meet the conditions for Spellchain (10)?",
+      "answer": "No. The spell currently being resolved doesn't count toward Spellchain."
+    }
+  ],
+  "BP04-046": [],
+  "BP04-047": [],
+  "BP04-048": [
+    {
+      "number": "Q566",
+      "question": "How do I resolve this follower's Last Words ability?",
+      "answer": "Put the evolved Magic Illusionist faceup in its owner's evolve deck, and, if you choose to perform Earth Rite, the unevolved Magic Illusionist onto its owner's field."
+    }
+  ],
+  "BP04-049": [],
+  "BP04-050": [],
+  "BP04-051": [
+    {
+      "number": "Q567",
+      "question": "If I have a Daria, Dimensional Witch on my field when playing this follower's Fanfare ability, can I treat a Runecraft follower in my cemetery as a spell?",
+      "answer": "No. Daria, Dimensional Witch's passive ability is only valid when counting your Spellchain."
+    }
+  ],
+  "BP04-052": [],
+  "BP04-053": [],
+  "BP04-054": [
+    {
+      "number": "Q568",
+      "question": "Does this follower give +1/+1 to itself too?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP04-055": [
+    {
+      "number": "Q569",
+      "question": "If I choose not to discard a card, can I still draw a card?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP04-056": [
+    {
+      "number": "Q570",
+      "question": "After I look at the top card of my deck, do I put it back on top of my deck facedown?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP04-057": [],
+  "BP04-058": [],
+  "BP04-059": [
+    {
+      "number": "Q571",
+      "question": "When banishing cards from my deck with this follower's ability, do I put them faceup or facedown in my banished zone?",
+      "answer": "Put them faceup."
+    }
+  ],
+  "BP04-060": [
+    {
+      "number": "Q571",
+      "question": "When banishing cards from my deck with this follower's ability, do I put them faceup or facedown in my banished zone?",
+      "answer": "Put them faceup."
+    }
+  ],
+  "BP04-061": [
+    {
+      "number": "Q573",
+      "question": "Can I have up to 3 each of Lævateinn Dragon's evolved forms in my evolve deck, as long as my evolve deck is still 10 cards or less?",
+      "answer": "Yes. Each of Lævateinn Dragon's evolved forms has a different name, so they don't share the 3- copy limit."
+    },
+    {
+      "number": "Q572",
+      "question": "What types of damage does this follower's ability reduce?",
+      "answer": "All damage dealt to this follower is reduced by 1, regardless of type or source."
+    }
+  ],
+  "BP04-062": [
+    {
+      "number": "Q574",
+      "question": "Does \"the number of Armed followers on your field\" include this follower?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q573",
+      "question": "Can I have up to 3 each of Lævateinn Dragon's evolved forms in my evolve deck, as long as my evolve deck is still 10 cards or less?",
+      "answer": "Yes. Each of Lævateinn Dragon's evolved forms has a different name, so they don't share the 3- copy limit."
+    }
+  ],
+  "BP04-063": [
+    {
+      "number": "Q577",
+      "question": "If multiple other Dragoncraft followers that cost 3 play points or less are put onto my field at the same time, does this follower's ability trigger once for each of them?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q576",
+      "question": "If I have 2 copies of this follower on my field when another Dragoncraft follower that costs 3 play points or less is put onto my field, do the abilities of both copies trigger?",
+      "answer": "Yes, they do."
+    },
+    {
+      "number": "Q575",
+      "question": "If I can't select an enemy follower on the field when another Dragoncraft follower that costs 3 play points or less it put onto my field, can I still deal 1 damage to an enemy leader?",
+      "answer": "No. If you can't select an enemy follower, you can't play this follower's ability."
+    }
+  ],
+  "BP04-064": [
+    {
+      "number": "Q622",
+      "question": "If there are 2 copies of this follower in my cemetery, and I play a Dragoncraft spell during my turn, can I pay 1 play point each to put them both onto my field?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q579",
+      "question": "If I destroy a Star Phoenix on my field with Conflagration, can I pay 1 play point to put it back onto my field?",
+      "answer": "No. When you play Conflagration, the Star Phoenix isn't in your cemetery, so its ability doesn't trigger."
+    },
+    {
+      "number": "Q578",
+      "question": "Is this follower's automatic ability only valid when this follower is in my cemetery?",
+      "answer": "Yes. If this follower is in your cemetery when you play a Dragoncraft spell during your turn, you may pay 1 play point to put this follower from your cemetery onto your field."
+    }
+  ],
+  "BP04-065": [],
+  "BP04-066": [
+    {
+      "number": "Q582",
+      "question": "If the only enemy followers on the field are a Heavenly Aegis and a Goblin, and I play this spell for 5 more play points, can I banish the Heavenly Aegis?",
+      "answer": "Yes. You can select the Goblin and play this spell, which would then banish each enemy follower on the field, including the Heavenly Aegis."
+    },
+    {
+      "number": "Q581",
+      "question": "If the only enemy follower on the field is a Heavenly Aegis, and I play this spell for 5 more play points, can I banish the Heavenly Aegis?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't play this spell."
+    },
+    {
+      "number": "Q580",
+      "question": "If I play this card for 5 more play points, do I still need to select an enemy follower on the field?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP04-067": [
+    {
+      "number": "Q582",
+      "question": "If the only enemy followers on the field are a Heavenly Aegis and a Goblin, and I play this spell for 5 more play points, can I banish the Heavenly Aegis?",
+      "answer": "Yes. You can select the Goblin and play this spell, which would then banish each enemy follower on the field, including the Heavenly Aegis."
+    },
+    {
+      "number": "Q581",
+      "question": "If the only enemy follower on the field is a Heavenly Aegis, and I play this spell for 5 more play points, can I banish the Heavenly Aegis?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't play this spell."
+    },
+    {
+      "number": "Q580",
+      "question": "If I play this card for 5 more play points, do I still need to select an enemy follower on the field?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP04-068": [
+    {
+      "number": "Q584",
+      "question": "If I begin my turn with 0 cards in hand, then draw 1 during my start phase, do I then have to discard it with this follower's ability?",
+      "answer": "Yes. Each turn consists of a start phase, main phase, and end phase. After drawing a card in your start phase, your main phase begins, triggering this follower's ability."
+    },
+    {
+      "number": "Q583",
+      "question": "Can I choose not to discard a card at the start of my main phase?",
+      "answer": "No. You must discard a card if you can."
+    }
+  ],
+  "BP04-069": [],
+  "BP04-070": [
+    {
+      "number": "Q623",
+      "question": "Since evolved followers don't have a cost written on them, do they automatically count as the lowest-cost followers on the field?",
+      "answer": "No. The cost of an evolved follower is the cost of its unevolved form."
+    },
+    {
+      "number": "Q585",
+      "question": "If the lowest cost among enemy followers on the field is shared by multiple followers, does this follower's On Evolve ability destroy all of them?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q344",
+      "question": "When an ability refers to the cost of a card that was played for a different number of play points than its displayed cost, does it refer to that different number?",
+      "answer": "No. It refers to the cost displayed on the card. For example, when referring to the cost of a Flame Destroyer, the number used is always 9, even if it was played for 6, 3, or 0 play points. Effects that change the number of play points it costs to play a card don't change the cost information of the card. When an ability refers to how much a card \"costs\" or its \"base cost,\" it always refers to the cost displayed on the card. Note that, when referring to the cost of an evolved follower, you use the cost of its unevolved form."
+    }
+  ],
+  "BP04-071": [],
+  "BP04-072": [],
+  "BP04-073": [],
+  "BP04-074": [],
+  "BP04-075": [],
+  "BP04-076": [
+    {
+      "number": "Q586",
+      "question": "Does this follower have Ward like its unevolved form does?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP04-077": [
+    {
+      "number": "Q624",
+      "question": "If this follower fights an enemy follower with 0 attack, do I still give it +2/+2?",
+      "answer": "No. Followers with 0 attack don't deal attack or combat damage, so this follower's ability doesn't trigger."
+    },
+    {
+      "number": "Q587",
+      "question": "What happens if this follower takes damage that brings it to 0 defense or less?",
+      "answer": "Taking damage triggers this follower's ability, but by the time you resolve it, this follower has already been destroyed and put into the cemetery, so you don't give it +2/+2."
+    }
+  ],
+  "BP04-078": [],
+  "BP04-079": [
+    {
+      "number": "Q599",
+      "question": "If a Serpent fights an enemy follower and deals 0 damage, does Bane still destroy the enemy follower?",
+      "answer": "Yes. Bane triggers whenever a follower with Bane fights an enemy follower, regardless of whether or not damage was dealt."
+    }
+  ],
+  "BP04-080": [],
+  "BP04-081": [],
+  "BP04-082": [
+    {
+      "number": "Q625",
+      "question": "If I put Spartoi Sergeant onto my field with this follower's Fanfare ability, can I play Spartoi Sergeant's Fanfare ability before giving it +1/+1?",
+      "answer": "No. You finish resolving this follower's Fanfare ability before playing Spartoi Sergeant's Fanfare ability."
+    },
+    {
+      "number": "Q591",
+      "question": "When playing this follower's Fanfare ability, do I give +1/+1 (or +3/+3) to each follower on my field other than this follower, or other than the Abysscraft followers I just put from my cemetery onto my field?",
+      "answer": "You give the buff to each follower on your field other than this follower."
+    },
+    {
+      "number": "Q590",
+      "question": "If I have exactly 10 cards in my cemetery when I play this follower's Fanfare ability, does Necrocharge (10) still trigger? If I have exactly 20, does Necrocharge (20) still trigger?",
+      "answer": "Yes, and yes. Necrocharge references the number of cards in your cemetery at the moment the effect with Necrocharge begins to be resolved."
+    },
+    {
+      "number": "Q589",
+      "question": "If I steal an enemy Abysscraft follower when this follower is on my field, does this follower's ability give the stolen follower Rush?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q588",
+      "question": "Does this follower give itself Rush?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP04-083": [
+    {
+      "number": "Q625",
+      "question": "If I put Spartoi Sergeant onto my field with this follower's Fanfare ability, can I play Spartoi Sergeant's Fanfare ability before giving it +1/+1?",
+      "answer": "No. You finish resolving this follower's Fanfare ability before playing Spartoi Sergeant's Fanfare ability."
+    },
+    {
+      "number": "Q591",
+      "question": "When playing this follower's Fanfare ability, do I give +1/+1 (or +3/+3) to each follower on my field other than this follower, or other than the Abysscraft followers I just put from my cemetery onto my field?",
+      "answer": "You give the buff to each follower on your field other than this follower."
+    },
+    {
+      "number": "Q590",
+      "question": "If I have exactly 10 cards in my cemetery when I play this follower's Fanfare ability, does Necrocharge (10) still trigger? If I have exactly 20, does Necrocharge (20) still trigger?",
+      "answer": "Yes, and yes. Necrocharge references the number of cards in your cemetery at the moment the effect with Necrocharge begins to be resolved."
+    },
+    {
+      "number": "Q589",
+      "question": "If I steal an enemy Abysscraft follower when this follower is on my field, does this follower's ability give the stolen follower Rush?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q588",
+      "question": "Does this follower give itself Rush?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP04-084": [
+    {
+      "number": "Q599",
+      "question": "If a Serpent fights an enemy follower and deals 0 damage, does Bane still destroy the enemy follower?",
+      "answer": "Yes. Bane triggers whenever a follower with Bane fights an enemy follower, regardless of whether or not damage was dealt."
+    }
+  ],
+  "BP04-085": [
+    {
+      "number": "Q599",
+      "question": "If a Serpent fights an enemy follower and deals 0 damage, does Bane still destroy the enemy follower?",
+      "answer": "Yes. Bane triggers whenever a follower with Bane fights an enemy follower, regardless of whether or not damage was dealt."
+    }
+  ],
+  "BP04-086": [
+    {
+      "number": "Q593",
+      "question": "Can I put Venomfang Medusa and Stheno from my deck onto my field, but choose not to put Euryale onto my field?",
+      "answer": "Yes. When searching your deck, you can choose not to find a Euryale."
+    },
+    {
+      "number": "Q592",
+      "question": "If I have 3 cards on my field when I play this spell, can I choose which 2 of the 3 followers I search my deck for and put onto my field?",
+      "answer": "Yes. You can choose any 2 from among Venomfang Medusa, Stheno, and Euryale to search for and put onto your field. You can also search for and put only 1 of them if you want."
+    }
+  ],
+  "BP04-087": [
+    {
+      "number": "Q595",
+      "question": "If this follower is given -1 defense during my turn, does its ability still trigger?",
+      "answer": "No. Being given -1 defense is different to taking damage."
+    },
+    {
+      "number": "Q594",
+      "question": "If this follower takes damage that brings it to 0 defense or less during my turn, do I still select an enemy follower on the field and deal it 3 damage?",
+      "answer": "Yes. Taking damage triggers this follower's ability. Then, since the follower has 0 defense or less, it is destroyed. Then, you resolve the ability."
+    }
+  ],
+  "BP04-088": [
+    {
+      "number": "Q595",
+      "question": "If this follower is given -1 defense during my turn, does its ability still trigger?",
+      "answer": "No. Being given -1 defense is different to taking damage."
+    },
+    {
+      "number": "Q594",
+      "question": "If this follower takes damage that brings it to 0 defense or less during my turn, do I still select an enemy follower on the field and deal it 3 damage?",
+      "answer": "Yes. Taking damage triggers this follower's ability. Then, since the follower has 0 defense or less, it is destroyed. Then, you resolve the ability."
+    }
+  ],
+  "BP04-089": [
+    {
+      "number": "Q599",
+      "question": "If a Serpent fights an enemy follower and deals 0 damage, does Bane still destroy the enemy follower?",
+      "answer": "Yes. Bane triggers whenever a follower with Bane fights an enemy follower, regardless of whether or not damage was dealt."
+    }
+  ],
+  "BP04-090": [],
+  "BP04-091": [],
+  "BP04-092": [
+    {
+      "number": "Q596",
+      "question": "If I put another Demonic Drummer onto my field with this follower's Fanfare ability, can I then play that Demonic Drummer's Fanfare ability to search my deck for yet another Demonic Drummer?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP04-093": [],
+  "BP04-094": [],
+  "BP04-095": [],
+  "BP04-096": [
+    {
+      "number": "Q597",
+      "question": "Does this follower's Strike ability deal 1 damage to my own leader too?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP04-097": [
+    {
+      "number": "Q599",
+      "question": "If a Serpent fights an enemy follower and deals 0 damage, does Bane still destroy the enemy follower?",
+      "answer": "Yes. Bane triggers whenever a follower with Bane fights an enemy follower, regardless of whether or not damage was dealt."
+    },
+    {
+      "number": "Q598",
+      "question": "Does this spell only give Rush and Assail to the Serpent token summoned by it?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP04-098": [],
+  "BP04-099": [],
+  "BP04-100": [
+    {
+      "number": "Q600",
+      "question": "Does this follower's On Evolve ability deal 4 damage to my own leader too?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP04-101": [
+    {
+      "number": "Q601",
+      "question": "If my deck only has 1 card left, how do I resolve this follower's Fanfare ability?",
+      "answer": "Deal 2 damage to your leader. Then, put the remaining card of your deck into your cemetery. Lastly, you draw a card, but since your deck is empty, you lose the game."
+    }
+  ],
+  "BP04-102": [],
+  "BP04-103": [
+    {
+      "number": "Q626",
+      "question": "If I play Andromeda's Fanfare ability, then put a Humpty Dumpty onto my field and evolve it, are both my Andromeda and Humpty Dumpty immune to the damage dealt by Humpty Dumpty's On Evolve ability?",
+      "answer": "No, only your Andromeda is immune. Andromeda's Fanfare ability gives \"This doesn't take ability damage\" to each follower on your field at the moment the ability is played, which doesn't include your Humpty Dumpty. If you put Humpty Dumpty onto your field before Andromeda, then evolve Humpty Dumpty, both will be immune to the ability damage."
+    },
+    {
+      "number": "Q603",
+      "question": "If a follower on my field has \"This doesn't take ability damage,\" and an Agnes Tachyon gives it -1/-1, does it still lose attack and defense?",
+      "answer": "Yes. Being given -1/-1 is different to taking ability damage."
+    },
+    {
+      "number": "Q602",
+      "question": "What is ability damage?",
+      "answer": "Ability damage is all damage except for damage dealt by two followers in combat or by a follower attacking a leader. For example, damage dealt by a spell is ability damage."
+    }
+  ],
+  "BP04-104": [],
+  "BP04-105": [],
+  "BP04-106": [
+    {
+      "number": "Q605",
+      "question": "If I have a Holy Sentinel on my field, and I banish an amulet other than the Holy Sentinel to evolve this follower, can I decide the order in which I play this follower's On Evolve ability and Holy Sentinel's ability?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q604",
+      "question": "If I can't select an enemy follower on the field, can I still give my leader 3 defense?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't play this follower's Fanfare ability."
+    }
+  ],
+  "BP04-107": [
+    {
+      "number": "Q605",
+      "question": "If I have a Holy Sentinel on my field, and I banish an amulet other than the Holy Sentinel to evolve this follower, can I decide the order in which I play this follower's On Evolve ability and Holy Sentinel's ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP04-108": [
+    {
+      "number": "Q606",
+      "question": "If I give this follower +2/+2 and Assail with its ability, does it lose the buffs once the turn ends?",
+      "answer": "No, it keeps the buffs."
+    }
+  ],
+  "BP04-109": [
+    {
+      "number": "Q607",
+      "question": "If an enemy Dark Dragoon Forte attacks my leader, and I play this spell with Quick timing, does it deal 3 damage to the enemy Forte?",
+      "answer": "Yes. By the time you play this spell, the enemy Forte is engaged, so it takes 3 damage."
+    }
+  ],
+  "BP04-110": [],
+  "BP04-111": [],
+  "BP04-112": [],
+  "BP04-113": [
+    {
+      "number": "Q608",
+      "question": "If I give a Diamond Master on my field Aura, do opponents still have to select it when selecting cards for an ability?",
+      "answer": "No. If your Diamond Master has Aura, opponents can't select it, so they don't have to select it."
+    }
+  ],
+  "BP04-114": [],
+  "BP04-115": [],
+  "BP04-116": [
+    {
+      "number": "Q610",
+      "question": "Can you give me some examples of how rounding up works when playing this follower's activated ability?",
+      "answer": "If you discard a follower that costs 9 play points, Y equals 5. If it costs 5, Y equals 3. If it costs 1, Y equals 1."
+    },
+    {
+      "number": "Q609",
+      "question": "If I can't select an enemy follower on the field, can I still deal damage to an enemy leader with this follower's activated ability?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't play this follower's activated ability."
+    }
+  ],
+  "BP04-117": [],
+  "BP04-118": [],
+  "BP04-119": [],
+  "BP04-120": [],
+  "BP04-121": [],
+  "BP04-122": [
+    {
+      "number": "Q612",
+      "question": "If a token follower on my field is destroyed, do I put a soul counter on this amulet?",
+      "answer": "Yes. When a token follower is destroyed, it moves to the cemetery before immediately being removed from the game, so this amulet's ability still triggers."
+    },
+    {
+      "number": "Q611",
+      "question": "If I destroy 2 followers on my field at once with Themis's Decree, do I put 2 soul counters on this amulet?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP04-123": [],
+  "BP04-124": [],
+  "BP04-125": [],
+  "BP04-126": [
+    {
+      "number": "Q614",
+      "question": "If this spell is the only card in my hand, or my hand is empty, can I still play it?",
+      "answer": "Yes. In that case, you would not put anything on the bottom of your deck and simply draw a card."
+    },
+    {
+      "number": "Q613",
+      "question": "Can I play this spell and put it on the bottom of my deck?",
+      "answer": "No. By the time you play this spell, it's not in your hand anymore."
+    }
+  ],
+  "BP04-127": [],
+  "BP04-128": [],
+  "BP04-129": [
+    {
+      "number": "Q615",
+      "question": "Can a follower have negative attack?",
+      "answer": "Yes. A follower's attack can be reduced to a negative number by effects. A follower with negative attack doesn't deal attack or combat damage."
+    }
+  ],
+  "BP04-130": [
+    {
+      "number": "Q616",
+      "question": "If I only have tokens in my EX area, can I still put the top card of my deck into my EX area with this amulet's ability?",
+      "answer": "No. Tokens count as cards."
+    }
+  ]
+}

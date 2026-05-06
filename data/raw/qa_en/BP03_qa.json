@@ -1,0 +1,922 @@
+{
+  "BP03-001": [
+    {
+      "number": "Q430",
+      "question": "If this follower is put onto my field from my EX area, do I give it Storm? What about from my deck? From my cemetery?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q429",
+      "question": "How do I resolve this follower's activated ability if I choose to remove 3 Fable counters?",
+      "answer": "First, you pay the cost by paying 1 play point and removing 3 Fable counters from this follower. Then, give it +3/+3."
+    }
+  ],
+  "BP03-002": [
+    {
+      "number": "Q431",
+      "question": "If I search for a Beast follower that costs 2 play points or less, can I choose not to put it onto my field?",
+      "answer": "Yes, you may simply add it to your hand."
+    }
+  ],
+  "BP03-003": [],
+  "BP03-004": [],
+  "BP03-005": [
+    {
+      "number": "Q433",
+      "question": "If an opponent returns this follower to hand from my field, does its ability still trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q432",
+      "question": "If I play this follower, return it to my hand by playing Floral Breeze, then put Crystalia Tia from my hand onto my field with this follower's ability, do I meet the Combo (3) requirement for Crystalia Tia's Fanfare ability?",
+      "answer": "No. \"Putting\" a card onto your field with an ability doesn't count as playing it, so your Combo would only be 2."
+    },
+    {
+      "number": "Q420",
+      "question": "Since this follower is also a Forestcraft follower that costs 2 play points or less, can I put it back onto my field with its own ability?",
+      "answer": "Yes. By the time you resolve this follower's ability, it's already in your hand."
+    }
+  ],
+  "BP03-006": [
+    {
+      "number": "Q433",
+      "question": "If an opponent returns this follower to hand from my field, does its ability still trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q421",
+      "question": "If I put this follower from my hand back onto my field with its own ability, do I put the evolved form onto my field?",
+      "answer": "No. When this follower is returned to your hand from your field, its ability triggers. The evolved form loses its link to the unevolved form immediately after moving off the field and is put faceup in your evolve deck. Then, you resolve this follower's ability, putting the unevolved version from your hand back onto your field."
+    }
+  ],
+  "BP03-007": [
+    {
+      "number": "Q434",
+      "question": "If there are 2 enemy Diamond Masters on the field, do I have to select both of them for this spell?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP03-008": [],
+  "BP03-009": [
+    {
+      "number": "Q422",
+      "question": "If this follower is returned to hand from my field, do I give my leader +1 defense?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP03-010": [
+    {
+      "number": "Q423",
+      "question": "If this follower is returned to hand from my field, do I give my leader +1 defense?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP03-011": [
+    {
+      "number": "Q437",
+      "question": "Does summoning a Fairy with this amulet's Fanfare ability count as playing a card?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q436",
+      "question": "Can this amulet's Strike ability deal damage to an enemy follower with Aura?",
+      "answer": "Yes, it can."
+    },
+    {
+      "number": "Q435",
+      "question": "What happens if a follower with the Follower Strike ability from this amulet attacks an enemy follower with 2 defense?",
+      "answer": "The attacking follower remains on the field in an engaged state, while the enemy follower is destroyed. First, you select the enemy follower as the attack target and engage the attacking follower. Then, during the following Confirmation Timing, you resolve the attacker's Follower Strike ability, dealing 2 damage to the enemy follower and reducing its defense to 0. The enemy follower is then destroyed. As there is no longer an attack target, the attack ends without the followers entering combat, and the attacking follower simply remains in an engaged state."
+    }
+  ],
+  "BP03-012": [],
+  "BP03-013": [
+    {
+      "number": "Q424",
+      "question": "What does \"can't attack enemies\" mean?",
+      "answer": "If a follower can't attack enemies, then enemy followers and enemy leaders can't be selected as its attack target. In other words, it can't be used to attack enemy followers or enemy leaders."
+    }
+  ],
+  "BP03-014": [],
+  "BP03-015": [],
+  "BP03-016": [],
+  "BP03-017": [],
+  "BP03-018": [
+    {
+      "number": "Q439",
+      "question": "If there are 2 Fable counters on this follower when it attacks, can I remove both of them and play its Strike ability twice?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q438",
+      "question": "If my deck becomes empty after playing this follower's Strike ability, do I lose the game?",
+      "answer": "No. You don't lose the game until you have to draw a card from your empty deck."
+    }
+  ],
+  "BP03-019": [
+    {
+      "number": "Q440",
+      "question": "If I search my deck and find a Heroic card with a different name from this follower, can I choose to not reveal it and not add it to my hand?",
+      "answer": "Yes, you can. Note that you would still shuffle your deck."
+    }
+  ],
+  "BP03-020": [
+    {
+      "number": "Q444",
+      "question": "When evolving a follower with this follower's On Evolve ability, do I still have to pay its evolve cost?",
+      "answer": "No. You evolve the selected follower with this follower's ability, not its own evolve ability, so you don't pay the cost of its evolve ability."
+    },
+    {
+      "number": "Q443",
+      "question": "If I evolve another Valiant Fencer with this follower's On Evolve ability, can I then play that Valiant Fencer's On Evolve ability and evolve yet another follower?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q442",
+      "question": "If I select a follower for this follower's On Evolve ability, can I choose not to evolve it, even if I have its evolved form in my evolve deck?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q441",
+      "question": "If I evolve Amerro, Spear Knight with this follower's On Evolve ability, do I still have to pay 3 play points?",
+      "answer": "No. Assuming you have an evolved Amerro, Spear Knight in your evolve deck, you can evolve it without paying 3 play points. Its On Evolve ability still triggers, so you would then select a Heroic card in your cemetery and play it for 0 play points."
+    }
+  ],
+  "BP03-021": [],
+  "BP03-022": [],
+  "BP03-023": [
+    {
+      "number": "Q447",
+      "question": "If I select a Heroic card in my cemetery for this follower's On Evolve ability, can I choose not to play it?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q446",
+      "question": "Can I play spells like Heroic Entry with this follower's On Evolve ability?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q445",
+      "question": "If I select a Heroic follower in my cemetery for this follower's On Evolve ability, but my field is already full, what happens?",
+      "answer": "You don't play the selected follower. It remains in your cemetery."
+    }
+  ],
+  "BP03-024": [
+    {
+      "number": "Q450",
+      "question": "If I put a Mach Knight onto my field from my hand, can I still give it +1 attack with this amulet's activated ability?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q449",
+      "question": "When putting followers with Storm from my hand onto my field with this amulet's activated ability, can I put a Mach Knight onto my field?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q448",
+      "question": "When searching my deck for a follower with Storm, can I search for a follower that gains Storm from another ability, such as Mach Knight?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP03-025": [],
+  "BP03-026": [],
+  "BP03-027": [],
+  "BP03-028": [
+    {
+      "number": "Q451",
+      "question": "Can I play this spell and choose option 2 even if there aren't any Swordcraft followers in my cemetery?",
+      "answer": "Yes. \"Select up to 3\" means you can select 0. Whether or not there are Swordcraft followers in your cemetery, you can still play this spell and choose option 2. In that case, you would simply shuffle your deck and draw a card."
+    }
+  ],
+  "BP03-029": [],
+  "BP03-030": [],
+  "BP03-031": [
+    {
+      "number": "Q452",
+      "question": "If 2 enemy followers are destroyed at the same time, do I give this follower +2 attack?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP03-032": [
+    {
+      "number": "Q452",
+      "question": "If 2 enemy followers are destroyed at the same time, do I give this follower +2 attack?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP03-033": [],
+  "BP03-034": [],
+  "BP03-035": [
+    {
+      "number": "Q457",
+      "question": "If I have 2 copies of this follower on my field, can I activate both their abilities in the same turn?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q456",
+      "question": "What does \"Add 1 to a Stack on your field\" mean?",
+      "answer": "It means you put a Stack counter on an amulet with Stack on your field."
+    },
+    {
+      "number": "Q455",
+      "question": "If I activate this follower's ability once during my turn, can I activate it once more during my opponent's turn?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q454",
+      "question": "If I play this follower's activated ability, then banish 10 spells in my cemetery to play Dimension Shift for 7 play points, does it instead cost 3 to play?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q453",
+      "question": "If I play this follower's activated ability, then play a spell for 0 play points with Merlin's On Evolve ability, does the next spell I play cost 4 less?",
+      "answer": "No. The effect of this follower's activated ability applies to the spell you play with Merlin's On Evolve ability."
+    }
+  ],
+  "BP03-036": [
+    {
+      "number": "Q457",
+      "question": "If I have 2 copies of this follower on my field, can I activate both their abilities in the same turn?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q456",
+      "question": "What does \"Add 1 to a Stack on your field\" mean?",
+      "answer": "It means you put a Stack counter on an amulet with Stack on your field."
+    },
+    {
+      "number": "Q455",
+      "question": "If I activate this follower's ability once during my turn, can I activate it once more during my opponent's turn?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q454",
+      "question": "If I play this follower's activated ability, then banish 10 spells in my cemetery to play Dimension Shift for 7 play points, does it instead cost 3 to play?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q453",
+      "question": "If I play this follower's activated ability, then play a spell for 0 play points with Merlin's On Evolve ability, does the next spell I play cost 4 less?",
+      "answer": "No. The effect of this follower's activated ability applies to the spell you play with Merlin's On Evolve ability."
+    }
+  ],
+  "BP03-037": [
+    {
+      "number": "Q458",
+      "question": "If I activate this follower's ability and then evolve it, can I activate the evolved form's ability in the same turn?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q457",
+      "question": "If I have 2 copies of this follower on my field, can I activate both their abilities in the same turn?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP03-038": [
+    {
+      "number": "Q460",
+      "question": "If I put Milady, Mystic Queen, Magical Knight, Magical Bishop, and Magical Rook from my cemetery onto my field with this follower's On Evolve ability, can I choose the order in which I play their triggered automatic abilities (such as Fanfare)?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q459",
+      "question": "If I put Milady, Mystic Queen, Magical Knight, Magical Bishop, and Magical Rook from my cemetery onto my field with this follower's On Evolve ability, does Magical Knight's ability trigger?",
+      "answer": "Yes. Milady, Magical Bishop, and Magical Rook are all given +1 attack by Magical Knight's ability. Magical Knight's ability has what's known as a \"zone-shift trigger.\" If a card with a zone-shift trigger ability enters a zone where the ability is valid, in this case the field, and at the same time another card changes zones in a way that satisfies the ability's trigger condition, the ability is considered to have been triggered."
+    },
+    {
+      "number": "Q458",
+      "question": "If I activate this follower's ability and then evolve it, can I activate the evolved form's ability in the same turn?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q457",
+      "question": "If I have 2 copies of this follower on my field, can I activate both their abilities in the same turn?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP03-039": [],
+  "BP03-040": [],
+  "BP03-041": [],
+  "BP03-042": [
+    {
+      "number": "Q461",
+      "question": "If I can't select an enemy follower on the field, can I still look at the top 3 cards of my deck and add a Chess card from among them to my hand?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't play this spell."
+    }
+  ],
+  "BP03-043": [],
+  "BP03-044": [
+    {
+      "number": "Q462",
+      "question": "If I put a Magical Bishop onto my field at the same time as this follower, do I give the Magical Bishop +1 attack with this follower's ability?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP03-045": [],
+  "BP03-046": [],
+  "BP03-047": [],
+  "BP03-048": [],
+  "BP03-049": [],
+  "BP03-050": [],
+  "BP03-051": [],
+  "BP03-052": [
+    {
+      "number": "Q463",
+      "question": "If I don't have any Magical Pawns on my field when I play this spell, do I still deal 2 damage to the selected follower?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP03-053": [
+    {
+      "number": "Q464",
+      "question": "Can I add another Witch's Cauldron to my hand with this amulet's Fanfare ability?",
+      "answer": "No. This amulet doesn't have Earth Rite."
+    }
+  ],
+  "BP03-054": [
+    {
+      "number": "Q464",
+      "question": "Can I add another Witch's Cauldron to my hand with this amulet's Fanfare ability?",
+      "answer": "No. This amulet doesn't have Earth Rite."
+    }
+  ],
+  "BP03-055": [
+    {
+      "number": "Q466",
+      "question": "If I put an evolved follower into the cemetery to pay for this follower's Fanfare ability, do I refer to the cost of its unevolved form?",
+      "answer": "Yes. The cost of an evolved follower is always the same as the cost of its unevolved form."
+    },
+    {
+      "number": "Q465",
+      "question": "If I reveal all the cards in my deck and none of them cost more than the follower I put into the cemetery, what happens?",
+      "answer": "You simply shuffle all the cards you revealed and put them back in your deck area."
+    }
+  ],
+  "BP03-056": [],
+  "BP03-057": [
+    {
+      "number": "Q467",
+      "question": "Can I put 3 copies of Lævateinn Dragon (evolved) and 3 copies of Lævateinn Dragon, Attack Form in my evolve deck?",
+      "answer": "Yes. Their card names are different, so you can have up to 3 copies of each."
+    }
+  ],
+  "BP03-058": [
+    {
+      "number": "Q468",
+      "question": "What does \"This follower's name is also [name]\" mean?",
+      "answer": "While the follower is on the field, it has the specified card name in addition to its original card name. Note that having the additional name doesn't mean it suddenly gains the same abilities as other cards with that name."
+    },
+    {
+      "number": "Q467",
+      "question": "Can I put 3 copies of Lævateinn Dragon (evolved) and 3 copies of Lævateinn Dragon, Attack Form in my evolve deck?",
+      "answer": "Yes. Their card names are different, so you can have up to 3 copies of each."
+    }
+  ],
+  "BP03-059": [],
+  "BP03-060": [],
+  "BP03-061": [],
+  "BP03-062": [
+    {
+      "number": "Q470",
+      "question": "If I put a follower from my hand onto my field with this amulet's activated ability and then evolve it, do I still have to destroy it at the start of my end phase?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q469",
+      "question": "If I put Lucifer from my hand onto my field with this amulet's activated ability, do I still give my leader +4 defense at the start of my end phase?",
+      "answer": "Yes. The \"At the start of your end phase, destroy this card\" ability given to Lucifer by this amulet and Lucifer's \"At the start of your end phase, give your leader +4 defense\" ability both trigger and become pending at the same time. You can then choose the order in which you resolve them."
+    }
+  ],
+  "BP03-063": [],
+  "BP03-064": [],
+  "BP03-065": [],
+  "BP03-066": [
+    {
+      "number": "Q407",
+      "question": "If my field is full, can I still play this spell to deal 3 damage to an enemy follower?",
+      "answer": "Yes. In that case, you simply wouldn't summon a Draconic Weapon token."
+    },
+    {
+      "number": "Q406",
+      "question": "If there aren't any enemy followers on the field, can I still summon a Draconic Weapon token?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't play this spell."
+    }
+  ],
+  "BP03-067": [
+    {
+      "number": "Q471",
+      "question": "Do I still gain 1 Evolution Point if I went first or already have 3?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP03-068": [],
+  "BP03-069": [],
+  "BP03-070": [],
+  "BP03-071": [
+    {
+      "number": "Q412",
+      "question": "If this follower is selected and destroyed by Execution, does this follower's ability trigger?",
+      "answer": "Yes. You resolve this follower's ability after Execution is resolved."
+    },
+    {
+      "number": "Q411",
+      "question": "If this follower takes damage from an ability that doesn't involve target selection, like Angelic Barrage, does its ability trigger?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q410",
+      "question": "When playing Armor Burst, if I select this follower and an enemy Goblin, what happens to this follower?",
+      "answer": "First, you resolve Armor Burst, which puts this follower into its owner's EX area. Then, you resolve this follower's ability, which triggered when you selected it with Armor Burst. The effect \"give it +1 attack\" refers to this follower as it was on your field when the ability triggered, so now that it's in the EX area, it doesn't gain the buff. However, you still deal 1 damage to each enemy leader."
+    },
+    {
+      "number": "Q409",
+      "question": "If I select this follower with Draconic Weapon's ability, does this follower's ability trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q408",
+      "question": "If my opponent selects this follower with a Quick spell during my turn, does this follower's ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP03-072": [
+    {
+      "number": "Q473",
+      "question": "Can I only play this spell when I can select both an Armed follower on my field and an enemy follower on the field?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q472",
+      "question": "If I put a follower into the EX area with this spell, does it lose any damage dealt or abilities given to it?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q415",
+      "question": "If the EX area of the first follower's owner is full, does it still get moved there?",
+      "answer": "No, it remains on your field."
+    },
+    {
+      "number": "Q414",
+      "question": "When playing Armor Burst, if I select a Lance Lizard on my field and an enemy Goblin, what happens with Lance Lizard?",
+      "answer": "First, you resolve Armor Burst, which puts the Lance Lizard into its owner's EX area. Then, you resolve Lance Lizard's ability, which triggered when you selected it with Armor Burst. The effect \"give it +1 attack\" refers to Lance Lizard as it was on your field when the ability triggered, so now that it's in the EX area, it doesn't gain the buff. However, you still deal 1 damage to each enemy leader."
+    },
+    {
+      "number": "Q413",
+      "question": "If I can't select an Armed follower on my field, can I still select an enemy follower on the field and deal it damage?",
+      "answer": "No. If you can't select an Armed follower on your field, you can't play this spell."
+    }
+  ],
+  "BP03-073": [
+    {
+      "number": "Q477",
+      "question": "When banishing cards in my deck for this follower's Last Words ability, do I put them faceup or facedown in my banished zone?",
+      "answer": "Put them faceup."
+    },
+    {
+      "number": "Q476",
+      "question": "If my hand is empty, can I still play this follower's Last Words ability?",
+      "answer": "Yes. In that case, you would simply not discard a card."
+    },
+    {
+      "number": "Q475",
+      "question": "If I choose not to pay the cost of this follower's Last Words ability, do I still discard a card?",
+      "answer": "No, you don't."
+    },
+    {
+      "number": "Q474",
+      "question": "If this follower's been given Ward by something like Death's Breath, does it lose Ward when it's put back onto the field with its Last Words ability?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP03-074": [
+    {
+      "number": "Q478",
+      "question": "If a Ghost is put onto my field and given +1 attack with this follower's ability, does it keep the buff even if this follower leaves the field?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP03-075": [
+    {
+      "number": "Q479",
+      "question": "How do I resolve this follower's Last Words ability?",
+      "answer": "Put the evolved Masquerade Ghost faceup in its owner's evolve deck, and the unevolved form into its owner's EX area."
+    }
+  ],
+  "BP03-076": [],
+  "BP03-077": [
+    {
+      "number": "Q480",
+      "question": "If I give this follower Bane with its activated ability, does it lose it at the next end phase?",
+      "answer": "No. Once given Bane, this follower keeps it until it leaves the field."
+    }
+  ],
+  "BP03-078": [
+    {
+      "number": "Q481",
+      "question": "How do I resolve this follower's Last Words ability?",
+      "answer": "Put the evolved Baccherus, Peppy Ghostie faceup in its owner's evolve deck, and the unevolved form into its owner's EX area. After this follower moves to the cemetery, its Last Words ability triggers. The evolved form loses its link to the unevolved form immediately after moving off the field and is put faceup in its owner's evolve deck. Then, you resolve the Last Words ability, putting the unevolved form into its owner's EX area."
+    },
+    {
+      "number": "Q417",
+      "question": "When resolving an ability that says to \"summon a Ghost token,\" can I summon this follower instead?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q416",
+      "question": "What does \"This follower's name is also Ghost\" mean?",
+      "answer": "While this follower is on the field, it has the name Ghost in addition to the name Baccherus, Peppy Ghostie. Note that having the name Ghost doesn't mean it suddenly gains the same abilities as Ghost, like Storm or \"At the start of your end phase, banish this card.\""
+    }
+  ],
+  "BP03-079": [
+    {
+      "number": "Q482",
+      "question": "Can a Ghost token evolve into an evolved Baccherus, Peppy Ghostie?",
+      "answer": "No, it can't."
+    },
+    {
+      "number": "Q481",
+      "question": "How do I resolve this follower's Last Words ability?",
+      "answer": "Put the evolved Baccherus, Peppy Ghostie faceup in its owner's evolve deck, and the unevolved form into its owner's EX area. After this follower moves to the cemetery, its Last Words ability triggers. The evolved form loses its link to the unevolved form immediately after moving off the field and is put faceup in its owner's evolve deck. Then, you resolve the Last Words ability, putting the unevolved form into its owner's EX area."
+    },
+    {
+      "number": "Q416",
+      "question": "What does \"This follower's name is also Ghost\" mean?",
+      "answer": "While this follower is on the field, it has the name Ghost in addition to the name Baccherus, Peppy Ghostie. Note that having the name Ghost doesn't mean it suddenly gains the same abilities as Ghost, like Storm or \"At the start of your end phase, banish this card.\""
+    }
+  ],
+  "BP03-080": [],
+  "BP03-081": [],
+  "BP03-082": [
+    {
+      "number": "Q483",
+      "question": "Does this follower's On Evolve ability deal 1 damage to my own leader too?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP03-083": [
+    {
+      "number": "Q484",
+      "question": "Do Strike abilities get played before opponents can react with Quick cards or abilities?",
+      "answer": "Yes. All abilities that trigger when a follower attacks, including Strike, are resolved before non-active players can play cards or abilities with Quick."
+    }
+  ],
+  "BP03-084": [],
+  "BP03-085": [
+    {
+      "number": "Q418",
+      "question": "After putting another follower from my field into the cemetery to pay the cost of this follower's Fanfare ability, can I then select that same follower and put it back onto my field?",
+      "answer": "No. You select a follower for the ability before paying the cost."
+    }
+  ],
+  "BP03-086": [],
+  "BP03-087": [
+    {
+      "number": "Q419",
+      "question": "Can I select Baccherus, Peppy Ghostie for this follower's On Evolve ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP03-088": [],
+  "BP03-089": [
+    {
+      "number": "Q486",
+      "question": "If I play this spell, then put a follower onto my field with Death's Breath or some other ability, do I give it +1/+1?",
+      "answer": "No. This spell's ability only triggers when you put a follower onto your field by playing it."
+    },
+    {
+      "number": "Q485",
+      "question": "If I play 2 copies of this spell, then put a follower onto my field by playing it from hand, do I give it +1/+1 twice?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP03-090": [
+    {
+      "number": "Q487",
+      "question": "If I put this follower into my EX area with its Last Words ability, does it keep its Fable counters?",
+      "answer": "No. Counters disappear when moving off the field. When this follower moves to your cemetery with at least one Fable counter on it, its Last Words ability triggers. At the same time, the counters disappear, because they count as effects applied to the follower when it was on the field, and when a card moves zones, any applied effects from the previous zone don't carry over unless indicated otherwise. Then, you resolve this follower's Last Words ability, putting it into its owner's EX area."
+    }
+  ],
+  "BP03-091": [
+    {
+      "number": "Q535",
+      "question": "If the enemy followers on the field are an unevolved Diamond Master and a different unevolved follower, can I select the latter when playing Rimewind?",
+      "answer": "No. You can select the unevolved Diamond Master with Rimewind, so you must select it."
+    },
+    {
+      "number": "Q494",
+      "question": "What does \"Whenever an opponent is selecting cards for an ability, if they can select this card, they must select it\" mean?",
+      "answer": "It means that when an opponent is playing an ability that requires them to select one or more cards, such as \"Select an enemy follower on the field and deal it 2 damage\" (found on Angelic Snipe, Bellringer Angel's evolved form, etc.), if they are able to select this follower, then they must select it. Note that this ability is only valid when it's on the field. Also, when an opponent is attacking with a follower, they don't have to select this follower as the attack target."
+    },
+    {
+      "number": "Q493",
+      "question": "Can you explain \"Whenever an opponent is selecting cards for an ability, if they can select this card, they must select it\" in detail?",
+      "answer": "According to the Comprehensive Rules, \"if multiple effects that require a player to perform a certain action are produced simultaneously, and it is not possible to perform all of them, the player is required to select and perform as many of the actions as possible.\" Let's look at some examples of this in action. In the following, X denotes a follower with \"Whenever an opponent is selecting cards for an ability, if they can select this card, they must select it,\" and Y denotes a follower that doesn't have this ability. Example 1: Your field has 1 X and 2 Y. An opponent is selecting \"up to 1\" follower for an ability. In this case, they must select the X. Example 2: Your field has 2 X and 2 Y. An opponent is selecting \"up to 1\" follower for an ability. In this case, they must select one of the two Xs. Example 3: Your field has 1 X and 2 Y. An opponent is selecting \"up to 2\" followers for an ability. In this case, they must select the X, but whether or not they select a Y is up to them. Example 4: Your field has 2 X and 2 Y. An opponent is selecting \"up to 2\" followers for an ability. In this case, they must select both Xs. Example 5: Your field has 3 X and 2 Y. An opponent is selecting \"up to 2\" followers for an ability. In this case, they must select two of the three Xs."
+    },
+    {
+      "number": "Q492",
+      "question": "Does a follower with Assail have to attack this follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q491",
+      "question": "If an opponent plays Crazed Executioner's On Evolve ability when this follower is in my hand, do they have to select this follower for me to discard?",
+      "answer": "No, they don't."
+    },
+    {
+      "number": "Q490",
+      "question": "If an opponent plays Urd's On Evolve ability when this follower is in my EX area, do they have to select this follower and banish it?",
+      "answer": "No, they don't."
+    },
+    {
+      "number": "Q489",
+      "question": "If an opponent plays Multipart Experiment when this follower is on my field, do they have to choose option 1 and select this follower?",
+      "answer": "No. Your opponent doesn't have to choose option 1, but if they do, they must select this follower."
+    }
+  ],
+  "BP03-092": [
+    {
+      "number": "Q536",
+      "question": "If the enemy followers on the field are an evolved Diamond Master and a different, unevolved follower, can I select the latter when playing Rimewind?",
+      "answer": "Yes. Rimewind requires you to select an unevolved follower, and the Diamond Master is evolved, so you can't select it."
+    },
+    {
+      "number": "Q494",
+      "question": "What does \"Whenever an opponent is selecting cards for an ability, if they can select this card, they must select it\" mean?",
+      "answer": "It means that when an opponent is playing an ability that requires them to select one or more cards, such as \"Select an enemy follower on the field and deal it 2 damage\" (found on Angelic Snipe, Bellringer Angel's evolved form, etc.), if they are able to select this follower, then they must select it. Note that this ability is only valid when it's on the field. Also, when an opponent is attacking with a follower, they don't have to select this follower as the attack target."
+    },
+    {
+      "number": "Q493",
+      "question": "Can you explain \"Whenever an opponent is selecting cards for an ability, if they can select this card, they must select it\" in detail?",
+      "answer": "According to the Comprehensive Rules, \"if multiple effects that require a player to perform a certain action are produced simultaneously, and it is not possible to perform all of them, the player is required to select and perform as many of the actions as possible.\" Let's look at some examples of this in action. In the following, X denotes a follower with \"Whenever an opponent is selecting cards for an ability, if they can select this card, they must select it,\" and Y denotes a follower that doesn't have this ability. Example 1: Your field has 1 X and 2 Y. An opponent is selecting \"up to 1\" follower for an ability. In this case, they must select the X. Example 2: Your field has 2 X and 2 Y. An opponent is selecting \"up to 1\" follower for an ability. In this case, they must select one of the two Xs. Example 3: Your field has 1 X and 2 Y. An opponent is selecting \"up to 2\" followers for an ability. In this case, they must select the X, but whether or not they select a Y is up to them. Example 4: Your field has 2 X and 2 Y. An opponent is selecting \"up to 2\" followers for an ability. In this case, they must select both Xs. Example 5: Your field has 3 X and 2 Y. An opponent is selecting \"up to 2\" followers for an ability. In this case, they must select two of the three Xs."
+    },
+    {
+      "number": "Q492",
+      "question": "Does a follower with Assail have to attack this follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q491",
+      "question": "If an opponent plays Crazed Executioner's On Evolve ability when this follower is in my hand, do they have to select this follower for me to discard?",
+      "answer": "No, they don't."
+    },
+    {
+      "number": "Q490",
+      "question": "If an opponent plays Urd's On Evolve ability when this follower is in my EX area, do they have to select this follower and banish it?",
+      "answer": "No, they don't."
+    },
+    {
+      "number": "Q489",
+      "question": "If an opponent plays Multipart Experiment when this follower is on my field, do they have to choose option 1 and select this follower?",
+      "answer": "No. Your opponent doesn't have to choose option 1, but if they do, they must select this follower."
+    },
+    {
+      "number": "Q488",
+      "question": "When selecting a follower with Storm or Ward in my cemetery, can I select Mejiro Ryan or another follower that gains Storm or Ward from an ability?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP03-093": [],
+  "BP03-094": [],
+  "BP03-095": [],
+  "BP03-096": [],
+  "BP03-097": [],
+  "BP03-098": [
+    {
+      "number": "Q495",
+      "question": "If I give this follower Storm with its activated ability and then evolve it, does it keep Storm?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP03-099": [],
+  "BP03-100": [],
+  "BP03-101": [],
+  "BP03-102": [
+    {
+      "number": "Q496",
+      "question": "When I put a follower or amulet from my EX area onto my field, does it lose its Fable counters?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP03-103": [],
+  "BP03-104": [],
+  "BP03-105": [],
+  "BP03-106": [],
+  "BP03-107": [
+    {
+      "number": "Q497",
+      "question": "When I put a follower or amulet from my EX area onto my field, does it lose its Fable counters?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP03-108": [
+    {
+      "number": "Q497",
+      "question": "When I put a follower or amulet from my EX area onto my field, does it lose its Fable counters?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP03-109": [
+    {
+      "number": "Q526",
+      "question": "What does \"steal\" mean?",
+      "answer": "If you \"steal\" an enemy follower on the field, it means you move it to your field and become its controller, allowing you to use it and its abilities. When a stolen follower moves to a zone other than the field, it moves to the corresponding zone of its owner."
+    },
+    {
+      "number": "Q525",
+      "question": "Can I steal an evolved or racing enemy follower on the field?",
+      "answer": "Yes. If you steal an evolved/racing follower, it remains evolved/racing."
+    },
+    {
+      "number": "Q524",
+      "question": "Can I steal an enemy follower token on the field?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q523",
+      "question": "If I steal a follower with a Fanfare ability, does that ability trigger?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q522",
+      "question": "If I steal a follower that's taken damage and/or has effects applied to it, do the damage and effects persist?",
+      "answer": "Yes, they do."
+    },
+    {
+      "number": "Q521",
+      "question": "If my opponent steals one of my followers, can I steal it back with this follower's ability?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q520",
+      "question": "If my field is full, can I still steal an enemy follower?",
+      "answer": "No, but you can still play this follower's activated ability. In that case, you would select an enemy follower on the field, pay the cost by banishing 3 Fallen Angel cards in your cemetery, then, as your field is full, simply refresh the selected follower without moving it to your field."
+    },
+    {
+      "number": "Q519",
+      "question": "If I steal a follower with an evolve/serve ability, can I evolve/race it?",
+      "answer": "Yes. If you have the required evolved card or Carrots in your evolve deck, you can evolve/race the stolen follower."
+    },
+    {
+      "number": "Q518",
+      "question": "If I steal a follower, can I attack with it in the same turn?",
+      "answer": "Not unless it has Rush or Storm."
+    },
+    {
+      "number": "Q517",
+      "question": "If I steal a follower with Storm or Rush, can I attack with it in the same turn?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q516",
+      "question": "If I steal a follower with \"This follower can't attack enemies,\" can I attack its owner's leader with it?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q515",
+      "question": "If I steal an evolved follower, can I immediately attack engaged enemy followers with it?",
+      "answer": "Not unless it has Rush or Storm, and evolving a follower doesn't technically give it either. The rule that allows evolved followers to attack engaged enemy followers immediately only applies on the turn it evolves."
+    },
+    {
+      "number": "Q514",
+      "question": "If I steal a racing Haru Urara from an opponent, can I immediately attack engaged enemy followers with it?",
+      "answer": "Yes. Racing followers have Rush, and followers don't lose Rush when moving from one player's field to another."
+    },
+    {
+      "number": "Q513",
+      "question": "If a follower I stole from an opponent is destroyed, where does it go?",
+      "answer": "Its owner's cemetery."
+    },
+    {
+      "number": "Q512",
+      "question": "If a follower I stole from an opponent is banished, where does it go?",
+      "answer": "Its owner's banished zone."
+    },
+    {
+      "number": "Q511",
+      "question": "If a follower I stole from an opponent is returned to hand, whose hand does it return to?",
+      "answer": "Its owner's hand."
+    },
+    {
+      "number": "Q510",
+      "question": "If a follower I stole from an opponent is put into the EX area, whose EX area does it move to?",
+      "answer": "Its owner's EX area."
+    },
+    {
+      "number": "Q509",
+      "question": "If an evolved or racing follower I stole from an opponent leaves the field, where do I put its evolved form or Carrot(s)?",
+      "answer": "Faceup in its owner's evolve deck."
+    },
+    {
+      "number": "Q508",
+      "question": "If a follower I stole from an opponent is destroyed, who plays its Last Words ability?",
+      "answer": "You play it."
+    },
+    {
+      "number": "Q507",
+      "question": "If an Aiela, Dragon Knight I stole from an opponent is destroyed, and I play its Last Words ability, what happens?",
+      "answer": "You increase your maximum play points by 1."
+    },
+    {
+      "number": "Q506",
+      "question": "If an evolved Leonidas I stole from an opponent is destroyed, and I play its Last Words ability, what happens?",
+      "answer": "You summon a Leonidas's Resolve token onto your field."
+    },
+    {
+      "number": "Q505",
+      "question": "If an Underworld Watchman Khawy I stole from an opponent is destroyed, and I play its Last Words ability, what happens?",
+      "answer": "You select an enemy follower on the field, destroy it, and give your leader +X defense."
+    },
+    {
+      "number": "Q504",
+      "question": "If a Mordecai the Duelist I stole from an opponent is destroyed, and I play its Last Words ability, what happens?",
+      "answer": "You pay the cost by giving -3 defense to your leader. Then, the Mordecai the Duelist is put onto its owner's field. When destroyed, Mordecai the Duelist moves from your field to its owner's cemetery. This triggers its Last Words ability, which you choose to play by paying the cost. After paying the cost, you play the ability, but by this time, Mordecai the Duelist has moved to its owner's cemetery, so it's put onto its owner's field, not yours."
+    },
+    {
+      "number": "Q503",
+      "question": "If a Dark Alice I stole from an opponent is destroyed, and I play its Last Words ability, what happens?",
+      "answer": "You pay the cost by banishing the top 10 cards of your deck. Then, the Dark Alice is put onto its owner's field, and you discard a card. When destroyed, the Dark Alice moves from your field to its owner's cemetery. This triggers its Last Words ability, which you choose to play by paying the cost. After paying the cost, you play the ability, but by this time, the Dark Alice has moved to its owner's cemetery, so it's put onto its owner's field, not yours. Lastly, since you're the one playing the Last Words ability, you discard a card."
+    },
+    {
+      "number": "Q502",
+      "question": "If I steal an enemy Slade, Blossoming Wolf and then it's returned to hand from my field, what happens?",
+      "answer": "The Slade, Blossoming Wolf returns to its owner's hand, and you play its \"When this card is returned to hand from your field\" ability."
+    },
+    {
+      "number": "Q501",
+      "question": "If I steal an enemy Lance Lizard with this follower's ability, does Lance Lizard's \"Once on each of your turns, when this follower is selected for an ability\" trigger?",
+      "answer": "No. When the Lance Lizard is selected, it's not its controller's turn."
+    },
+    {
+      "number": "Q500",
+      "question": "If a card or ability cost requires me to put a follower from my field into the cemetery, can I use a stolen follower to pay it?",
+      "answer": "Yes. In that case, you would put the stolen follower into its owner's cemetery, not your own."
+    },
+    {
+      "number": "Q499",
+      "question": "If I have 2 copies of this follower on my field, can I activate both their abilities?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q498",
+      "question": "If a follower I steal says to summon a token, but I don't have that token, what do I do?",
+      "answer": "Use some other object that all players can distinguish as that token."
+    }
+  ],
+  "BP03-110": [
+    {
+      "number": "Q527",
+      "question": "What does \"can't attack enemies\" mean?",
+      "answer": "If a follower can't attack enemies, then enemy followers and enemy leaders can't be selected as its attack target. In other words, it can't be used to attack enemy followers or enemy leaders."
+    }
+  ],
+  "BP03-111": [],
+  "BP03-112": [
+    {
+      "number": "Q529",
+      "question": "If I put Lucifer onto my field with this follower's Fanfare ability, do I give my leader +4 defense at the start of my end phase in addition to putting Lucifer on the bottom of my deck?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q528",
+      "question": "If I put a follower onto my field with this follower's Fanfare ability and then evolve it, do I still put it on the bottom of my deck at the start of my end phase?",
+      "answer": "Yes. Put the evolved form faceup in your evolve deck, and the unevolved form on the bottom of your deck."
+    }
+  ],
+  "BP03-113": [],
+  "BP03-114": [],
+  "BP03-115": [],
+  "BP03-116": [
+    {
+      "number": "Q531",
+      "question": "Does this follower's On Evolve ability deal 5 damage to my own followers too?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q530",
+      "question": "If my hand is empty, can I still play this follower's On Evolve ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP03-117": [
+    {
+      "number": "Q532",
+      "question": "Can I play this spell, choose one of the options, and then not pay the associated cost, essentially spending 1 play point to play a card that does nothing?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP03-118": [
+    {
+      "number": "Q533",
+      "question": "Can I pay the cost of this follower's activated ability by putting itself into the cemetery?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP03-119": [],
+  "BP03-120": [],
+  "BP03-121": [
+    {
+      "number": "Q534",
+      "question": "If this card is in my cemetery, and I select and play it with Merlin's On Evolve ability, does it count toward X?",
+      "answer": "No, it doesn't."
+    }
+  ]
+}

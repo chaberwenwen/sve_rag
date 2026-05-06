@@ -1,0 +1,637 @@
+{
+  "BP13-001": [
+    {
+      "number": "Q1670",
+      "question": "Can I only play this follower's activated ability when it's in my cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP13-002": [
+    {
+      "number": "Q1673",
+      "question": "When playing Biofabrication, can I select a faceup advanced follower in my evolve deck?",
+      "answer": "No, you can't. Advanced followers are not evolved followers."
+    },
+    {
+      "number": "Q1672",
+      "question": "When playing Rimewind, can I select an enemy advanced follower?",
+      "answer": "Yes, you can. Advanced followers are also considered \"unevolved\" followers."
+    },
+    {
+      "number": "Q1671",
+      "question": "If I can't select a Resolve of the Nine-Tailed Fox in my cemetery, can I still pick option 2 and have nothing happen?",
+      "answer": "No. If you can't select a Resolve of the Nine-Tailed Fox in your cemetery, you would be required to choose option 1."
+    }
+  ],
+  "BP13-003": [
+    {
+      "number": "Q1674",
+      "question": "I declare an attack on an engaged enemy follower with a Fairy that has Rush from this follower's passive ability. If my opponent banishes this follower at Quick timing, causing my Fairy to lose Rush, does the attack still go through?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP13-004": [
+    {
+      "number": "Q1674",
+      "question": "I declare an attack on an engaged enemy follower with a Fairy that has Rush from this follower's passive ability. If my opponent banishes this follower at Quick timing, causing my Fairy to lose Rush, does the attack still go through?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP13-005": [
+    {
+      "number": "Q1675",
+      "question": "If I can't select an enemy follower on the field, can I still play this follower's Strike ability to give it +2 attack and defense?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP13-006": [
+    {
+      "number": "Q1676",
+      "question": "Can I choose not to add a Forestcraft spell to my hand and/or not to bury a Forestcraft spell?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1675",
+      "question": "If I can't select an enemy follower on the field, can I still play this follower's Strike ability to give it +2 attack and defense?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP13-007": [
+    {
+      "number": "Q1677",
+      "question": "I have 4 cards on my field, including this follower. When playing its activated ability, can I choose whether to summon a Keenedge Artifact or Mystic Artifact token?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP13-008": [
+    {
+      "number": "Q1681",
+      "question": "Can I choose the same option more than once?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1680",
+      "question": "Can I only choose option 2 if I can select both a follower with \"Sekka\" in its name on my field and an enemy follower on the field?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1679",
+      "question": "Can you explain which follower would be the first and which would be the second?",
+      "answer": "The first follower would be the follower with \"Sekka\" in its name you selected on your field, and the second would be the enemy follower you selected on your opponent's field."
+    },
+    {
+      "number": "Q1678",
+      "question": "If I can't select a Sekka, Ninefold Blaze on my field, can I still choose option 1 to have nothing happen?",
+      "answer": "No. If there are no valid targets to select, you can't play this spell."
+    }
+  ],
+  "BP13-009": [],
+  "BP13-010": [],
+  "BP13-011": [],
+  "BP13-012": [],
+  "BP13-013": [],
+  "BP13-014": [
+    {
+      "number": "Q1682",
+      "question": "I have 4 cards in my EX area. When playing this follower's On Evolve ability, can I choose whether to put a Fairy Wisp or Fairy token into my EX area?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP13-015": [],
+  "BP13-016": [
+    {
+      "number": "Q1683",
+      "question": "If I have a Beast follower that costs 5 or more on my field but can't select an enemy follower on the field, can I still play this follower's Fanfare ability to give it Aura?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP13-017": [],
+  "BP13-018": [
+    {
+      "number": "Q1684",
+      "question": "If my field is full when I play this follower's Fanfare ability and I can't summon a Fairy token, do I still resolve the rest of the ability?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP13-019": [],
+  "BP13-020": [
+    {
+      "number": "Q1685",
+      "question": "If I can't select an enemy follower on the field, can I still play this follower's Strike ability to give it +X attack and defense?",
+      "answer": "Yes. \"Select up to 1\" means you can select 0."
+    }
+  ],
+  "BP13-021": [
+    {
+      "number": "Q1686",
+      "question": "If I have 9 cards or fewer in my deck when I play this follower's Fanfare ability, do I lose the game?",
+      "answer": "No. You would simply banish as many cards as possible, then resolve the rest of the ability. You would only lose if you must draw a card when there are none remaining in your deck."
+    }
+  ],
+  "BP13-022": [
+    {
+      "number": "Q1687",
+      "question": "What is ability damage?",
+      "answer": "Ability damage is all damage except for damage dealt by two followers in combat or by a follower attacking a leader. Damage from Strike abilities, although triggered by an attack, is considered ability damage."
+    }
+  ],
+  "BP13-023": [
+    {
+      "number": "Q1687",
+      "question": "What is ability damage?",
+      "answer": "Ability damage is all damage except for damage dealt by two followers in combat or by a follower attacking a leader. Damage from Strike abilities, although triggered by an attack, is considered ability damage."
+    }
+  ],
+  "BP13-024": [],
+  "BP13-025": [
+    {
+      "number": "Q1690",
+      "question": "If I played this spell for 2 more play points, can I choose not to find a Yurius, Levin Duke and still search for an Albert, Levin Saber and summon it?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1689",
+      "question": "If I can't select an enemy follower on the field, can I still play this spell for 2 more play points to search my deck for a Yurius, Levin Duke and Albert, Levin Saber and summon them?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1688",
+      "question": "If I can't select an enemy follower on the field, can I still play this spell to search my deck for a Yurius, Levin Duke and summon it?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP13-026": [],
+  "BP13-027": [],
+  "BP13-028": [],
+  "BP13-029": [
+    {
+      "number": "Q1691",
+      "question": "I have 4 cards on my field, including this follower. When playing its Fanfare ability, can I choose whether to summon a Steelclad Knight or Shield Guardian token?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP13-030": [],
+  "BP13-031": [],
+  "BP13-032": [],
+  "BP13-033": [],
+  "BP13-034": [],
+  "BP13-035": [
+    {
+      "number": "Q1692",
+      "question": "Can I choose not to summon 1 or more of Mina, Levin Vice Leader, Mona, Levin Mage, or Mena, Levin Duelist?",
+      "answer": "Yes. When searching through your deck, you can choose to \"not find\" any number of them."
+    }
+  ],
+  "BP13-036": [
+    {
+      "number": "Q1693",
+      "question": "If I have 2 remaining play points or fewer when I play Anne, Mysterian Imperatrix's activated ability, can I still play a Rending Blast from my evolve deck?",
+      "answer": "No. You must still pay the Rending Blast's cost to play it."
+    }
+  ],
+  "BP13-037": [],
+  "BP13-038": [],
+  "BP13-039": [
+    {
+      "number": "Q1693",
+      "question": "If I have 2 remaining play points or fewer when I play Anne, Mysterian Imperatrix's activated ability, can I still play a Rending Blast from my evolve deck?",
+      "answer": "No. You must still pay the Rending Blast's cost to play it."
+    }
+  ],
+  "BP13-040": [],
+  "BP13-041": [
+    {
+      "number": "Q1694",
+      "question": "If there are at least 6 cards with different base costs in my cemetery, but I can't select an enemy follower on the field, can I still play this follower's On Evolve ability to draw 2 cards and discard 1?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP13-042": [],
+  "BP13-043": [
+    {
+      "number": "Q1714",
+      "question": "If I play this spell, which player goes first?",
+      "answer": "The active player does. When multiple players need to make a selection, the active player will go first. In this case, the order will be as follows: 1. The active player declares a follower. 2. The next non-active player declares a follower. Repeat until all players have declared a follower. 3. The active player gives control of their declared follower to another player. 4. The next non-active player gives control of their declared follower to another player. Repeat until all players have resolved the spell's effect."
+    },
+    {
+      "number": "Q1713",
+      "question": "If a follower I was given control of summons a token, but I don't have that token, what do I do?",
+      "answer": "You may use a placeholder object that all players agree to recognize as that token."
+    },
+    {
+      "number": "Q1712",
+      "question": "If a card or ability cost requires me to bury a follower, can I bury a follower I was given control of to pay it?",
+      "answer": "Yes. In that case, you would put the follower into its owner's cemetery, not your own."
+    },
+    {
+      "number": "Q1711",
+      "question": "If I am given control of a Slade, Blossoming Wolf and then it's returned to hand from my field, what happens?",
+      "answer": "The Slade, Blossoming Wolf returns to its owner's hand, and you play its \"When this card is returned to hand from your field\" ability."
+    },
+    {
+      "number": "Q1710",
+      "question": "If a Dark Alice I was given control of is destroyed, and I play its Last Words ability, what happens?",
+      "answer": "You pay the cost by banishing the top 10 cards of your deck. Then, the Dark Alice is put onto its owner's field, and you discard a card. When destroyed, the Dark Alice moves from your field to its owner's cemetery. This triggers its Last Words ability, which you choose to play by paying the cost. After paying the cost, you play the ability, which puts Dark Alice onto its owner's field. Lastly, since you're the one playing the Last Words ability, you discard a card."
+    },
+    {
+      "number": "Q1709",
+      "question": "If a follower I was given control of is destroyed, who plays its Last Words ability?",
+      "answer": "You play it."
+    },
+    {
+      "number": "Q1708",
+      "question": "If I am given control of an evolved follower, a racing follower, or a follower with Drive, and it leaves the field, where do I put its evolved form, Carrot(s), or Drive Point?",
+      "answer": "Faceup in their owner's evolve deck."
+    },
+    {
+      "number": "Q1707",
+      "question": "If I am given control of a Coral Assault that has been given Drive by its ride ability, can I immediately attack engaged enemy followers with it?",
+      "answer": "Yes. Followers with Drive have Rush, and followers don't lose Rush when moving from one player's field to another. Note that as the new controller, you would perform any drive checks that occur."
+    },
+    {
+      "number": "Q1706",
+      "question": "If I am given control of a racing Haru Urara, can I immediately attack engaged enemy followers with it?",
+      "answer": "Yes. Racing followers have Rush, and followers don't lose Rush when moving from one player's field to another."
+    },
+    {
+      "number": "Q1705",
+      "question": "If I am given control of an evolved follower, can I immediately attack engaged enemy followers with it?",
+      "answer": "No, not unless it has Rush or Storm. The rule that allows evolved followers to attack engaged enemy followers immediately only applies on the turn it evolves."
+    },
+    {
+      "number": "Q1704",
+      "question": "If I am given control of a follower with \"This follower can't attack enemies,\" can I attack its owner's leader with it?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1703",
+      "question": "If I am given control of a follower, can I attack with it in the same turn?",
+      "answer": "No, not unless it has Rush or Storm."
+    },
+    {
+      "number": "Q1702",
+      "question": "If a follower I was given control of has an evolve, serve, or ride ability, can I play that ability?",
+      "answer": "Yes, provided you have the relevant cards in your own evolve deck. Note that you may only evolve, race, or ride a follower once per turn, as usual."
+    },
+    {
+      "number": "Q1701",
+      "question": "Can I give control of a follower that I was given control of by an opponent?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1700",
+      "question": "If I give control of a follower that's taken damage and/or has effects applied to it, do the damage and effects persist?",
+      "answer": "Yes, they do."
+    },
+    {
+      "number": "Q1699",
+      "question": "Does giving control of a follower trigger its Fanfare ability?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1698",
+      "question": "Can I give control of a token follower?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1697",
+      "question": "Can I give control of a follower with Aura?",
+      "answer": "Yes, you can. Aura only prevents selection by enemy abilities."
+    },
+    {
+      "number": "Q1696",
+      "question": "Can I give control of an evolved follower, a racing follower, a follower that has been given Drive, or an advanced follower?",
+      "answer": "Yes, you can. Note that they would remain evolved, racing, etc."
+    },
+    {
+      "number": "Q1695",
+      "question": "What does giving control of a card entail?",
+      "answer": "You would move the card from your field to an opponent's. That opponent becomes its controller, meaning they may use it and its abilities accordingly. If that card would leave the field, it returns to its owner in the relevant zone. For example, a destroyed follower would return to its owner's cemetery."
+    }
+  ],
+  "BP13-044": [],
+  "BP13-045": [],
+  "BP13-046": [],
+  "BP13-047": [],
+  "BP13-048": [],
+  "BP13-049": [],
+  "BP13-050": [],
+  "BP13-051": [],
+  "BP13-052": [],
+  "BP13-053": [],
+  "BP13-054": [],
+  "BP13-055": [],
+  "BP13-056": [
+    {
+      "number": "Q1715",
+      "question": "I declare an attack on an enemy leader with a Dragon that has Storm from this follower's passive ability. If my opponent banishes this follower at Quick timing, causing my Dragon to lose Storm, does the attack still go through?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP13-057": [],
+  "BP13-058": [
+    {
+      "number": "Q1716",
+      "question": "If I have 10 max play points, but I can't select an enemy follower on the field, can I still play this follower's automatic ability to give my leader +3 defense at the start of my end phase?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP13-059": [],
+  "BP13-060": [
+    {
+      "number": "Q1717",
+      "question": "If I can't select an enemy follower on the field, can I still play this spell for 3 more play points to search my deck for a Drache, Fiery Dragonlord and summon it?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP13-061": [],
+  "BP13-062": [],
+  "BP13-063": [],
+  "BP13-064": [],
+  "BP13-065": [],
+  "BP13-066": [],
+  "BP13-067": [
+    {
+      "number": "Q1718",
+      "question": "If I look at the top card of my deck and it's a Draconic Duelist card, can I choose not to add it to my hand?",
+      "answer": "Yes. In that case, you would not reveal it and simply return it to the top of your deck."
+    }
+  ],
+  "BP13-068": [],
+  "BP13-069": [],
+  "BP13-070": [
+    {
+      "number": "Q1720",
+      "question": "Can I play this spell without paying its additional cost?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1719",
+      "question": "If I can't select an enemy follower on the field, can I still play this spell with its additional cost to draw a card?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP13-071": [
+    {
+      "number": "Q1722",
+      "question": "At the start of my main phase, if I have this follower in my EX area with 0 dormancy counters on it and its automatic ability triggers, can I summon it?",
+      "answer": "No. You would be unable to pay the cost of removing a dormancy counter, meaning you could not resolve the summon."
+    },
+    {
+      "number": "Q1721",
+      "question": "At the start of my main phase, if I have this follower in my EX area with 1 dormancy counter on it and its automatic ability triggers, can I choose not to summon it?",
+      "answer": "Yes. You may choose not to pay the cost of removing a dormancy counter, meaning you would not resolve the summon."
+    }
+  ],
+  "BP13-072": [
+    {
+      "number": "Q1723",
+      "question": "I have 4 cards in my EX area. When playing this follower's Last Words ability, can I choose whether to put this follower or a Blood Arts token into my EX area?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP13-073": [
+    {
+      "number": "Q1726",
+      "question": "I have 2 copies of this follower on my field. If I choose option 1 when resolving the automatic ability of one copy, can I choose option 1 when resolving the automatic ability of the other copy in the same turn?",
+      "answer": "Yes, you can. The \"choose one that you haven't chosen this turn\" restriction only applies to that individual copy."
+    },
+    {
+      "number": "Q1725",
+      "question": "What counts toward \"the number of times your leader has lost defense this turn\"?",
+      "answer": "Any time your leader takes damage, is given -X defense, or has its defense changed to a lower value counts. For example, paying the cost of Zealot of Lust's activated ability."
+    },
+    {
+      "number": "Q1724",
+      "question": "If I can't select an enemy follower on the field, can I still choose option 1 to have nothing happen?",
+      "answer": "No. If you can't select an enemy follower, you would be required to choose option 2 or 3."
+    }
+  ],
+  "BP13-074": [],
+  "BP13-075": [],
+  "BP13-076": [
+    {
+      "number": "Q1727",
+      "question": "If my Necrocharge drops below 10 after this follower enters the field, does it lose Rush and Bane?",
+      "answer": "Yes. Its Necrocharge (10) ability is passive, so it is only effective while your Necrocharge is 10 or above."
+    }
+  ],
+  "BP13-077": [
+    {
+      "number": "Q1728",
+      "question": "If I have exactly 10 cards in my cemetery when I play this follower's Fanfare ability, does Necrocharge (10) still trigger?",
+      "answer": "Yes. Necrocharge references the number of cards in your cemetery at the moment the effect with Necrocharge begins to be resolved."
+    }
+  ],
+  "BP13-078": [],
+  "BP13-079": [
+    {
+      "number": "Q1729",
+      "question": "If I can't select an enemy follower on the field, can I still play this follower's On Evolve ability to draw a card?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP13-080": [],
+  "BP13-081": [],
+  "BP13-082": [],
+  "BP13-083": [],
+  "BP13-084": [],
+  "BP13-085": [],
+  "BP13-086": [],
+  "BP13-087": [],
+  "BP13-088": [],
+  "BP13-089": [],
+  "BP13-090": [
+    {
+      "number": "Q1731",
+      "question": "If I play this follower's activated ability, burying an amulet with a Last Words ability and summoning an amulet or follower with a Fanfare ability, in what order do I resolve their abilities?",
+      "answer": "Both the Last Words ability and Fanfare ability would be pending by the time you finish resolving this follower's activated ability, so you may resolve them in any order."
+    },
+    {
+      "number": "Q1730",
+      "question": "If I can't select an enemy follower on the field, can I still play this follower's Fanfare ability to give my leader +3 defense?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP13-091": [],
+  "BP13-092": [],
+  "BP13-093": [
+    {
+      "number": "Q1732",
+      "question": "Do this follower's \"this card costs 5 less to play\" abilities stack?",
+      "answer": "Yes. Each fulfilled requirement reduces this follower's cost by 5, up to a possible total reduction of 15."
+    }
+  ],
+  "BP13-094": [
+    {
+      "number": "Q1733",
+      "question": "If 2 followers that cost 2 or less are put onto my field at the same time, does this amulet's automatic ability trigger 2 times?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP13-095": [],
+  "BP13-096": [],
+  "BP13-097": [],
+  "BP13-098": [],
+  "BP13-099": [],
+  "BP13-100": [],
+  "BP13-101": [],
+  "BP13-102": [],
+  "BP13-103": [],
+  "BP13-104": [],
+  "BP13-105": [
+    {
+      "number": "Q1735",
+      "question": "If I summon Wind God with this follower's Fanfare ability, do both \"At the start of your end phase\" abilities trigger at the start of my end phase?",
+      "answer": "Yes. When you proceed to your end phase, all \"At the start of your end phase\" abilities are triggered and become pending. Then you can choose the order in which you resolve the pending abilities. Note that even if you resolved the \"return this card to its owner's hand\" ability first, you would still resolve the \"give each follower on your field +1 attack\" ability."
+    },
+    {
+      "number": "Q1734",
+      "question": "If I summon Ancient Elf with this follower's Fanfare ability and return this follower to my hand with Ancient Elf's Fanfare ability, do I still have to return Ancient Elf to my hand at the start of my end phase?",
+      "answer": "Yes. Once this follower's Fanfare ability is resolved, Ancient Elf will have \"At the start of your end phase, return this card to its owner's hand,\" which will remain valid even if this follower leaves the field."
+    }
+  ],
+  "BP13-106": [
+    {
+      "number": "Q1739",
+      "question": "If I use this follower's On Evolve ability to put a follower with a Fanfare ability onto the field, does that Fanfare ability trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1738",
+      "question": "If I select an enemy follower that was stolen from me or I gave control of and return it to my EX area, does that fulfill the \"if you put it into your EX area\" requirement?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1737",
+      "question": "If I put a follower into the EX area, does it lose any damage and abilities applied to it?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1736",
+      "question": "Can I select an enemy follower with this follower's On Evolve ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP13-107": [
+    {
+      "number": "Q1740",
+      "question": "Does this spell also banish the cards on my opponents' fields and in their EX areas?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP13-108": [
+    {
+      "number": "Q1744",
+      "question": "If 2 followers are put from my field into the cemetery at the same time, does this follower's automatic ability trigger 2 times?",
+      "answer": "Yes, it does. Note that this follower's automatic ability also triggers if it itself is put from the field into the cemetery."
+    },
+    {
+      "number": "Q1743",
+      "question": "If a Ghost I control is destroyed during combat, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does. However, it would not trigger if a Ghost is banished due to its own \"At the start of your end phase, banish this card\" ability."
+    },
+    {
+      "number": "Q1742",
+      "question": "If I bury Hell's Unleasher to pay for its activated ability, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1741",
+      "question": "If a token follower on my field is put into the cemetery, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does. The token is put into the cemetery, then it is immediately removed from the game."
+    }
+  ],
+  "BP13-109": [
+    {
+      "number": "Q1744",
+      "question": "If 2 followers are put from my field into the cemetery at the same time, does this follower's automatic ability trigger 2 times?",
+      "answer": "Yes, it does. Note that this follower's automatic ability also triggers if it itself is put from the field into the cemetery."
+    },
+    {
+      "number": "Q1743",
+      "question": "If a Ghost I control is destroyed during combat, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does. However, it would not trigger if a Ghost is banished due to its own \"At the start of your end phase, banish this card\" ability."
+    },
+    {
+      "number": "Q1742",
+      "question": "If I bury Hell's Unleasher to pay for its activated ability, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1741",
+      "question": "If a token follower on my field is put into the cemetery, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does. The token is put into the cemetery, then it is immediately removed from the game."
+    }
+  ],
+  "BP13-110": [
+    {
+      "number": "Q1750",
+      "question": "Does a faceup Drive Point in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1749",
+      "question": "Does a faceup Carrot in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1748",
+      "question": "Does a faceup Rending Blast in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1747",
+      "question": "Does a faceup advanced follower in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1746",
+      "question": "Does a faceup evolved Eidolon of Madness in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1745",
+      "question": "If I can't select an enemy follower on the field, can I still play this follower's Fanfare ability to 3 damage to an enemy leader?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP13-111": [
+    {
+      "number": "Q1751",
+      "question": "If I can't select 2 enemy followers on the field, can I play this spell?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP13-112": [],
+  "BP13-113": [],
+  "BP13-114": [
+    {
+      "number": "Q1752",
+      "question": "Can this follower's activated ability only be played while in hand?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP13-115": [],
+  "BP13-116": [],
+  "BP13-117": [
+    {
+      "number": "Q1754",
+      "question": "Can this follower's attack and/or defense be reduced while its On Evolve ability is in effect, such as by Nice Nature's Fanfare ability?",
+      "answer": "Yes, as that is not considered as taking damage."
+    },
+    {
+      "number": "Q1753",
+      "question": "If a follower with 0 or less attack, such as Bellringer Angel, attacks this follower, does it use up the effect of this follower's On Evolve ability?",
+      "answer": "No. Followers with 0 or less attack don't deal attack damage, so the effect remains on this follower after the attack."
+    }
+  ],
+  "BP13-118": [],
+  "BP13-119": [
+    {
+      "number": "Q1755",
+      "question": "If I play 2 copies of this spell on the same follower, and that follower is destroyed in the same turn, do the 2 Last Words abilities it was given both trigger?",
+      "answer": "Yes, they do."
+    }
+  ]
+}

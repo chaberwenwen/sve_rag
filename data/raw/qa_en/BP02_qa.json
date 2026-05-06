@@ -1,0 +1,579 @@
+{
+  "BP02-001": [],
+  "BP02-002": [
+    {
+      "number": "Q287",
+      "question": "Can I choose a Crystalia Eve put onto the field by another follower's ability as the target for this follower's ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP02-003": [
+    {
+      "number": "Q288",
+      "question": "When I look at the top 4 cards of my deck with this follower's Last Words ability, if there is a Forestcraft follower among them, can I choose not to put it onto the field?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP02-004": [
+    {
+      "number": "Q289",
+      "question": "While this follower is on my field, if my opponent plays Fire Chain and selects 2 of my followers, does each selected follower take 1 less damage?",
+      "answer": "Yes, they do."
+    }
+  ],
+  "BP02-005": [],
+  "BP02-006": [],
+  "BP02-007": [
+    {
+      "number": "Q344",
+      "question": "When an ability refers to the cost of a card that was played for a different number of play points than its displayed cost, does it refer to that different number?",
+      "answer": "No. It refers to the cost displayed on the card. For example, when referring to the cost of a Flame Destroyer, the number used is always 9, even if it was played for 6, 3, or 0 play points. Effects that change the number of play points it costs to play a card don't change the cost information of the card. When an ability refers to how much a card \"costs\" or its \"base cost,\" it always refers to the cost displayed on the card. Note that, when referring to the cost of an evolved follower, you use the cost of its unevolved form."
+    }
+  ],
+  "BP02-008": [],
+  "BP02-009": [],
+  "BP02-010": [
+    {
+      "number": "Q884",
+      "question": "When playing this follower's Fanfare ability, if I can't select a Pixie follower on my field, can I still choose option 1 to have nothing happen?",
+      "answer": "No. If you can't select a Pixie follower, you would be required to choose option 2."
+    }
+  ],
+  "BP02-011": [
+    {
+      "number": "Q275",
+      "question": "If there are no enemy followers on the field, can I still play this spell?",
+      "answer": "Yes. You may choose any number of followers between 0 and 2."
+    }
+  ],
+  "BP02-012": [],
+  "BP02-013": [],
+  "BP02-014": [],
+  "BP02-015": [],
+  "BP02-016": [],
+  "BP02-017": [],
+  "BP02-018": [],
+  "BP02-019": [
+    {
+      "number": "Q291",
+      "question": "What does \"combat damage\" mean?",
+      "answer": "\"Combat damage\" refers to the damage that an attacking follower and a target follower deal to each other in combat."
+    },
+    {
+      "number": "Q290",
+      "question": "If I have 2 copies of this follower on my field, does each copy's Strike ability trigger when they attack?",
+      "answer": "Yes. Both Strike abilities will trigger once per turn."
+    }
+  ],
+  "BP02-020": [
+    {
+      "number": "Q292",
+      "question": "If this follower attacks an enemy leader, does this follower's \"During your turn, whenever this follower deals combat damage, refresh it\" ability trigger?",
+      "answer": "No. Damage dealt by an attacking follower to an enemy leader is not considered \"combat damage.\""
+    },
+    {
+      "number": "Q291",
+      "question": "What does \"combat damage\" mean?",
+      "answer": "\"Combat damage\" refers to the damage that an attacking follower and a target follower deal to each other in combat."
+    }
+  ],
+  "BP02-021": [
+    {
+      "number": "Q885",
+      "question": "When playing this follower's Fanfare ability, if I can't select an enemy follower on the field, can I still choose option 2 to have nothing happen?",
+      "answer": "No. If you can't select an enemy follower, you would be required to choose option 1. Likewise, if you can't select a follower that costs 3 play points or less in your hand, you would be required to choose option 2. If you can't make the prerequisite selection for either option, then you can't play this follower's Fanfare ability."
+    }
+  ],
+  "BP02-022": [],
+  "BP02-023": [],
+  "BP02-024": [],
+  "BP02-025": [],
+  "BP02-026": [],
+  "BP02-027": [
+    {
+      "number": "Q298",
+      "question": "Can a follower or amulet with a \"Q\" ability also be played when an enemy follower attacks or during my opponent's end phase?",
+      "answer": "No. The \"Q\" icon is tied to a specific card ability, not the card itself, so the follower or amulet cannot be played as if it had Quick. An ability with a \"Q\" icon can be played with the same timing as Quick when in the appropriate zone."
+    },
+    {
+      "number": "Q297",
+      "question": "What does the \"Q\" icon mean?",
+      "answer": "The \"Q\" icon indicates that the ability can be played with Quick timing. Abilities with this icon, like cards with Quick, can be played like usual during your main phase, as well as when an enemy follower attacks or during your opponent's end phase."
+    }
+  ],
+  "BP02-028": [],
+  "BP02-029": [],
+  "BP02-030": [
+    {
+      "number": "Q293",
+      "question": "Does this follower keep the Storm and Bane from its activated ability until it leaves the field?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP02-031": [],
+  "BP02-032": [],
+  "BP02-033": [],
+  "BP02-034": [],
+  "BP02-035": [
+    {
+      "number": "Q296",
+      "question": "When putting cards into my EX area with this follower's Fanfare ability, if my deck runs out of cards before my EX area becomes full, do I lose the game?",
+      "answer": "No. You stop moving cards into your EX area, but you do not lose the game. However, if you would draw a card while your deck has 0 cards, you will lose the game."
+    },
+    {
+      "number": "Q295",
+      "question": "When putting cards into my EX area with this follower's Fanfare ability, can I choose to stop before my EX area becomes full?",
+      "answer": "No. You must continue to put cards into your EX area until it reaches its card limit."
+    },
+    {
+      "number": "Q294",
+      "question": "While this follower is on my field, if my cemetery consists only of 10 Runecraft followers, do I meet the requirements for \"Spellchain (10)\"?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP02-036": [
+    {
+      "number": "Q333",
+      "question": "If I reduce Dimension Shift's cost by 5 with Daria, Dimensional Witch's On Evolve ability, and banish 10 spells when I play that Dimension Shift, can I play it for 2 play points?",
+      "answer": "Yes. Effects that change a cost to a specific value are applied before those that increase or decrease it."
+    },
+    {
+      "number": "Q294",
+      "question": "While this follower is on my field, if my cemetery consists only of 10 Runecraft followers, do I meet the requirements for \"Spellchain (10)\"?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP02-037": [
+    {
+      "number": "Q298",
+      "question": "Can a follower or amulet with a \"Q\" ability also be played when an enemy follower attacks or during my opponent's end phase?",
+      "answer": "No. The \"Q\" icon is tied to a specific card ability, not the card itself, so the follower or amulet cannot be played as if it had Quick. An ability with a \"Q\" icon can be played with the same timing as Quick when in the appropriate zone."
+    },
+    {
+      "number": "Q297",
+      "question": "What does the \"Q\" icon mean?",
+      "answer": "The \"Q\" icon indicates that the ability can be played with Quick timing. Abilities with this icon, like cards with Quick, can be played like usual during your main phase, as well as when an enemy follower attacks or during your opponent's end phase."
+    }
+  ],
+  "BP02-038": [
+    {
+      "number": "Q299",
+      "question": "If I have 2 copies of Grea the Dragonborn on my field, does this follower cost 4 less to play?",
+      "answer": "No. It costs 2 less even if you have more than one Grea the Dragonborn on your field."
+    }
+  ],
+  "BP02-039": [],
+  "BP02-040": [
+    {
+      "number": "Q300",
+      "question": "If I have 2 copies of Anne, Belle of Mysteria on my field, does this follower cost 4 less to play?",
+      "answer": "No. It costs 2 less even if you have more than one Anne, Belle of Mysteria on your field."
+    }
+  ],
+  "BP02-041": [
+    {
+      "number": "Q536",
+      "question": "If the enemy followers on the field are an evolved Diamond Master and a different, unevolved follower, can I select the latter when playing Rimewind?",
+      "answer": "Yes. Rimewind requires you to select an unevolved follower, and the Diamond Master is evolved, so you can't select it."
+    },
+    {
+      "number": "Q535",
+      "question": "If the enemy followers on the field are an unevolved Diamond Master and a different unevolved follower, can I select the latter when playing Rimewind?",
+      "answer": "No. You can select the unevolved Diamond Master with Rimewind, so you must select it."
+    },
+    {
+      "number": "Q301",
+      "question": "If my Spellchain is 10, can I select an evolved enemy follower with this spell?",
+      "answer": "No. Regardless of whether you meet the Spellchain requirement, you can only select an unevolved follower."
+    }
+  ],
+  "BP02-042": [],
+  "BP02-043": [
+    {
+      "number": "Q302",
+      "question": "If there are 5 cards on my field, including a Stack amulet with one Stack counter on it, can I still summon a Strikeform Golem with this follower's On Evolve ability?",
+      "answer": "Yes. All costs are paid before the ability is played, so the amulet whose Stack became 0 due to Earth Rite would be put into the cemetery, creating room on your field for the Strikeform Golem."
+    }
+  ],
+  "BP02-044": [],
+  "BP02-045": [
+    {
+      "number": "Q304",
+      "question": "Can I choose the same option more than once?",
+      "answer": "No, you cannot."
+    },
+    {
+      "number": "Q303",
+      "question": "Can I decide to choose none of the options listed?",
+      "answer": "No. You must choose at least one option."
+    }
+  ],
+  "BP02-046": [],
+  "BP02-047": [],
+  "BP02-048": [],
+  "BP02-049": [],
+  "BP02-050": [],
+  "BP02-051": [],
+  "BP02-052": [
+    {
+      "number": "Q305",
+      "question": "If there are no enemy followers on the field, can I choose to not play this follower's Fanfare ability and not discard my hand?",
+      "answer": "No. This follower's Fanfare ability does not have a cost, so you cannot choose not to play it, and must discard your hand."
+    }
+  ],
+  "BP02-053": [],
+  "BP02-054": [
+    {
+      "number": "Q307",
+      "question": "If I have no cards in my hand, can I still use this amulet's activated ability to put a Hellflame Dragon into my EX area?",
+      "answer": "No. You cannot pay the cost to activate the ability, so you cannot put a Hellflame Dragon into your EX area."
+    },
+    {
+      "number": "Q306",
+      "question": "Can I choose not to play this amulet's Fanfare ability by not paying the 3 play points?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP02-055": [],
+  "BP02-056": [],
+  "BP02-057": [
+    {
+      "number": "Q276",
+      "question": "When I increase my maximum play points by 1, do I also increase my remaining play points by 1?",
+      "answer": "No. Your remaining play points do not change."
+    }
+  ],
+  "BP02-058": [
+    {
+      "number": "Q308",
+      "question": "If I have 2 copies of this amulet on my field, when a Dragon comes onto my field, does each copy's ability trigger?",
+      "answer": "Yes. Both abilities will trigger once per turn."
+    }
+  ],
+  "BP02-059": [],
+  "BP02-060": [
+    {
+      "number": "Q309",
+      "question": "Can I select a follower whose original defense is greater than 3 but currently has 3 defense or less with this follower's ability?",
+      "answer": "Yes. This ability only looks at the follower's current defense."
+    }
+  ],
+  "BP02-061": [
+    {
+      "number": "Q310",
+      "question": "Can I select a card in an opponent's EX area with this follower's ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP02-062": [
+    {
+      "number": "Q311",
+      "question": "If I discard a card during my end phase due to my hand being over the card limit, do I play this amulet's \"At the start of your end phase, if you discarded a card this turn\" ability?",
+      "answer": "No. The discarding of cards over your hand's limit happens after \"the start of your end phase,\" so the ability does not trigger."
+    }
+  ],
+  "BP02-063": [],
+  "BP02-064": [],
+  "BP02-065": [],
+  "BP02-066": [
+    {
+      "number": "Q343",
+      "question": "If I don't have any Wyrmkin followers in my cemetery, can I still discard a card as part of this follower's On Evolve ability?",
+      "answer": "No. You cannot select a target for the ability, so you cannot play it at all—cost included."
+    },
+    {
+      "number": "Q312",
+      "question": "When selecting a follower from my cemetery, can I select the card I discarded as part of the cost of this follower's ability?",
+      "answer": "No. You must select a card before paying the cost."
+    }
+  ],
+  "BP02-067": [
+    {
+      "number": "Q291",
+      "question": "What does \"combat damage\" mean?",
+      "answer": "\"Combat damage\" refers to the damage that an attacking follower and a target follower deal to each other in combat."
+    }
+  ],
+  "BP02-068": [],
+  "BP02-069": [
+    {
+      "number": "Q313",
+      "question": "If this follower is on my field and a Forest Bat comes onto my field, does this follower gain +1/ +1?",
+      "answer": "No. This follower's Fanfare ability triggers only once when it comes onto the field, and only counts the number of Forest Bats on your field at the time."
+    }
+  ],
+  "BP02-070": [],
+  "BP02-071": [
+    {
+      "number": "Q314",
+      "question": "If the follower destroyed by this follower's On Evolve ability had its attack changed by another ability, does X equal the follower's attack after the change?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP02-072": [
+    {
+      "number": "Q315",
+      "question": "If the follower destroyed by this follower's Last Words ability had its attack changed by another ability, does X equal the follower's attack after the change?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP02-073": [
+    {
+      "number": "Q316",
+      "question": "When a player is to discard a \"random\" card, how should they select the card?",
+      "answer": "They may use any randomization technique, such as rolling dice."
+    }
+  ],
+  "BP02-074": [
+    {
+      "number": "Q317",
+      "question": "If an enemy leader has 9 or less defense, does their defense still become 10 with this follower's On Evolve ability?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP02-075": [],
+  "BP02-076": [],
+  "BP02-077": [],
+  "BP02-078": [],
+  "BP02-079": [
+    {
+      "number": "Q319",
+      "question": "If there are no Forest Bats on my field, can I still play this spell with option 2?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q318",
+      "question": "If each player has 5 cards on their field, can I still play this spell with option 1?",
+      "answer": "Yes. Even if you can't summon any Forest Bats, you can still choose option 1 and play this spell."
+    }
+  ],
+  "BP02-080": [],
+  "BP02-081": [],
+  "BP02-082": [
+    {
+      "number": "Q334",
+      "question": "If Sanguine is not active for me, do I still discard a card with this follower's ability?",
+      "answer": "No. The condition, \"if Sanguine is active for you,\" applies to the entire sentence, so the ability cannot be played."
+    }
+  ],
+  "BP02-083": [
+    {
+      "number": "Q334",
+      "question": "If Sanguine is not active for me, do I still discard a card with this follower's ability?",
+      "answer": "No. The condition, \"if Sanguine is active for you,\" applies to the entire sentence, so the ability cannot be played."
+    },
+    {
+      "number": "Q320",
+      "question": "Does this follower's Strike ability also deal 1 damage to my own leader?",
+      "answer": "Yes. It deals damage to all leaders."
+    }
+  ],
+  "BP02-084": [
+    {
+      "number": "Q321",
+      "question": "If my Necrocharge (the number of cards in my cemetery) changes from 7 to 6 or less, does this follower lose Rush and Bane?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP02-085": [
+    {
+      "number": "Q304",
+      "question": "Can I choose the same option more than once?",
+      "answer": "No, you cannot."
+    },
+    {
+      "number": "Q303",
+      "question": "Can I decide to choose none of the options listed?",
+      "answer": "No. You must choose at least one option."
+    }
+  ],
+  "BP02-086": [
+    {
+      "number": "Q341",
+      "question": "Can I select and destroy this follower with Dark Offering?",
+      "answer": "No. You can select it, but it will not be destroyed."
+    },
+    {
+      "number": "Q340",
+      "question": "If I select this follower with Dark Offering's ability, can I still play the rest of the ability?",
+      "answer": "Yes. Heavenly Aegis will not be destroyed, but you still give your leader 3 defense and draw a card."
+    },
+    {
+      "number": "Q339",
+      "question": "Can this card be destroyed by spell abilities?",
+      "answer": "No, it can't."
+    },
+    {
+      "number": "Q323",
+      "question": "Would this follower be banished by Hare of Illusion's \"Banish each follower on the field\" activated ability?",
+      "answer": "Yes, it would."
+    },
+    {
+      "number": "Q322",
+      "question": "Do I have to pay 2 play points and discard 3 cards to evolve this follower?",
+      "answer": "No. You can choose to either pay 2 play points or discard 3 cards to evolve."
+    }
+  ],
+  "BP02-087": [
+    {
+      "number": "Q341",
+      "question": "Can I select and destroy this follower with Dark Offering?",
+      "answer": "No. You can select it, but it will not be destroyed."
+    },
+    {
+      "number": "Q340",
+      "question": "If I select this follower with Dark Offering's ability, can I still play the rest of the ability?",
+      "answer": "Yes. Heavenly Aegis will not be destroyed, but you still give your leader 3 defense and draw a card."
+    },
+    {
+      "number": "Q339",
+      "question": "Can this card be destroyed by spell abilities?",
+      "answer": "No, it can't."
+    },
+    {
+      "number": "Q323",
+      "question": "Would this follower be banished by Hare of Illusion's \"Banish each follower on the field\" activated ability?",
+      "answer": "Yes, it would."
+    }
+  ],
+  "BP02-088": [
+    {
+      "number": "Q324",
+      "question": "If I select this amulet with Dark Offering, does it get destroyed by the effect?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP02-089": [
+    {
+      "number": "Q342",
+      "question": "If I have an amulet that costs 3 play points or less in my hand, do I have to put it onto my field with this follower's Fanfare ability?",
+      "answer": "No. The hand is a non-public zone, so there is no way to verify that you have a card that meets the condition, and therefore you can choose to not put the amulet onto your field."
+    },
+    {
+      "number": "Q325",
+      "question": "If this follower is on my field, and 2 amulets come onto my field at the same time, does this follower's \"Whenever an amulet is put onto your field\" ability trigger twice?",
+      "answer": "Yes. It triggers once for each amulet that comes onto your field."
+    }
+  ],
+  "BP02-090": [
+    {
+      "number": "Q325",
+      "question": "If this follower is on my field, and 2 amulets come onto my field at the same time, does this follower's \"Whenever an amulet is put onto your field\" ability trigger twice?",
+      "answer": "Yes. It triggers once for each amulet that comes onto your field."
+    }
+  ],
+  "BP02-091": [],
+  "BP02-092": [
+    {
+      "number": "Q336",
+      "question": "If I select Elana's Prayer with Dark Offering's ability, destroy it, and give my leader defense, can I still play Elana's Prayer's ability?",
+      "answer": "No. By the time your leader gains defense, Elana's Prayer is no longer on your field, so you cannot play its ability."
+    },
+    {
+      "number": "Q335",
+      "question": "Can I play this amulet's ability during my opponent's turn?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q326",
+      "question": "If I have 2 copies of this amulet on my field, and my leader gains defense, does each copy's ability trigger?",
+      "answer": "Yes. Both abilities will trigger once per turn."
+    }
+  ],
+  "BP02-093": [],
+  "BP02-094": [],
+  "BP02-095": [
+    {
+      "number": "Q327",
+      "question": "Does this follower's ability count attacks by followers that left the field due to a card or ability played with Quick?",
+      "answer": "Yes. Attacks are counted even if the attacking follower leaves the field while attacking."
+    }
+  ],
+  "BP02-096": [],
+  "BP02-097": [],
+  "BP02-098": [],
+  "BP02-099": [
+    {
+      "number": "Q344",
+      "question": "When an ability refers to the cost of a card that was played for a different number of play points than its displayed cost, does it refer to that different number?",
+      "answer": "No. It refers to the cost displayed on the card. For example, when referring to the cost of a Flame Destroyer, the number used is always 9, even if it was played for 6, 3, or 0 play points. Effects that change the number of play points it costs to play a card don't change the cost information of the card. When an ability refers to how much a card \"costs\" or its \"base cost,\" it always refers to the cost displayed on the card. Note that, when referring to the cost of an evolved follower, you use the cost of its unevolved form."
+    }
+  ],
+  "BP02-100": [],
+  "BP02-101": [
+    {
+      "number": "Q328",
+      "question": "Can I choose not to play this follower's Fanfare ability by not paying the 2 play points?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP02-102": [
+    {
+      "number": "Q329",
+      "question": "Does this follower count towards \"the number of other followers with Ward\" in its Fanfare ability?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP02-103": [
+    {
+      "number": "Q338",
+      "question": "If I have 3 Evolution Points, can I still gain 1 Evolution Point with Dark Angel Olivia's ability?",
+      "answer": "Yes. There is no limit to how many Evolution Points you can have."
+    },
+    {
+      "number": "Q337",
+      "question": "Can the player going first gain 1 Evolution Point with Dark Angel Olivia's ability?",
+      "answer": "Yes. All players can gain Evolution Points through abilities."
+    },
+    {
+      "number": "Q316",
+      "question": "When a player is to discard a \"random\" card, how should they select the card?",
+      "answer": "They may use any randomization technique, such as rolling dice."
+    },
+    {
+      "number": "Q304",
+      "question": "Can I choose the same option more than once?",
+      "answer": "No, you cannot."
+    },
+    {
+      "number": "Q303",
+      "question": "Can I decide to choose none of the options listed?",
+      "answer": "No. You must choose at least one option."
+    }
+  ],
+  "BP02-104": [],
+  "BP02-105": [],
+  "BP02-106": [],
+  "BP02-107": [],
+  "BP02-108": [
+    {
+      "number": "Q330",
+      "question": "Can the evolved followers turned facedown by this follower's On Evolve ability be used again for evolving?",
+      "answer": "Yes, they can."
+    }
+  ],
+  "BP02-109": [],
+  "BP02-110": [],
+  "BP02-111": [],
+  "BP02-112": [
+    {
+      "number": "Q344",
+      "question": "When an ability refers to the cost of a card that was played for a different number of play points than its displayed cost, does it refer to that different number?",
+      "answer": "No. It refers to the cost displayed on the card. For example, when referring to the cost of a Flame Destroyer, the number used is always 9, even if it was played for 6, 3, or 0 play points. Effects that change the number of play points it costs to play a card don't change the cost information of the card. When an ability refers to how much a card \"costs\" or its \"base cost,\" it always refers to the cost displayed on the card. Note that, when referring to the cost of an evolved follower, you use the cost of its unevolved form."
+    }
+  ],
+  "BP02-113": [
+    {
+      "number": "Q331",
+      "question": "If there are no enemy followers on the field, can I still play this spell to add a Neutral follower to my hand?",
+      "answer": "No. You must be able to select an enemy follower on the field."
+    }
+  ],
+  "BP02-114": [],
+  "BP02-115": [],
+  "BP02-116": [],
+  "BP02-117": [],
+  "BP02-118": [],
+  "BP02-119": [],
+  "BP02-120": []
+}

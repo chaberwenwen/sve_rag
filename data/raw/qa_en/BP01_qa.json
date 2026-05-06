@@ -1,0 +1,1067 @@
+{
+  "BP01-001": [
+    {
+      "number": "Q147",
+      "question": "Can I recover more play points than my maximum play points with this follower's activated ability?",
+      "answer": "No. You cannot have more play points than your current maximum."
+    },
+    {
+      "number": "Q146",
+      "question": "What does \"transform\" mean?",
+      "answer": "To transform, remove the selected cards from the game and create the same number of specified tokens in their place."
+    }
+  ],
+  "BP01-002": [
+    {
+      "number": "Q149",
+      "question": "Can I return a card in my EX area to its owner's hand to pay the cost of this follower's Fanfare ability?",
+      "answer": "No. You can only return a card from your field."
+    },
+    {
+      "number": "Q148",
+      "question": "Can I return an enemy card on the field to its owner's hand to pay the cost of this follower's Fanfare ability?",
+      "answer": "No. You can only return a card from your field."
+    }
+  ],
+  "BP01-003": [
+    {
+      "number": "Q151",
+      "question": "Can I return a card in my EX area to its owner's hand to pay the cost of this follower's On Evolve ability?",
+      "answer": "No. You can only return a card from your field."
+    },
+    {
+      "number": "Q150",
+      "question": "Can I return an enemy card on the field to its owner's hand to pay the cost of this follower's On Evolve ability?",
+      "answer": "No. You can only return a card from your field."
+    }
+  ],
+  "BP01-004": [
+    {
+      "number": "Q285",
+      "question": "Does this follower's Fanfare ability also count the cards and abilities my opponent has played?",
+      "answer": "No. This follower's Fanfare ability only counts the cards you've played."
+    },
+    {
+      "number": "Q284",
+      "question": "Does this follower's Fanfare ability also count the number of abilities I've played?",
+      "answer": "No. This follower's Fanfare ability only counts the cards you've played."
+    },
+    {
+      "number": "Q152",
+      "question": "Does this follower keep the +X attack from its Fanfare ability even after it evolves?",
+      "answer": "Yes. It is a persistent effect."
+    }
+  ],
+  "BP01-005": [
+    {
+      "number": "Q883",
+      "question": "When playing this follower's On Evolve ability, if I can't select an enemy follower on the field, can I still choose option 2 to have nothing happen?",
+      "answer": "No. If you can't select an enemy follower, you would be required to choose option 1."
+    },
+    {
+      "number": "Q153",
+      "question": "If this follower has +1 attack, and I choose option 2, does it deal 2 damage?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-006": [],
+  "BP01-007": [
+    {
+      "number": "Q155",
+      "question": "If I have 8 or more cards in my hand, will this spell deal damage equal to the number of cards in my hand?",
+      "answer": "Yes, it will."
+    },
+    {
+      "number": "Q154",
+      "question": "When playing this spell, does it count towards \"the number of cards in your hand\"?",
+      "answer": "No. The spell is no longer in your hand when played."
+    }
+  ],
+  "BP01-008": [
+    {
+      "number": "Q404",
+      "question": "If there are 2 enemy followers on the field, one with Aura and one without, can I still play the Combo part of this spell?",
+      "answer": "Yes. You can select the enemy follower without Aura, so you can play this spell. If you have a Combo of at least 5, each opponent puts each follower from their field on the top or bottom of its owner's deck, including the follower with Aura."
+    },
+    {
+      "number": "Q403",
+      "question": "If the only enemy follower on the field is one with Aura, like Heavenly Aegis, can I still play the Combo part of this spell?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't play this spell."
+    },
+    {
+      "number": "Q156",
+      "question": "If my Combo is 5, and my opponent has to put 2 or more followers into their deck, do they get to decide the order and number of cards they put on the top or bottom of the deck?",
+      "answer": "Yes. They may decide the order and placement of each card."
+    }
+  ],
+  "BP01-009": [],
+  "BP01-010": [],
+  "BP01-011": [
+    {
+      "number": "Q157",
+      "question": "Do followers in your EX area keep the +1/+1 from this follower's ability when played and put onto the field?",
+      "answer": "Yes. Changes to attack and defense are persistent, so followers played from the EX area or moved directly to the field from the EX area will keep those changes."
+    }
+  ],
+  "BP01-012": [],
+  "BP01-013": [
+    {
+      "number": "Q158",
+      "question": "If I have 2 copies of this follower on my field, can I play both copies' activated abilities in the same turn?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-014": [
+    {
+      "number": "Q159",
+      "question": "If this follower's Fanfare ability destroys an enemy Mordecai the Duelist when the opponent's field is full and summons a Fairy in its place, can they still play the Mordecai the Duelist's Last Words ability?",
+      "answer": "Yes, they can. However, the Mordecai the Duelist cannot be put onto the field, so they would only be paying the cost."
+    }
+  ],
+  "BP01-015": [
+    {
+      "number": "Q160",
+      "question": "Can I return an amulet on my field to its owner's hand with this spell?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-016": [],
+  "BP01-017": [],
+  "BP01-018": [
+    {
+      "number": "Q278",
+      "question": "If I play an Ancient Elf and return an Archer to my hand as part of the Ancient Elf's Fanfare ability's cost, can I still play the Archer's ability?",
+      "answer": "Yes. Once an automatic ability has been triggered, it can be played even if the card with the ability has left the field."
+    },
+    {
+      "number": "Q161",
+      "question": "If I have 2 copies of this follower on my field, and another follower comes onto my field, does each copy's \"Whenever another follower is put onto your field, select an enemy follower on the field and deal it 1 damage\" ability trigger?",
+      "answer": "Yes. Both abilities will trigger."
+    }
+  ],
+  "BP01-019": [
+    {
+      "number": "Q278",
+      "question": "If I play an Ancient Elf and return an Archer to my hand as part of the Ancient Elf's Fanfare ability's cost, can I still play the Archer's ability?",
+      "answer": "Yes. Once an automatic ability has been triggered, it can be played even if the card with the ability has left the field."
+    },
+    {
+      "number": "Q163",
+      "question": "If I select 2 enemy followers with this follower's ability, does it deal 1 damage to each of them?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q162",
+      "question": "If I have 2 copies of this follower on my field, and another follower is placed on the field, does each copy's ability trigger?",
+      "answer": "Yes. Both abilities will trigger."
+    }
+  ],
+  "BP01-020": [],
+  "BP01-021": [
+    {
+      "number": "Q54",
+      "question": "If I have 2 copies of this follower on my field and another follower is put onto my field, will each copy's ability trigger?",
+      "answer": "Yes. Both abilities will trigger."
+    },
+    {
+      "number": "Q53",
+      "question": "If I evolve another one of my followers, does this follower gain +1/+1?",
+      "answer": "No. Evolving does not count as putting a follower onto the field."
+    },
+    {
+      "number": "Q52",
+      "question": "If my field has reached its card limit and I play an ability that puts a follower on my field, does this follower still gain +1/+1?",
+      "answer": "No. If your field is full when you play an ability that puts a follower or amulet onto your field, that follower or amulet does not actually get put onto the field."
+    }
+  ],
+  "BP01-022": [
+    {
+      "number": "Q164",
+      "question": "If I have 2 copies of this follower on my field, and one of my Pixie followers attacks, does each copy's ability trigger?",
+      "answer": "Yes. Both abilities will trigger."
+    }
+  ],
+  "BP01-023": [
+    {
+      "number": "Q60",
+      "question": "If my EX area has reached its card limit, can I still put a Fairy into it with this spell?",
+      "answer": "No, you cannot."
+    }
+  ],
+  "BP01-024": [
+    {
+      "number": "Q166",
+      "question": "When a follower selected by this spell attacks, is it considered as having dealt 0 damage?",
+      "answer": "No. It does not count as dealing damage."
+    },
+    {
+      "number": "Q165",
+      "question": "If I select an enemy follower that has Bane with this spell, will followers that fight with it still be destroyed by Bane?",
+      "answer": "Yes. Bane destroys opposing followers regardless of damage."
+    }
+  ],
+  "BP01-025": [
+    {
+      "number": "Q61",
+      "question": "Can I pay the cost for this amulet's activated ability when it's engaged?",
+      "answer": "No. The cost requires you to engage it, so if it's already engaged, you cannot pay the cost."
+    }
+  ],
+  "BP01-026": [],
+  "BP01-027": [],
+  "BP01-028": [
+    {
+      "number": "Q243",
+      "question": "Can a follower with both Rush and Assail attack a reserved enemy follower on the same turn it comes onto the field?",
+      "answer": "Yes, it can."
+    },
+    {
+      "number": "Q168",
+      "question": "My opponent has 2 copies of Phoenix Roost on the field, and their abilities are played in order, leading to an Urd and this follower coming onto my field. I use Urd's Fanfare ability to send an enemy follower to the EX area, thereby reducing the number of cards on my opponent's field to 2, before playing this follower's Fanfare ability. Is the condition \"If there are at least 3 cards on their field\" still satisfied?",
+      "answer": "No. By the time this follower's Fanfare ability is played, there are no longer \"at least 3 cards on their field.\""
+    },
+    {
+      "number": "Q167",
+      "question": "Can you count cards in your opponent's EX area for this follower's Fanfare ability?",
+      "answer": "No, you cannot."
+    }
+  ],
+  "BP01-029": [
+    {
+      "number": "Q169",
+      "question": "Can I select an engaged enemy follower with this follower's Fanfare ability?",
+      "answer": "Yes, you can. However, the follower's state will remain unchanged."
+    }
+  ],
+  "BP01-030": [],
+  "BP01-031": [
+    {
+      "number": "Q170",
+      "question": "Does this follower's Last Words ability also allow me to engage and give Ward to Steelclad Knights that were already on my field before the ability was played?",
+      "answer": "No. This follower's Last Words ability only applies to the Steelclad Knights summoned by the ability."
+    }
+  ],
+  "BP01-032": [
+    {
+      "number": "Q274",
+      "question": "If there are 3 cards on my field and I play this spell, can I select which 2 followers to summon?",
+      "answer": "Yes. Whenever a spell or ability would summon more cards than the field's card limit allows, the spell or ability's player may select which cards to summon."
+    },
+    {
+      "number": "Q171",
+      "question": "If my field is 1 card away from its card limit, can I choose whether to summon a Viking, Steelclad Knight, or Knight with this spell's ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-033": [
+    {
+      "number": "Q172",
+      "question": "If I have 2 copies of this amulet on my field, and a Swordcraft follower comes onto my field, will each copy's \"Whenever a Swordcraft follower is put onto your field, give it +1/+1\" ability trigger?",
+      "answer": "Yes. Both abilities will trigger."
+    }
+  ],
+  "BP01-034": [],
+  "BP01-035": [
+    {
+      "number": "Q174",
+      "question": "When playing this follower's ability, do I have to reveal the card from my deck before adding it to my hand?",
+      "answer": "Yes. This is necessary to show that the card is one of the cards specified."
+    },
+    {
+      "number": "Q173",
+      "question": "If there are no followers with an evolve ability in my deck, can I still play this follower's ability?",
+      "answer": "Yes, you can. After looking through your deck, you would shuffle it without adding a follower to your hand."
+    }
+  ],
+  "BP01-036": [
+    {
+      "number": "Q176",
+      "question": "When playing this follower's ability, do I have to reveal the card from my deck before adding it to my hand?",
+      "answer": "Yes. This is necessary to show that the card is one of the cards specified."
+    },
+    {
+      "number": "Q175",
+      "question": "If there are no Swordcraft followers in my deck, can I still play this follower's ability?",
+      "answer": "Yes, you can. After looking through your deck, you would shuffle it without adding a follower to your hand."
+    }
+  ],
+  "BP01-037": [],
+  "BP01-038": [
+    {
+      "number": "Q177",
+      "question": "Can I select an engaged enemy follower with this follower's Fanfare and/or activated ability?",
+      "answer": "Yes, you can. However, the follower's state will remain unchanged."
+    }
+  ],
+  "BP01-039": [
+    {
+      "number": "Q178",
+      "question": "When looking at the top 5 cards of my deck with this follower's ability, if there's a 1-play-point follower, can I choose not to put it onto the field?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-040": [
+    {
+      "number": "Q179",
+      "question": "If there are no Ninja cards in my deck, can I still play this follower's ability?",
+      "answer": "Yes, you can. After looking through your deck, you would shuffle it without adding a card to your hand."
+    }
+  ],
+  "BP01-041": [
+    {
+      "number": "Q180",
+      "question": "Can I select an engaged enemy follower with this amulet's \"Select an enemy follower on the field and engage it\" activated ability?",
+      "answer": "Yes, you can. However, the follower's state will remain unchanged."
+    }
+  ],
+  "BP01-042": [],
+  "BP01-043": [
+    {
+      "number": "Q181",
+      "question": "If I have 2 copies of this follower on my field, and another follower comes onto my field, does each copy's \"Whenever another follower is put onto your field, give this follower +1 attack\" ability trigger?",
+      "answer": "Yes. Both abilities will trigger."
+    }
+  ],
+  "BP01-044": [
+    {
+      "number": "Q182",
+      "question": "If I have 2 copies of this follower on my field, and another follower comes onto my field, does each copy's ability trigger?",
+      "answer": "Yes. Both abilities will trigger."
+    }
+  ],
+  "BP01-045": [],
+  "BP01-046": [],
+  "BP01-047": [],
+  "BP01-048": [],
+  "BP01-049": [
+    {
+      "number": "Q68",
+      "question": "If there are no followers on my field, can I still play this spell to draw a card?",
+      "answer": "No. You must be able to select a follower to play this spell."
+    }
+  ],
+  "BP01-050": [
+    {
+      "number": "Q70",
+      "question": "If my EX area has reached its card limit, and there is an enemy follower on the field that I can select, can I still play this spell?",
+      "answer": "Yes, you can. However, you cannot put a Knight into your EX area."
+    },
+    {
+      "number": "Q69",
+      "question": "If there are no enemy followers on the field, can I still play this spell to put a Knight into my EX area?",
+      "answer": "No. You must be able to select a follower to play this spell."
+    }
+  ],
+  "BP01-051": [
+    {
+      "number": "Q184",
+      "question": "If there are no enemy followers on the field that I can select, can I still pay the cost of this follower's Fanfare or activated ability?",
+      "answer": "No. You must be able to select a target to play either ability."
+    },
+    {
+      "number": "Q183",
+      "question": "If there are no enemy followers on the field, can I still deal damage to an enemy leader with this follower's Fanfare or activated ability?",
+      "answer": "No. You must select an enemy follower in order to deal damage to \"its leader.\""
+    }
+  ],
+  "BP01-052": [
+    {
+      "number": "Q185",
+      "question": "If there are no spells in my deck, can I still play this follower's Fanfare ability?",
+      "answer": "Yes, you can. After looking through your deck, you would shuffle it without adding a spell to your hand."
+    }
+  ],
+  "BP01-053": [
+    {
+      "number": "Q246",
+      "question": "If I have 10 spells in my cemetery, and I play a Fate's Hand from my cemetery with this follower's ability, would I meet the Spellchain (10) requirement for Fate's Hand?",
+      "answer": "No. Fate's Hand is initially moved to the resolution zone when you play it, leaving only 9 spells in your cemetery."
+    },
+    {
+      "number": "Q186",
+      "question": "Does the spell played by this follower's ability get put back into the cemetery after the effect is resolved?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-054": [],
+  "BP01-055": [
+    {
+      "number": "Q187",
+      "question": "If I have 2 copies of this follower on my field, and I play a Golem follower, does that Golem follower cost 2 less play points?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-056": [
+    {
+      "number": "Q191",
+      "question": "If I play this spell during my opponent's turn, do I banish the cards in my EX area at the start of their end phase?",
+      "answer": "No. It only happens at the start of your own end phase."
+    },
+    {
+      "number": "Q190",
+      "question": "If I play this spell, at the start of my next end phase, do tokens in my EX area also get banished?",
+      "answer": "Yes. All cards in your EX area get banished."
+    },
+    {
+      "number": "Q189",
+      "question": "If I play this spell, at the start of my next end phase, do cards that were not put into my EX area by this spell also get banished?",
+      "answer": "Yes. All cards in your EX area get banished."
+    },
+    {
+      "number": "Q188",
+      "question": "If my EX area has reached its card limit, can I still play this spell?",
+      "answer": "Yes, you can. However, no cards will be added to your EX area."
+    }
+  ],
+  "BP01-057": [
+    {
+      "number": "Q333",
+      "question": "If I reduce Dimension Shift's cost by 5 with Daria, Dimensional Witch's On Evolve ability, and banish 10 spells when I play that Dimension Shift, can I play it for 2 play points?",
+      "answer": "Yes. Effects that change a cost to a specific value are applied before those that increase or decrease it."
+    },
+    {
+      "number": "Q193",
+      "question": "If I play this spell and get an extra turn, and then play another copy of this spell, do I get another extra turn after that?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q192",
+      "question": "When playing this spell, can I count this card toward the spells I'm banishing from my cemetery?",
+      "answer": "No. This card does not go into the cemetery until after it's played and resolved."
+    }
+  ],
+  "BP01-058": [
+    {
+      "number": "Q194",
+      "question": "If my field has reached its card limit, and I have a Magic Sediment with 1 Stack counter on my field, can I use it to pay the cost of this follower's activated ability \"Summon a Guardform Golem or Strikeform Golem token,\" and summon a Guardform Golem or Strikeform Golem?",
+      "answer": "Yes. The Magic Sediment would get sent to the cemetery when you pay the cost, making space on your field for either a Guardform Golem or Strikeform Golem."
+    }
+  ],
+  "BP01-059": [
+    {
+      "number": "Q195",
+      "question": "When looking at the top card of my deck with this follower's Fanfare ability, if it's a spell, can I choose not to add it to my hand?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-060": [],
+  "BP01-061": [
+    {
+      "number": "Q196",
+      "question": "If my Spellchain is 15, can I still choose to play this follower without reducing its cost by 9 play points?",
+      "answer": "No. If your Spellchain is 15 or higher, you must play it at its reduced cost."
+    }
+  ],
+  "BP01-062": [
+    {
+      "number": "Q197",
+      "question": "If I have 2 copies of this follower on my field, and I play a spell, does each copy's \"Whenever you play a spell, place 1 spell counter on this card\" ability trigger?",
+      "answer": "Yes. Both abilities will trigger."
+    }
+  ],
+  "BP01-063": [
+    {
+      "number": "Q273",
+      "question": "If I play Golem Protection when there are 4 cards on my field, one of which is an amulet with 1 Stack counter, do I get to summon 2 Guardform Golems?",
+      "answer": "Yes. When you play Golem Protection and pay its cost, the Stack amulet will get sent to the cemetery, making space on your field for the 2 Guardform Golems."
+    },
+    {
+      "number": "Q198",
+      "question": "If my field has reached its card limit, or is 1 card away from its limit, can I still play this spell?",
+      "answer": "Yes, you can. However, you would only put as many Guardform Golems onto your field as the limit allows."
+    }
+  ],
+  "BP01-064": [],
+  "BP01-065": [
+    {
+      "number": "Q199",
+      "question": "Can I recover more play points than my maximum play points with this spell?",
+      "answer": "No. You cannot have more play points than your current maximum."
+    }
+  ],
+  "BP01-066": [],
+  "BP01-067": [],
+  "BP01-068": [],
+  "BP01-069": [
+    {
+      "number": "Q279",
+      "question": "Can I add a counter to all Stack amulets on my field with this follower's ability?",
+      "answer": "No. You must select 1 amulet with Stack, and add a Stack counter to it."
+    },
+    {
+      "number": "Q200",
+      "question": "Does this follower's ability add a Stack counter to a card with Stack on my field?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-070": [
+    {
+      "number": "Q81",
+      "question": "If there are no enemy followers on the field, can I still deal damage to an enemy leader with this follower's ability?",
+      "answer": "No. You must select an enemy follower in order to deal damage to \"that follower's leader.\""
+    },
+    {
+      "number": "Q80",
+      "question": "If my Spellchain is 10, does this follower deal 6 damage to the enemy follower and 2 damage to the enemy leader?",
+      "answer": "No. It deals 4 damage to the selected enemy follower and 2 damage to the enemy leader."
+    }
+  ],
+  "BP01-071": [
+    {
+      "number": "Q90",
+      "question": "If my Spellchain is 10, does this spell deal 6 damage to the enemy follower?",
+      "answer": "No. It deals 4 damage to the enemy follower."
+    }
+  ],
+  "BP01-072": [
+    {
+      "number": "Q93",
+      "question": "Can I choose not to put a spell into my hand or not to put a spell into my cemetery with this spell?",
+      "answer": "Yes. You can choose whether to perform each action."
+    },
+    {
+      "number": "Q92",
+      "question": "If I have less than 4 cards in my deck, can I still play this spell?",
+      "answer": "Yes, you can. You would simply look at all the cards in your deck, and return any remaining cards to your deck area in any order."
+    },
+    {
+      "number": "Q91",
+      "question": "Can I look at my evolve deck with this spell?",
+      "answer": "No. You can only look at your main deck."
+    }
+  ],
+  "BP01-073": [
+    {
+      "number": "Q266",
+      "question": "Can spells such as Night Horde and Fiery Embrace be played when there are no enemy followers on the field that can be selected?",
+      "answer": "No. If the card text explicitly instructs you to \"select\" a target, and there are no cards that can be selected, then you cannot play the card or pay any associated costs."
+    },
+    {
+      "number": "Q94",
+      "question": "If there are no enemy followers on the field, can I still play this spell to deal 3 damage to an enemy leader?",
+      "answer": "No. You must be able to select a follower to play this spell."
+    }
+  ],
+  "BP01-074": [],
+  "BP01-075": [],
+  "BP01-076": [],
+  "BP01-077": [],
+  "BP01-078": [
+    {
+      "number": "Q201",
+      "question": "Can I recover more play points than my maximum play points with this follower's activated ability?",
+      "answer": "No. You cannot have more play points than your current maximum."
+    }
+  ],
+  "BP01-079": [
+    {
+      "number": "Q202",
+      "question": "Can I raise my maximum play points to 11 with this follower's Last Words ability?",
+      "answer": "No. Your maximum play points cannot be greater than 10."
+    }
+  ],
+  "BP01-080": [],
+  "BP01-081": [],
+  "BP01-082": [],
+  "BP01-083": [
+    {
+      "number": "Q204",
+      "question": "If my opponent and I each have a copy of this amulet on our fields, at the start of my main phase, can I choose to resolve my opponent's copy's ability before my own?",
+      "answer": "No. The active player always resolves their abilities before the non-active player. In addition, if a follower with Fanfare is put onto your field with this amulet's ability, you will need to resolve that Fanfare ability before your opponent resolves their Phoenix Roost's ability."
+    },
+    {
+      "number": "Q203",
+      "question": "If there is more than 1 copy of this amulet on our fields, does each copy's ability get played?",
+      "answer": "Yes. All of them are played."
+    }
+  ],
+  "BP01-084": [
+    {
+      "number": "Q206",
+      "question": "Is the card put into the EX area by this follower's ability treated as permanently costing 2 less even after it's put onto the field?",
+      "answer": "No. The cost reduction only applies when playing the card."
+    },
+    {
+      "number": "Q205",
+      "question": "If I put a 1-play-point card into my EX area with this follower's ability, does it cost 0 to play?",
+      "answer": "Yes. Cost cannot be a negative value, so it would cost 0 play points."
+    }
+  ],
+  "BP01-085": [],
+  "BP01-086": [],
+  "BP01-087": [],
+  "BP01-088": [
+    {
+      "number": "Q207",
+      "question": "Can this follower attack engaged enemy followers on the field?",
+      "answer": "No. This follower cannot attack enemy followers or enemy leaders."
+    }
+  ],
+  "BP01-089": [],
+  "BP01-090": [],
+  "BP01-091": [
+    {
+      "number": "Q208",
+      "question": "Does this amulet's \"While this card is on your field, your Dragon tokens have Rush\" ability give all my Dragoncraft followers Rush?",
+      "answer": "No. This amulet only gives Rush to tokens named \"Dragon.\""
+    }
+  ],
+  "BP01-092": [],
+  "BP01-093": [],
+  "BP01-094": [],
+  "BP01-095": [
+    {
+      "number": "Q211",
+      "question": "If the follower I selected with this follower's Fanfare ability leaves the field, does this follower's attack become 0?",
+      "answer": "No. The value added by this follower's Fanfare ability will not change, even if the selected follower leaves the field or has their attack value changed later."
+    },
+    {
+      "number": "Q210",
+      "question": "If the attack value of the follower I selected with this follower's Fanfare ability has been changed, does this follower's attack become the same value?",
+      "answer": "Yes. This follower gains attack equal to the selected follower's current attack value."
+    },
+    {
+      "number": "Q209",
+      "question": "Can I select a follower from any player's field with this follower's Fanfare ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-096": [],
+  "BP01-097": [],
+  "BP01-098": [
+    {
+      "number": "Q106",
+      "question": "If Overflow is active for me, does this spell deal 6 damage to the enemy follower?",
+      "answer": "No. When Overflow is active, it deals 4 damage."
+    }
+  ],
+  "BP01-099": [
+    {
+      "number": "Q109",
+      "question": "Does this spell only deal damage to enemy followers on the field?",
+      "answer": "No. It deals damage to all followers on all players' fields."
+    },
+    {
+      "number": "Q108",
+      "question": "Can I use this spell to deal damage to enemy followers on the field that have Aura?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q107",
+      "question": "If Overflow is active for me, does this spell deal 5 damage to all followers?",
+      "answer": "No. When Overflow is active, it deals 3 damage to each follower."
+    }
+  ],
+  "BP01-100": [
+    {
+      "number": "Q212",
+      "question": "When looking at the top 5 cards of my deck with this spell, if there's a Dragoncraft card that costs at least 5 play points, can I choose not to add it to my hand?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-101": [
+    {
+      "number": "Q213",
+      "question": "If my EX area is 1 card away from its card limit, can I choose whether to put a Mimi or Coco into my EX area with this follower's Fanfare ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-102": [
+    {
+      "number": "Q214",
+      "question": "If my EX area is 1 card away from its card limit, can I choose whether to put a Mimi or Coco into my EX area with this follower's ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-103": [
+    {
+      "number": "Q271",
+      "question": "When playing this card, can I put 4 reserved tokens from my field into my cemetery to reduce its cost by 9?",
+      "answer": "Yes. The tokens would be put into the cemetery before being removed from the game, so you may include tokens in the 4 cards that you move to the cemetery."
+    },
+    {
+      "number": "Q216",
+      "question": "Can I banish 2 cards from my EX area and put 2 cards from my field into the cemetery to play this follower?",
+      "answer": "No. You must either \"put 4 reserved Abysscraft cards from your field into your cemetery\" or \"banish 4 Abysscraft cards in your EX area.\""
+    },
+    {
+      "number": "Q215",
+      "question": "If my field has reached its card limit, can I put 4 reserved cards from my field into the cemetery to play this follower?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-104": [
+    {
+      "number": "Q217",
+      "question": "If Sanguine is active for me and my Necrocharge is 10, does this follower cost 2 less to play?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-105": [],
+  "BP01-106": [
+    {
+      "number": "Q627",
+      "question": "If this follower fights an enemy follower and both are destroyed, do I deal 1 damage to the enemy follower's leader and give my leader +1 defense?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q282",
+      "question": "If this follower fights with an enemy follower and both followers are destroyed due to combat damage, can I still play this follower's ability?",
+      "answer": "Yes. Even if both followers are destroyed by combat damage, the ability's condition, \"whenever an enemy follower is destroyed,\" is met."
+    },
+    {
+      "number": "Q219",
+      "question": "If I use this follower to attack an enemy follower with 5 attack, and both followers are destroyed by combat damage, does this follower's \"Whenever an enemy follower is destroyed, deal 1 damage to its leader and give your leader +1 defense\" ability trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q218",
+      "question": "If I have 2 copies of this follower on my field, and an enemy follower is destroyed, does each copy's \"Whenever an enemy follower is destroyed, deal 1 damage to its leader and give your leader +1 defense\" ability trigger?",
+      "answer": "Yes. Both abilities will trigger."
+    }
+  ],
+  "BP01-107": [],
+  "BP01-108": [],
+  "BP01-109": [
+    {
+      "number": "Q220",
+      "question": "Can I put a faceup evolved follower from my evolve deck into my hand with this follower's ability?",
+      "answer": "No. You can only put a follower from your cemetery into your hand."
+    }
+  ],
+  "BP01-110": [],
+  "BP01-111": [
+    {
+      "number": "Q286",
+      "question": "If the opponent does not have any cards in their hand, does this follower's On Evolve ability still deal 2 damage to my leader?",
+      "answer": "Yes. Even if the opponent has no cards in their hand, this follower's ability will still deal 2 damage to your leader."
+    },
+    {
+      "number": "Q221",
+      "question": "Can I select a follower with Aura from my opponent's hand with this follower's ability?",
+      "answer": "Yes. Aura only prevents the follower from being selected while on the field."
+    }
+  ],
+  "BP01-112": [],
+  "BP01-113": [],
+  "BP01-114": [],
+  "BP01-115": [
+    {
+      "number": "Q272",
+      "question": "If I put a Lucifer onto my field with Death's Breath's effect and then evolve it, does it still have Ward?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q247",
+      "question": "If I have 10 cards in my cemetery, and I put an Alucard from my cemetery onto my field with this spell, would I meet the Necrocharge (10) requirement for Alucard's Fanfare ability?",
+      "answer": "Yes. This spell would be put into the cemetery before Alucard's Fanfare ability is played, so your Necrocharge would be 10."
+    },
+    {
+      "number": "Q222",
+      "question": "I put a Mordecai the Duelist onto my field with this spell's ability. The Mordecai the Duelist is destroyed, triggering its Last Words, and I put it onto my field again. Does it still have Ward?",
+      "answer": "No. It leaves the field momentarily, thereby losing Ward, before it comes back onto the field."
+    }
+  ],
+  "BP01-116": [
+    {
+      "number": "Q268",
+      "question": "If my follower is being attacked by an enemy follower, but is destroyed by a card or ability such as Alucard's Strike ability, Dark Offering, or Soul Conversion, what happens to the attacking follower's attack?",
+      "answer": "If an attack target leaves the field during a follower attack, a new target is not selected, the attacking follower remains engaged, and combat damage is not dealt. Furthermore, even if the attacking follower or attack target leaves the field during the attack, cards and abilities with Quick can still be played."
+    },
+    {
+      "number": "Q223",
+      "question": "If I destroy a follower that has Last Words with this spell, does that follower's Last Words get played?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-117": [],
+  "BP01-118": [],
+  "BP01-119": [
+    {
+      "number": "Q263",
+      "question": "Do I have to pay the cost for this follower's Fanfare ability?",
+      "answer": "No. If an automatic ability such as Fanfare or Last Words has a cost, you may choose not to play the ability when it's triggered by not paying the cost. However, if the automatic ability does not have a cost, it must be played if possible."
+    },
+    {
+      "number": "Q116",
+      "question": "If my leader's defense is 1, can I still pay the cost for this follower's Fanfare ability?",
+      "answer": "No. You cannot pay the cost if it would result in your defense becoming a negative value."
+    }
+  ],
+  "BP01-120": [
+    {
+      "number": "Q117",
+      "question": "If I have less than 2 cards in my deck, can I still play this follower's ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-121": [],
+  "BP01-122": [],
+  "BP01-123": [
+    {
+      "number": "Q262",
+      "question": "Can I put this follower into my cemetery to pay its On Evolve ability cost?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q224",
+      "question": "If I put a follower with Last Words into the cemetery as part of the cost of this follower's ability, does that follower's Last Words ability get played?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-124": [
+    {
+      "number": "Q119",
+      "question": "If this follower is somehow sent to the cemetery immediately after being put onto the field, can I put it from my cemetery back into my hand with its ability?",
+      "answer": "Yes. Depending on when the ability is processed, you may be able to select this card from the cemetery and add it to your hand."
+    },
+    {
+      "number": "Q118",
+      "question": "Can I choose to not put any followers from my cemetery into my hand with this follower's ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-125": [
+    {
+      "number": "Q123",
+      "question": "If both leaders have 1 defense and I select the enemy leader with this spell, will the game end in a draw?",
+      "answer": "Yes, it will."
+    }
+  ],
+  "BP01-126": [
+    {
+      "number": "Q225",
+      "question": "If this follower has not lost any defense, does it still gain +2 defense at the start of my end phase?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-127": [],
+  "BP01-128": [],
+  "BP01-129": [
+    {
+      "number": "Q226",
+      "question": "If this follower is on my field, and I play Jeanne d'Arc's Fanfare ability, does this follower's \"While this card is on your field, your followers deal damage equal to their defense\" ability cause Jeanne d'Arc's ability to deal damage equal to her defense to all enemy followers?",
+      "answer": "No. This follower's \"While this card is on your field, your followers deal damage equal to their defense\" ability only applies to damage dealt when attacking."
+    }
+  ],
+  "BP01-130": [
+    {
+      "number": "Q228",
+      "question": "If this follower has not lost any defense, does it still gain +2 defense at the start of my end phase?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q227",
+      "question": "If this follower is on my field, and I play Jeanne d'Arc's Fanfare ability, does this follower's \"While this card is on your field, your followers deal damage equal to their defense\" ability cause Jeanne d'Arc's ability to deal damage equal to her defense to all enemy followers?",
+      "answer": "No. This follower's \"While this card is on your field, your followers deal damage equal to their defense\" ability only applies to damage dealt when attacking."
+    }
+  ],
+  "BP01-131": [
+    {
+      "number": "Q229",
+      "question": "Can I destroy enemy followers on the field that have Aura with this spell's ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-132": [],
+  "BP01-133": [],
+  "BP01-134": [
+    {
+      "number": "Q230",
+      "question": "Does this follower's \"Reduce damage dealt to this follower by 1\" ability apply to all sources of damage, including enemy follower attacks and spells?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-135": [],
+  "BP01-136": [
+    {
+      "number": "Q232",
+      "question": "When playing this follower's ability, do I have to reveal the card from my deck before adding it to my hand?",
+      "answer": "Yes. This is necessary to show that the card is one of the cards specified."
+    },
+    {
+      "number": "Q231",
+      "question": "If there are no amulets in my deck, can I still play this follower's ability?",
+      "answer": "Yes, you can. After looking through your deck, you would shuffle it without adding an amulet to your hand."
+    }
+  ],
+  "BP01-137": [
+    {
+      "number": "Q233",
+      "question": "If this follower and Arch Priestess Laelia are on my field, when this follower is attacked, does it deal damage equal to its defense plus 4 to the attacking follower?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-138": [],
+  "BP01-139": [
+    {
+      "number": "Q234",
+      "question": "Can I select a follower whose original defense is greater than 3 but currently has 3 defense or less with this spell?",
+      "answer": "Yes. This spell only looks at the follower's current defense."
+    }
+  ],
+  "BP01-140": [
+    {
+      "number": "Q268",
+      "question": "If my follower is being attacked by an enemy follower, but is destroyed by a card or ability such as Alucard's Strike ability, Dark Offering, or Soul Conversion, what happens to the attacking follower's attack?",
+      "answer": "If an attack target leaves the field during a follower attack, a new target is not selected, the attacking follower remains engaged, and combat damage is not dealt. Furthermore, even if the attacking follower or attack target leaves the field during the attack, cards and abilities with Quick can still be played."
+    },
+    {
+      "number": "Q235",
+      "question": "If I destroy a follower that has Last Words with this spell, does that follower's Last Words ability get played?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-141": [
+    {
+      "number": "Q283",
+      "question": "Can I play this amulet's ability during my opponent's turn?",
+      "answer": "No. This amulet's ability only triggers during your turn."
+    },
+    {
+      "number": "Q236",
+      "question": "If I have 2 copies of this card on my field, when another one of my amulets leaves the field, does each copy's ability trigger?",
+      "answer": "Yes. Both abilities will trigger once per turn."
+    }
+  ],
+  "BP01-142": [
+    {
+      "number": "Q134",
+      "question": "When I put an amulet from my cemetery onto my field with this follower's ability, do I need to pay the cost of that amulet?",
+      "answer": "No, you do not."
+    }
+  ],
+  "BP01-143": [],
+  "BP01-144": [],
+  "BP01-145": [],
+  "BP01-146": [],
+  "BP01-147": [],
+  "BP01-148": [
+    {
+      "number": "Q138",
+      "question": "Can I look at my evolve deck with this spell?",
+      "answer": "No. You can only look at your main deck."
+    },
+    {
+      "number": "Q137",
+      "question": "If I have less than 5 cards in my deck, can I still play this spell?",
+      "answer": "Yes, you can. You would simply look at all the cards in your deck, and return any remaining cards to your deck area in any order."
+    }
+  ],
+  "BP01-149": [],
+  "BP01-150": [
+    {
+      "number": "Q140",
+      "question": "Can I pay the cost for this amulet's activated ability when it's engaged?",
+      "answer": "No. The cost requires you to engage it, so if it's already engaged, you cannot pay the cost."
+    },
+    {
+      "number": "Q139",
+      "question": "Does this amulet come onto the field in the reserved state before becoming engaged?",
+      "answer": "No. It comes onto the field in the engaged state."
+    }
+  ],
+  "BP01-151": [],
+  "BP01-152": [
+    {
+      "number": "Q272",
+      "question": "If I put a Lucifer onto my field with Death's Breath's effect and then evolve it, does it still have Ward?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-153": [
+    {
+      "number": "Q272",
+      "question": "If I put a Lucifer onto my field with Death's Breath's effect and then evolve it, does it still have Ward?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP01-154": [],
+  "BP01-155": [
+    {
+      "number": "Q428",
+      "question": "If I put an enemy follower from the field into the EX area, does it lose all its counters?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q267",
+      "question": "If I move an evolved enemy follower into the EX area with this follower's Fanfare ability, do both the unevolved and evolved cards get put into the EX area?",
+      "answer": "No. When an evolved follower is put into the EX area, only the unevolved form stays in the EX area. The evolved follower is moved faceup to the evolve deck area."
+    },
+    {
+      "number": "Q238",
+      "question": "If I put an enemy token follower into the EX area from the field, is that token follower removed from the game?",
+      "answer": "No. Tokens can exist in the EX area."
+    },
+    {
+      "number": "Q237",
+      "question": "If I put an enemy follower into the EX area with this follower's Fanfare ability, does it lose any damage and abilities applied to it?",
+      "answer": "Yes. When a card is moved from the field to the EX area, it loses all damage and abilities that were given to it."
+    }
+  ],
+  "BP01-156": [
+    {
+      "number": "Q239",
+      "question": "Can I select and banish a follower that has Aura in my opponent's EX area with this follower's ability?",
+      "answer": "Yes. Aura only prevents the follower from being selected while on the field."
+    }
+  ],
+  "BP01-157": [],
+  "BP01-158": [],
+  "BP01-159": [],
+  "BP01-160": [],
+  "BP01-161": [
+    {
+      "number": "Q240",
+      "question": "If a player does not have any cards in their hand, can I still play this spell?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP01-162": [],
+  "BP01-163": [],
+  "BP01-164": [],
+  "BP01-165": [],
+  "BP01-166": [
+    {
+      "number": "Q241",
+      "question": "If there are no copies of Flame and Glass in my deck, can I still play this follower's ability?",
+      "answer": "Yes, you can. After looking through your deck, you would shuffle it without putting a Flame and Glass onto your field. The cards moved to your cemetery as part of the ability's cost would also remain in the cemetery."
+    }
+  ],
+  "BP01-167": [],
+  "BP01-168": [],
+  "BP01-169": [],
+  "BP01-170": [
+    {
+      "number": "Q270",
+      "question": "If I discard this card during my end phase due to my hand being over the card limit, do I still draw a card with its effect?",
+      "answer": "Yes. However, you would still need to discard cards until you have 7 in your hand."
+    },
+    {
+      "number": "Q245",
+      "question": "If I have 8 or more cards in my hand during my end phase and I discard this spell, can I draw a card with its ability?",
+      "answer": "Yes, you can. However, you would still need to discard cards until you have 7 in your hand."
+    },
+    {
+      "number": "Q242",
+      "question": "When I play this spell and it gets put into the cemetery, does its \"When this card is discarded, draw a card\" ability trigger?",
+      "answer": "No. Playing a card does not count as discarding it."
+    }
+  ],
+  "BP01-171": [],
+  "BP01-172": [],
+  "BP01-173": [],
+  "BP01-174": [],
+  "BP01-175": [],
+  "BP01-176": [],
+  "BP01-177": [],
+  "BP01-178": [],
+  "BP01-179": [],
+  "BP01-180": [
+    {
+      "number": "Q64",
+      "question": "Can I use this spell to deal damage to enemy followers on the field that have Aura?",
+      "answer": "Yes, you can."
+    }
+  ]
+}

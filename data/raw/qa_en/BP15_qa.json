@@ -1,0 +1,578 @@
+{
+  "BP15-001": [
+    {
+      "number": "Q1894",
+      "question": "If I target an enemy follower on the field with this follower's activated ability and it's put into the cemetery later that turn, but this follower is no longer on the field, does the \"put an Annihilating Onslaught token into your EX area\" part of the ability still trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1893",
+      "question": "If I target an enemy follower on the field with this follower's activated ability 2 times and it's put into the cemetery later that turn, does the \"put an Annihilating Onslaught token into your EX area\" part of the ability trigger 2 times?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-002": [],
+  "BP15-003": [],
+  "BP15-004": [
+    {
+      "number": "Q1899",
+      "question": "Does a faceup Drive Point in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1898",
+      "question": "Does a faceup Carrot in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1897",
+      "question": "Does a faceup advanced follower in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1896",
+      "question": "Does a faceup evolved Eidolon of Madness in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1895",
+      "question": "If a follower on my field evolves during an opponent's turn, does this follower's \"Whenever a follower on your field evolves\" ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-005": [
+    {
+      "number": "Q1895",
+      "question": "If a follower on my field evolves during an opponent's turn, does this follower's \"Whenever a follower on your field evolves\" ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-006": [],
+  "BP15-007": [],
+  "BP15-008": [
+    {
+      "number": "Q1900",
+      "question": "If I target an enemy follower on the field with this spell 2 times and it's put into the cemetery later that turn, does this spell's ability trigger 2 times?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-009": [],
+  "BP15-010": [],
+  "BP15-011": [],
+  "BP15-012": [
+    {
+      "number": "Q1902",
+      "question": "If I target an enemy follower on the field with this follower's Fanfare ability and it's put into the cemetery later that turn, but this follower is no longer on the field, does the \"give your leader +2 defense\" part of the ability still trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1901",
+      "question": "If I target an enemy follower on the field with this follower's Fanfare ability 2 times and it's put into the cemetery later that turn, does the \"give your leader +2 defense\" part of the ability trigger 2 times?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-013": [
+    {
+      "number": "Q1905",
+      "question": "If my EX area is full, can I still play this follower's Fanfare ability?",
+      "answer": "No, unless you can put a token follower from your field into another player's EX area that isn't full."
+    },
+    {
+      "number": "Q1904",
+      "question": "If I put a follower into the EX area with this follower's Fanfare ability, does it lose any damage dealt or abilities given to it?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1903",
+      "question": "If I select a token for this follower's Fanfare ability, does it get removed from the game?",
+      "answer": "No. It remains in its owner's EX area after you put it there. Follower and amulet tokens may exist in the EX area, field, and resolution zone. They are only removed from the game immediately after movement to other zones."
+    }
+  ],
+  "BP15-014": [
+    {
+      "number": "Q1906",
+      "question": "If I evolve a follower whose defense has been changed to 1 by this follower, what happens to its attack and defense?",
+      "answer": "When evolving a follower whose attack and/or defense are different from their base values, the evolved version will retain the differences."
+    }
+  ],
+  "BP15-015": [],
+  "BP15-016": [],
+  "BP15-017": [],
+  "BP15-018": [],
+  "BP15-019": [
+    {
+      "number": "Q1907",
+      "question": "Can this follower's activated ability only be played while in hand?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP15-020": [
+    {
+      "number": "Q1908",
+      "question": "If I play this follower's first activated ability 2 times without playing a Loot card, does the next Loot card I play that turn cost 4 less?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-021": [
+    {
+      "number": "Q1951",
+      "question": "Can I summon Kagemitsu, Lost Samurai from my EX area with Amelia, Sunny Paladin's activated ability?",
+      "answer": "Yes, you can. Note that Kagemitsu, Lost Samurai would retain its fighting spirit counters if summoned this way, and it would not evolve, as its automatic ability would not trigger."
+    },
+    {
+      "number": "Q1912",
+      "question": "If a card leaves the field, does it lose all its counters?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1911",
+      "question": "If I summon this follower with its automatic ability, can I choose not to evolve it even if there is a Kagemitsu, Lost Samurai in my evolve deck?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1910",
+      "question": "If my EX area is full, how do I resolve this follower's Last Words ability?",
+      "answer": "Since your EX area is full, this follower would remain in the cemetery."
+    },
+    {
+      "number": "Q1909",
+      "question": "Does this follower's \"Whenever a follower on your field evolves\" ability only trigger while it's in the EX area?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP15-022": [
+    {
+      "number": "Q1912",
+      "question": "If a card leaves the field, does it lose all its counters?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-023": [],
+  "BP15-024": [],
+  "BP15-025": [],
+  "BP15-026": [],
+  "BP15-027": [],
+  "BP15-028": [],
+  "BP15-029": [
+    {
+      "number": "Q1913",
+      "question": "If I play a Loot card during an opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-030": [],
+  "BP15-031": [
+    {
+      "number": "Q1915",
+      "question": "If I can't select an enemy follower on the field or a Kagemitsu, Lost Samurai on my field or in my EX area, can I choose either option to have nothing happen?",
+      "answer": "No. If there are no valid targets, you would be unable to play this spell."
+    },
+    {
+      "number": "Q1914",
+      "question": "When choosing multiple options, can I choose the same option multiple times?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP15-032": [],
+  "BP15-033": [],
+  "BP15-034": [
+    {
+      "number": "Q1916",
+      "question": "If I play this follower's Fanfare ability when my EX area has 4 cards, can I choose which token to put into my EX area?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1913",
+      "question": "If I play a Loot card during an opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-035": [
+    {
+      "number": "Q1917",
+      "question": "I declare an attack on a reserved enemy follower with this follower while there are 10 cards in my opponents' cemeteries. If an effect at Quick timing removes a card from my opponents' cemeteries, bringing the number to 9, does the attack still go through?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-036": [],
+  "BP15-037": [],
+  "BP15-038": [
+    {
+      "number": "Q1952",
+      "question": "If I play Raio, Truthful Elimination, burying a Disciple of Truth as part of its cost reduction, does Disciple of Truth's automatic ability trigger?",
+      "answer": "No, it doesn't. Since it is buried as part of the cost, Disciple of Truth is no longer on the field when Raio, Truthful Elimination is played."
+    }
+  ],
+  "BP15-039": [],
+  "BP15-040": [],
+  "BP15-041": [
+    {
+      "number": "Q1919",
+      "question": "Do Onmyoji spells, such as Shikigami Summons, count twice towards \"spells and/or Onmyoji cards in your cemetery\"?",
+      "answer": "No. Each card counts only once, even if it's a spell with the Onmyoji trait."
+    },
+    {
+      "number": "Q1918",
+      "question": "If I play this follower's advanced activated ability, can I evolve another follower in the same turn?",
+      "answer": "No. You can only activate one advanced activated ability or evolve ability per turn."
+    }
+  ],
+  "BP15-042": [
+    {
+      "number": "Q1922",
+      "question": "What is ability damage?",
+      "answer": "Ability damage is all damage except for damage dealt by two followers in combat or by a follower attacking a leader. Damage from Strike abilities, although triggered by an attack, is considered ability damage."
+    },
+    {
+      "number": "Q1921",
+      "question": "When playing Biofabrication, can I select a faceup advanced follower in my evolve deck?",
+      "answer": "No. Advanced followers are not evolved followers."
+    },
+    {
+      "number": "Q1920",
+      "question": "When playing Rimewind, can I select an enemy advanced follower?",
+      "answer": "Yes. Advanced followers are also considered unevolved followers."
+    }
+  ],
+  "BP15-043": [],
+  "BP15-044": [],
+  "BP15-045": [],
+  "BP15-046": [
+    {
+      "number": "Q1924",
+      "question": "If there are at least 7 spells and/or Onmyoji cards in my cemetery when I play this spell and I choose not to find an Onmyoji follower when searching my deck, do I still put a Paper Shikigami token into my EX area?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1919",
+      "question": "Do Onmyoji spells, such as Shikigami Summons, count twice towards \"spells and/or Onmyoji cards in your cemetery\"?",
+      "answer": "No. Each card counts only once, even if it's a spell with the Onmyoji trait."
+    }
+  ],
+  "BP15-047": [],
+  "BP15-048": [],
+  "BP15-049": [],
+  "BP15-050": [],
+  "BP15-051": [],
+  "BP15-052": [],
+  "BP15-053": [],
+  "BP15-054": [],
+  "BP15-055": [],
+  "BP15-056": [],
+  "BP15-057": [
+    {
+      "number": "Q1923",
+      "question": "If this follower takes ability damage during my turn that brings its defense to 0, does its \"whenever this takes ability damage\" ability still trigger?",
+      "answer": "Yes, it does. You would resolve the automatic ability after this follower is destroyed."
+    },
+    {
+      "number": "Q1922",
+      "question": "What is ability damage?",
+      "answer": "Ability damage is all damage except for damage dealt by two followers in combat or by a follower attacking a leader. Damage from Strike abilities, although triggered by an attack, is considered ability damage."
+    }
+  ],
+  "BP15-058": [
+    {
+      "number": "Q1929",
+      "question": "If I play this follower's Fanfare ability while Overflow is active for me and my opponent has 2 copies of Vania, Kind Queen on their field, do any Forest Bats they play during their next turn cost 0?",
+      "answer": "Yes, that's correct. The total cost reduction would be -1."
+    },
+    {
+      "number": "Q1928",
+      "question": "If I play this follower's Fanfare ability while Overflow is active for me and my opponent banishes 10 spells from their cemetery to play Dimension Shift during their next turn for 7 play points, does it instead cost 8 play points?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1927",
+      "question": "If I play this follower's Fanfare ability while Overflow is active for me and my opponent plays Merlin's On Evolve ability during their next turn, does the spell they play still cost 1 more?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1926",
+      "question": "If this follower leaves the field after I play its Fanfare ability while Overflow is active for me, do cards my opponents play still cost 1 more during their next turns?",
+      "answer": "Yes, they do."
+    },
+    {
+      "number": "Q1925",
+      "question": "If I play this follower's Fanfare ability 2 times while Overflow is active for me, do cards my opponents play cost 2 more during their next turns?",
+      "answer": "Yes, they do."
+    }
+  ],
+  "BP15-059": [],
+  "BP15-060": [
+    {
+      "number": "Q1930",
+      "question": "If I discard a card during an opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-061": [
+    {
+      "number": "Q1930",
+      "question": "If I discard a card during an opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-062": [
+    {
+      "number": "Q1931",
+      "question": "If another Marine follower is put onto my field during an opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-063": [
+    {
+      "number": "Q1931",
+      "question": "If another Marine follower is put onto my field during an opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-064": [],
+  "BP15-065": [],
+  "BP15-066": [
+    {
+      "number": "Q1923",
+      "question": "If this follower takes ability damage during my turn that brings its defense to 0, does its \"whenever this takes ability damage\" ability still trigger?",
+      "answer": "Yes, it does. You would resolve the automatic ability after this follower is destroyed."
+    },
+    {
+      "number": "Q1922",
+      "question": "What is ability damage?",
+      "answer": "Ability damage is all damage except for damage dealt by two followers in combat or by a follower attacking a leader. Damage from Strike abilities, although triggered by an attack, is considered ability damage."
+    }
+  ],
+  "BP15-067": [
+    {
+      "number": "Q1923",
+      "question": "If this follower takes ability damage during my turn that brings its defense to 0, does its \"whenever this takes ability damage\" ability still trigger?",
+      "answer": "Yes, it does. You would resolve the automatic ability after this follower is destroyed."
+    },
+    {
+      "number": "Q1922",
+      "question": "What is ability damage?",
+      "answer": "Ability damage is all damage except for damage dealt by two followers in combat or by a follower attacking a leader. Damage from Strike abilities, although triggered by an attack, is considered ability damage."
+    }
+  ],
+  "BP15-068": [],
+  "BP15-069": [],
+  "BP15-070": [],
+  "BP15-071": [],
+  "BP15-072": [
+    {
+      "number": "Q1932",
+      "question": "If I look at the top card of my deck and it's an Omen card, can I choose not to add it to my hand?",
+      "answer": "Yes. In that case, you would not reveal it and simply return it to the top of your deck."
+    },
+    {
+      "number": "Q1923",
+      "question": "If this follower takes ability damage during my turn that brings its defense to 0, does its \"whenever this takes ability damage\" ability still trigger?",
+      "answer": "Yes, it does. You would resolve the automatic ability after this follower is destroyed."
+    },
+    {
+      "number": "Q1922",
+      "question": "What is ability damage?",
+      "answer": "Ability damage is all damage except for damage dealt by two followers in combat or by a follower attacking a leader. Damage from Strike abilities, although triggered by an attack, is considered ability damage."
+    }
+  ],
+  "BP15-073": [],
+  "BP15-074": [
+    {
+      "number": "Q1933",
+      "question": "Can this follower's activated ability only be played while in hand?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP15-075": [],
+  "BP15-076": [],
+  "BP15-077": [],
+  "BP15-078": [],
+  "BP15-079": [
+    {
+      "number": "Q1936",
+      "question": "If I have 2 copies of this follower on my field when Themis's Decree is played, how many times will each copy's automatic ability trigger?",
+      "answer": "Each copy's automatic ability will trigger 1 time, for a total of 2."
+    },
+    {
+      "number": "Q1935",
+      "question": "If I have this follower and a One-Tailed Fox on my field when Themis's Decree is played, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1934",
+      "question": "If another Yokai follower on my field is destroyed, does it trigger this follower's automatic ability?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-080": [],
+  "BP15-081": [],
+  "BP15-082": [],
+  "BP15-083": [
+    {
+      "number": "Q1937",
+      "question": "Can I only play this spell's activated ability when it's in my cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP15-084": [
+    {
+      "number": "Q1938",
+      "question": "If I evolve this follower with its Fanfare ability, can I evolve another follower using its evolve ability in the same turn?",
+      "answer": "Yes. Although you can only activate one evolve ability per turn, other abilities that evolve followers do not count towards this limit."
+    }
+  ],
+  "BP15-085": [],
+  "BP15-086": [
+    {
+      "number": "Q1954",
+      "question": "If I play this spell when my leader has 1 defense, but I reveal a follower with \"Valnareik\" in its name, do I lose the game?",
+      "answer": "No, you don't. The earliest Confirmation Timing to check for a game loss would be after this spell's ability resolves, meaning your leader would be at 2 defense."
+    }
+  ],
+  "BP15-087": [
+    {
+      "number": "Q1939",
+      "question": "Can I play this spell for 2 less?",
+      "answer": "Yes, if you engage two 2-cost followers on your field and there's a follower on your field with \"Yuzuki\" in its name."
+    }
+  ],
+  "BP15-088": [],
+  "BP15-089": [],
+  "BP15-090": [],
+  "BP15-091": [],
+  "BP15-092": [
+    {
+      "number": "Q1940",
+      "question": "If my deck only has 1 card left, how do I resolve this follower's Fanfare ability?",
+      "answer": "You would destroy an enemy follower on the field, give your leader +1 defense, then bury the remaining card in your deck. Lastly, you would draw a card, but since your deck is empty, you would lose the game."
+    }
+  ],
+  "BP15-093": [],
+  "BP15-094": [
+    {
+      "number": "Q1942",
+      "question": "I have a Destruction in Black on my field, my opponent's leader has 2 defense, and my opponent has this follower on their field. At the start of my main phase, does my opponent lose the game?",
+      "answer": "Yes, they do. At the start of your main phase, both abilities will trigger and become pending. When both players control pending abilities, the active player resolves theirs first. In this case, you are the active player, so Destruction in Black would deal 2 damage to your opponent's leader, bringing its defense to 0 and causing your opponent to lose the game before their ability can give them +2 defense."
+    },
+    {
+      "number": "Q1941",
+      "question": "If I have multiple cards with an \"At the start of each opponent's main phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You may resolve them in any order. When an opponent proceeds to their main phase, all \"At the start of each opponent's main phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    }
+  ],
+  "BP15-095": [
+    {
+      "number": "Q1943",
+      "question": "Does this follower's On Evolve ability also destroy other followers on my field?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1942",
+      "question": "I have a Destruction in Black on my field, my opponent's leader has 2 defense, and my opponent has this follower on their field. At the start of my main phase, does my opponent lose the game?",
+      "answer": "Yes, they do. At the start of your main phase, both abilities will trigger and become pending. When both players control pending abilities, the active player resolves theirs first. In this case, you are the active player, so Destruction in Black would deal 2 damage to your opponent's leader, bringing its defense to 0 and causing your opponent to lose the game before their ability can give them +2 defense."
+    },
+    {
+      "number": "Q1941",
+      "question": "If I have multiple cards with an \"At the start of each opponent's main phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You may resolve them in any order. When an opponent proceeds to their main phase, all \"At the start of each opponent's main phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    }
+  ],
+  "BP15-096": [],
+  "BP15-097": [
+    {
+      "number": "Q1944",
+      "question": "I declare an attack on an enemy leader while this follower has Storm. If an effect at Quick timing brings the number of cards on my field to less than 3, causing this follower to lose Storm, does the attack still go through?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP15-098": [],
+  "BP15-099": [],
+  "BP15-100": [
+    {
+      "number": "Q1945",
+      "question": "If I choose to fail to find a Deus Ex Machina, can I still summon an Ancient Artifact or Mystic Artifact token?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP15-101": [
+    {
+      "number": "Q1946",
+      "question": "Does this amulet's automatic ability only trigger while it's in the cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP15-102": [
+    {
+      "number": "Q1941",
+      "question": "If I have multiple cards with an \"At the start of each opponent's main phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You may resolve them in any order. When an opponent proceeds to their main phase, all \"At the start of each opponent's main phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    }
+  ],
+  "BP15-103": [
+    {
+      "number": "Q1941",
+      "question": "If I have multiple cards with an \"At the start of each opponent's main phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You may resolve them in any order. When an opponent proceeds to their main phase, all \"At the start of each opponent's main phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    }
+  ],
+  "BP15-104": [],
+  "BP15-105": [],
+  "BP15-106": [],
+  "BP15-107": [],
+  "BP15-108": [
+    {
+      "number": "Q1941",
+      "question": "If I have multiple cards with an \"At the start of each opponent's main phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You may resolve them in any order. When an opponent proceeds to their main phase, all \"At the start of each opponent's main phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    }
+  ],
+  "BP15-109": [],
+  "BP15-110": [],
+  "BP15-111": [],
+  "BP15-112": [],
+  "BP15-113": [],
+  "BP15-114": [],
+  "BP15-115": [],
+  "BP15-116": [],
+  "BP15-117": [
+    {
+      "number": "Q1947",
+      "question": "If I choose options 1 and 4, can I draw 2 cards and look at them before selecting an enemy amulet on the field to destroy?",
+      "answer": "No. When required to select targets for any part of a card or ability, all targets must be selected before playing. So if you choose options 1 and 4, you first select an enemy amulet on the field, resolve option 1, then resolve option 4."
+    },
+    {
+      "number": "Q1914",
+      "question": "When choosing multiple options, can I choose the same option multiple times?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP15-118": [
+    {
+      "number": "Q1899",
+      "question": "Does a faceup Drive Point in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1898",
+      "question": "Does a faceup Carrot in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1897",
+      "question": "Does a faceup advanced follower in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1896",
+      "question": "Does a faceup evolved Eidolon of Madness in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP15-119": [],
+  "BP15-120": [],
+  "BP15-121": [],
+  "BP15-122": [],
+  "BP15-123": [],
+  "BP15-124": [],
+  "BP15-125": [],
+  "BP15-126": []
+}

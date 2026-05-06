@@ -1,0 +1,746 @@
+{
+  "BP06-001": [],
+  "BP06-002": [],
+  "BP06-003": [
+    {
+      "number": "Q787",
+      "question": "After a Pixie follower with +1/+1 is put onto my field from my EX area, does it keep its +1/+1 if it is returned to my EX area by Fairy Torrent?",
+      "answer": "No, it doesn't. When a card on the field is moved to another zone, it loses all effects applied to it."
+    },
+    {
+      "number": "Q786",
+      "question": "Do Pixie followers in my EX area keep the +1/+1 from this follower's ability when they are put onto my field?",
+      "answer": "Yes, they do."
+    }
+  ],
+  "BP06-004": [],
+  "BP06-005": [
+    {
+      "number": "Q790",
+      "question": "If I evolve this follower with its Fanfare ability, can I evolve another follower using its evolve ability in the same turn?",
+      "answer": "Yes. Although you can only activate one evolve ability per turn, other abilities that evolve followers do not count towards this limit."
+    },
+    {
+      "number": "Q789",
+      "question": "Can I evolve this follower with its Fanfare ability if it is put onto the field by Lymaga, Forest Champion's Fanfare or On Evolve ability?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q788",
+      "question": "Can I evolve this follower with its Fanfare ability if it is put onto the field by an ability during an opponent's turn?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP06-006": [
+    {
+      "number": "Q792",
+      "question": "If I summon an Archer and a Servant of Unkilling with this follower's On Evolve ability, does Archer's \"When another follower is put onto your field\" ability trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q791",
+      "question": "If I summon 2 copies of Archer with this follower's On Evolve ability, does each copy's \"When another follower is put onto your field\" ability trigger?",
+      "answer": "Yes. Each copy's ability will trigger."
+    }
+  ],
+  "BP06-007": [
+    {
+      "number": "Q793",
+      "question": "If I play this follower's Last Words ability when my EX area has 4 cards, can I choose which token to put into my EX area?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP06-008": [
+    {
+      "number": "Q795",
+      "question": "Will this follower's Fanfare ability trigger if I put it onto the field with Wildwood Matriarch or Lymaga, Forest Champion's abilities?",
+      "answer": "Yes. Those abilities directly \"summon\" the follower to the field."
+    },
+    {
+      "number": "Q794",
+      "question": "Will this follower's Fanfare ability trigger if I put it onto the field with Octrice, Omen of Usurpation's activated ability?",
+      "answer": "No. Octrice's ability involves the player \"playing\" the selected card, so it isn't put onto the field by the ability itself."
+    }
+  ],
+  "BP06-009": [],
+  "BP06-010": [
+    {
+      "number": "Q797",
+      "question": "If I look at the top 2 cards of my deck and find a Hunter card, can I choose not to reveal it and add it to my hand, and instead bury both cards?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q796",
+      "question": "If my opponent has a Servant of Usurpation on their field, and I play this follower's Last Words ability during their turn, will Servant of Usurpation's \"During your turn, whenever a card is put from an opponent's deck into the cemetery\" ability trigger?",
+      "answer": "Yes, it will."
+    }
+  ],
+  "BP06-011": [],
+  "BP06-012": [],
+  "BP06-013": [],
+  "BP06-014": [
+    {
+      "number": "Q798",
+      "question": "Does the Fanfare ability of the Mallet Monkey summoned by this follower's Fanfare ability trigger as well?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP06-015": [],
+  "BP06-016": [],
+  "BP06-017": [
+    {
+      "number": "Q800",
+      "question": "If there are no selectable enemy followers on the field, can I still play this spell?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q799",
+      "question": "If I don't have any Hunter followers on my field, but I can select an enemy follower on the field, can I still play this spell?",
+      "answer": "Yes. However, since you can't pay the ability cost, nothing will happen. Note that even if you have 2 Hunter followers on your field, you can choose not to pay the ability cost of engaging 2 Hunter followers and have nothing happen."
+    }
+  ],
+  "BP06-018": [
+    {
+      "number": "Q801",
+      "question": "Does a Carrot count as an evolved follower?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP06-019": [
+    {
+      "number": "Q802",
+      "question": "Can I evolve this follower for 0 play points if there are 4 other followers on my field?",
+      "answer": "Yes. Her evolve ability would cost -1 (a negative value), but would be treated as costing 0."
+    }
+  ],
+  "BP06-020": [],
+  "BP06-021": [
+    {
+      "number": "Q804",
+      "question": "Can this follower be destroyed by Bane?",
+      "answer": "Yes, it can."
+    },
+    {
+      "number": "Q803",
+      "question": "What does \"combat damage\" mean?",
+      "answer": "\"Combat damage\" refers to the damage that an attacking follower and a target follower deal to each other in combat."
+    }
+  ],
+  "BP06-022": [
+    {
+      "number": "Q805",
+      "question": "Can this follower be buried by abilities such as Yuzuki, Righteous Demon's Fanfare?",
+      "answer": "Yes. Burying a card is different to destroying it."
+    }
+  ],
+  "BP06-023": [
+    {
+      "number": "Q805",
+      "question": "Can this follower be buried by abilities such as Yuzuki, Righteous Demon's Fanfare?",
+      "answer": "Yes. Burying a card is different to destroying it."
+    }
+  ],
+  "BP06-024": [
+    {
+      "number": "Q807",
+      "question": "If I summon Mars, Silent Flame General and Mach Knight with this spell, does Mach Knight gain +1 attack due to Mars, Silent Flame General's ability?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q806",
+      "question": "If I summon multiple followers with Fanfare abilities with this spell, in what order do I resolve them?",
+      "answer": "Since they are summoned at the same time, you may resolve them in any order. First, resolve Courtly Dance. Then, resolve any Fanfare abilities with satisfied conditions in whatever order."
+    }
+  ],
+  "BP06-025": [],
+  "BP06-026": [],
+  "BP06-027": [],
+  "BP06-028": [],
+  "BP06-029": [],
+  "BP06-030": [],
+  "BP06-031": [],
+  "BP06-032": [
+    {
+      "number": "Q808",
+      "question": "If I can't select an enemy follower on the field, can I still draw a card with this follower's Fanfare ability?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't play this follower's Fanfare ability."
+    }
+  ],
+  "BP06-033": [],
+  "BP06-034": [],
+  "BP06-035": [
+    {
+      "number": "Q809",
+      "question": "Do Onmyoji spells, such as Shikigami Summons, count twice towards this follower's ability?",
+      "answer": "No. Each card counts only once, even if it's a spell with the Onmyoji trait."
+    }
+  ],
+  "BP06-036": [],
+  "BP06-037": [],
+  "BP06-038": [
+    {
+      "number": "Q873",
+      "question": "If I bury a Paper Shikigami to pay for the cost of this follower's activated ability to destroy an enemy Servant of Silence, will Paper Shikigami's Last Words ability trigger the Servant of Silence's ability?",
+      "answer": "No. By the time you resolve Paper Shikigami's \"Discard a card,\" the Servant of Silence is already destroyed and no longer on the field, so its ability will not trigger."
+    },
+    {
+      "number": "Q812",
+      "question": "Can I activate this follower's ability and bury a Shikigami follower even if there are no selectable enemy followers on the field?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't activate this follower's ability."
+    },
+    {
+      "number": "Q811",
+      "question": "If there are 2 copies of this follower on my field, can I activate each copy's ability in the same turn?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q810",
+      "question": "If I activate this follower's ability and then evolve it, can I activate the evolved form's ability in the same turn?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP06-039": [
+    {
+      "number": "Q873",
+      "question": "If I bury a Paper Shikigami to pay for the cost of this follower's activated ability to destroy an enemy Servant of Silence, will Paper Shikigami's Last Words ability trigger the Servant of Silence's ability?",
+      "answer": "No. By the time you resolve Paper Shikigami's \"Discard a card,\" the Servant of Silence is already destroyed and no longer on the field, so its ability will not trigger."
+    },
+    {
+      "number": "Q812",
+      "question": "Can I activate this follower's ability and bury a Shikigami follower even if there are no selectable enemy followers on the field?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't activate this follower's ability."
+    },
+    {
+      "number": "Q811",
+      "question": "If there are 2 copies of this follower on my field, can I activate each copy's ability in the same turn?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q810",
+      "question": "If I activate this follower's ability and then evolve it, can I activate the evolved form's ability in the same turn?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP06-040": [],
+  "BP06-041": [
+    {
+      "number": "Q813",
+      "question": "Do Onmyoji spells, such as Shikigami Summons, count twice towards this card's ability?",
+      "answer": "No. Each card counts only once, even if it's a spell with the Onmyoji trait."
+    }
+  ],
+  "BP06-042": [],
+  "BP06-043": [],
+  "BP06-044": [
+    {
+      "number": "Q813",
+      "question": "Do Onmyoji spells, such as Shikigami Summons, count twice towards this card's ability?",
+      "answer": "No. Each card counts only once, even if it's a spell with the Onmyoji trait."
+    }
+  ],
+  "BP06-045": [],
+  "BP06-046": [
+    {
+      "number": "Q814",
+      "question": "If this follower's Last Words ability triggers, and I have no copies of Shikigami Summons in my deck, do I still have to search my deck?",
+      "answer": "Yes. After looking through your deck, you would shuffle it without adding a Shikigami Summons to your hand."
+    }
+  ],
+  "BP06-047": [
+    {
+      "number": "Q815",
+      "question": "Does the Fanfare ability of the Charming Gentlemouse summoned by this follower's Fanfare ability trigger as well?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP06-048": [],
+  "BP06-049": [],
+  "BP06-050": [],
+  "BP06-051": [],
+  "BP06-052": [
+    {
+      "number": "Q874",
+      "question": "If this follower is on my field, and I summon a Dragoncraft follower, since this follower is giving it Ward, can I immediately engage it?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q817",
+      "question": "If an opponent has an engaged follower with both Ward and Intimidate on their field, do I still have to attack that follower?",
+      "answer": "No. Intimidate takes precedence over Ward, so that follower can't be selected as an attack target."
+    },
+    {
+      "number": "Q816",
+      "question": "An opponent has a Garyu, Supreme Dragonkin that is giving an engaged Jadelong Tactician on their field Ward. If I declare an attack on the Jadelong Tactician with Riko Kashimoto [Planned Perfection] and destroy Garyu, Supreme Dragonkin with her Strike ability, can I change my attack target to the enemy leader since the Jadelong Tactician no longer has Ward?",
+      "answer": "No. You can't change the attack target after declaring an attack."
+    }
+  ],
+  "BP06-053": [
+    {
+      "number": "Q874",
+      "question": "If this follower is on my field, and I summon a Dragoncraft follower, since this follower is giving it Ward, can I immediately engage it?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q817",
+      "question": "If an opponent has an engaged follower with both Ward and Intimidate on their field, do I still have to attack that follower?",
+      "answer": "No. Intimidate takes precedence over Ward, so that follower can't be selected as an attack target."
+    },
+    {
+      "number": "Q816",
+      "question": "An opponent has a Garyu, Supreme Dragonkin that is giving an engaged Jadelong Tactician on their field Ward. If I declare an attack on the Jadelong Tactician with Riko Kashimoto [Planned Perfection] and destroy Garyu, Supreme Dragonkin with her Strike ability, can I change my attack target to the enemy leader since the Jadelong Tactician no longer has Ward?",
+      "answer": "No. You can't change the attack target after declaring an attack."
+    }
+  ],
+  "BP06-054": [
+    {
+      "number": "Q820",
+      "question": "If this follower's second Fanfare ability triggers, and I have no copies of Whitefrost Whisper in my deck, do I still have to search my deck?",
+      "answer": "Yes. After looking through your deck, you would shuffle it without adding a Whitefrost Whisper to your EX area."
+    },
+    {
+      "number": "Q819",
+      "question": "I select an enemy follower with this follower's first Fanfare ability, and then steal that enemy follower with an Angel of Chaos's activated ability. If it's engaged at the start of my next turn, does \"It doesn't refresh during its controller's next start phase\" apply to me?",
+      "answer": "No. It applies to the controller at the time the ability was played. In this case, because this follower's Fanfare ability was played before you became the stolen follower's controller, it refreshes as normal during your next start phase."
+    },
+    {
+      "number": "Q818",
+      "question": "If I select an engaged enemy follower with this follower's first Fanfare ability, will it refresh at the start of its controller's next turn?",
+      "answer": "No. Although the Fanfare ability's \"engage it\" effect will not apply to a follower that is already engaged, the \"It doesn't refresh during its controller's next start phase\" will still apply."
+    }
+  ],
+  "BP06-055": [
+    {
+      "number": "Q822",
+      "question": "If this card's Last Words ability triggers, and the number of both my maximum play points and remaining play points are the same, will my remaining play points also decrease by 1?",
+      "answer": "Yes. The number of play points you have cannot exceed your maximum play points."
+    },
+    {
+      "number": "Q821",
+      "question": "If my maximum number of play points is at 0, can I still pay the cost of this follower's Last Words ability?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP06-056": [
+    {
+      "number": "Q875",
+      "question": "Can I select a follower that has already attacked with this follower's activated ability?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q824",
+      "question": "Can this follower's activated ability only be played while it's in my EX area?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q823",
+      "question": "Can this follower be put onto the field with Phoenix Roost?",
+      "answer": "Yes. An ability putting a follower onto the field is different to playing it."
+    }
+  ],
+  "BP06-057": [
+    {
+      "number": "Q825",
+      "question": "How do I resolve this follower's Last Words ability?",
+      "answer": "When this follower is put into the cemetery, its Last Words ability triggers. Immediately after movement, the evolved form is put faceup in its owner's evolve deck, while the unevolved form remains in the cemetery. Then, you resolve the Last Words ability by moving the unevolved form from the cemetery into the owner's EX area."
+    }
+  ],
+  "BP06-058": [
+    {
+      "number": "Q826",
+      "question": "If I can't select an enemy follower on the field, but I have a Filene, Whitefrost Dragonewt on my field, can I still deal 2 damage to an enemy leader?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't play this spell."
+    }
+  ],
+  "BP06-059": [],
+  "BP06-060": [],
+  "BP06-061": [],
+  "BP06-062": [],
+  "BP06-063": [],
+  "BP06-064": [
+    {
+      "number": "Q827",
+      "question": "If an opponent does not have a Dragon token card, can they substitute it with something else?",
+      "answer": "Yes. In the case a player needs to use a substitute for a token card, we recommend using a card-like object that all players can agree will represent the missing token for this battle."
+    }
+  ],
+  "BP06-065": [],
+  "BP06-066": [],
+  "BP06-067": [],
+  "BP06-068": [],
+  "BP06-069": [
+    {
+      "number": "Q828",
+      "question": "If I already have 3 cards in my EX area when this card's Fanfare ability triggers, how many One-Tailed Foxes should I put into my EX area?",
+      "answer": "Put as many One-Tailed Fox tokens as the limit allows. In this case, you will put 2 of them into your EX area."
+    }
+  ],
+  "BP06-070": [
+    {
+      "number": "Q837",
+      "question": "If this follower and 4 One-Tailed Foxes are on my field, and all of my One-Tailed Foxes are destroyed by an ability, does this follower gain +4 attack?",
+      "answer": "Yes. This follower's \"Whenever a Yokai follower you control leaves the field, give this follower +1 attack\" will take effect for each One-Tailed Fox that is destroyed."
+    },
+    {
+      "number": "Q836",
+      "question": "When does this follower's \"if a Yokai follower on your field would deal damage, it deals that much plus 1 instead\" ability take effect?",
+      "answer": "It takes effect when a Yokai follower on your field deals attack or combat damage, or damage via abilities. Note that when a follower with 0 or less attack deals attack or combat damage, no damage is dealt at all (it doesn't count as dealing damage)."
+    },
+    {
+      "number": "Q835",
+      "question": "If this follower is on my field, and I attack an enemy leader with a 0-attack One-Tailed Fox, does it deal 1 damage?",
+      "answer": "No. When a follower with 0 or less attack deals attack or combat damage, it doesn't count as dealing damage, and this follower's \"if a Yokai follower on your field would deal damage, it deals that much plus 1 instead\" only takes effect when damage is dealt."
+    },
+    {
+      "number": "Q834",
+      "question": "If I have this follower on the field and it has 6 attack. If I attack the enemy leader, and they play Realm of Repose's activated ability with Quick, how much damage does the enemy leader take?",
+      "answer": "They take either 4 damage or 5 damage. When there are multiple abilities modifying damage dealt, the player receiving the damage decides the order the abilities are applied. In this case, depending on the order, the final damage taken can be calculated as follows: The enemy leader takes 4 damage because they decide to apply this follower's ability to increase the damage dealt by 1 first, so this follower will deal 7 damage before Realm of Repose's ability reduces the damage dealt to their leader to 4. The enemy leader takes 5 damage because they decide to apply Realm of Repose's ability first, so this follower will deal 6 damage before Realm of Repose's ability reduces the damage to their leader to 4. Then, this follower's ability increases the damage dealt by 1 will take effect so this follower will deal 5 damage."
+    },
+    {
+      "number": "Q833",
+      "question": "If this follower is on my field, and I attack an enemy Lævateinn Dragon, Defense Form with a 1-attack One-Tailed Fox, how much damage does Lævateinn Dragon, Defense Form take?",
+      "answer": "It takes either 0 damage or 1 damage. When there are multiple abilities modifying damage dealt, the player receiving the damage decides the order the abilities are applied. In this case, depending on the order, the final damage taken can be calculated as follows: Lævateinn Dragon, Defense Form takes 1 damage because its controller decides to apply the follower's ability to increase the damage dealt by 1 first, so the One-Tailed Fox will deal 2 damage before Lævateinn Dragon, Defense Form's ability reduces the damage dealt by 1. Lævateinn Dragon, Defense Form takes 0 damage because its controller decides to apply Lævateinn Dragon, Defense Form's ability to reduce damage dealt by 1 first, so the One-Tailed Fox will deal 0 damage before this follower's ability increases the damage dealt by 1. However, this follower's \"if a Yokai follower on your field would deal damage, it deals that much plus 1 instead\" only takes effect when damage is dealt, and 0 damage does not count as dealing damage. So, the ability does not take effect and the damage taken by Lævateinn Dragon, Defense Form remains 0."
+    },
+    {
+      "number": "Q832",
+      "question": "If this follower is on my field, and I attack an enemy Lævateinn Dragon, Defense Form with a 3-attack Kasha, how much damage does Lævateinn Dragon, Defense Form take?",
+      "answer": "It takes 3 damage. When there are multiple abilities modifying damage dealt, the player receiving the damage decides the order the abilities are applied. In this case, whether this follower's ability increases the damage dealt by 1 first, or Lævateinn Dragon, Defense Form's ability reduces damage dealt by 1 first, the damage taken is 3."
+    },
+    {
+      "number": "Q831",
+      "question": "If this follower is on my field, and I've given a Yokai follower Furtive Fangs's Strike ability, does that Strike ability also deal plus 1 damage?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q830",
+      "question": "If this follower is on my field, and I play a One-Tailed Fox from my EX area, does it cost 2 less?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q829",
+      "question": "If I have 2 copies of this follower on my field, does each Yokai follower I play cost 4 less?",
+      "answer": "Yes. Each copy's \"any Yokai follower you play costs 2 less\" will trigger."
+    }
+  ],
+  "BP06-071": [],
+  "BP06-072": [
+    {
+      "number": "Q838",
+      "question": "If I have already evolved another follower using its evolve ability this turn, can I evolve this follower with its Fanfare ability?",
+      "answer": "Yes. Although you can only activate one evolve ability per turn, other abilities that evolve followers do not count towards this limit."
+    }
+  ],
+  "BP06-073": [],
+  "BP06-074": [],
+  "BP06-075": [
+    {
+      "number": "Q876",
+      "question": "If this follower's Necrocharge ability triggers, and an opponent only has one follower on the field, do they only bury that follower?",
+      "answer": "Yes, they do."
+    },
+    {
+      "number": "Q840",
+      "question": "Can this follower's activated ability only be played while in hand?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q839",
+      "question": "If an opponent only has a Heavenly Aegis, which has Aura and \"This follower can't be destroyed by abilities,\" on their field, can this follower's Fanfare ability cause them to bury it?",
+      "answer": "Yes. Aura prevents the card from being selected by enemy abilities, but in this case Heavenly Aegis is not being selected by an ability. Also, burying a card isn't the same as destroying it."
+    }
+  ],
+  "BP06-076": [
+    {
+      "number": "Q842",
+      "question": "When playing this follower's Fanfare ability, if I can't select an enemy follower on the field, can I still choose option 1 to bury the top card of my deck?",
+      "answer": "No. If you can't select an enemy follower, you would be required to choose option 2. Likewise, if you can't select a Yokai follower not named Kasha in your cemetery, you would be required to choose option 1. If you can't make the prerequisite selection for either option, then you can't play this follower's Fanfare ability."
+    },
+    {
+      "number": "Q841",
+      "question": "If an evolved Ginsetsu, Great Fox is on my field, and I select option 1 for this follower's Fanfare ability, does it deal 2 damage?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP06-077": [],
+  "BP06-078": [
+    {
+      "number": "Q843",
+      "question": "If this follower's On Evolve ability triggers, and I have no copies of Cougar Pelt Warrior in my deck, do I still have to search my deck?",
+      "answer": "Yes. After looking through your deck, you would shuffle it without adding a Cougar Pelt Warrior to your hand."
+    }
+  ],
+  "BP06-079": [
+    {
+      "number": "Q844",
+      "question": "If my field has reached its card limit, can I still play this spell?",
+      "answer": "Yes. In this case, even if you can't summon any Forest Bat tokens, you can still draw 2 cards."
+    }
+  ],
+  "BP06-080": [],
+  "BP06-081": [],
+  "BP06-082": [],
+  "BP06-083": [],
+  "BP06-084": [],
+  "BP06-085": [],
+  "BP06-086": [
+    {
+      "number": "Q850",
+      "question": "If this follower is put into the cemetery, does it trigger its own \"Whenever a follower with Ward is put from your field into the cemetery, deal 1 damage to each enemy leader\" automatic ability?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q849",
+      "question": "If a follower is given Ward by something like Guardian Sun, when it is put into the cemetery, does it trigger this follower's automatic ability?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q848",
+      "question": "If I bury a reserved follower on my field with Ward, does it trigger this follower's automatic ability?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q847",
+      "question": "If a follower with Ward on my field is destroyed, does it trigger this follower's automatic ability?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q846",
+      "question": "If this follower and a Holy Lancer are on my field, and I play Themis's Decree, how many times does this follower's automatic ability trigger?",
+      "answer": "It will trigger 2 times. This follower can trigger its own automatic ability."
+    },
+    {
+      "number": "Q845",
+      "question": "If I have 2 copies of this follower on my field, and I play Themis's Decree, how many times does each copy's automatic ability trigger?",
+      "answer": "Each copy will trigger the ability 2 times, for a total of 4 damage to each enemy leader. Each copy themselves can trigger both their own automatic ability as well as the other copy's."
+    }
+  ],
+  "BP06-087": [
+    {
+      "number": "Q877",
+      "question": "At the start of my end phase, if I have 6 remaining play points, can I draw a card before selecting a follower to destroy?",
+      "answer": "No. When an ability requires a selection, the selection must be made before you resolve the other effects in the written order. In this case, before you draw a card, you must select an enemy follower (you may also select no enemy followers)."
+    },
+    {
+      "number": "Q862",
+      "question": "If I have multiple cards with an \"At the start of your end phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You can resolve them in any order. When you proceed to your end phase, all \"At the start of your end phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    },
+    {
+      "number": "Q851",
+      "question": "I have this follower and a Deux Ex Machina on my field, and I have 0 remaining play points. At the start of my end phase, can I choose to resolve Deus Ex Machina's \"recover 4 play points\" ability first so I have enough remaining play points to trigger this follower's \"deal 2 damage to each enemy leader\" and \"draw a card\" effects?",
+      "answer": "Yes, you can. Note that your remaining play points can't exceed your maximum play points."
+    }
+  ],
+  "BP06-088": [
+    {
+      "number": "Q878",
+      "question": "At the start of my end phase, if I have 4 remaining play points, can I recover 2 play points and draw a card before selecting a follower to destroy?",
+      "answer": "No. When an ability requires a selection, the selection must be made before you resolve the other effects in written order. In this case, before you draw a card or recover 2 play points, you must select an enemy follower (you may also select no enemy followers)."
+    },
+    {
+      "number": "Q862",
+      "question": "If I have multiple cards with an \"At the start of your end phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You can resolve them in any order. When you proceed to your end phase, all \"At the start of your end phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    },
+    {
+      "number": "Q852",
+      "question": "I have this follower and a Deux Ex Machina on my field, and I have 0 remaining play points. At the start of my end phase, can I choose to resolve Deus Ex Machina's \"recover 4 play points\" ability first before resolving this follower's \"recover 2 play points\" so I have enough remaining play points to trigger this follower's \"deal 2 damage to each enemy leader,\" \"draw a card,\" and \"select up to 1 enemy follower on the field and destroy it\" effects?",
+      "answer": "Yes, you can. Note that your remaining play points can't exceed your maximum play points."
+    }
+  ],
+  "BP06-089": [
+    {
+      "number": "Q853",
+      "question": "Can followers given Ward by something like Diamond Master's Fanfare ability be used to pay for this follower's activated ability?",
+      "answer": "No, they can't."
+    }
+  ],
+  "BP06-090": [
+    {
+      "number": "Q862",
+      "question": "If I have multiple cards with an \"At the start of your end phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You can resolve them in any order. When you proceed to your end phase, all \"At the start of your end phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    }
+  ],
+  "BP06-091": [
+    {
+      "number": "Q862",
+      "question": "If I have multiple cards with an \"At the start of your end phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You can resolve them in any order. When you proceed to your end phase, all \"At the start of your end phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    }
+  ],
+  "BP06-092": [
+    {
+      "number": "Q854",
+      "question": "If I summon Elana's Prayer and Candelabra of Prayers with this spell, does Candelabra of Prayer's \"when another amulet is put onto your field, give your leader +1 defense\" trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP06-093": [],
+  "BP06-094": [],
+  "BP06-095": [
+    {
+      "number": "Q862",
+      "question": "If I have multiple cards with an \"At the start of your end phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You can resolve them in any order. When you proceed to your end phase, all \"At the start of your end phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    }
+  ],
+  "BP06-096": [
+    {
+      "number": "Q855",
+      "question": "Can I use this amulet to pay its own \"bury an amulet\" cost to play its activated ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP06-097": [
+    {
+      "number": "Q856",
+      "question": "If this follower's Last Words ability triggers, and I have no copies of Winged Staff Priestess in my deck, do I still have to search my deck?",
+      "answer": "Yes. After looking through your deck, you would shuffle it without adding a Winged Staff Priestess to your hand."
+    }
+  ],
+  "BP06-098": [
+    {
+      "number": "Q862",
+      "question": "If I have multiple cards with an \"At the start of your end phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You can resolve them in any order. When you proceed to your end phase, all \"At the start of your end phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    },
+    {
+      "number": "Q857",
+      "question": "At the start of my end phase, if this follower's ability triggers and I summon a Mystic Artifact, when can my opponents play Quick cards or abilities?",
+      "answer": "They may play them after both this follower's and Mystic Artifact's abilities are resolved. The order the abilities are resolved is as follows: 1. At the start of your end phase, this follower's ability triggers and becomes pending. 2. You summon a Mystic Artifact token, resolving this follower's ability. Since Mystic Artifact has Ward, you may decide whether or not to engage it. Then, Mystic Artifact's Fanfare ability triggers and becomes pending. 3. You draw a card, resolving Mystic Artifact's Fanfare ability. 4. You may engage any followers with Ward on your field. 5. Opponents can now play Quick cards or abilities."
+    }
+  ],
+  "BP06-099": [
+    {
+      "number": "Q862",
+      "question": "If I have multiple cards with an \"At the start of your end phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You can resolve them in any order. When you proceed to your end phase, all \"At the start of your end phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    },
+    {
+      "number": "Q858",
+      "question": "If my maximum number of play points is 1, do I still recover 2 play points with Barrage Brawler's On Evolve ability?",
+      "answer": "No. You will only recover 1 play point because your remaining play points cannot exceed your maximum play points."
+    }
+  ],
+  "BP06-100": [
+    {
+      "number": "Q862",
+      "question": "If I have multiple cards with an \"At the start of your end phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You can resolve them in any order. When you proceed to your end phase, all \"At the start of your end phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    },
+    {
+      "number": "Q858",
+      "question": "If my maximum number of play points is 1, do I still recover 2 play points with Barrage Brawler's On Evolve ability?",
+      "answer": "No. You will only recover 1 play point because your remaining play points cannot exceed your maximum play points."
+    }
+  ],
+  "BP06-101": [],
+  "BP06-102": [
+    {
+      "number": "Q861",
+      "question": "Immediately after this spell is resolved, if I drew a card with Quick, can I play it?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q860",
+      "question": "Can I play other cards with Quick after this spell is resolved?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q859",
+      "question": "Can I play this spell during an opponent's turn, even if I have less than 2 play points remaining?",
+      "answer": "Yes, you can. However, nothing would happen (you do not draw a card if you have less than 2 play points remaining when playing this spell)."
+    }
+  ],
+  "BP06-103": [
+    {
+      "number": "Q865",
+      "question": "If this follower's Last Words ability triggers, and I have no copies of Colosseum on High in my deck, do I still have to search my deck?",
+      "answer": "Yes. After looking through your deck, you would shuffle it without summoning a Colosseum on High."
+    },
+    {
+      "number": "Q864",
+      "question": "If I play this follower's Fanfare ability, which player goes first?",
+      "answer": "The active player does. When multiple players need to make a selection, the active player will go first. In this case, the order will be as follows: 1. The active player buries each follower on their field except for one of their choice. 2. The next non-active player buries each follower on their field except for one of their choice. This continues until each player has resolved this follower's Fanfare ability."
+    },
+    {
+      "number": "Q863",
+      "question": "If an opponent only has 2 Heavenly Aegises on their field, can this follower's Fanfare ability cause them to bury 1 of them?",
+      "answer": "Yes. Heavenly Aegis's \"This follower can't be destroyed by abilities\" does not trigger because burying a card isn't the same as destroying it."
+    }
+  ],
+  "BP06-104": [
+    {
+      "number": "Q886",
+      "question": "When playing this follower's Fanfare ability, if I can't select another follower on my field, can I still choose option 1 to have nothing happen?",
+      "answer": "No. If you can't select another follower, you would be required to choose either option 2 or option 3."
+    }
+  ],
+  "BP06-105": [],
+  "BP06-106": [],
+  "BP06-107": [],
+  "BP06-108": [
+    {
+      "number": "Q866",
+      "question": "Can I select a follower on my field with this spell?",
+      "answer": "Yes, you can. Note that if you choose a follower on your field, you are that follower's controller, so your leader will gain +2 defense, and you will draw a card."
+    }
+  ],
+  "BP06-109": [
+    {
+      "number": "Q869",
+      "question": "If each player summons a follower with Fanfare using this amulet's Fanfare ability, which player resolves their follower's Fanfare ability first?",
+      "answer": "The active player does. The active player always resolves their abilities before non-active players. In this case, the order will be as follows: 1. This amulet's Fanfare ability resolves. The active player reveals and summons a follower. This follower's Fanfare ability triggers and becomes pending. 2. The next non-active player reveals and summons a follower. This follower's Fanfare ability triggers and becomes pending. This continues until each player has revealed and summoned their follower. 3. The active player resolves their follower's Fanfare ability. 4. The next non-active player resolves their follower's Fanfare ability. This continues until each player has resolved their follower's Fanfare ability. Note that even if a follower leaves the field, because their Fanfare ability has already triggered it will still resolve."
+    },
+    {
+      "number": "Q868",
+      "question": "If I play this amulet's Fanfare ability, which player goes first?",
+      "answer": "The active player does. When multiple players need to make a selection, the active player will go first. In this case, the order will be as follows: 1. Each player looks at the top 3 cards of their deck. 2. The active player may reveal and summon a follower from among them. 3. The next non-active player may reveal and summon a follower from among them. This continues until each player has done so. 4. Each player buries their remaining cards."
+    },
+    {
+      "number": "Q867",
+      "question": "What does \"While this card is on the field, if a follower on the field can attack a follower, it can't attack a leader\" mean?",
+      "answer": "While this amulet is on any player's field, if the follower the active player is declaring an attack with can attack an enemy follower, they can't declare an attack on the enemy leader. Note that this amulet doesn't prohibit players from choosing not to attack. Some examples are as follows: If there is an engaged enemy follower on an opponent's field, the followers on your field can't attack an enemy leader because there is an enemy follower that can be attacked. If there are only reserved enemy followers on an opponent's field, the followers on your field can attack an enemy leader because there isn't an enemy follower that can be attacked. If there are only reserved enemy followers on an opponent's field, and you have a follower with Assail on your field, your follower with Assail can't attack an enemy leader because it can attack the reserved enemy followers. However, your other followers without Assail can attack an enemy leader. If there are only reserved enemy followers with Intimidate on an opponent's field, and you have a follower with Assail on your field, the followers on your field can attack an enemy leader because the reserved enemy followers with Intimidate can't be attacked."
+    }
+  ],
+  "BP06-110": [],
+  "BP06-111": [],
+  "BP06-112": [
+    {
+      "number": "Q879",
+      "question": "If I select a 0-attack enemy follower and a Servant of Disdain on my field with this spell, will Servant of Disdain's \"whenever this follower takes ability damage, draw a card\" trigger?",
+      "answer": "No. When an ability does 0 or less damage, no damage is dealt at all (it doesn't count as dealing damage)."
+    },
+    {
+      "number": "Q870",
+      "question": "Can I play this spell only when I can select both a follower on my field and an enemy follower on my opponent's field?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP06-113": [],
+  "BP06-114": [
+    {
+      "number": "Q871",
+      "question": "If I reveal an opponent's hand with this spell's Fanfare ability, do they keep it revealed for the rest of the game?",
+      "answer": "No. This Fanfare ability is resolved once all players agree that the selected player no longer has to reveal their hand."
+    }
+  ],
+  "BP06-115": [],
+  "BP06-116": [],
+  "BP06-117": [
+    {
+      "number": "Q881",
+      "question": "Can this amulet's ability deal damage to followers with Aura?",
+      "answer": "Yes, it can."
+    },
+    {
+      "number": "Q880",
+      "question": "If an enemy follower attacks and is destroyed by this amulet's ability, does its target still take damage?",
+      "answer": "No. The enemy follower is destroyed before it deals damage."
+    }
+  ],
+  "BP06-118": [],
+  "BP06-119": [],
+  "BP06-120": [],
+  "BP06-121": []
+}

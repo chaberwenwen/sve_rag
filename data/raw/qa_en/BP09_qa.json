@@ -1,0 +1,679 @@
+{
+  "BP09-001": [],
+  "BP09-002": [
+    {
+      "number": "Q1135",
+      "question": "If 2 followers are put onto my field at the same time, does this follower's ability trigger 2 times?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP09-003": [
+    {
+      "number": "Q1136",
+      "question": "My opponent has an engaged follower with Ward on their field. I attack their leader with my 10-attack evolved White Vanara, but my opponent reduces its attack by 1 with a Quick ability, so it loses \"ignores Ward.\" Does its attack target get changed to the follower with Ward?",
+      "answer": "No, the attack goes through on its original target."
+    }
+  ],
+  "BP09-004": [
+    {
+      "number": "Q1137",
+      "question": "Do I choose whether to evolve this follower into Paula, Gentle Warmth or Paula, Passionate Warmth?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP09-005": [
+    {
+      "number": "Q1236",
+      "question": "I have 4 cards in my EX area. If I select 2 cards on my field to put into my EX area with Paula, Passionate Warmth's On Evolve ability, what happens to them?",
+      "answer": "You choose one to put into your EX area, and the other stays on the field."
+    },
+    {
+      "number": "Q1234",
+      "question": "If I put a Puppet and Orchis, Resolute Puppet into my EX area with Paula, Passionate Warmth's On Evolve ability, does Orchis's \"when a Puppet leaves your field\" ability trigger?",
+      "answer": "Yes, it triggers even if Orchis itself leaves the field at the same time as a Puppet."
+    },
+    {
+      "number": "Q1140",
+      "question": "If I select a token for Paula, Passionate Warmth's On Evolve ability, does it get removed from the game?",
+      "answer": "No. It remains in its owner's EX area after you put it there. Follower and amulet tokens may exist in the EX area, field, and resolution zone. They are only removed from the game immediately after movement when moved to other zones."
+    },
+    {
+      "number": "Q1139",
+      "question": "Do cards I put into my EX area with Paula, Passionate Warmth's On Evolve ability lose all effects, changes to attack/defense, and counters?",
+      "answer": "Yes, they do."
+    },
+    {
+      "number": "Q1138",
+      "question": "I begin my turn by playing Paula, Icy Warmth from hand and a Fairy from my EX area. If I then evolve Paula, Icy Warmth into Paula, Passionate Warmth and attack with it, do I fulfill the Combo (3) condition in its Strike ability?",
+      "answer": "No. Evolving a follower doesn't count as playing a card, so it doesn't count toward your Combo."
+    }
+  ],
+  "BP09-006": [],
+  "BP09-007": [
+    {
+      "number": "Q1141",
+      "question": "There are 4 Forestcraft spells with different names in my cemetery, none of which share a name with this spell. If I play this spell, do I fulfill the condition \"if there are at least 5 Forestcraft spells with different names in your cemetery\"?",
+      "answer": "No. While you're resolving this spell's effects, it isn't in the cemetery yet."
+    }
+  ],
+  "BP09-008": [],
+  "BP09-009": [],
+  "BP09-010": [],
+  "BP09-011": [
+    {
+      "number": "Q1141",
+      "question": "There are 4 Forestcraft spells with different names in my cemetery, none of which share a name with this spell. If I play this spell, do I fulfill the condition \"if there are at least 5 Forestcraft spells with different names in your cemetery\"?",
+      "answer": "No. While you're resolving this spell's effects, it isn't in the cemetery yet."
+    }
+  ],
+  "BP09-012": [],
+  "BP09-013": [],
+  "BP09-014": [],
+  "BP09-015": [],
+  "BP09-016": [
+    {
+      "number": "Q1143",
+      "question": "Is the cost of an evolved follower the same as its unevolved form?",
+      "answer": "Yes, it is."
+    },
+    {
+      "number": "Q1142",
+      "question": "If I can't select an enemy follower that costs 3 or less on the field, can I still play this spell to put a Puppet token into my EX area?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP09-017": [],
+  "BP09-018": [],
+  "BP09-019": [
+    {
+      "number": "Q1144",
+      "question": "I have 4 cards on my field, including Celia, Despair's Messenger. When playing its On Evolve ability, can I choose whether to summon a Steelclad Knight or Knight token?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP09-020": [
+    {
+      "number": "Q1147",
+      "question": "My opponent has Ancient Protector on their field, and I have Spartacus. While resolving this follower's \"at the start of your end phase\" ability, I draw enough cards that my deck is down to a single card. Do I then win the game?",
+      "answer": "No, the game goes on. When one effect instructs a player to perform an action (\"win the game\") that is prohibited by another active effect (\"you can't lose the game, and opponents can't win\"), the prohibiting effect takes precedence."
+    },
+    {
+      "number": "Q1146",
+      "question": "If my deck is empty when playing this follower's \"at the start of your end phase\" ability, do I lose the game?",
+      "answer": "No, you win. After discarding any number of cards, you draw that many plus 1. Drawing cards from an empty deck means you will lose the game at the next confirmation timing. However, you finish resolving this ability first, and since there's 1 card or less in your deck, you win the game immediately."
+    },
+    {
+      "number": "Q1145",
+      "question": "Can I choose not to discard any cards when playing this follower's \"at the start of your end phase\" ability?",
+      "answer": "Yes. \"Any number\" includes 0. If you choose not to discard any cards, you draw one card."
+    }
+  ],
+  "BP09-021": [],
+  "BP09-022": [],
+  "BP09-023": [],
+  "BP09-024": [
+    {
+      "number": "Q1149",
+      "question": "Can I choose to summon Queen Hemera the White but not Queen Magnus the Black, or vice versa?",
+      "answer": "Yes. Even if both are in your deck, you can choose to \"not find\" either or both of them."
+    },
+    {
+      "number": "Q1148",
+      "question": "Can I only play this spell's activated ability when it's in my cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP09-025": [],
+  "BP09-026": [
+    {
+      "number": "Q1151",
+      "question": "During my turn, an enemy token follower is put from the field into the cemetery. Does this follower's ability trigger?",
+      "answer": "Yes, it does. The token is put into the cemetery, then it is immediately removed from the game."
+    },
+    {
+      "number": "Q1150",
+      "question": "During my turn, 5 enemy followers are put from the field into the cemetery at the same time. How many times does this follower's ability trigger?",
+      "answer": "It triggers 5 times."
+    }
+  ],
+  "BP09-027": [],
+  "BP09-028": [],
+  "BP09-029": [],
+  "BP09-030": [],
+  "BP09-031": [
+    {
+      "number": "Q1152",
+      "question": "I have Mars, Silent Flame General on my field. If I play this follower, can I first give it +1 attack with Mars's ability, then deal 3 damage to an enemy follower with its Fanfare ability?",
+      "answer": "Yes. When you put this follower onto your field, its Fanfare and Mars's ability both trigger and become pending, and you may resolve the pending abilities in any order."
+    }
+  ],
+  "BP09-032": [],
+  "BP09-033": [],
+  "BP09-034": [],
+  "BP09-035": [],
+  "BP09-036": [
+    {
+      "number": "Q1154",
+      "question": "I've already played a Forbidden token this turn. If I evolve this follower, then play another Forbidden token, does it cost 2 less?",
+      "answer": "No. The next Forbidden token you play would be your second of the turn."
+    },
+    {
+      "number": "Q1153",
+      "question": "I have 2 copies of this follower on my field. Does the first Forbidden token I play this turn cost 4 less?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP09-037": [
+    {
+      "number": "Q1156",
+      "question": "I have 4 cards in my EX area. What happens when I play this follower's Fanfare ability?",
+      "answer": "If you find 2 Earth Sigil amulets in your deck, pick one of them to put into your EX area, then shuffle your deck. If you only find one, or choose to \"only find one\" even when there are more, put it into your EX area, then shuffle your deck. You can also choose to not find any, in which case you simply shuffle your deck. In any case, Earth Sigil amulets you put into your EX area this way cost 0 to play for the rest of the turn."
+    }
+  ],
+  "BP09-038": [
+    {
+      "number": "Q1217",
+      "question": "Does \"the next Anne's Sorcery you play this turn costs 5 less\" take effect if I play an Anne's Sorcery from my EX area or another zone that isn't my hand?",
+      "answer": "Yes, it takes effect regardless of where you play the spell from."
+    },
+    {
+      "number": "Q1216",
+      "question": "If I choose (1) but don't find an Anne's Sorcery to put into my EX area, is \"the next Anne's Sorcery you play this turn costs 5 less\" still valid?",
+      "answer": "Yes, it is."
+    },
+    {
+      "number": "Q1215",
+      "question": "When choosing multiple options, can I choose the same option multiple times?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP09-039": [],
+  "BP09-040": [
+    {
+      "number": "Q1221",
+      "question": "If I have at least 10 Academic cards in my cemetery and an evolved Grea, Mysterian Dragoness on my field, does Mysterian Missile deal 1 more damage to both the selected follower and that follower's leader?",
+      "answer": "Yes. It deals 4 damage to the selected follower and 3 damage to that follower's leader."
+    },
+    {
+      "number": "Q1220",
+      "question": "If I have at least 5 Academic cards in my cemetery and an evolved Grea, Mysterian Dragoness on my field, does Grea's Ember deal 4 damage?",
+      "answer": "Yes. Its damage first becomes 3 from its own replacement effect, then gets increased by 1 by Grea's ability."
+    },
+    {
+      "number": "Q1219",
+      "question": "Does \"the next Grea's Ember you play this turn costs 1 less\" take effect if I play a Grea's Ember from my EX area or another zone that isn't my hand?",
+      "answer": "Yes, it takes effect regardless of where you play the spell from."
+    },
+    {
+      "number": "Q1218",
+      "question": "If I don't find a Grea's Ember to put into my EX area with this follower's On Evolve ability, is \"the next Grea's Ember you play this turn costs 1 less\" still valid?",
+      "answer": "Yes, it is."
+    }
+  ],
+  "BP09-041": [
+    {
+      "number": "Q1155",
+      "question": "Do I choose whether to evolve this follower into Mysterian Whitewyrm or Mysterian Blackwyrm?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP09-042": [],
+  "BP09-043": [
+    {
+      "number": "Q1158",
+      "question": "While this follower is on the field, can followers that cost 3 or less attack engaged enemy followers?",
+      "answer": "No. \"Enemies\" refers to both enemy leaders and enemy followers."
+    },
+    {
+      "number": "Q1157",
+      "question": "While this follower is on my field, does \"can't attack enemies\" apply to both enemy followers and my followers?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP09-044": [],
+  "BP09-045": [
+    {
+      "number": "Q1160",
+      "question": "If I play this spell with a Spellchain of 15, does it deal 3 damage to all enemy followers on the field?",
+      "answer": "Yes. If the condition Spellchain (15) is fulfilled, the effect \"deal 1 damage to each enemy follower on the field\" is applied 3 times, dealing 3 separate instances of 1 damage for a total of 3 damage."
+    },
+    {
+      "number": "Q1159",
+      "question": "My opponent has Elios, Loyal Dragoon on their field, whose ability triggers whenever it takes damage. If I play this spell with a Spellchain of 15, how many times does Elios's ability trigger?",
+      "answer": "It triggers 3 times."
+    }
+  ],
+  "BP09-046": [
+    {
+      "number": "Q1237",
+      "question": "If there are fewer than 10 Academic cards in my cemetery, can I still choose (2) and draw 2 cards?",
+      "answer": "No. You can still choose (2) as long as you can select an enemy leader or enemy follower on the field and pay 3 play points, but nothing will happen."
+    },
+    {
+      "number": "Q1222",
+      "question": "When resolving this spell's (2) effect, does the spell itself count toward the condition \"if there are at least 10 Academic cards in your cemetery\"?",
+      "answer": "No. While you're resolving this spell's effects, it isn't in the cemetery yet."
+    }
+  ],
+  "BP09-047": [
+    {
+      "number": "Q1223",
+      "question": "When playing this spell, does the spell itself count toward the condition \"if there are at least 5 Academic cards in your cemetery\"?",
+      "answer": "No. While you're resolving this spell's effects, it isn't in the cemetery yet."
+    },
+    {
+      "number": "Q1220",
+      "question": "If I have at least 5 Academic cards in my cemetery and an evolved Grea, Mysterian Dragoness on my field, does Grea's Ember deal 4 damage?",
+      "answer": "Yes. Its damage first becomes 3 from its own replacement effect, then gets increased by 1 by Grea's ability."
+    }
+  ],
+  "BP09-048": [],
+  "BP09-049": [
+    {
+      "number": "Q1164",
+      "question": "If this follower is on my field, and I attack an enemy Lævateinn Dragon, Defense Form with a 1-attack Onion Patch, how much damage does Lævateinn Dragon, Defense Form take?",
+      "answer": "It takes either 0 damage or 1 damage. When there are multiple abilities modifying damage dealt, the player receiving the damage decides the order the abilities are applied. In this case, depending on the order, the final damage taken can be calculated as follows: Lævateinn Dragon, Defense Form takes 1 damage because its controller decides to apply this follower's ability to increase the damage dealt by 1 first, so the Onion Patch will deal 2 damage before Lævateinn Dragon, Defense Form's ability reduces the damage dealt by 1. Lævateinn Dragon, Defense Form takes 0 damage because its controller decides to apply Lævateinn Dragon, Defense Form's ability to reduce damage dealt by 1 first, so the Onion Patch will deal 0 damage before this follower's ability increases the damage dealt by 1. However, this follower's ability only takes effect when damage is dealt, and 0 damage doesn't count as dealing damage, so the ability doesn't take effect and the damage taken by Lævateinn Dragon, Defense Form remains 0."
+    },
+    {
+      "number": "Q1163",
+      "question": "If this follower is on my field, and I attack an enemy leader with a 0-attack Onion Patch, does it deal 1 damage?",
+      "answer": "No. When a 0-attack follower attacks, it doesn't count as dealing damage, and this follower's \"if an Onion Patch on your field would deal damage, it deals that much plus 1 instead\" only takes effect when damage is dealt."
+    },
+    {
+      "number": "Q1162",
+      "question": "When does this follower's \"if an Onion Patch on your field would deal damage, it deals that much plus 1 instead\" ability take effect?",
+      "answer": "It takes effect when an Onion Patch on your field deals combat or ability damage. Note that when a follower with 0 or less attack deals attack or combat damage, no damage is dealt at all (it doesn't count as dealing damage)."
+    },
+    {
+      "number": "Q1161",
+      "question": "Does Bergent, Onion Patchmaster's \"if an Onion Patch on your field would deal damage, it deals that much plus 1 instead\" ability increase damage dealt by Onion Patch's \"Strike - Select an enemy follower on the field and deal it 1 damage\" ability as well?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP09-050": [],
+  "BP09-051": [],
+  "BP09-052": [],
+  "BP09-053": [
+    {
+      "number": "Q1225",
+      "question": "If I only have one Academic card in my hand, can I play a Mysterian Knowledge in my cemetery with Merlin's On Evolve ability?",
+      "answer": "No. If you can't pay the additional cost, you can't play this spell, so nothing would happen if you select it for Merlin's On Evolve ability."
+    },
+    {
+      "number": "Q1224",
+      "question": "Can I reveal this card itself as part of the additional cost to play it?",
+      "answer": "No. While you're paying this spell's costs, it's in the resolution zone, not your hand."
+    }
+  ],
+  "BP09-054": [
+    {
+      "number": "Q1166",
+      "question": "If my EX area is full when playing this amulet's second Fanfare ability, do I still give each Golem follower on my field and in my EX area +1 attack, even though I can't put a Strikeform Golem token into my EX area?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1165",
+      "question": "Can I choose the order in which I resolve this amulet's two Fanfare abilities?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP09-055": [],
+  "BP09-056": [
+    {
+      "number": "Q1167",
+      "question": "When playing this follower's On Evolve ability, if I choose not to bury the top card of my deck, do I still draw a card?",
+      "answer": "Yes. If you look at the top card of your deck and choose not to bury it, return it to the top of your deck facedown, then draw a card."
+    }
+  ],
+  "BP09-057": [],
+  "BP09-058": [
+    {
+      "number": "Q1168",
+      "question": "What does \"you can put up to 50 of this card into your deck\" mean?",
+      "answer": "Normally, you can have at most 3 copies of the same card in your main deck, but this rule doesn't apply to Onion Patch. You can put up to 50 copies of it into your main deck. Note that you can't put Onion Patch into your evolve deck, because it isn't an evolved card."
+    },
+    {
+      "number": "Q1161",
+      "question": "Does Bergent, Onion Patchmaster's \"if an Onion Patch on your field would deal damage, it deals that much plus 1 instead\" ability increase damage dealt by Onion Patch's \"Strike - Select an enemy follower on the field and deal it 1 damage\" ability as well?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP09-059": [],
+  "BP09-060": [
+    {
+      "number": "Q1238",
+      "question": "When playing this follower's Fanfare ability, if I can't select an Academic spell in my cemetery, can I still choose option 2 to have nothing happen?",
+      "answer": "No. If you can't select an Academic spell, you would be required to choose option 1."
+    }
+  ],
+  "BP09-061": [],
+  "BP09-062": [
+    {
+      "number": "Q1170",
+      "question": "If I have multiple cards with an \"At the start of your end phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You can resolve them in any order. When you proceed to your end phase, all \"At the start of your end phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    },
+    {
+      "number": "Q1169",
+      "question": "I have 2 copies of this follower on my field at the start of my end phase, and they both have 5 defense. How do I resolve their abilities?",
+      "answer": "You must resolve the \"at the start of your end phase\" ability of both copies, and both of them end up in the cemetery. First, at the start of your end phase, the corresponding abilities of both copies trigger and become pending. You then resolve them one by one. The first copy's ability deals 5 damage to each other follower on the field, bringing the defense of the other copy to 0 and putting it into the cemetery. Even though the second copy is now in the cemetery, you still resolve its pending ability, dealing 5 damage to each follower on the field, bringing the defense of the first copy to 0 and putting it into the cemetery as well."
+    }
+  ],
+  "BP09-063": [
+    {
+      "number": "Q1170",
+      "question": "If I have multiple cards with an \"At the start of your end phase\" ability triggering, in what order do I resolve them?",
+      "answer": "You can resolve them in any order. When you proceed to your end phase, all \"At the start of your end phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    },
+    {
+      "number": "Q1169",
+      "question": "I have 2 copies of this follower on my field at the start of my end phase, and they both have 5 defense. How do I resolve their abilities?",
+      "answer": "You must resolve the \"at the start of your end phase\" ability of both copies, and both of them end up in the cemetery. First, at the start of your end phase, the corresponding abilities of both copies trigger and become pending. You then resolve them one by one. The first copy's ability deals 5 damage to each other follower on the field, bringing the defense of the other copy to 0 and putting it into the cemetery. Even though the second copy is now in the cemetery, you still resolve its pending ability, dealing 5 damage to each follower on the field, bringing the defense of the first copy to 0 and putting it into the cemetery as well."
+    }
+  ],
+  "BP09-064": [
+    {
+      "number": "Q1235",
+      "question": "If I have 2 followers with \"Zirnitra\" in their name on my field, can I bury both of them to play this follower for 6 less?",
+      "answer": "No, you can't pay the cost of an ability twice."
+    }
+  ],
+  "BP09-065": [
+    {
+      "number": "Q1228",
+      "question": "I have 2 copies of this follower on my field. If my opponent plays Themis's Decree and destroys both of them, do I summon 2 Aftershock tokens?",
+      "answer": "No. When your 2 copies of this follower are destroyed and put into the cemetery, both of their Last Words abilities trigger and become pending at the same time. You then resolve them one by one. When resolving the first Last Words ability, there's no Aftershock on your field, so you summon one. When resolving the second Last Words ability, there is an Aftershock on your field, so you place a lightning counter on it instead."
+    },
+    {
+      "number": "Q1227",
+      "question": "There's no Aftershock on my field when I play this follower's Last Words ability, so I summon one accordingly. Do I then place a lightning counter on each Aftershock on my field because there's an Aftershock on my field now?",
+      "answer": "No. Aside from selections made as a prerequisite to play an ability, abilities are resolved in the written order."
+    }
+  ],
+  "BP09-066": [
+    {
+      "number": "Q1228",
+      "question": "I have 2 copies of this follower on my field. If my opponent plays Themis's Decree and destroys both of them, do I summon 2 Aftershock tokens?",
+      "answer": "No. When your 2 copies of this follower are destroyed and put into the cemetery, both of their Last Words abilities trigger and become pending at the same time. You then resolve them one by one. When resolving the first Last Words ability, there's no Aftershock on your field, so you summon one. When resolving the second Last Words ability, there is an Aftershock on your field, so you place a lightning counter on it instead."
+    },
+    {
+      "number": "Q1227",
+      "question": "There's no Aftershock on my field when I play this follower's Last Words ability, so I summon one accordingly. Do I then place a lightning counter on each Aftershock on my field because there's an Aftershock on my field now?",
+      "answer": "No. Aside from selections made as a prerequisite to play an ability, abilities are resolved in the written order."
+    }
+  ],
+  "BP09-067": [
+    {
+      "number": "Q1229",
+      "question": "If I have an Aftershock on my field, does it count toward conditions such as \"while there is another Draconic Duelist card on your field\" and \"if there are at least 3 Draconic Duelist cards on your field\"?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP09-068": [
+    {
+      "number": "Q1171",
+      "question": "Do I choose whether to evolve this follower into Virtuous Lindworm or Iniquitous Lindworm?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP09-069": [],
+  "BP09-070": [
+    {
+      "number": "Q1172",
+      "question": "I have a Dragonplate Warrior on my field that's been given the Armed trait by Draconic Weapon. I select it along with an enemy follower on the field for Armor Burst, putting the Dragonplate Warrior into my EX area. Does its \"during your turn, whenever you play a Dragoncraft spell\" ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP09-071": [],
+  "BP09-072": [],
+  "BP09-073": [
+    {
+      "number": "Q1174",
+      "question": "If I play this spell at Quick timing during my opponent's turn and discard Wildfire Tyrannosaur, does Wildfire Tyrannosaur's \"when this card is discarded\" ability trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1173",
+      "question": "If I can't select an enemy follower on the field, can I still play this spell to draw a card and discard a card?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP09-074": [],
+  "BP09-075": [],
+  "BP09-076": [],
+  "BP09-077": [],
+  "BP09-078": [],
+  "BP09-079": [
+    {
+      "number": "Q1229",
+      "question": "If I have an Aftershock on my field, does it count toward conditions such as \"while there is another Draconic Duelist card on your field\" and \"if there are at least 3 Draconic Duelist cards on your field\"?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP09-080": [
+    {
+      "number": "Q1229",
+      "question": "If I have an Aftershock on my field, does it count toward conditions such as \"while there is another Draconic Duelist card on your field\" and \"if there are at least 3 Draconic Duelist cards on your field\"?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP09-081": [
+    {
+      "number": "Q1176",
+      "question": "I have a Prime Dragon Keeper on my field. If I summon 2 Megalorca tokens with this spell, how many times does Prime Dragon Keeper's \"whenever another Dragoncraft follower that costs 3 play points or less is put onto your field\" ability trigger?",
+      "answer": "It triggers 2 times."
+    },
+    {
+      "number": "Q1175",
+      "question": "If I play this spell when Overflow is active for me, but I already have 4 cards on my field, do I just summon one Megalorca token?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP09-082": [
+    {
+      "number": "Q1177",
+      "question": "If I evolve this follower after its attack has been increased by its Fanfare or some other ability, does its On Evolve ability deal damage equal to its current attack or base attack?",
+      "answer": "It deals damage equals to its current attack."
+    }
+  ],
+  "BP09-083": [
+    {
+      "number": "Q1177",
+      "question": "If I evolve this follower after its attack has been increased by its Fanfare or some other ability, does its On Evolve ability deal damage equal to its current attack or base attack?",
+      "answer": "It deals damage equals to its current attack."
+    }
+  ],
+  "BP09-084": [
+    {
+      "number": "Q1229",
+      "question": "If I have an Aftershock on my field, does it count toward conditions such as \"while there is another Draconic Duelist card on your field\" and \"if there are at least 3 Draconic Duelist cards on your field\"?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP09-085": [],
+  "BP09-086": [],
+  "BP09-087": [
+    {
+      "number": "Q1230",
+      "question": "I have this follower and one other Draconic Duelist card on my field. Since this follower has Assail from its passive ability, I declare an attack with it on a reserved enemy follower. If my opponent destroys the other Draconic Duelist card on my field at Quick timing, causing this follower to lose Assail, does the attack still go through?",
+      "answer": "Yes, the attack goes through on the original target."
+    },
+    {
+      "number": "Q1229",
+      "question": "If I have an Aftershock on my field, does it count toward conditions such as \"while there is another Draconic Duelist card on your field\" and \"if there are at least 3 Draconic Duelist cards on your field\"?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP09-088": [
+    {
+      "number": "Q1178",
+      "question": "If I can't select an enemy follower on the field, can I still play this spell to draw a card?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP09-089": [],
+  "BP09-090": [
+    {
+      "number": "Q1182",
+      "question": "I have 2 copies of this follower on my field. If a Forest Bat is put onto my field, do the \"whenever a Forest Bat is put onto your field\" abilities of both copies trigger?",
+      "answer": "Yes, they do."
+    },
+    {
+      "number": "Q1181",
+      "question": "I have 2 copies of this follower on my field. If I play a Forest Bat, does it cost 2 less?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1180",
+      "question": "If 2 Forest Bats are put onto my field at the same time, does this follower's \"whenever a Forest Bat is put onto your field\" ability trigger 2 times?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1179",
+      "question": "If a Forest Bat is put onto my field during my opponent's turn, does this follower's \"whenever a Forest Bat is put onto your field\" ability still trigger?",
+      "answer": "Yes, it triggers regardless of whose turn it is."
+    }
+  ],
+  "BP09-091": [
+    {
+      "number": "Q1183",
+      "question": "Can this follower attack engaged enemy followers?",
+      "answer": "No. \"Enemies\" refers to both enemy leaders and enemy followers."
+    }
+  ],
+  "BP09-092": [
+    {
+      "number": "Q1184",
+      "question": "I declare an attack on a reserved enemy follower with a Forest Bat that has Rush and Assail from this follower's passive ability. If my opponent destroys this follower at Quick timing, causing my Forest Bat to lose Assail, does the attack still go through?",
+      "answer": "Yes, the attack goes through on the original target."
+    }
+  ],
+  "BP09-093": [
+    {
+      "number": "Q1184",
+      "question": "I declare an attack on a reserved enemy follower with a Forest Bat that has Rush and Assail from this follower's passive ability. If my opponent destroys this follower at Quick timing, causing my Forest Bat to lose Assail, does the attack still go through?",
+      "answer": "Yes, the attack goes through on the original target."
+    }
+  ],
+  "BP09-094": [
+    {
+      "number": "Q1185",
+      "question": "If I can't select an enemy follower on the field, but Sanguine is active for me, can I still play this follower's Fanfare ability to recover 3 play points?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP09-095": [
+    {
+      "number": "Q1186",
+      "question": "If I have a follower with \"Vania\" in its name in my cemetery, but my field is full so I can't summon any Forest Bats, do I still draw a card?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP09-096": [],
+  "BP09-097": [
+    {
+      "number": "Q1188",
+      "question": "If my opponent only has a Heavenly Aegis, which has Aura and \"this follower can't be destroyed by abilities\" on their field, can this follower's On Evolve ability cause them to bury it?",
+      "answer": "Yes. Aura prevents the card from being selected by enemy abilities, but in this case Heavenly Aegis isn't being selected by an ability. Also, burying a card isn't the same as destroying it."
+    },
+    {
+      "number": "Q1187",
+      "question": "My opponent has two 5-attack followers on their field and nothing else. If I play this follower's On Evolve ability, do they choose which one to bury?",
+      "answer": "Yes, they do."
+    }
+  ],
+  "BP09-098": [
+    {
+      "number": "Q1188",
+      "question": "If my opponent only has a Heavenly Aegis, which has Aura and \"this follower can't be destroyed by abilities\" on their field, can this follower's On Evolve ability cause them to bury it?",
+      "answer": "Yes. Aura prevents the card from being selected by enemy abilities, but in this case Heavenly Aegis isn't being selected by an ability. Also, burying a card isn't the same as destroying it."
+    },
+    {
+      "number": "Q1187",
+      "question": "My opponent has two 5-attack followers on their field and nothing else. If I play this follower's On Evolve ability, do they choose which one to bury?",
+      "answer": "Yes, they do."
+    }
+  ],
+  "BP09-099": [],
+  "BP09-100": [],
+  "BP09-101": [],
+  "BP09-102": [
+    {
+      "number": "Q1189",
+      "question": "I have 2 copies of this follower on my field. If a Forest Bat is put onto my field, do the \"when a Forest Bat is put onto your field\" abilities of both copies trigger?",
+      "answer": "Yes, they do."
+    }
+  ],
+  "BP09-103": [
+    {
+      "number": "Q1189",
+      "question": "I have 2 copies of this follower on my field. If a Forest Bat is put onto my field, do the \"when a Forest Bat is put onto your field\" abilities of both copies trigger?",
+      "answer": "Yes, they do."
+    }
+  ],
+  "BP09-104": [],
+  "BP09-105": [],
+  "BP09-106": [],
+  "BP09-107": [],
+  "BP09-108": [],
+  "BP09-109": [
+    {
+      "number": "Q1190",
+      "question": "Do I choose whether to evolve this follower into Ceryneian Lighthind or Ceryneian Darkhind?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP09-110": [
+    {
+      "number": "Q1191",
+      "question": "Can I bury an evolved Eidolon of Madness on my field to pay the cost of this follower's On Evolve ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP09-111": [],
+  "BP09-112": [
+    {
+      "number": "Q1192",
+      "question": "If my leader gains defense during my opponent's turn, does this amulet's ability still trigger?",
+      "answer": "Yes, it triggers regardless of whose turn it is."
+    }
+  ],
+  "BP09-113": [],
+  "BP09-114": [
+    {
+      "number": "Q1195",
+      "question": "If I evolve an Eidolon of Madness on my field, does this follower's \"when an amulet is put onto your field\" ability trigger?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1194",
+      "question": "If an amulet is put onto my field during my opponent's turn, does this follower's \"once per turn, when an amulet is put onto your field\" ability still trigger?",
+      "answer": "Yes, it triggers regardless of whose turn it is."
+    },
+    {
+      "number": "Q1193",
+      "question": "I have 2 copies of this follower on my field. If an amulet is put onto my field, do the \"when an amulet is put onto your field\" abilities of both copies trigger?",
+      "answer": "Yes, they do."
+    }
+  ],
+  "BP09-115": [],
+  "BP09-116": [
+    {
+      "number": "Q1197",
+      "question": "Can I bury an evolved Eidolon of Madness on my field to pay the cost of this follower's second Fanfare ability?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1196",
+      "question": "Can I choose the order in which I resolve this amulet's two Fanfare abilities?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP09-117": [
+    {
+      "number": "Q1198",
+      "question": "If I can't select an enemy follower on the field, can I still play this follower's Fanfare ability to draw a card?",
+      "answer": "No, you can't. You can't play the ability at all, so you also cannot choose to pay the cost to discard an amulet."
+    }
+  ]
+}

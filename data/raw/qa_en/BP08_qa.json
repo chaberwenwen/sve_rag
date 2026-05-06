@@ -1,0 +1,672 @@
+{
+  "BP08-001": [],
+  "BP08-002": [],
+  "BP08-003": [
+    {
+      "number": "Q1045",
+      "question": "I have an Orchis, Vengeful Puppet and Puppet token on my field. If I attack an enemy Rookie Succubus with my Puppet token, causing both to be destroyed, can I select the enemy Forest Bat token summoned by Rookie Succubus's Last Words ability and deal it 2 damage?",
+      "answer": "No. When both players have pending abilities, the active player must resolve theirs first. In this case, you are the active player, so you must resolve your Orchis, Vengeful Puppet's automatic ability before the opponent can resolve their Rookie Succubus's Last Words ability, and you would need to select a target to deal 2 damage to before the enemy Forest Bat token is summoned."
+    },
+    {
+      "number": "Q1044",
+      "question": "I have an Orchis, Vengeful Puppet and Puppet token on my field. If I play Nature's Guidance and select my Puppet token as its target, do I deal 2 damage to an enemy leader or follower?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1043",
+      "question": "I have an Orchis, Vengeful Puppet and 4 Puppet tokens on my field. If an opponent plays Themis's Decree and destroys all of my Puppet tokens, do I deal 2 damage to an enemy leader or enemy follower on the field 4 times?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1042",
+      "question": "I have an Orchis, Resolute Puppet and 2 Puppet tokens on my field. If an opponent plays the Quick spell Angelic Barrage during my end phase and destroys both of my Puppet tokens, do I put 2 Lloyd tokens into my EX area?",
+      "answer": "No, you would only put 1 Lloyd token into your EX area."
+    },
+    {
+      "number": "Q1041",
+      "question": "I have an Orchis, Resolute Puppet and Puppet token on my field. If I play Nature's Guidance and select my Puppet token as its target, do I put a Lloyd token into my EX area?",
+      "answer": "Yes, as long it's the first time a Puppet token has left your field that turn."
+    }
+  ],
+  "BP08-004": [
+    {
+      "number": "Q1046",
+      "question": "What does \"transform\" mean?",
+      "answer": "To transform, banish the selected cards you are transforming and create the same number of specified tokens in their place. Note that tokens are removed from the game immediately after moving to any zone other than the field or EX area."
+    }
+  ],
+  "BP08-005": [],
+  "BP08-006": [],
+  "BP08-007": [
+    {
+      "number": "Q1047",
+      "question": "I have 3 followers on my field, and I attack an enemy leader with this follower. If an opponent destroys one of my other followers with a Quick ability, do I still give this follower +1 attack with its Strike ability?",
+      "answer": "Yes. During combat, your Strike abilities are resolved before opponents' Quick abilities; the active player's pending abilities are resolved before non-active players are able to respond. In this case, even if a Quick ability would cause the number of followers on your field to drop below 3, this follower's Strike ability will have already been resolved."
+    }
+  ],
+  "BP08-008": [],
+  "BP08-009": [],
+  "BP08-010": [],
+  "BP08-011": [
+    {
+      "number": "Q1048",
+      "question": "Can I transform both Puppet tokens into Lloyd tokens?",
+      "answer": "No. You must transform one into a Lloyd token and the other into a Victoria token."
+    },
+    {
+      "number": "Q1046",
+      "question": "What does \"transform\" mean?",
+      "answer": "To transform, banish the selected cards you are transforming and create the same number of specified tokens in their place. Note that tokens are removed from the game immediately after moving to any zone other than the field or EX area."
+    }
+  ],
+  "BP08-012": [],
+  "BP08-013": [],
+  "BP08-014": [
+    {
+      "number": "Q1050",
+      "question": "What does \"combat damage\" mean?",
+      "answer": "\"Combat damage\" refers to the damage that an attacking follower and a target follower deal to each other in combat."
+    },
+    {
+      "number": "Q1049",
+      "question": "If this follower attacks an enemy leader, do I still refresh it?",
+      "answer": "No. Damage dealt by an attacking follower to an enemy leader is not considered \"combat damage.\""
+    }
+  ],
+  "BP08-015": [
+    {
+      "number": "Q1051",
+      "question": "Can a follower have negative attack?",
+      "answer": "Yes. A follower's attack can be reduced to a negative number by effects. A follower with negative attack doesn't deal attack or combat damage."
+    }
+  ],
+  "BP08-016": [
+    {
+      "number": "Q1052",
+      "question": "If a Fairy token is put onto my field during an opponent's turn, do I still select an enemy follower on the field and deal it 2 damage?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP08-017": [
+    {
+      "number": "Q1051",
+      "question": "Can a follower have negative attack?",
+      "answer": "Yes. A follower's attack can be reduced to a negative number by effects. A follower with negative attack doesn't deal attack or combat damage."
+    }
+  ],
+  "BP08-018": [],
+  "BP08-019": [],
+  "BP08-020": [],
+  "BP08-021": [],
+  "BP08-022": [],
+  "BP08-023": [],
+  "BP08-024": [
+    {
+      "number": "Q1054",
+      "question": "Does \"If this follower would take more than 3 damage, it takes 3 instead\" mean that the selected follower can only take 3 damage a turn?",
+      "answer": "No, it means that any instance of damage dealt to the selected follower will be reduced to 3 if it exceeds 3 damage. For example, if the follower is attacked by two enemy followers with 4 attack, it will only take 3 damage from each attack. However, if the follower is attacked by an enemy follower with 4 attack and an enemy follower with 2 attack, it will take 3 damage and 2 damage from each attack respectively."
+    },
+    {
+      "number": "Q1053",
+      "question": "When playing this amulet's activated ability, if I choose option 3 and an ability lets me take two consecutive turns, does the selected follower still have \"If this follower would take more than 3 damage, it takes 3 instead\" during the consecutive turn?",
+      "answer": "No. However, the selected follower will have it for each opponent's next turn."
+    }
+  ],
+  "BP08-025": [],
+  "BP08-026": [
+    {
+      "number": "Q1055",
+      "question": "If an opponent has 7 cards in their cemetery, and I summon an Octrice, Omen of Usurpation and Zealot of Usurpation from my cemetery with this follower's On Evolve ability, can I put the top card of my deck into my EX area with Zealot of Usurpation's Fanfare ability?",
+      "answer": "Yes. Since both Octrice, Omen of Usurpation's Fanfare ability and Zealot of Usurpation's Fanfare ability trigger and become pending at the same time, you may resolve them in any order. To put the top card of your deck into your EX area, you must resolve Octrice, Omen of Usurpation's Fanfare ability first to bring the number of cards in your cemetery to 9. You then resolve Zealot of Usurpation's Fanfare ability to bring the number of cards in your cemetery to 10, satisfying the \"if there are at least 10 cards in opponents' cemeteries\" condition."
+    }
+  ],
+  "BP08-027": [],
+  "BP08-028": [
+    {
+      "number": "Q1057",
+      "question": "When playing this spell, if there are 9 or less cards in opponents' cemeteries, can I select 5 enemy followers on the field?",
+      "answer": "No. You must allocate at least 1 damage to each follower you select for the target selection to be valid."
+    },
+    {
+      "number": "Q1056",
+      "question": "If there are no enemy followers on the field, but there are at least 20 cards in opponents' cemeteries, can I sill play this spell to deal 8 damage to each enemy leader?",
+      "answer": "Yes. \"Select any number\" means you can select 0 followers when playing this spell."
+    }
+  ],
+  "BP08-029": [],
+  "BP08-030": [
+    {
+      "number": "Q1058",
+      "question": "If an opponent's deck is empty, and I make them bury the top card of their deck with this follower's Fanfare ability, do I win the game?",
+      "answer": "No. If you draw a card when your deck is empty, you lose the game. If you bury the top card of your deck into your cemetery when your deck is empty, nothing happens."
+    }
+  ],
+  "BP08-031": [],
+  "BP08-032": [],
+  "BP08-033": [],
+  "BP08-034": [],
+  "BP08-035": [
+    {
+      "number": "Q1059",
+      "question": "I have this follower on my field, and there are 4 enemy Fairy tokens on the field. If I play Crimson Meteor Storm and destroy all 4 Fairy tokens, do I summon 4 Serpent tokens?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP08-036": [
+    {
+      "number": "Q1060",
+      "question": "If I activate this follower's ability twice in the same turn, does the next card I play cost 4 less?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1059",
+      "question": "I have this follower on my field, and there are 4 enemy Fairy tokens on the field. If I play Crimson Meteor Storm and destroy all 4 Fairy tokens, do I summon 4 Serpent tokens?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP08-037": [
+    {
+      "number": "Q1062",
+      "question": "Can this follower's activated ability only be played while in hand?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1061",
+      "question": "Can this follower, which has \"This card can't be destroyed by abilities,\" be buried by abilities such as Yuzuki, Righteous Demon's Fanfare ability?",
+      "answer": "Yes. Burying a card is different to destroying it."
+    }
+  ],
+  "BP08-038": [
+    {
+      "number": "Q1063",
+      "question": "If I only have 4 cards in my deck, and I play this follower's Fanfare ability, what happens?",
+      "answer": "Nothing happens. In this case, the value of X would be -1, which would be treated as 0, and you would draw 0 cards."
+    }
+  ],
+  "BP08-039": [
+    {
+      "number": "Q1064",
+      "question": "When playing this follower's On Evolve ability, do I also put Heavenly Aegis and Enstatued Seraph, which both have \"This card can't be destroyed by abilities,\" into their owner's cemetery?",
+      "answer": "Yes. Putting a card into its owner's cemetery is different to destroying it."
+    }
+  ],
+  "BP08-040": [],
+  "BP08-041": [
+    {
+      "number": "Q1067",
+      "question": "If I discard this spell with Raio, Omen of Truth's Fanfare ability, can I still gain 1 Evolution Point?",
+      "answer": "No. When Raio, Omen of Truth is put on the field, this spell is considered to still be in your hand, and is only considered to be in the cemetery after Raio, Omen of Truth's Fanfare ability is resolved."
+    },
+    {
+      "number": "Q1066",
+      "question": "Can this spell's automatic ability only trigger while in the cemetery?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1065",
+      "question": "Can I still gain 1 Evolution Point with this spell's automatic ability even if I'm the player going first?",
+      "answer": "Yes. Note that you can gain an Evolution Point even if you already have 3 Evolution Points."
+    }
+  ],
+  "BP08-042": [],
+  "BP08-043": [],
+  "BP08-044": [],
+  "BP08-045": [],
+  "BP08-046": [],
+  "BP08-047": [],
+  "BP08-048": [],
+  "BP08-049": [],
+  "BP08-050": [],
+  "BP08-051": [
+    {
+      "number": "Q1069",
+      "question": "When playing this spell, if I have a Lishenna, Omen of Destruction on my field, do I gain 1 play point and also draw a card?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1068",
+      "question": "If I don't have an Idolatry card on my field, can I still play this spell?",
+      "answer": "Yes, but nothing will happen."
+    }
+  ],
+  "BP08-052": [
+    {
+      "number": "Q1070",
+      "question": "I have this follower and 4 Otohime's Vanguard tokens on my field. If I play Conflagration and destroy all of my Otohime's Vanguard tokens, do I select an enemy leader or follower and deal it 1 damage 4 times?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP08-053": [
+    {
+      "number": "Q1071",
+      "question": "If I can't select an enemy follower on the field, can I still turn 3 facedown evolved followers in my evolve deck faceup with this follower's Fanfare ability?",
+      "answer": "No. If you can't select an enemy follower, you can't play this follower's Fanfare ability."
+    }
+  ],
+  "BP08-054": [
+    {
+      "number": "Q1072",
+      "question": "If I have 8 faceup evolved followers in my evolve deck, and I attack with this follower, do I give my leader 3 defense and also deal 3 damage to each enemy leader?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP08-055": [],
+  "BP08-056": [],
+  "BP08-057": [
+    {
+      "number": "Q1073",
+      "question": "If I can't select an enemy follower on the field, can I still give my leader 5 defense with this follower's Fanfare ability?",
+      "answer": "No. If you can't select an enemy follower, you can't play this follower's Fanfare ability."
+    }
+  ],
+  "BP08-058": [
+    {
+      "number": "Q1075",
+      "question": "Can you explain which follower would be the first and which would be the second?",
+      "answer": "The first follower would be the enemy follower you selected from an opponent's field, and the second would be the follower you selected from your field or EX area."
+    },
+    {
+      "number": "Q1074",
+      "question": "Can I only play this spell if I can select both an enemy follower on the field and a follower on my field or in my EX area?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP08-059": [
+    {
+      "number": "Q1077",
+      "question": "If I attack a 0-attack enemy follower with this follower, do I still give this follower and my leader +1 defense?",
+      "answer": "No. When a follower with 0 or less attack deals attack or combat damage, it doesn't count as dealing damage."
+    },
+    {
+      "number": "Q1076",
+      "question": "If this follower takes damage that brings it to 0 defense or less during my turn, do I still give this follower and my leader +1 defense?",
+      "answer": "Taking damage triggers this follower's automatic ability, but by the time you resolve it, this follower has already been destroyed and put into the cemetery, so while you can't give it +1 defense, you do give your leader +1 defense."
+    }
+  ],
+  "BP08-060": [
+    {
+      "number": "Q1077",
+      "question": "If I attack a 0-attack enemy follower with this follower, do I still give this follower and my leader +1 defense?",
+      "answer": "No. When a follower with 0 or less attack deals attack or combat damage, it doesn't count as dealing damage."
+    },
+    {
+      "number": "Q1076",
+      "question": "If this follower takes damage that brings it to 0 defense or less during my turn, do I still give this follower and my leader +1 defense?",
+      "answer": "Taking damage triggers this follower's automatic ability, but by the time you resolve it, this follower has already been destroyed and put into the cemetery, so while you can't give it +1 defense, you do give your leader +1 defense."
+    }
+  ],
+  "BP08-061": [],
+  "BP08-062": [
+    {
+      "number": "Q1079",
+      "question": "If I attack a 0-attack enemy follower with this follower, do I still draw 2 cards?",
+      "answer": "No. When a follower with 0 or less attack deals attack or combat damage, it doesn't count as dealing damage."
+    },
+    {
+      "number": "Q1078",
+      "question": "If this follower takes damage that brings it to 0 defense or less during my turn, do I still draw 2 cards?",
+      "answer": "Yes, as long as it's the first time this follower has taken damage this turn."
+    }
+  ],
+  "BP08-063": [
+    {
+      "number": "Q1083",
+      "question": "Will this follower also deal 1 damage to itself with its Fanfare ability?",
+      "answer": "Yes, it will."
+    },
+    {
+      "number": "Q1082",
+      "question": "If I play Clash of Heroes and select this follower and a 0-attack enemy follower, do I still deal 1 damage to each enemy leader?",
+      "answer": "No. When an ability does 0 or less damage, no damage is dealt at all (it doesn't count as dealing damage)."
+    },
+    {
+      "number": "Q1081",
+      "question": "If this follower takes ability damage that brings its defense to 0 during my turn, do I still deal 1 damage to each enemy leader?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1080",
+      "question": "What is ability damage?",
+      "answer": "Ability damage is all damage except for damage dealt by two followers in combat or by a follower attacking a leader. For example, if you deal 1 damage to a follower on your field with Disdainful Rending or Disciple of Disdain, that's ability damage."
+    }
+  ],
+  "BP08-064": [
+    {
+      "number": "Q1133",
+      "question": "When playing this follower's Fanfare ability, if I can't select an enemy follower on the field, can I still choose option 1 to have nothing happen?",
+      "answer": "No. If you can't select an enemy follower, you would be required to choose option 2."
+    }
+  ],
+  "BP08-065": [],
+  "BP08-066": [],
+  "BP08-067": [],
+  "BP08-068": [
+    {
+      "number": "Q1084",
+      "question": "Does this spell's automatic ability only trigger while in the cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP08-069": [],
+  "BP08-070": [
+    {
+      "number": "Q1953",
+      "question": "I have 10 cards in my cemetery and an evolved Crimson Rose Queen on my field. If I play a Scream Diffusion, does Crimson Rose Queen's automatic ability trigger 3 times?",
+      "answer": "No, it doesn't. Evolved Crimson Rose Queen's automatic ability only triggers when you play a card that originally costs 2, not when an ability summons one."
+    },
+    {
+      "number": "Q1085",
+      "question": "When playing this follower's On Evolve ability, can I choose the number of cards I reveal from my hand?",
+      "answer": "No, you must reveal your entire hand."
+    }
+  ],
+  "BP08-071": [
+    {
+      "number": "Q1090",
+      "question": "An opponent only has a Mordecai the Duelist on their field, and I summon and destroy an Underworld Watchman Khawy and Yuzuki, Righteous Demon with this follower's Fanfare ability. If I choose to destroy that enemy Mordecai the Duelist with Underworld Watchman Khawy's Last Words ability first, does my Yuzuki, Righteous Demon's Fanfare ability cause that opponent to bury the Mordecai the Duelist summoned by its own Last Words?",
+      "answer": "No. The active player always resolves their abilities before non-active players. In this case, after resolving Underworld Watchman Khawy's Last Words ability, the opponent's Mordecai the Duelist is destroyed and its Last Words ability triggers and becomes pending. Then, as the active player, you must resolve Yuzuki, Righteous Demon's Fanfare ability first. At this point the Mordecai the Duelist is in the opponent's cemetery, so nothing happens because your opponent doesn't have any followers on the field they can bury. Afterwards, the opponent resolves their Mordecai the Duelist's Last Words ability."
+    },
+    {
+      "number": "Q1089",
+      "question": "If I summon and destroy Apostle of Lust and 3 other Demon followers with this follower's Fanfare ability, do I give my leader 3 defense?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1088",
+      "question": "If I summon and destroy a Howling Demon and Mordecai the Duelist with this follower's Fanfare ability, and I choose to give my leader -3 defense with Mordecai the Duelist's Last Words ability first, can I select an enemy follower on the field and deal it 8 damage?",
+      "answer": "Yes. If you choose to resolve Mordecai the Duelist's Last Words first, Sanguine becomes active for you because your leader has lost defense during your turn."
+    },
+    {
+      "number": "Q1087",
+      "question": "I have 6 cards in my cemetery. If I summon and destroy 4 followers, including a Rulenye, Omen of Silence with this follower's Fanfare ability, do I still select an enemy follower that costs 3 play points or less on the field and destroy it?",
+      "answer": "Yes. After resolving this follower's Fanfare ability, the number of cards in your cemetery will be 10 when you resolve Rulenye, Omen of Silence's Fanfare ability, so you would meet the requirements for \"Necrocharge (10).\""
+    },
+    {
+      "number": "Q1086",
+      "question": "When playing this follower's Fanfare ability, if multiple followers with Fanfare and/or Last Words abilities are summoned and destroyed, in what order should I resolve them?",
+      "answer": "Since the Fanfare and Last Words abilities are triggered simultaneously, you may resolve the pending abilities in any order after you resolve this follower's Fanfare ability."
+    }
+  ],
+  "BP08-072": [
+    {
+      "number": "Q1092",
+      "question": "If I have at least 15 Departed cards in my cemetery, does this follower still cost 5 less if I play it from my EX area?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1091",
+      "question": "Can this follower's activated ability only be played while in hand?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP08-073": [],
+  "BP08-074": [
+    {
+      "number": "Q1093",
+      "question": "If I reveal the top card of my deck with this follower's activated ability, and it's not a 2-cost card, do I return it to the top of my deck?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP08-075": [
+    {
+      "number": "Q1095",
+      "question": "When playing this spell, if I have exactly 10 cards in my cemetery, including a Rulenye, Omen of Silence, will each opponent still have to discard a card after I summon that Rulenye, Omen of Silence from my cemetery?",
+      "answer": "Yes. Necrocharge references the number of cards in your cemetery at the moment this spell begins to be resolved, so even if the number of cards in your cemetery drops to 9 after summoning a Rulenye, Omen of Silence, you would meet the requirements for \"Necrocharge (10).\""
+    },
+    {
+      "number": "Q1094",
+      "question": "If I have at least 10 cards in my cemetery, but I don't have a Rulenye, Omen of Silence in my cemetery, can I still play this spell?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP08-076": [],
+  "BP08-077": [],
+  "BP08-078": [
+    {
+      "number": "Q1096",
+      "question": "If I can't select an enemy follower on the field, can I still give my leader 1 defense with this follower's Fanfare and Last Words abilities?",
+      "answer": "No. If you can't select an enemy follower on the field, you can't play this follower's Fanfare or Last Words abilities."
+    }
+  ],
+  "BP08-079": [],
+  "BP08-080": [
+    {
+      "number": "Q1097",
+      "question": "If I destroy this follower and an Underworld Watchman Khawy with Nephthys's Fanfare ability, can I summon that Underworld Watchman Khawy with this follower's Last Words ability?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP08-081": [],
+  "BP08-082": [
+    {
+      "number": "Q1099",
+      "question": "If I have at least 15 cards in my cemetery, does this follower have Assail, Storm, and Bane?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1098",
+      "question": "If the number of cards in my cemetery drops below 15 after this follower is put onto my field, does this follower lose Storm and Bane?",
+      "answer": "Yes. Likewise, this follower will only have Assail if the number of cards in your cemetery is at least 7."
+    }
+  ],
+  "BP08-083": [
+    {
+      "number": "Q1100",
+      "question": "Can this follower's activated ability only be played while in the cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP08-084": [
+    {
+      "number": "Q1101",
+      "question": "If I can't select an enemy follower on the field, can I still pay the cost of this follower's ability to give my leader -1 defense?",
+      "answer": "No. If you can't select an enemy follower, you can't activate this follower's ability."
+    }
+  ],
+  "BP08-085": [
+    {
+      "number": "Q1103",
+      "question": "When playing this spell, if I choose to banish 4 cards from my cemetery, can I choose this spell?",
+      "answer": "No. When resolving this spell, it will not be in your cemetery until it is resolved, so you cannot banish it."
+    },
+    {
+      "number": "Q1102",
+      "question": "If I can't select an enemy follower on the field, can I still banish 4 cards from my cemetery with this spell?",
+      "answer": "No. If you can't select an enemy follower, you can't play this spell."
+    }
+  ],
+  "BP08-086": [
+    {
+      "number": "Q1105",
+      "question": "If I steal a Havencraft follower from an opponent, will it also have Rush?",
+      "answer": "Yes, it will."
+    },
+    {
+      "number": "Q1104",
+      "question": "Does \"While this card is on your field, each Havencraft follower on your field has Rush\" also apply to this follower?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP08-087": [],
+  "BP08-088": [
+    {
+      "number": "Q1106",
+      "question": "If I can't select an enemy follower on the field, can I still deal damage to an enemy leader with this follower's On Evolve ability?",
+      "answer": "No. If you can't select an enemy follower, you can't play this follower's On Evolve ability."
+    }
+  ],
+  "BP08-089": [
+    {
+      "number": "Q1107",
+      "question": "Does evolving this follower into an amulet trigger Candelabra of Prayers' \"Once per turn, when another amulet is put onto your field, give your leader 1 defense\"?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP08-090": [
+    {
+      "number": "Q1109",
+      "question": "When playing Biofabrication, can I select a faceup evolved Eidolon of Madness in my evolved deck to turn it facedown and draw a card?",
+      "answer": "No. The evolved form Eidolon of Madness is not considered to be an evolved follower."
+    },
+    {
+      "number": "Q1108",
+      "question": "Can you explain what type of card the evolved form of Eidolon of Madness is?",
+      "answer": "The evolved form of Eidolon of Madness is an evolved amulet. Like a normal amulet, it doesn't have attack or defense, and only effects that target amulets apply to it. When this amulet is destroyed, put it into its owner's cemetery. Immediately after movement, put the evolved amulet faceup on top of its owner's evolve deck like you would an evolved follower."
+    },
+    {
+      "number": "Q1107",
+      "question": "Does evolving this follower into an amulet trigger Candelabra of Prayers' \"Once per turn, when another amulet is put onto your field, give your leader 1 defense\"?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP08-091": [],
+  "BP08-092": [],
+  "BP08-093": [],
+  "BP08-094": [
+    {
+      "number": "Q1110",
+      "question": "If an opponent only has a Heavenly Aegis, which has Aura and \"This follower can't be destroyed by abilities,\" on their field, can this follower's On Evolve ability cause them to bury it?",
+      "answer": "Yes. Aura prevents the card from being selected by enemy abilities, but in this case Heavenly Aegis is not being selected by an ability. Also, burying a card isn't the same as destroying it."
+    }
+  ],
+  "BP08-095": [
+    {
+      "number": "Q1111",
+      "question": "If there aren't any enemy followers the field, can I still play this follower's Fanfare ability to draw a card?",
+      "answer": "Yes. \"Select up to 2\" means you can select 0 when playing this follower's Fanfare ability."
+    }
+  ],
+  "BP08-096": [
+    {
+      "number": "Q1113",
+      "question": "If I don't have any followers on my field, can I still draw a card with this spell?",
+      "answer": "No. If you can't select a follower on your field, you can't play this spell."
+    },
+    {
+      "number": "Q1112",
+      "question": "When playing this spell, can I select an evolved Marwynn, Omen of Repose, which has Aura, to give it +2 defense and draw a card?",
+      "answer": "Yes. Aura prevents the card from being selected by enemy abilities, but in this case you control the Marwynn, Omen of Repose, so you can select it as your target."
+    }
+  ],
+  "BP08-097": [],
+  "BP08-098": [
+    {
+      "number": "Q1114",
+      "question": "If I have multiple cards with an \"At the start of each opponent's main phase\" ability triggering, in what order should I resolve them?",
+      "answer": "You may resolve them in any order. When an opponent proceeds to their main phase, all \"At the start of each opponent's main phase\" abilities are triggered and become pending. Then, you can choose the order in which you resolve the pending abilities."
+    }
+  ],
+  "BP08-099": [],
+  "BP08-100": [],
+  "BP08-101": [],
+  "BP08-102": [],
+  "BP08-103": [],
+  "BP08-104": [
+    {
+      "number": "Q1117",
+      "question": "When playing this follower's On Evolve ability, can I select a card and its alternate-art version with a different name, such as Globe of the Starways and Dark Charisma, and add them both to my hand?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1116",
+      "question": "When playing this follower's On Evolve ability, if I select two 1-cost cards and one 2-cost card with different names in my cemetery, can I add the 1-cost cards to my hand?",
+      "answer": "No. You can only add the cards to your hand if all 3 cards with different names cost the same number of play points."
+    },
+    {
+      "number": "Q1115",
+      "question": "If I have 2 or less cards in my cemetery, can I still add them to my hand with this follower's On Evolve ability?",
+      "answer": "No. If you can't select 3 cards in your cemetery, you can't play this follower's On Evolve ability."
+    }
+  ],
+  "BP08-105": [
+    {
+      "number": "Q1119",
+      "question": "Is the cost of an evolved follower the same as its unevolved form?",
+      "answer": "Yes, it is."
+    },
+    {
+      "number": "Q1118",
+      "question": "Can this follower's activated ability only be played while in hand?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP08-106": [
+    {
+      "number": "Q1122",
+      "question": "If I summon a Bahamut with this follower's Fanfare ability, and Bahamut's Fanfare ability destroys this follower, do I still have to return Bahamut to my hand at the start of my end phase?",
+      "answer": "Yes. Once this follower's Fanfare ability is resolved, Bahamut will have \"At the start of your end phase, return this card to its owner's hand,\" which will remain valid even if this follower gets destroyed."
+    },
+    {
+      "number": "Q1121",
+      "question": "If I summon a Lucifer with this follower's Fanfare ability, do I still give my leader 4 defense even though that Lucifer returns to my hand at the start of my end phase?",
+      "answer": "Yes. When you proceed to your end phase, all \"At the start of your end phase\" abilities are triggered and become pending. Then you can choose the order in which you resolve the pending abilities. In this case, regardless of which ability you resolve first, you would give your leader 4 defense."
+    },
+    {
+      "number": "Q1120",
+      "question": "When playing this follower's Fanfare ability, if I have another copy of this follower in my hand, can I summon it?",
+      "answer": "Yes. Note that the summoned copy's Fanfare ability will also trigger."
+    }
+  ],
+  "BP08-107": [
+    {
+      "number": "Q1123",
+      "question": "When playing this follower's On Evolve ability, do I also give this follower Rush and Assail?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP08-108": [
+    {
+      "number": "Q1125",
+      "question": "If I search my deck with this follower's Fanfare ability, do I still have to reveal the card I searched for?",
+      "answer": "No. Whenever instructed to search for a card with specific features, you have to reveal it to prove that it meets the conditions specified. However, since this follower's Fanfare ability does not specify the kind of card, you don't have to reveal it."
+    },
+    {
+      "number": "Q1124",
+      "question": "When playing this follower's Fanfare ability, can I choose not to add a card to my hand?",
+      "answer": "No. Whenever instructed to search for a card, if the only condition specified is the number of cards, you must find that number of cards. Since this follower's Fanfare ability specifies to search your deck for any card, if your deck has at least 1 card you must search for 1 and add it to your hand."
+    }
+  ],
+  "BP08-109": [
+    {
+      "number": "Q1126",
+      "question": "I have 3 cards in my hand, and I play this spell, bringing the number of cards in my hand to 2. After selecting an enemy card that costs 4 or less on the field, do I destroy it and also deal 2 damage to its leader?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1119",
+      "question": "Is the cost of an evolved follower the same as its unevolved form?",
+      "answer": "Yes, it is."
+    }
+  ],
+  "BP08-110": [
+    {
+      "number": "Q1128",
+      "question": "Does a faceup evolved Eidolon of Madness in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1127",
+      "question": "Does a faceup Carrot in my evolve deck count as a faceup evolved follower?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP08-111": [
+    {
+      "number": "Q1129",
+      "question": "If there aren't any faceup evolved followers in my evolve deck, can I still play this follower's On Evolve ability to search my deck for a follower and add it to my hand?",
+      "answer": "No. If you can't select a faceup evolved follower in your evolve deck, you can't play this follower's On Evolve ability."
+    }
+  ],
+  "BP08-112": [],
+  "BP08-113": [],
+  "BP08-114": [
+    {
+      "number": "Q1130",
+      "question": "What does \"combat damage\" mean?",
+      "answer": "\"Combat damage\" refers to the damage that an attacking follower and a target follower deal to each other in combat."
+    }
+  ],
+  "BP08-115": [],
+  "BP08-116": [],
+  "BP08-117": []
+}

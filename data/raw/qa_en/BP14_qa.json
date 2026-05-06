@@ -1,0 +1,575 @@
+{
+  "BP14-001": [],
+  "BP14-002": [],
+  "BP14-003": [],
+  "BP14-004": [
+    {
+      "number": "Q1814",
+      "question": "Can this follower attack engaged enemy followers while it has 3 seasonal counters or less?",
+      "answer": "No. \"Enemies\" refers to both enemy leaders and enemy followers."
+    }
+  ],
+  "BP14-005": [
+    {
+      "number": "Q1814",
+      "question": "Can this follower attack engaged enemy followers while it has 3 seasonal counters or less?",
+      "answer": "No. \"Enemies\" refers to both enemy leaders and enemy followers."
+    }
+  ],
+  "BP14-006": [
+    {
+      "number": "Q1816",
+      "question": "If my hand is empty, can I still pay the cost of this follower's activated ability?",
+      "answer": "Yes. You can return a card to hand, then put it back into your EX area."
+    },
+    {
+      "number": "Q1815",
+      "question": "When playing this follower's activated ability, can I put the same card that I returned to hand to pay the cost back into my EX area?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP14-007": [
+    {
+      "number": "Q1817",
+      "question": "Does this spell cost 2 less to play if it's in the EX area and there's a Hozumi, Enchanting Hostess on my field?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP14-008": [],
+  "BP14-009": [],
+  "BP14-010": [],
+  "BP14-011": [],
+  "BP14-012": [],
+  "BP14-013": [],
+  "BP14-014": [
+    {
+      "number": "Q1819",
+      "question": "What does \"transform\" mean?",
+      "answer": "To transform cards, banish them and create the same number of specified tokens in their place. Note that tokens are removed from the game immediately after moving to any zone other than the field or EX area."
+    },
+    {
+      "number": "Q1818",
+      "question": "Can I select a follower with Aura for this follower's Fanfare ability?",
+      "answer": "Yes. Aura only prevents selection while on the field."
+    }
+  ],
+  "BP14-015": [],
+  "BP14-016": [],
+  "BP14-017": [],
+  "BP14-018": [
+    {
+      "number": "Q1820",
+      "question": "If I play this follower's advanced activated ability, can I evolve another follower in the same turn?",
+      "answer": "No. You can only activate one advanced activated ability or evolve ability per turn."
+    }
+  ],
+  "BP14-019": [
+    {
+      "number": "Q1822",
+      "question": "When playing Biofabrication, can I select a faceup advanced follower in my evolve deck?",
+      "answer": "No. Advanced followers are not evolved followers."
+    },
+    {
+      "number": "Q1821",
+      "question": "When playing Rimewind, can I select an enemy advanced follower?",
+      "answer": "Yes. Advanced followers are also considered unevolved followers."
+    }
+  ],
+  "BP14-020": [],
+  "BP14-021": [],
+  "BP14-022": [],
+  "BP14-023": [
+    {
+      "number": "Q1824",
+      "question": "If there's an enemy Gentildonna on the field, can I play this follower's activated ability?",
+      "answer": "Yes. Gentildonna prevents On Evolve abilities from triggering, but this follower's activated ability plays the On Evolve ability directly, rather than triggering it."
+    },
+    {
+      "number": "Q1823",
+      "question": "When playing this follower's On Evolve ability through its activated ability, do I still have to pay the cost of banishing 2 Glittering Golds?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP14-024": [],
+  "BP14-025": [],
+  "BP14-026": [
+    {
+      "number": "Q1826",
+      "question": "If my EX area is full, can I still play this follower's Fanfare ability to give my leader +3 defense?",
+      "answer": "Yes. You simply wouldn't put a Glittering Gold token into your EX area."
+    }
+  ],
+  "BP14-027": [
+    {
+      "number": "Q1827",
+      "question": "If multiple copies of Glittering Gold are put into my EX area at the same time, does this follower's ability trigger for each of them?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP14-028": [],
+  "BP14-029": [
+    {
+      "number": "Q1828",
+      "question": "Can this follower's activated ability only be played while in hand?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP14-030": [
+    {
+      "number": "Q1830",
+      "question": "If I evolve this follower with its Fanfare ability, can I evolve another follower using its evolve ability in the same turn?",
+      "answer": "Yes. Although you can only activate one evolve ability per turn, other abilities that evolve followers do not count towards this limit."
+    },
+    {
+      "number": "Q1829",
+      "question": "If my EX area is full, can I still play this follower's Fanfare ability to evolve it?",
+      "answer": "Yes. You simply wouldn't put a Glittering Gold token into your EX area."
+    }
+  ],
+  "BP14-031": [],
+  "BP14-032": [],
+  "BP14-033": [],
+  "BP14-034": [],
+  "BP14-035": [],
+  "BP14-036": [
+    {
+      "number": "Q1832",
+      "question": "If I play a card that has both the Festive and Mage traits and costs 3 or less, does this follower's automatic ability trigger 2 times?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1831",
+      "question": "If I play a Mage card that costs 3 or less during my opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP14-037": [
+    {
+      "number": "Q1836",
+      "question": "If I have 3 max play points, can I summon another copy of this follower with its On Evolve ability?",
+      "answer": "No. This follower doesn't have Earth Rite."
+    },
+    {
+      "number": "Q1835",
+      "question": "If I play Artistic Arcanist's activated ability 2 times, then play Terra Nova, does that still fulfill the \"if you've used Earth Rite to remove at least 2 Stack counters from cards on your field with Stack this turn\" requirement of this follower's Evolve ability?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1834",
+      "question": "If I play Artistic Arcanist's activated ability 2 times, does that fulfill the \"if you've used Earth Rite to remove at least 2 Stack counters from cards on your field with Stack this turn\" requirement of this follower's Evolve ability?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1833",
+      "question": "If I play Magical Augmentation and perform Earth Rite (2), does that fulfill the \"if you've used Earth Rite to remove at least 2 Stack counters from cards on your field with Stack this turn\" requirement of this follower's Evolve ability?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP14-038": [
+    {
+      "number": "Q1836",
+      "question": "If I have 3 max play points, can I summon another copy of this follower with its On Evolve ability?",
+      "answer": "No. This follower doesn't have Earth Rite."
+    }
+  ],
+  "BP14-039": [
+    {
+      "number": "Q1838",
+      "question": "If there are 2 copies of this follower in my EX area, does each copy's ability trigger at the start of my end phase?",
+      "answer": "Yes, they do."
+    },
+    {
+      "number": "Q1837",
+      "question": "Does this follower's automatic ability only trigger while it's in my EX area?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP14-040": [],
+  "BP14-041": [],
+  "BP14-042": [
+    {
+      "number": "Q1839",
+      "question": "When looking at the top 4 cards of my deck, can I choose not to add any to my hand?",
+      "answer": "No. You must reveal and add 2 of them to your hand."
+    }
+  ],
+  "BP14-043": [],
+  "BP14-044": [
+    {
+      "number": "Q1841",
+      "question": "If I've played 1 Festive card and 1 Mage card this turn, does this follower's On Evolve ability deal 4 damage?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1840",
+      "question": "If I've played a card that has both the Festive and Mage traits this turn, does it count as 2 cards for this follower's On Evolve ability?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP14-045": [
+    {
+      "number": "Q1842",
+      "question": "What does \"add 1 to a Stack on your field\" mean?",
+      "answer": "It means you put a Stack counter on an amulet with Stack on your field."
+    }
+  ],
+  "BP14-046": [
+    {
+      "number": "Q1844",
+      "question": "When putting cards into my EX area with this spell, can I choose to stop before my EX area becomes full?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1843",
+      "question": "When putting cards into my EX area with this spell, if my deck runs out of cards before my EX area becomes full, do I lose the game?",
+      "answer": "No. You simply stop moving cards into your EX area. However, if you would draw a card while your deck has 0 cards, you will lose the game."
+    }
+  ],
+  "BP14-047": [],
+  "BP14-048": [],
+  "BP14-049": [],
+  "BP14-050": [],
+  "BP14-051": [],
+  "BP14-052": [],
+  "BP14-053": [],
+  "BP14-054": [],
+  "BP14-055": [
+    {
+      "number": "Q1846",
+      "question": "If my Soothing Dragonspring has no divine water counters on it, can I still play this follower's Strike ability?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1845",
+      "question": "I attack with this follower and play its Strike ability. If my opponent plays Dead to Rights at Quick timing, does this follower lose 2 attack and defense?",
+      "answer": "Yes. Losing defense isn't the same as taking damage."
+    }
+  ],
+  "BP14-056": [],
+  "BP14-057": [
+    {
+      "number": "Q1847",
+      "question": "Do enemy followers put onto the field after I play this follower's On Evolve ability refresh during their controller's next start phase?",
+      "answer": "Yes, they do."
+    }
+  ],
+  "BP14-058": [],
+  "BP14-059": [],
+  "BP14-060": [],
+  "BP14-061": [
+    {
+      "number": "Q1848",
+      "question": "If my Soothing Dragonspring has no divine water counters on it, can I still play this follower's activated ability?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP14-062": [],
+  "BP14-063": [
+    {
+      "number": "Q1849",
+      "question": "If my Soothing Dragonspring has no divine water counters on it, can I still play this spell for 2 less?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP14-064": [],
+  "BP14-065": [],
+  "BP14-066": [
+    {
+      "number": "Q1848",
+      "question": "If my Soothing Dragonspring has no divine water counters on it, can I still play this follower's activated ability?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP14-067": [
+    {
+      "number": "Q1850",
+      "question": "If a Megalorca is put onto my field during my opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP14-068": [
+    {
+      "number": "Q1851",
+      "question": "If I select an engaged enemy follower for this spell, will it refresh at the start of its controller's next turn?",
+      "answer": "No. Although the spell's \"engage it\" effect will not apply to a follower that is already engaged, the rest will."
+    }
+  ],
+  "BP14-069": [],
+  "BP14-070": [
+    {
+      "number": "Q1820",
+      "question": "If I play this follower's advanced activated ability, can I evolve another follower in the same turn?",
+      "answer": "No. You can only activate one advanced activated ability or evolve ability per turn."
+    }
+  ],
+  "BP14-071": [
+    {
+      "number": "Q1854",
+      "question": "If I select 2 followers for this follower's Fanfare ability, do I deal 5 damage to one and 2 damage to the other?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1853",
+      "question": "If multiple enemy followers are put from the field into the cemetery at the same time during my turn, does this follower's automatic ability trigger for each of them?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1852",
+      "question": "If an enemy token follower is put from the field into the cemetery during my turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1822",
+      "question": "When playing Biofabrication, can I select a faceup advanced follower in my evolve deck?",
+      "answer": "No. Advanced followers are not evolved followers."
+    },
+    {
+      "number": "Q1821",
+      "question": "When playing Rimewind, can I select an enemy advanced follower?",
+      "answer": "Yes. Advanced followers are also considered unevolved followers."
+    }
+  ],
+  "BP14-072": [],
+  "BP14-073": [],
+  "BP14-074": [
+    {
+      "number": "Q1855",
+      "question": "If I discard this follower during my end phase due to having too many cards in my hand, can I still put it into my EX area?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP14-075": [],
+  "BP14-076": [
+    {
+      "number": "Q1856",
+      "question": "If I summon a Jackshovel Gravedigger with this follower's activated ability, what will its attack and defense be?",
+      "answer": "Its attack and defense will be 1/1. Then, if it evolves, it will be 2/2."
+    }
+  ],
+  "BP14-077": [
+    {
+      "number": "Q1860",
+      "question": "If my EX area is full, can I still play this spell?",
+      "answer": "Yes. You would simply not perform \"Put the top card of your deck into your EX area.\""
+    },
+    {
+      "number": "Q1859",
+      "question": "If I can't select a Paracelise, Demon of Greed in my cemetery and/or banished zone, can I still play this spell's activated ability?",
+      "answer": "Yes. When prompted to select \"up to\" a number or \"any number\" of something, you can select 0."
+    },
+    {
+      "number": "Q1858",
+      "question": "Can this spell's activated ability only be played while in my cemetery?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1857",
+      "question": "If my hand is empty, can I still play this spell?",
+      "answer": "Yes. You would simply not perform \"Banish a card from your hand.\""
+    }
+  ],
+  "BP14-078": [],
+  "BP14-079": [
+    {
+      "number": "Q1861",
+      "question": "If my EX area is full, can I still play this follower's On Evolve ability to discard a card?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP14-080": [
+    {
+      "number": "Q1862",
+      "question": "If I play this follower's Fanfare ability when my hand is empty, do I both recover 2 play points and deal 2 damage to the selected follower's leader?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP14-081": [
+    {
+      "number": "Q1863",
+      "question": "If I discard this spell during my end phase due to having too many cards in my hand, do I still select an Abysscraft follower on my field and give it Bane?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP14-082": [],
+  "BP14-083": [],
+  "BP14-084": [
+    {
+      "number": "Q1864",
+      "question": "What is ability damage?",
+      "answer": "Ability damage is all damage except for damage dealt by two followers in combat or by a follower attacking a leader. Damage from Strike abilities, although triggered by an attack, is considered ability damage."
+    }
+  ],
+  "BP14-085": [
+    {
+      "number": "Q1866",
+      "question": "If I play this follower when there are 3 cards in my hand, including this one, do I fulfill the \"if there are 2 cards or less in your hand\" condition of its Fanfare ability?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1865",
+      "question": "If I play this follower's Fanfare ability when my hand is empty, do I give it both +1 attack and Storm?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP14-086": [],
+  "BP14-087": [
+    {
+      "number": "Q1867",
+      "question": "If I play this spell when it's the only card in my hand, do I fulfill the \"if there are 0 cards in your hand\" condition?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP14-088": [
+    {
+      "number": "Q1868",
+      "question": "Can this follower's activated ability only be played while in my cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP14-089": [],
+  "BP14-090": [
+    {
+      "number": "Q1875",
+      "question": "If my opponent evolves an Azazel when my leader has at least 11 defense and I have this follower on my field, does my leader's defense change to 10?",
+      "answer": "Yes. Changing defense isn't the same as dealing damage."
+    },
+    {
+      "number": "Q1874",
+      "question": "I have this follower on my field, and my opponent has an evolved Ginsetsu, Great Fox and a One-Tailed Fox on theirs. If they attack my leader with the One-Tailed Fox, how much damage does my leader take?",
+      "answer": "It takes either 0 damage or 1 damage, decided by you. When there are multiple abilities modifying damage dealt, the player receiving the damage decides which order to apply them in. In this case, depending on the order, the final damage taken can be calculated as follows: Your leader takes 1 damage because you decide to apply Ginsetsu's ability to increase the damage dealt by 1 first, so the One-Tailed Fox will deal 2 damage before this follower's ability reduces the damage dealt by 1. Your leader takes 0 damage because you decide to apply this follower's ability to reduce damage dealt by 1 first, so the One-Tailed Fox will deal 0 damage. Since Ginsetsu's \"if a Yokai follower on your field would deal damage, it deals that much plus 1 instead\" only takes effect when damage is dealt, and 0 damage does not count as dealing damage, the ability does not take effect and the damage taken by your leader remains 0."
+    },
+    {
+      "number": "Q1873",
+      "question": "If I play Jatelant, God of Prosperity's Fanfare ability targeting an enemy Shion, Immortal Aegis, do I deal 3 damage to the enemy leader?",
+      "answer": "Yes. Shion is immediately removed from the field upon being banished, so its ability is not in effect when the enemy leader takes damage."
+    },
+    {
+      "number": "Q1872",
+      "question": "My opponent has a copy of this follower on the field with 4 or less defense. If I play Dance of Death targeting it, do I deal 2 damage to the enemy leader?",
+      "answer": "No. Although Shion is left with 0 defense, it is not destroyed until after Dance of Death finishes resolving, so its ability remains in effect when the enemy leader takes damage."
+    },
+    {
+      "number": "Q1871",
+      "question": "If my opponent plays Dead to Rights targeting this follower, does it lose 2 attack and defense?",
+      "answer": "Yes. Losing defense isn't the same as taking damage."
+    },
+    {
+      "number": "Q1870",
+      "question": "If I play Jeanne, Despair's Maiden's Fanfare ability while this follower is on my field, does my leader lose 2 defense?",
+      "answer": "Yes. Losing defense isn't the same as taking damage."
+    },
+    {
+      "number": "Q1869",
+      "question": "Can I be made to bury this follower by an ability such as Yuzuki, Righteous Demon's Fanfare?",
+      "answer": "Yes. Burying a follower isn't the same as destroying it."
+    }
+  ],
+  "BP14-091": [
+    {
+      "number": "Q1878",
+      "question": "At the start of my opponent's end phase, do I resolve this follower's ability before they can play cards and abilities with Quick?",
+      "answer": "Yes. At the start of an end phase, all automatic abilities are triggered and resolved before the active player engages any number of followers with Ward or non-active players can play cards and abilities with Quick."
+    },
+    {
+      "number": "Q1877",
+      "question": "If there are 2 copies of this follower in my EX area, does each copy's ability trigger at the start of each opponent's end phase?",
+      "answer": "Yes, they do."
+    },
+    {
+      "number": "Q1876",
+      "question": "Does this follower's automatic ability only trigger while in my EX area?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP14-092": [
+    {
+      "number": "Q1879",
+      "question": "If my EX area is full when this follower is put into the cemetery from my field, how should I resolve its Last Words ability?",
+      "answer": "It remains in the cemetery."
+    }
+  ],
+  "BP14-093": [
+    {
+      "number": "Q1880",
+      "question": "If my leader gains defense during my opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP14-094": [],
+  "BP14-095": [],
+  "BP14-096": [
+    {
+      "number": "Q1880",
+      "question": "If my leader gains defense during my opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP14-097": [
+    {
+      "number": "Q1884",
+      "question": "If I put a follower into the EX area, does it lose any damage dealt or abilities given to it?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1883",
+      "question": "If my opponent's EX area is full when I select an enemy follower for this follower's Fanfare ability, what happens?",
+      "answer": "It remains on the field."
+    },
+    {
+      "number": "Q1882",
+      "question": "If I play this follower's Fanfare ability targeting an enemy token follower, does it get removed from the game?",
+      "answer": "No. It remains in its owner's EX area after you put it there. Follower and amulet tokens may exist in the EX area, field, and resolution zone. They are only removed from the game immediately after movement to other zones."
+    },
+    {
+      "number": "Q1881",
+      "question": "If I play this follower's Fanfare ability targeting an enemy advanced follower, does it get put faceup on top of its owner's evolve deck?",
+      "answer": "No. It remains in its owner's EX area after you put it there. Advanced followers may exist in the evolve deck area, field, EX area, and resolution zone. They are only put back onto the top of the evolve deck faceup immediately after movement to other zones."
+    }
+  ],
+  "BP14-098": [],
+  "BP14-099": [],
+  "BP14-100": [],
+  "BP14-101": [
+    {
+      "number": "Q1880",
+      "question": "If my leader gains defense during my opponent's turn, does this follower's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP14-102": [
+    {
+      "number": "Q1885",
+      "question": "If a Havencraft token follower is put onto my field during my opponent's turn, does this follower's second automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP14-103": [],
+  "BP14-104": [
+    {
+      "number": "Q1886",
+      "question": "If a Holy Falcon is put onto my field during my opponent's turn, does this amulet's automatic ability trigger?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP14-105": [],
+  "BP14-106": [],
+  "BP14-107": [],
+  "BP14-108": [],
+  "BP14-109": [],
+  "BP14-110": [],
+  "BP14-111": [],
+  "BP14-112": [],
+  "BP14-113": [],
+  "BP14-114": [],
+  "BP14-115": [],
+  "BP14-116": [],
+  "BP14-117": [],
+  "BP14-118": [
+    {
+      "number": "Q1887",
+      "question": "If there are only 2 Festive cards in my EX area when I play this follower's Fanfare ability, do I still give it +1/+1?",
+      "answer": "Yes. After putting a Festive card from your hand into your EX area to pay the cost, you will have 3 cards in your EX area."
+    }
+  ],
+  "BP14-119": []
+}

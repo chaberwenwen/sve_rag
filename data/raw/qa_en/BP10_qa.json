@@ -1,0 +1,778 @@
+{
+  "BP10-001": [
+    {
+      "number": "Q1242",
+      "question": "What is ability damage?",
+      "answer": "Ability damage is damage from non-combat sources, including damage from spells and follower abilities. Damage from Strike abilities, although triggered by combat, is considered ability damage."
+    },
+    {
+      "number": "Q1241",
+      "question": "Can this follower be buried by abilities such as Yuzuki, Righteous Demon's Fanfare?",
+      "answer": "Yes. Burying a card is different to destroying it."
+    }
+  ],
+  "BP10-002": [
+    {
+      "number": "Q1243",
+      "question": "I begin my turn by playing this follower from hand and a Fairy from my EX area. If I then evolve this follower, do I fulfill the Combo (3) condition in its On Evolve ability?",
+      "answer": "No. Evolving a follower doesn't count as playing a card, so it doesn't count toward your Combo."
+    },
+    {
+      "number": "Q1242",
+      "question": "What is ability damage?",
+      "answer": "Ability damage is damage from non-combat sources, including damage from spells and follower abilities. Damage from Strike abilities, although triggered by combat, is considered ability damage."
+    },
+    {
+      "number": "Q1241",
+      "question": "Can this follower be buried by abilities such as Yuzuki, Righteous Demon's Fanfare?",
+      "answer": "Yes. Burying a card is different to destroying it."
+    }
+  ],
+  "BP10-003": [
+    {
+      "number": "Q1246",
+      "question": "What 5 cards do I need to banish from my EX area to play this follower's activated ability?",
+      "answer": "Any 5 cards of differing base costs will fulfill the requirement. For example: Fairy Wisp (0-cost), Ancient Artifact (1-cost), Thorn Burst (2-cost), Mystic Artifact (3-cost), and Beauty and the Beast (6-cost)."
+    },
+    {
+      "number": "Q1245",
+      "question": "I have 4 cards on my field before playing this follower. Can I put both the Ancient Artifact and Mystic Artifact into my EX area?",
+      "answer": "No. You must choose one to put into your EX area."
+    },
+    {
+      "number": "Q1244",
+      "question": "If I summon an Ancient Artifact with this follower's Fanfare, can I also put an Ancient Artifact into my EX area?",
+      "answer": "No. If you summoned an Ancient Artifact, you must put a Mystic Artifact into your EX area, and vice versa."
+    }
+  ],
+  "BP10-004": [
+    {
+      "number": "Q1252",
+      "question": "Can Rimewind select an enemy advanced follower on the field?",
+      "answer": "Yes. Advanced followers are not considered evolved followers."
+    },
+    {
+      "number": "Q1251",
+      "question": "When playing Biofabrication, can I select a faceup advanced follower in my evolved deck?",
+      "answer": "No. Advanced followers are not considered evolved followers."
+    },
+    {
+      "number": "Q1250",
+      "question": "I have this follower on my field, and my opponent plays Sylvia, the Condemner, selecting this follower with its Fanfare ability. Can I still engage this follower to deal 6 damage to Sylvia, the Condemner?",
+      "answer": "No. When Sylvia, the Condemner is put onto the field, its Fanfare and this follower's automatic ability will trigger simultaneously, and both abilities will become pending. When both players control pending abilities, the active player resolves theirs first. In this case, your opponent is the active player, so they resolve Sylvia, the Condemner's Fanfare, destroying this follower. Next, you would resolve this follower's automatic ability, but since it is now in the cemetery, you would be unable to pay the engage cost, and thus cannot deal the 6 damage to Sylvia, the Condemner."
+    },
+    {
+      "number": "Q1249",
+      "question": "If 2 or more enemy followers are put onto the field simultaneously, can I still engage this follower to deal 6 damage to 1 of them?",
+      "answer": "Yes. As long as you pay the cost, you may deal 6 damage to 1 of the followers."
+    },
+    {
+      "number": "Q1248",
+      "question": "Does this follower's \"whenever an enemy follower is put onto the field\" ability trigger when it's not my turn?",
+      "answer": "Yes, it does."
+    },
+    {
+      "number": "Q1247",
+      "question": "If an enemy follower with Aura is put onto the field, can I engage this follower to deal 6 damage to it?",
+      "answer": "Yes. Aura prevents the follower from being selected by enemy abilities, but this follower's \"whenever an enemy follower is put onto the field\" ability does not select."
+    }
+  ],
+  "BP10-005": [
+    {
+      "number": "Q1253",
+      "question": "If a Mercenary follower is put onto my field during my opponent's turn, does this follower's \"whenever a Mercenary follower is put onto your field\" ability still trigger?",
+      "answer": "Yes, it triggers regardless of whose turn it is."
+    }
+  ],
+  "BP10-006": [
+    {
+      "number": "Q1253",
+      "question": "If a Mercenary follower is put onto my field during my opponent's turn, does this follower's \"whenever a Mercenary follower is put onto your field\" ability still trigger?",
+      "answer": "Yes, it triggers regardless of whose turn it is."
+    }
+  ],
+  "BP10-007": [],
+  "BP10-008": [],
+  "BP10-009": [],
+  "BP10-010": [
+    {
+      "number": "Q1254",
+      "question": "Is the cost of an evolved follower the same as its unevolved form?",
+      "answer": "Yes, it is."
+    }
+  ],
+  "BP10-011": [],
+  "BP10-012": [],
+  "BP10-013": [],
+  "BP10-014": [],
+  "BP10-015": [],
+  "BP10-016": [],
+  "BP10-017": [
+    {
+      "number": "Q1257",
+      "question": "Can this follower's activated ability only be played while in hand?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1256",
+      "question": "I have 4 cards in my EX area. If I play this follower's activated ability and select a Fairy on my field, which card do I put into my EX area?",
+      "answer": "You would place this follower into your EX area as part of the ability's cost. Then, since your EX area would be full, the Fairy would be forced to remain on the field."
+    },
+    {
+      "number": "Q1255",
+      "question": "If my EX area is full, can I play this follower's activated ability?",
+      "answer": "No. You would be unable to pay the \"put this card from your hand into your EX area\" part of the cost."
+    }
+  ],
+  "BP10-018": [],
+  "BP10-019": [
+    {
+      "number": "Q1258",
+      "question": "Can I still choose option 1 if my field is full?",
+      "answer": "Yes. However, the Knight token would fail to be summoned."
+    }
+  ],
+  "BP10-020": [
+    {
+      "number": "Q1260",
+      "question": "At the the start of my end phase, I roll the first die of this follower's automatic ability and roll a 3 or 4, dealing 7 damage to each enemy leader. If this brings an opponent's leader's defense to 0 or less, do I win the game without having to resolve the second die roll?",
+      "answer": "No, you must resolve the full ability before Confirmation Timing occurs. It is possible to deal 7 damage to your own leader with the second die, thus resulting in a draw if both you and your opponent's leaders have 0 or less defense."
+    },
+    {
+      "number": "Q1259",
+      "question": "Can this follower attack engaged enemy followers?",
+      "answer": "No. \"Enemies\" refers to both enemy leaders and enemy followers."
+    },
+    {
+      "number": "Q1252",
+      "question": "Can Rimewind select an enemy advanced follower on the field?",
+      "answer": "Yes. Advanced followers are not considered evolved followers."
+    },
+    {
+      "number": "Q1251",
+      "question": "When playing Biofabrication, can I select a faceup advanced follower in my evolved deck?",
+      "answer": "No. Advanced followers are not considered evolved followers."
+    }
+  ],
+  "BP10-021": [],
+  "BP10-022": [
+    {
+      "number": "Q1261",
+      "question": "If I don't find or choose not to find an Ernesta, Weapons Hawker to summon, do I still put an Exterminus Weapon token into my EX area?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP10-023": [
+    {
+      "number": "Q1262",
+      "question": "I have a Steelclad Knight with Rush on the field due to this follower's passive ability. If I use the Steelclad Knight to attack an engaged enemy follower, and an opponent destroys this follower with a Quick ability, such as Execution, will my attack still go through?",
+      "answer": "Yes, it will."
+    }
+  ],
+  "BP10-024": [
+    {
+      "number": "Q1263",
+      "question": "If I fail to summon the Steelclad Knight token with this follower's On Evolve ability because my field is full, do I still give each Steelclad Knight on my field +1/+1?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1262",
+      "question": "I have a Steelclad Knight with Rush on the field due to this follower's passive ability. If I use the Steelclad Knight to attack an engaged enemy follower, and an opponent destroys this follower with a Quick ability, such as Execution, will my attack still go through?",
+      "answer": "Yes, it will."
+    }
+  ],
+  "BP10-025": [],
+  "BP10-026": [
+    {
+      "number": "Q1264",
+      "question": "Can I only play this spell's activated ability when it's in my cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP10-027": [],
+  "BP10-028": [],
+  "BP10-029": [
+    {
+      "number": "Q1265",
+      "question": "Can I choose the order in which I resolve this follower's two Fanfare abilities?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP10-030": [
+    {
+      "number": "Q1343",
+      "question": "When playing this follower's Fanfare ability, if I can't select an enemy follower on the field, can I still choose option 1 to have nothing happen?",
+      "answer": "No. If you can't select an enemy follower, you would be required to choose option 2."
+    },
+    {
+      "number": "Q1266",
+      "question": "My opponent has this follower and a Knight on the field. They attack with the Knight, and I destroy this follower with a Quick ability, such as Execution, causing the Knight to lose Aura. Can I then destroy the Knight with a card such as Angelic Snipe?",
+      "answer": "Yes, you can. Confirmation Timing occurs after a card with Quick is played, allowing another card with Quick to be played afterward."
+    }
+  ],
+  "BP10-031": [
+    {
+      "number": "Q1267",
+      "question": "If I evolve this follower with its Fanfare ability, can I evolve another follower using its evolve ability in the same turn?",
+      "answer": "Yes. Although you can only activate one evolve ability per turn, other abilities that evolve followers do not count towards this limit."
+    }
+  ],
+  "BP10-032": [],
+  "BP10-033": [],
+  "BP10-034": [
+    {
+      "number": "Q1268",
+      "question": "If I can't select an enemy follower on the field, can I still discard my hand and draw 3 cards?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP10-035": [],
+  "BP10-036": [
+    {
+      "number": "Q1269",
+      "question": "If there are no Princess followers on my field, can I still choose option 2?",
+      "answer": "Yes. However, nothing would happen."
+    }
+  ],
+  "BP10-037": [],
+  "BP10-038": [],
+  "BP10-039": [
+    {
+      "number": "Q1270",
+      "question": "If there are no enemy followers on the field, can I still play this follower's Fanfare ability?",
+      "answer": "Yes, \"Select up to 1\" means you can select 0. Even if you select 0, you may still resolve the Spellchain parts of the ability provided you fulfill the requirements."
+    }
+  ],
+  "BP10-040": [],
+  "BP10-041": [],
+  "BP10-042": [
+    {
+      "number": "Q1272",
+      "question": "When I play this spell, does it count itself among \"the number of Chess cards in your cemetery\"?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1271",
+      "question": "Can I only play this spell's activated ability when it's in my cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP10-043": [
+    {
+      "number": "Q1274",
+      "question": "Does this spell's automatic ability cause abilities such as Agnes Tachyon's \"whenever you play a spell\" ability to trigger?",
+      "answer": "No. Resolving an automatic ability is not considered playing a spell."
+    },
+    {
+      "number": "Q1273",
+      "question": "If I have 2 copies of this spell in my EX area, do both of their automatic abilities trigger separately at the start of my end phase?",
+      "answer": "Yes, they do."
+    }
+  ],
+  "BP10-044": [],
+  "BP10-045": [
+    {
+      "number": "Q1275",
+      "question": "What does \"add 1 to a Stack on your field\" mean?",
+      "answer": "It means you put a Stack counter on an amulet with Stack on your field."
+    }
+  ],
+  "BP10-046": [],
+  "BP10-047": [
+    {
+      "number": "Q1277",
+      "question": "Does this spell's automatic ability cause abilities such as Agnes Tachyon's \"whenever you play a spell\" ability to trigger?",
+      "answer": "No. Resolving an automatic ability is not considered playing a spell."
+    },
+    {
+      "number": "Q1276",
+      "question": "If I have 2 copies of this spell in my EX area, do both of their automatic abilities trigger separately at the start of my end phase?",
+      "answer": "Yes, they do."
+    }
+  ],
+  "BP10-048": [],
+  "BP10-049": [
+    {
+      "number": "Q1342",
+      "question": "When playing this follower's On Evolve ability, if I can't select an enemy follower on the field, can I still choose option 2 to discard a non-Runecraft card?",
+      "answer": "No. If you can't select an enemy follower, you would be required to choose option 1. However, you may choose not to pay the cost for either option to have nothing happen."
+    },
+    {
+      "number": "Q1278",
+      "question": "If I have no Runecraft cards in my hand, can I still choose option 1?",
+      "answer": "Yes. However, as you would be unable to pay the cost, nothing would happen. The same would be true if you had no non-Runecraft cards in hand and chose option 2."
+    }
+  ],
+  "BP10-050": [
+    {
+      "number": "Q1280",
+      "question": "Can I choose option 2 but choose not to perform Earth Rite?",
+      "answer": "Yes. You may also choose option 2 even if you have no amulets with Stack on your field. In both cases, nothing would happen."
+    },
+    {
+      "number": "Q1279",
+      "question": "If I have no amulets with Stack on my field, can I still choose option 1?",
+      "answer": "Yes. However, nothing would happen."
+    },
+    {
+      "number": "Q1275",
+      "question": "What does \"add 1 to a Stack on your field\" mean?",
+      "answer": "It means you put a Stack counter on an amulet with Stack on your field."
+    }
+  ],
+  "BP10-051": [
+    {
+      "number": "Q1281",
+      "question": "When playing this follower's Fanfare ability, if I can't select a spell in my cemetery, can I still choose option 2 to have nothing happen?",
+      "answer": "No. If you can't select a spell, you would be required to choose option 1."
+    }
+  ],
+  "BP10-052": [
+    {
+      "number": "Q1282",
+      "question": "If my opponent only has a Heavenly Aegis, which has Aura and \"This follower can't be destroyed by abilities\" on their field, can option 1 cause them to bury it?",
+      "answer": "Yes. Aura prevents the card from being selected by enemy abilities, but in this case Heavenly Aegis isn't being selected by an ability. Also, burying a card isn't the same as destroying it."
+    }
+  ],
+  "BP10-053": [
+    {
+      "number": "Q1284",
+      "question": "If I can't select an enemy follower on the field, can I still perform Earth Rite (2) and draw a card?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1283",
+      "question": "What does \"Earth Rite (2)\" mean?",
+      "answer": "Earth Rite (2) is a keyword ability that cards and abilities may have. Earth Rite (2) provides additional effects when you play the card or ability if you choose to pay the cost of removing 2 Stack counters from an amulet on your field. If that amulet is left without any Stack counters as a result, it goes into your cemetery. Even if there are Stack counters on your field, you are not required to pay the cost."
+    }
+  ],
+  "BP10-054": [
+    {
+      "number": "Q1286",
+      "question": "If I evolve this follower with its Fanfare ability, can I evolve another follower using its evolve ability in the same turn?",
+      "answer": "Yes. Although you can only activate one evolve ability per turn, other abilities that evolve followers do not count towards this limit."
+    },
+    {
+      "number": "Q1285",
+      "question": "If an opponent steals this follower from my field with a card such as Angel of Chaos, does its \"When this card leaves the field\" ability trigger?",
+      "answer": "No, it doesn't."
+    }
+  ],
+  "BP10-055": [],
+  "BP10-056": [
+    {
+      "number": "Q1288",
+      "question": "Can I choose option 2 if Overflow is not active for me?",
+      "answer": "Yes. However, nothing would happen."
+    },
+    {
+      "number": "Q1287",
+      "question": "Can I recover more play points than my maximum play points with option 1?",
+      "answer": "No. You cannot have more play points than your current maximum."
+    }
+  ],
+  "BP10-057": [
+    {
+      "number": "Q1289",
+      "question": "If I can't select an enemy follower on the field for this follower's Strike ability, can I still give my leader +2 defense?",
+      "answer": "No, you can't."
+    },
+    {
+      "number": "Q1252",
+      "question": "Can Rimewind select an enemy advanced follower on the field?",
+      "answer": "Yes. Advanced followers are not considered evolved followers."
+    },
+    {
+      "number": "Q1251",
+      "question": "When playing Biofabrication, can I select a faceup advanced follower in my evolved deck?",
+      "answer": "No. Advanced followers are not considered evolved followers."
+    }
+  ],
+  "BP10-058": [
+    {
+      "number": "Q1252",
+      "question": "Can Rimewind select an enemy advanced follower on the field?",
+      "answer": "Yes. Advanced followers are not considered evolved followers."
+    },
+    {
+      "number": "Q1251",
+      "question": "When playing Biofabrication, can I select a faceup advanced follower in my evolved deck?",
+      "answer": "No. Advanced followers are not considered evolved followers."
+    }
+  ],
+  "BP10-059": [
+    {
+      "number": "Q1252",
+      "question": "Can Rimewind select an enemy advanced follower on the field?",
+      "answer": "Yes. Advanced followers are not considered evolved followers."
+    },
+    {
+      "number": "Q1251",
+      "question": "When playing Biofabrication, can I select a faceup advanced follower in my evolved deck?",
+      "answer": "No. Advanced followers are not considered evolved followers."
+    }
+  ],
+  "BP10-060": [
+    {
+      "number": "Q1290",
+      "question": "If I have 4 or less cards in my deck when I play this follower's Fanfare ability, do I lose the game?",
+      "answer": "No. Drawing from an empty deck causes you to lose the game, but banishing from an empty deck doesn't."
+    }
+  ],
+  "BP10-061": [
+    {
+      "number": "Q1291",
+      "question": "My opponent has Elios, Loyal Dragoon on their field. If this follower's On Evolve ability triggers when I have 10 cards in my banished zone, how many times does Elios, Loyal Dragoon's \"whenever this follower takes damage\" ability trigger?",
+      "answer": "Once. The On Evolve ability deals damage as a single instance, not multiple instances of 2."
+    }
+  ],
+  "BP10-062": [
+    {
+      "number": "Q1340",
+      "question": "I put this follower onto my field from an opponent's cemetery with the On Evolve ability of Octrice, Omen of Usurpation, making me its new controller. If the Eternal Whale on my field is destroyed, what happens?",
+      "answer": "You and your opponent would resolve the interaction as follows: 1. The Eternal Whale is destroyed and goes into your opponent's cemetery. While you were the controller, your opponent is the card's owner. 2. Eternal Whale's Last Words trigger, and you play the ability. 3. You resolve the Last Words, dealing 2 damage to each enemy leader. 4. You choose whether to place Eternal Whale 2nd from the top of your opponent's deck, or on the bottom. Since you are not the owner of that deck, your opponent places the Eternal Whale where you designate."
+    }
+  ],
+  "BP10-063": [
+    {
+      "number": "Q1295",
+      "question": "If I don't find or choose not to find an Armed follower to add to my hand, can I still summon an Armed follower from my hand?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1294",
+      "question": "Can I summon the Armed follower that I searched for and added to my hand?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1293",
+      "question": "Can I only play this spell's activated ability if I have a Lævateinn Dragon and 2 copies of Draconic Weapon that I can select on my field?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1292",
+      "question": "Can I only play this spell's activated ability when it's in my cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP10-064": [],
+  "BP10-065": [
+    {
+      "number": "Q1296",
+      "question": "If I don't find or choose not to find an Armed follower, do I still summon a Draconic Weapon token?",
+      "answer": "Yes, you do."
+    }
+  ],
+  "BP10-066": [
+    {
+      "number": "Q1298",
+      "question": "Does this follower's \"once on each of your turns, when you discard a card\" ability trigger if it's in my EX area?",
+      "answer": "No, it doesn't."
+    },
+    {
+      "number": "Q1297",
+      "question": "If I discard this follower during my end phase because I have too many cards in my hand, can I put it into my EX area?",
+      "answer": "Yes, you can."
+    }
+  ],
+  "BP10-067": [],
+  "BP10-068": [],
+  "BP10-069": [
+    {
+      "number": "Q1299",
+      "question": "If I can't select an enemy follower on the field, can I still pay the cost of this follower's On Evolve ability to discard a card?",
+      "answer": "No, you can't. If you can't select an enemy follower on the field, you can't play this follower's On Evolve ability."
+    }
+  ],
+  "BP10-070": [],
+  "BP10-071": [],
+  "BP10-072": [],
+  "BP10-073": [],
+  "BP10-074": [
+    {
+      "number": "Q1303",
+      "question": "If I have 4 cards on my field including this follower when playing its Fanfare ability, what happens?",
+      "answer": "You would resolve the ability as normal, except you would choose 1 of the revealed followers to summon and shuffle the other with the rest of the revealed cards before putting them on the bottom of your deck."
+    },
+    {
+      "number": "Q1302",
+      "question": "If I reveal all the cards in my deck and only reveal 1 follower that costs 3 or less, do I still summon that follower?",
+      "answer": "Yes, you do."
+    },
+    {
+      "number": "Q1301",
+      "question": "If I reveal all the cards in my deck and don't reveal any followers that cost 3 or less, what happens?",
+      "answer": "You would shuffle all the cards you revealed and put them back in the deck area."
+    },
+    {
+      "number": "Q1300",
+      "question": "If I evolve this follower with its automatic ability, can I evolve another follower using its evolve ability in the same turn?",
+      "answer": "Yes. Although you can only activate one evolve ability per turn, other abilities that evolve followers do not count towards this limit."
+    }
+  ],
+  "BP10-075": [
+    {
+      "number": "Q1304",
+      "question": "If an opponent's leader has 5 defense or less, does this follower's On Evolve ability still change its defense to 6?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP10-076": [
+    {
+      "number": "Q1312",
+      "question": "I have this follower on my field, and an opponent plays Craig, Wizard of Mysteria. What happens?",
+      "answer": "This follower's ability would prevent the card draw from happening, so your opponent would simply discard a card."
+    },
+    {
+      "number": "Q1311",
+      "question": "If I have this follower on my field, can an opponent play cards that draw cards, such as Insight?",
+      "answer": "Yes. However, this follower's ability would prevent the card draw from happening."
+    },
+    {
+      "number": "Q1310",
+      "question": "If I have this follower on my field, can an opponent add cards to their hand from their deck with search effects or effects such as, \"Look at the top X cards of your deck. Add 1 from among them to your hand.\"?",
+      "answer": "Yes, they can. Adding cards to hand is not considered drawing cards."
+    },
+    {
+      "number": "Q1309",
+      "question": "I have this follower on my field, and my opponent has an evolved Ginsetsu, Great Fox and a One-Tailed Fox. Since Ginsetsu, Great Fox's ability increases Yokai followers' damage dealt by 1, how much damage would my leader take if my opponent attacked me with a 1-attack One-Tailed Fox?",
+      "answer": "Your leader would take either 0 damage or 1 damage, depending on your decision. When there are multiple abilities modifying damage dealt, the player receiving the damage decides the order the abilities are applied. In this case, depending on the order, the final damage taken can be calculated either of the following 2 ways: 1. Your leader takes 1 damage because you decide to apply Ginsetsu, Great Fox's ability to increase the damage dealt by 1 first, so the One-Tailed Fox will deal 2 damage before this follower's ability reduces the damage dealt by 1. 2. Your leader takes 0 damage because you decide to apply this follower's ability to reduce damage dealt by 1 first, so the One-Tailed Fox will deal 0 damage before Ginsetsu, Great Fox's ability increases the damage dealt by 1. However, Ginsetsu, Great Fox's ability only takes effect when damage is dealt, and 0 damage doesn't count as dealing damage. Thus, the ability doesn't take effect and the damage taken by your leader remains at 0."
+    },
+    {
+      "number": "Q1308",
+      "question": "If I deal 1 damage to my leader with an ability while this follower is on my field, my leader doesn't take any damage, but does Sanguine still become active for me? Does it count toward the number of times my leader has lost defense this turn?",
+      "answer": "No, and no. Both abilities only count if your leader actually loses defense."
+    },
+    {
+      "number": "Q1307",
+      "question": "If I pay the cost of Demonium, Punk Devil's activated ability while this follower is on my field, do I still give my leader -2 defense?",
+      "answer": "Yes. Giving -2 defense isn't the same as dealing damage."
+    },
+    {
+      "number": "Q1306",
+      "question": "If I play Dance of Death and select an enemy XIV. Luzen, Temperance with 5 or less defense, do I deal 2 damage to its leader?",
+      "answer": "No, you would do 1 damage to its leader. Dance of Death deals 5 damage to XIV. Luzen, Temperance, bringing it to 0 or less defense, but it isn't destroyed until after Dance of Death is fully resolved, so its ability is still valid when you deal damage to its leader."
+    },
+    {
+      "number": "Q1305",
+      "question": "If I play Fiery Embrace with Spellchain (10) and select an enemy XIV. Luzen, Temperance, do I deal 3 damage to its leader?",
+      "answer": "Yes. By the time you resolve \"Deal 3 damage to that follower's leader,\" XIV. Luzen, Temperance is already destroyed and no longer on the field, so its ability is no longer valid."
+    }
+  ],
+  "BP10-077": [
+    {
+      "number": "Q1252",
+      "question": "Can Rimewind select an enemy advanced follower on the field?",
+      "answer": "Yes. Advanced followers are not considered evolved followers."
+    },
+    {
+      "number": "Q1251",
+      "question": "When playing Biofabrication, can I select a faceup advanced follower in my evolved deck?",
+      "answer": "No. Advanced followers are not considered evolved followers."
+    }
+  ],
+  "BP10-078": [
+    {
+      "number": "Q1313",
+      "question": "If I can't select an enemy follower on the field for this follower's Fanfare, can I still give my leader +2 defense?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP10-079": [
+    {
+      "number": "Q1314",
+      "question": "If I can't select an enemy follower on the field, can I still give my leader +2 defense?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP10-080": [
+    {
+      "number": "Q1315",
+      "question": "Does Drain cause my leader to gain defense from damage dealt by this follower's Strike ability?",
+      "answer": "No. Drain only triggers when a follower deals attack damage. Damage dealt by Strike abilities is considered ability damage."
+    }
+  ],
+  "BP10-081": [
+    {
+      "number": "Q1316",
+      "question": "Can I only play this spell's activated ability when it's in my cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP10-082": [],
+  "BP10-083": [],
+  "BP10-084": [
+    {
+      "number": "Q1317",
+      "question": "Can I only play this spell's activated ability when it's in my cemetery?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP10-085": [
+    {
+      "number": "Q1318",
+      "question": "Can I play this amulet's activated search ability even if there are no 7-cost Arcana cards in my deck?",
+      "answer": "Yes, you can. Additionally, even if you do have a 7-cost Arcana card in your deck, you can choose to not find it."
+    }
+  ],
+  "BP10-086": [],
+  "BP10-087": [],
+  "BP10-088": [],
+  "BP10-089": [],
+  "BP10-090": [],
+  "BP10-091": [],
+  "BP10-092": [
+    {
+      "number": "Q1320",
+      "question": "I have this follower and a Steelclad Minotaur on my field. If my Steelclad Minotaur attacks a 4-attack enemy follower, how much damage does Steelclad Minotaur take?",
+      "answer": "It would take either 2 damage or 1 damage, depending on your decision. When there are multiple abilities modifying damage dealt, the player who controls the follower receiving the damage decides the order the abilities are applied. In this case, depending on the order, the final damage taken can be calculated either of the following 2 ways: 1. Steelclad Minotaur takes 2 damage because you decide to apply Steelclad Minotaur's ability first, reducing the damage to 2. Afterward, this follower's ability would no longer apply. 2. Steelclad Minotaur takes 1 damage because you decide to apply this follower's ability first, replacing 4 damage with 3. Afterward, Steelclad Minotaur's ability would reduce that damage to 1."
+    },
+    {
+      "number": "Q1319",
+      "question": "Does this follower's passive ability mean a follower only takes 3 damage per turn?",
+      "answer": "No, each instance of damage is treated separately. Example: - If a follower would take 4 damage twice, it would take 3 damage twice instead. - If a follower would take 4 damage, then 2 damage, it would take 3 damage instead, then 2 damage as usual."
+    }
+  ],
+  "BP10-093": [
+    {
+      "number": "Q1320",
+      "question": "I have this follower and a Steelclad Minotaur on my field. If my Steelclad Minotaur attacks a 4-attack enemy follower, how much damage does Steelclad Minotaur take?",
+      "answer": "It would take either 2 damage or 1 damage, depending on your decision. When there are multiple abilities modifying damage dealt, the player who controls the follower receiving the damage decides the order the abilities are applied. In this case, depending on the order, the final damage taken can be calculated either of the following 2 ways: 1. Steelclad Minotaur takes 2 damage because you decide to apply Steelclad Minotaur's ability first, reducing the damage to 2. Afterward, this follower's ability would no longer apply. 2. Steelclad Minotaur takes 1 damage because you decide to apply this follower's ability first, replacing 4 damage with 3. Afterward, Steelclad Minotaur's ability would reduce that damage to 1."
+    },
+    {
+      "number": "Q1319",
+      "question": "Does this follower's passive ability mean a follower only takes 3 damage per turn?",
+      "answer": "No, each instance of damage is treated separately. Example: - If a follower would take 4 damage twice, it would take 3 damage twice instead. - If a follower would take 4 damage, then 2 damage, it would take 3 damage instead, then 2 damage as usual."
+    }
+  ],
+  "BP10-094": [
+    {
+      "number": "Q1321",
+      "question": "Does this follower's automatic ability still trigger when it's not my turn?",
+      "answer": "Yes, it does."
+    }
+  ],
+  "BP10-095": [],
+  "BP10-096": [],
+  "BP10-097": [],
+  "BP10-098": [
+    {
+      "number": "Q1322",
+      "question": "Can a follower have negative attack?",
+      "answer": "Yes. A follower's attack can be reduced to a negative number by effects. A follower with negative attack doesn't deal attack or combat damage."
+    }
+  ],
+  "BP10-099": [],
+  "BP10-100": [],
+  "BP10-101": [
+    {
+      "number": "Q1323",
+      "question": "Can I only play this follower's activated ability when it's in my hand?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP10-102": [
+    {
+      "number": "Q1324",
+      "question": "Is the cost of an evolved follower the same as its unevolved form?",
+      "answer": "Yes, it is."
+    }
+  ],
+  "BP10-103": [],
+  "BP10-104": [],
+  "BP10-105": [
+    {
+      "number": "Q1325",
+      "question": "If the Faith follower with +1 attack in my EX area gets played or summoned, does it keep the +1 attack?",
+      "answer": "Yes. When an effect is applied to a card in the EX area, that effect will persist even if the card is played or summoned."
+    }
+  ],
+  "BP10-106": [
+    {
+      "number": "Q1326",
+      "question": "When playing this follower's Fanfare ability, if I can't select an amulet in my cemetery, can I still choose option 2 to have nothing happen?",
+      "answer": "No. If you can't select an amulet, you would be required to choose option 1."
+    }
+  ],
+  "BP10-107": [],
+  "BP10-108": [],
+  "BP10-109": [
+    {
+      "number": "Q1341",
+      "question": "Can I select a card that can't be destroyed, such as XII. Wolfraud, Hanged Man, with this follower's first Fanfare?",
+      "answer": "Yes. While XII. Wolfraud, Hanged Man would remain on the field, you would still resolve the rest of the Fanfare and draw a card."
+    },
+    {
+      "number": "Q1330",
+      "question": "My leader's defense is 11 and I have no followers on my field, while my opponent only has a Rabbit Necromancer. I play this follower during my turn and use its Fanfare to destroy Rabbit Necromancer, triggering Rabbit Necromancer's Last Words and bringing my leader's defense to 9. Does this follower's other Fanfare then take effect and give my leader +5 defense?",
+      "answer": "No, it doesn't. When this follower's Fanfare destroys Rabbit Necromancer, Rabbit Necromancer's Last Words will trigger and becoming pending. When both players control pending abilities, the active player resolves theirs first. In this case, you are the active player, so you would resolve this follower's other Fanfare. At this point, since Rabbit Necromancer's Last Words have yet to take effect, your leader's defense is still 11, so it does not gain +5 defense. However, if you were to somehow summon this follower during your opponent's turn in this same scenario, Rabbit Necromancer's Last Words would resolve first as your opponent is the active player, so your leader could gain +5 defense from this follower's Fanfare, provided you chose to resolve the select and destroy Fanfare first."
+    },
+    {
+      "number": "Q1329",
+      "question": "Can I only play this follower's activated ability when it's in my cemetery?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1328",
+      "question": "Can I choose the order in which I resolve this follower's two Fanfare abilities?",
+      "answer": "Yes, you can."
+    },
+    {
+      "number": "Q1327",
+      "question": "If I can't select an enemy follower on the field for this follower's first Fanfare, can I still draw a card?",
+      "answer": "No, you can't."
+    }
+  ],
+  "BP10-110": [
+    {
+      "number": "Q1331",
+      "question": "Does this follower's automatic ability only trigger if it's in my EX area?",
+      "answer": "Yes, that's correct."
+    },
+    {
+      "number": "Q1252",
+      "question": "Can Rimewind select an enemy advanced follower on the field?",
+      "answer": "Yes. Advanced followers are not considered evolved followers."
+    },
+    {
+      "number": "Q1251",
+      "question": "When playing Biofabrication, can I select a faceup advanced follower in my evolved deck?",
+      "answer": "No. Advanced followers are not considered evolved followers."
+    }
+  ],
+  "BP10-111": [],
+  "BP10-112": [],
+  "BP10-113": [
+    {
+      "number": "Q1332",
+      "question": "I summon this follower with Sahaquiel's Fanfare, giving it \"At the start of your end phase, return this card to its owner's hand.\" Do both \"At the start of your end phase\" abilities trigger?",
+      "answer": "Yes, and you may choose the order in which they resolve. Note that even if you choose to return this follower to your hand first, you would still give each other follower on your field {ATK}+1, as the ability is already pending by the time this follower has left the field."
+    }
+  ],
+  "BP10-114": [
+    {
+      "number": "Q1334",
+      "question": "My EX area, my opponent's EX area, or both are full when I play this spell. What happens?",
+      "answer": "If your opponent's EX area is full, the selected enemy follower will remain on the field. If your EX area is full, the selected Angel follower will remain in your cemetery."
+    },
+    {
+      "number": "Q1333",
+      "question": "Can I only play this spell if I can select both an Angel follower in my cemetery and an enemy follower on the field?",
+      "answer": "Yes, that's correct."
+    }
+  ],
+  "BP10-115": [],
+  "BP10-116": [],
+  "BP10-117": [],
+  "BP10-118": [
+    {
+      "number": "Q1335",
+      "question": "If there are no enemy followers on the field but my cemetery contains a Fallen Angel card, can I play this spell to give my leader +2 defense?",
+      "answer": "Yes, \"Select up to 2\" means you can select 0."
+    }
+  ],
+  "BP10-119": [],
+  "BP10-120": [],
+  "BP10-121": [],
+  "BP10-122": []
+}

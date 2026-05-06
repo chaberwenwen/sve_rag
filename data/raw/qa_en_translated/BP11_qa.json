@@ -1,0 +1,810 @@
+{
+  "BP11-001": [
+    {
+      "question_cn": "Can I play this follower's activated ability multiple times per turn?",
+      "answer_cn": "Yes, you can.",
+      "card_name": "套索的拓荒者·洛奇萨斯",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "If I have multiple copies of this follower on my field, and I play an amulet, will each copy's ability trigger?",
+      "answer_cn": "Yes, they will.",
+      "card_name": "套索的拓荒者·洛奇萨斯",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-002": [
+    {
+      "question_cn": "If I banish a Naterran Great Tree token as part of the cost of this follower's activated ability, can I resolve the Naterran Great Tree's ability before making my choice for this follower's activated ability?",
+      "answer_cn": "No. You must choose 1 before you pay the ability's cost. As for the Naterran Great Tree's ability, you would resolve it at the next confirmation timing after resolving this follower's activated ability.",
+      "card_name": "套索的拓荒者·洛奇萨斯",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "I have 4 cards in my EX area. When a Mount card leaving the field causes this follower's ability to trigger, can I choose whether to put a Dutiful Steed, Bullet Bike, or Arcane Personnel Carrier token into my EX area?",
+      "answer_cn": "Yes, you can. Similarly, if there are 3 cards in your EX area, you may choose your preferred two.",
+      "card_name": "套索的拓荒者·洛奇萨斯",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "If I have multiple copies of this follower on my field, and a Mount card I control leaves the field, will each copy's ability trigger?",
+      "answer_cn": "Yes, they will.",
+      "card_name": "套索的拓荒者·洛奇萨斯",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "Can I play this follower's activated ability multiple times per turn?",
+      "answer_cn": "Yes, you can.",
+      "card_name": "套索的拓荒者·洛奇萨斯",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-004": [
+    {
+      "question_cn": "If I give this follower in my EX area +2 attack with its second activated ability, then summon it, does it keep its +2 attack?",
+      "answer_cn": "Yes. When an effect is applied to a card in the EX area, that effect will persist even if the card is played or summoned.",
+      "card_name": "裂地异种",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "Can this follower's second activated ability only be played while it's in my EX area?",
+      "answer_cn": "Yes, that's correct.",
+      "card_name": "裂地异种",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "I have 4 cards in my EX area. If I play this follower's first activated ability, which card do I put into my EX area?",
+      "answer_cn": "You would put this follower into your EX area, as the cost must be paid first. Since your EX area would then be full, the top card of your deck would remain where it is.",
+      "card_name": "裂地异种",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "Can this follower's first activated ability only be played while in hand?",
+      "answer_cn": "Yes, that's correct.",
+      "card_name": "裂地异种",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-006": [
+    {
+      "question_cn": "我的EX区域有4张卡。如果我使用这个从者的入场曲能力，我能否选择是将Bullet Bike衍生物还是Arcane Personnel Carrier衍生物放入EX区域？",
+      "answer_cn": "可以。",
+      "card_name": "牧地巨人",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-008": [
+    {
+      "question_cn": "如果多张坐骑卡同时被放入我的EX区域，这个从者的能力是否会为每张卡触发？",
+      "answer_cn": "会。",
+      "card_name": "害兽猎人",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-009": [
+    {
+      "question_cn": "如果多张坐骑卡同时被放入我的EX区域，这个从者的能力是否会为每张卡触发？",
+      "answer_cn": "会。",
+      "card_name": "害兽猎人",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-010": [
+    {
+      "question_cn": "如果我场上有多个这个从者的复制，并且一个悬丝傀儡被放入我的场上，每个复制的能力是否会触发？",
+      "answer_cn": "会。",
+      "card_name": "线偶大师",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "我能否每回合多次使用这个从者的起动能力？",
+      "answer_cn": "可以。",
+      "card_name": "线偶大师",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-015": [
+    {
+      "question_cn": "我能否选择解决这个从者的两个入场曲能力的顺序？",
+      "answer_cn": "可以。",
+      "card_name": "大自然守护者",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-017": [
+    {
+      "question_cn": "如果我无法选择墓场中的一张人偶卡，我是否仍然可以使用这张法术将一张悬丝傀儡衍生物放入我的EX区域？",
+      "answer_cn": "不能。",
+      "card_name": "废品的拣选",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-018": [
+    {
+      "question_cn": "我的对手场上有从者，通过其骑乘能力获得了驱动。如果该从者被装箱，当它不再处于装箱状态时，是否会重新获得突进和单驱动？",
+      "answer_cn": "是的，正确。装箱的从者一旦不再处于装箱状态，将恢复其能力。",
+      "card_name": "咒箱女王·娜哈特·娜哈特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "我的对手场上有从者，通过死亡祝福获得了守护。如果该从者被装箱，当它不再处于装箱状态时，是否会重新获得守护？",
+      "answer_cn": "是的，正确。装箱的从者一旦不再处于装箱状态，将恢复其能力。",
+      "card_name": "咒箱女王·娜哈特·娜哈特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我使用咒箱女王·娜哈特·娜哈特的起动能力选择了混沌支配者·艾希连德凛克，混沌支配者·艾希连德凛克的自动能力是否会触发？",
+      "answer_cn": "会。你将在下一个确认时机解决它。",
+      "card_name": "咒箱女王·娜哈特·娜哈特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我选择这个从者的起动能力对象是已激斗的敌方从者，该从者是否仍会在其操控者的下一个回合结束前被打上“禁锢”状态？",
+      "answer_cn": "是的，会。虽然起动能力中的“激斗它”效果对已处于激斗状态的从者无效，但后续效果仍然适用。",
+      "card_name": "咒箱女王·娜哈特·娜哈特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "通过龙之武器的效果获得“武装”特性的从者被打上“禁锢”状态后，它会失去“武装”特性吗？",
+      "answer_cn": "不，不会。",
+      "card_name": "咒箱女王·娜哈特·娜哈特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "处于“禁锢”状态的从者能否通过庇护的天光的入场曲等能力获得守护能力？",
+      "answer_cn": "可以。",
+      "card_name": "咒箱女王·娜哈特·娜哈特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "拥有“这张卡片从场上返回手牌时”能力的“禁锢”状态从者从场上返回其拥有者手牌时，该能力会触发吗？",
+      "answer_cn": "不，不会触发。",
+      "card_name": "咒箱女王·娜哈特·娜哈特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "拥有谢幕曲能力的“禁锢”状态从者被置入墓场时，该能力会触发吗？",
+      "answer_cn": "不，不会触发。",
+      "card_name": "咒箱女王·娜哈特·娜哈特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-021": [
+    {
+      "question_cn": "如果我用这个从者的入场曲能力进化它，我能否在同一回合内使用它的进化能力进化另一个从者？",
+      "answer_cn": "可以。虽然每回合只能发动一次进化能力，但其他能够进化从者的能力不受此限制。",
+      "card_name": "改革者·莱恩哈尔特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "正面朝上的点数单位或上级从者复制卡算作正面朝上的进化从者吗？",
+      "answer_cn": "不，不算。",
+      "card_name": "改革者·莱恩哈尔特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-024": [
+    {
+      "question_cn": "如果场上没有处于“禁锢”状态的敌方从者，我是否仍然可以发动这张法术，从牌堆中搜寻一张“荒原”从者并加入手牌？",
+      "answer_cn": "可以。“最多选择1张”意味着你也可以选择0张。",
+      "card_name": "暴君谕令",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-034": [
+    {
+      "question_cn": "如果我选择衍生物作为这张法术的对象，它会从游戏中移除吗？",
+      "answer_cn": "不，不会。将衍生物置入EX区域后，它会留在那里。从者衍生物和护符衍生物可以存在于EX区域、场上和解决区域。只有在移动到其他区域时才会立即被从游戏中移除。",
+      "card_name": "壮烈的撤退",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我选择像《暴走》战车·奥辂昂这样的上级从者作为这张法术的对象，我会将该从者正面朝上置于进化牌堆顶部吗？",
+      "answer_cn": "不，你会将其置入EX区域。上级从者可以存在于进化牌堆区域、场上、EX区域和解决区域。如果它们被移动到其他区域，会立即被正面朝上放回进化牌堆顶部。",
+      "card_name": "壮烈的撤退",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我的EX区域已满，我选择的从者是否仍会被放入EX区域？",
+      "answer_cn": "不会，它会留在你的场上。",
+      "card_name": "壮烈的撤退",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我使用这个法术将一个从者放入EX区域，它是否会失去受到的伤害或被赋予的能力？",
+      "answer_cn": "是的，它会失去。",
+      "card_name": "壮烈的撤退",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-035": [
+    {
+      "question_cn": "我可以通过超进化获得+1攻击力和防御力来满足“只有在本回合中此从者获得了攻击力或防御力时才可发动”的条件吗？",
+      "answer_cn": "不可以，该条件必须在发动进化能力之前满足。",
+      "card_name": "和平维系者·宾森特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果此从者受到1点伤害，使其防御力降至3，然后获得+1防御力，使其防御力升至4，这能否满足其进化能力的条件？",
+      "answer_cn": "是的，可以满足。",
+      "card_name": "和平维系者·宾森特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-036": [
+    {
+      "question_cn": "对手的主战者防御力为12或更低，且我的牌堆中没有卡牌。如果我使用此从者的进化时能力时，我的墓场中至少有12张基础费用不同的卡牌，我会因为在对对手主战者造成12点伤害之前无法从牌堆抽卡而输掉游戏吗？",
+      "answer_cn": "不会，游戏将以平局结束。虽然进化时能力中的“抽一张卡”部分在对对手主战者造成12点伤害之前解决，但游戏失败直到下一次确认时机才会解决。由于你和对手在那时都满足游戏失败的条件，游戏将以平局结束。",
+      "card_name": "和平维系者·宾森特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-037": [
+    {
+      "question_cn": "如果我使用墓场中“苍奏之四”的自动能力，此从者的自动能力会触发吗？",
+      "answer_cn": "不会，使用自动能力不视为使用法术。",
+      "card_name": "疾速英雄·麦哲",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我的场上有多个此从者的复制，并且我使用了一张原始费用为1或更低的法术，每个复制的能力都会触发吗？",
+      "answer_cn": "是的，每个复制的能力会分别触发。",
+      "card_name": "疾速英雄·麦哲",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-038": [
+    {
+      "question_cn": "如果我无法选择场上的敌方的从者，我是否仍可以发动此从者的自动能力来抽一张牌并弃一张牌？",
+      "answer_cn": "不可以。",
+      "card_name": "魔导枪击手",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-039": [
+    {
+      "question_cn": "如果我无法选择场上的敌方的从者，我是否仍可以发动此从者的自动能力来抽一张牌并弃一张牌？",
+      "answer_cn": "不可以。",
+      "card_name": "魔导枪击手",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-041": [
+    {
+      "question_cn": "如果通过“龙之武器”的效果获得“武装”特征的从者被这个法术选择，它会失去“武装”特征吗？",
+      "answer_cn": "不会，它不会失去。",
+      "card_name": "宣判之词",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果一名从者拥有“这张卡从自己的场上返回手牌时”的能力，并因这张法术而失去能力，接着在同一回合内返回其持有者的手牌，该能力是否会触发？",
+      "answer_cn": "不会，不会触发。",
+      "card_name": "宣判之词",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果一名拥有谢幕曲能力的从者因这张法术而失去能力，接着在同一回合内被置入墓场，该能力是否会触发？",
+      "answer_cn": "不会，不会触发。",
+      "card_name": "宣判之词",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "我的墓场中至少有6张基础费用不同的卡片。如果场上无法选择敌方从者，我能否使用这张法术来为主战者+2防御力？",
+      "answer_cn": "不能，不能使用。",
+      "card_name": "宣判之词",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-042": [
+    {
+      "question_cn": "我能否在一回合内多次使用这名从者的起动能力？",
+      "answer_cn": "可以，可以使用。",
+      "card_name": "魔法艺术家",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-043": [
+    {
+      "question_cn": "如果所选敌方从者的持有者的EX区域已满，我还能将其置入EX区域吗？",
+      "answer_cn": "不能，它留在场上。",
+      "card_name": "魔法艺术家",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我将敌方进化后的从者从场上置入EX区域，我需要将该从者以正面朝上的方式置于其持有者的进化牌堆顶部吗？",
+      "answer_cn": "不需要。我方将其置入后，它仍留在其持有者的EX区域。",
+      "card_name": "魔法艺术家",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我将敌方衍生物从者从场上置入EX区域，该衍生物从者会被从游戏中移除吗？",
+      "answer_cn": "不会。我方将其置入后，它仍留在其持有者的EX区域。衍生物从者和衍生物护符可以存在于EX区域、场上和解决区域。它们仅在移动到其他区域后立即被从游戏中移除。",
+      "card_name": "魔法艺术家",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我将一名从者置入EX区域，它会失去其受到的伤害或赋予的能力吗？",
+      "answer_cn": "是的，会失去。",
+      "card_name": "魔法艺术家",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "我能否在一回合内多次使用这名从者的起动能力？",
+      "answer_cn": "可以，可以使用。",
+      "card_name": "魔法艺术家",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-044": [
+    {
+      "question_cn": "如果无法在我的墓场中选择一张费用为6以下的废土从者，我还能使用这名从者的入场曲能力召唤一个“军用输送车”衍生物吗？",
+      "answer_cn": "不能，不能使用。",
+      "card_name": "巨像治安官",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果在结束阶段因手牌过多而丢弃此从者，是否会将一张“奥术人员运输车”衍生物放入EX区域？",
+      "answer_cn": "是的，会放入。",
+      "card_name": "巨像治安官",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-047": [
+    {
+      "question_cn": "如果我通过此从者的进化时能力将一张“次元超越”放入EX区域，然后在本回合使用该“次元超越”时放逐了10张法术，那么我是否只需支付4点PP就能使用它？",
+      "answer_cn": "是的。在“次元超越”的能力将其费用变为7后，此从者的能力会将其降低3点。",
+      "card_name": "水晶魔剑士",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-048": [
+    {
+      "question_cn": "如果我场上有多个此从者的复制，并且一张“骑乘”卡被放入我的场上，每个复制的能力都会触发吗？",
+      "answer_cn": "是的，都会触发。",
+      "card_name": "勒比卢的保安官",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-049": [
+    {
+      "question_cn": "如果此从者在我对手的回合中受到伤害，使其防御力变为0或更低，其自动能力是否仍会触发？",
+      "answer_cn": "是的，会触发。",
+      "card_name": "镜之女巫",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果此从者被一个攻击力为0的敌方从者攻击，其自动能力是否仍会触发？",
+      "answer_cn": "不会。攻击力为0或更低的从者在战斗时不会造成伤害。",
+      "card_name": "镜之女巫",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-050": [
+    {
+      "question_cn": "“给战场上的一个堆叠增加2”是什么意思？",
+      "answer_cn": "意思是你在自己场上一个具有堆叠的护符上放置2个堆叠计数。",
+      "card_name": "大地的活用",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-054": [
+    {
+      "question_cn": "如果场上存在敌方的“沉默绝杰·鲁鲁纳伊”，我能否以0点PP使用通过此从者的入场曲能力放入EX区域的卡牌？",
+      "answer_cn": "不能。在此从者的效果将该卡的费用降低至0后，“沉默绝杰·鲁鲁纳伊”的能力会将其费用提高至1。",
+      "card_name": "万花凤凰",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-057": [
+    {
+      "question_cn": "如果在我回合中，多张“荒原”卡同时被放入我的场上，此从者的能力会为每张卡触发吗？",
+      "answer_cn": "是的，会触发。",
+      "card_name": "燎火的扳手铁匠",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-058": [
+    {
+      "question_cn": "此从者的起动能力只能在其在手牌中时使用吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "噬龙的禁忌",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-059": [
+    {
+      "question_cn": "此从者的起动能力只能在其在手牌中时使用吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "苍炎龙人",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-066": [
+    {
+      "question_cn": "这个从者的起动能力只能在手牌时使用吗？",
+      "answer_cn": "是的，没错。",
+      "card_name": "南瓜龙",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-069": [
+    {
+      "question_cn": "如果我以咒箱女王·娜哈特·娜哈特的起动能力选择了混沌支配者·艾希连德凛克，混沌支配者·艾希连德凛克的自动能力会触发吗？",
+      "answer_cn": "是的，会触发。你将在下一个确认时机解决它。",
+      "card_name": "混沌支配者·艾希连德凛克",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-070": [
+    {
+      "question_cn": "如果在我的回合中，对手弃置了多张卡牌，这个从者的第二个自动能力会针对每张卡牌分别触发吗？",
+      "answer_cn": "是的，会分别触发。",
+      "card_name": "混沌支配者·艾希连德凛克",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "从自己的墓场选择从者时，能否选择作为这个从者能力的费用而弃置的卡牌？",
+      "answer_cn": "不能。你必须在支付费用之前选择从者。",
+      "card_name": "混沌支配者·艾希连德凛克",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我的墓场中少于2个从者，我还能发动这个从者的进化时能力吗？",
+      "answer_cn": "不能，不可以。",
+      "card_name": "混沌支配者·艾希连德凛克",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我以咒箱女王·娜哈特·娜哈特的起动能力选择了混沌支配者·艾希连德凛克，混沌支配者·艾希连德凛克的自动能力会触发吗？",
+      "answer_cn": "是的，会触发。你将在下一个确认时机解决它。",
+      "card_name": "混沌支配者·艾希连德凛克",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-071": [
+    {
+      "question_cn": "我的墓场中有10张或以上卡牌。如果我以奈芙蒂斯的入场曲能力召唤并破坏了这个从者，在解决它自身的入场曲能力时，能否选择墓场中的这个从者？",
+      "answer_cn": "可以。在解决其入场曲能力时，它已在墓场中，因此可以选择它。如果选择，你不会将其消失。此外，如果你选择在其入场曲能力之后解决其谢幕曲能力，你不会将其放入持有者的EX区域。",
+      "card_name": "缥缈虚无·依璐凯诺",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "我的墓场中有10张或以上卡牌。如果我以奈芙蒂斯的入场曲能力召唤并破坏了这个从者，然后解决了这个从者的入场曲能力，从墓场召唤了一个费用为3或以下的荒原作从者，我会消失这个从者吗？",
+      "answer_cn": "不会。在解决其入场曲能力时，它已不在场上。",
+      "card_name": "缥缈虚无·依璐凯诺",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我以奈芙蒂斯的入场曲能力召唤并破坏了这个从者，我可以在解决其入场曲能力之前先解决其谢幕曲能力吗？",
+      "answer_cn": "可以。因为其谢幕曲能力和入场曲能力会同时处于待处理状态，你可以按任意顺序解决它们。",
+      "card_name": "缥缈虚无·依璐凯诺",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我的EX区域已满，且这个从者从场上被放入墓场，我该如何解决其谢幕曲能力？",
+      "answer_cn": "它留在墓场中。",
+      "card_name": "缥缈虚无·依璐凯诺",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-073": [
+    {
+      "question_cn": "如果这名从者使用其攻击时能力重置后再次攻击敌方主战者，是否会对每个敌方主战者额外造成2点伤害？",
+      "answer_cn": "不会。这名从者的攻击时能力每回合只能发动一次。",
+      "card_name": "魔剑骑士·哈萨恩",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-074": [
+    {
+      "question_cn": "如果我场上有复数张这名从者，且我控制的一张1费衍生物卡牌离场，那么每张同名从者的能力都会触发吗？",
+      "answer_cn": "是的，都会触发。",
+      "card_name": "大十字镐之骸",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果在对手的回合中，我的一张1费衍生物卡牌离场，这名从者的自动能力会触发吗？",
+      "answer_cn": "是的，会触发。",
+      "card_name": "大十字镐之骸",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果一名「小怨灵·帕克鲁斯」离场，我能用这名从者的自动能力召唤一个怨灵衍生物吗？",
+      "answer_cn": "不能。「小怨灵·帕克鲁斯」不是衍生物卡牌。",
+      "card_name": "大十字镐之骸",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果多张1费衍生物卡牌同时离场，我能选择其中一张用这名从者的能力召唤吗？",
+      "answer_cn": "是的，你可以选择。",
+      "card_name": "大十字镐之骸",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-075": [
+    {
+      "question_cn": "对手场上有一个进化的「巨大妖狐·吟雪」和一个进化的「酒吞童子」，对手用后者攻击我的主战者。我在快速时机使用这张法术，使进化的「酒吞童子」获得-2攻击力/-2生命值。由于进化的「巨大妖狐·吟雪」的能力使妖怪从者造成的伤害+1，我的主战者会受到1点伤害吗？",
+      "answer_cn": "不会。攻击力为0或以下的从者不会造成伤害，而「巨大妖狐·吟雪」的“若你场上的妖怪从者将要造成伤害，则改为造成该数值+1”的效果仅在造成伤害时生效。",
+      "card_name": "死之索偿",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "从者可以拥有负数的攻击力吗？",
+      "answer_cn": "可以。通过效果可以将从者的攻击力减少至负数。攻击力为负数的从者不会造成攻击或战斗伤害。",
+      "card_name": "死之索偿",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "这张法术的起动能力只能在它位于墓场时才能使用吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "死之索偿",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-078": [
+    {
+      "question_cn": "只有当我能选择场上的一个敌方从者以及我墓场中一个费用为3以下的废土从者时，才能发动这名从者的入场曲能力吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "金矿死灵法师",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-079": [
+    {
+      "question_cn": "如果我墓场中少于10张卡牌，我仍然能使用这张法术吗？",
+      "answer_cn": "可以。但这样你将无法满足唤尸（10）的条件。",
+      "card_name": "虚象具现",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我墓场中少于2张费用为3或以下的荒原从者，我还能使用这张法术吗？",
+      "answer_cn": "不能。",
+      "card_name": "虚象具现",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-085": [
+    {
+      "question_cn": "我能用这张法术选择一名已交锋的敌方从者吗？",
+      "answer_cn": "可以。虽然法术的“使其交锋”效果对已交锋的从者不适用，但后续效果仍然适用。",
+      "card_name": "蛛网放射",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-086": [
+    {
+      "question_cn": "如果我查看牌堆顶4张牌，它们全是荒原卡牌，但没有费用为2或以下的从者，我能只选择1张牌放入EX区域吗？",
+      "answer_cn": "可以。如果4张牌全是费用为2或以下的从者，也一样。",
+      "card_name": "炽熔霜糖·圣里奈",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-087": [
+    {
+      "question_cn": "如果我的EX区域有荒原卡牌，但场上没有敌方从者，我能使用这张从者的入场曲能力对每个敌方主战者造成2点伤害吗？",
+      "answer_cn": "可以。“选择最多2个”意味着你可以选择0个。",
+      "card_name": "双炮神罚·安维特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-088": [
+    {
+      "question_cn": "如果我的EX区域有荒原卡牌，但场上没有敌方从者，我能使用这张从者的进化时能力对每个敌方主战者造成2点伤害吗？",
+      "answer_cn": "可以。“选择最多2个”意味着你可以选择0个。",
+      "card_name": "双炮神罚·安维特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-091": [
+    {
+      "question_cn": "如果我无法选择场上的敌方从者，我还能使用这张从者的起动能力给我的主战者+1防御力吗？",
+      "answer_cn": "不能。",
+      "card_name": "赦罪圣骑士",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-092": [
+    {
+      "question_cn": "如果我的场上有多个这张卡的复制，我使用其中一个的起动能力并选择选项1，我能使用另一个复制并再次选择选项1吗？",
+      "answer_cn": "可以。",
+      "card_name": "洁净的领域",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我的主战者在对手回合中获得防御力，我会重置这张卡吗？",
+      "answer_cn": "会。",
+      "card_name": "洁净的领域",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-093": [
+    {
+      "question_cn": "这张从者的起动能力只能在其在手牌时使用吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "赛特",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-095": [
+    {
+      "question_cn": "如果在对手回合中，一张坐骑卡牌离开我的场上，这张从者的自动能力会触发吗？",
+      "answer_cn": "会。",
+      "card_name": "渎职的神父",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-103": [
+    {
+      "question_cn": "我可以使用女仆事务长的「进化时」能力将这张从者加入手牌吗？",
+      "answer_cn": "不可以。虽然这张从者拥有使自己进化的能力，但它本身并不持有「进化时」能力。",
+      "card_name": "均衡之刃·希尔薇娅",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我使用这张从者的「入场曲」能力将其进化，同一回合中能否再使用其进化能力进化其他从者？",
+      "answer_cn": "可以。虽然每回合只能发动一次进化能力，但其他使从者进化的能力不在此限制范围内。",
+      "card_name": "均衡之刃·希尔薇娅",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-104": [
+    {
+      "question_cn": "当这张从者进化时，它自身是否计入进化牌组中表侧表示的已进化从者？",
+      "answer_cn": "不计入。",
+      "card_name": "均衡之刃·希尔薇娅",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "驱动点数或进阶从者的表侧表示复制卡是否计入进化牌组中表侧表示的已进化从者？",
+      "answer_cn": "不计入。",
+      "card_name": "均衡之刃·希尔薇娅",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-106": [
+    {
+      "question_cn": "对于每个衍生物，我可以分别选择将其放入EX区域还是场上吗？",
+      "answer_cn": "可以。",
+      "card_name": "自由的冒险者",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-107": [
+    {
+      "question_cn": "这张从者的起动能力只能在墓场中使用吗？",
+      "answer_cn": "不，只能在它位于场上时使用。",
+      "card_name": "哥布林女王",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-112": [
+    {
+      "question_cn": "我手牌只有1张。可以发动这张护符的起动能力，展示该牌并在其为从者时召唤它吗？",
+      "answer_cn": "可以。",
+      "card_name": "巨人的较劲",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    },
+    {
+      "question_cn": "如果我展示的两张牌都是从者，我可以只召唤其中1张吗？",
+      "answer_cn": "不可以。只要场上有空位，就必须召唤全部展示的从者。只有当场上仅能容纳1张时才可以选择。",
+      "card_name": "巨人的较劲",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-114": [
+    {
+      "question_cn": "如果我将这张从者超进化，它的「每当此从者获得攻击力或生命值时」能力会触发吗？",
+      "answer_cn": "会触发。",
+      "card_name": "勒比卢的恶徒",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ],
+  "BP11-115": [
+    {
+      "question_cn": "如果我的场上已满，我是否必须将「子弹机车」衍生物放入EX区域？反之亦然？",
+      "answer_cn": "不，你可以两者都不选。",
+      "card_name": "荒原蜥蜴",
+      "source": "en_official_translated",
+      "exp": "BP11"
+    }
+  ]
+}

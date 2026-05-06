@@ -1,0 +1,728 @@
+{
+  "BP12-001": [
+    {
+      "question_cn": "如果我的墓场里有10张Natura卡片，这个从者的费用减少10吗？",
+      "answer_cn": "是的。如果你的墓场里有5到9张Natura卡片，费用减少5。如果有10到14张，费用减少10，以此类推。",
+      "card_name": "觉醒的大地",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-003": [
+    {
+      "question_cn": "在我的回合开始时，我从手牌使用森林彩饰者·精灵女王，并从EX区域使用一张妖精。如果我随后进化森林彩饰者·精灵女王，是否满足其进化时能力中的Combo（3）条件？",
+      "answer_cn": "不满足。进化从者不算作使用卡片，因此不计入Combo计数。",
+      "card_name": "森林彩饰者·精灵女王",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-005": [
+    {
+      "question_cn": "如果对手场上有沉默绝杰·鲁鲁纳伊，而我进化2张永恒的辉石·宝石兽，我能否以0费用使用EX区域中的宝石兽的闪耀复制？",
+      "answer_cn": "可以。",
+      "card_name": "永恒的辉石·宝石兽",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我进化2张永恒的辉石·宝石兽，EX区域中的宝石兽的闪耀复制是否会获得两次“这张卡片使用费用减少2”？",
+      "answer_cn": "是的，正确。在这种情况下，它们的使用费用减少4。",
+      "card_name": "永恒的辉石·宝石兽",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-006": [
+    {
+      "question_cn": "在我的回合中，如果对手使用一张死之索偿指定这个从者，它是否会失去2点攻击力和防御力？",
+      "answer_cn": "是的。失去防御力与受到伤害不同。",
+      "card_name": "丰饶斗士·爱莉涅",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我重置这个从者后第二次攻击，能否再通过其突进能力抽一张卡？",
+      "answer_cn": "不能。其突进能力每回合只能进行一次。",
+      "card_name": "丰饶斗士·爱莉涅",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-007": [
+    {
+      "question_cn": "如果无法选择场上的敌方从者，我是否还能选择选项1将我方场上的一张Natura卡返回EX区域？",
+      "answer_cn": "不能。",
+      "card_name": "交织的决心",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我选择选项1将一个衍生物返回EX区域，它是否从游戏中移除？",
+      "answer_cn": "不会。将它放入EX区域后，它仍保留在拥有者的EX区域中。从者与护符合物可以存在于EX区域、场上和解决区域。它们仅在移动到其他区域时立即从游戏中移除。",
+      "card_name": "交织的决心",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我选择选项1将一个从者返回EX区域，它是否会失去受到的伤害或获得的能力？",
+      "answer_cn": "是的，会失去。",
+      "card_name": "交织的决心",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-008": [
+    {
+      "question_cn": "如果我场上拥有这个从者，并用另一个猎人从者进行攻击，是否在对手可以使用具有快速能力的卡片和能力之前解决这个从者的能力？",
+      "answer_cn": "是的。攻击时，所有触发的能力必须在非主动玩家可以使用具有快速能力的卡片和能力之前解决。",
+      "card_name": "森之战士",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-009": [
+    {
+      "question_cn": "如果我场上有该从者，并且我使用另一名猎人从者进行攻击，我是否能在对手使用具有迅疾能力的卡牌和能力的时机之前，先解决该从者的能力？",
+      "answer_cn": "是的。进行攻击时，所有被触发的能力都必须在非当前回合玩家能够使用具有迅疾能力的卡牌和能力之前解决。",
+      "card_name": "森之战士",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-010": [
+    {
+      "question_cn": "如果我在本回合中作为第三张或第五张卡牌使用大自然的导引，并用它将此从者返回手牌，该从者的能力是否会触发？",
+      "answer_cn": "是的。当你使用大自然的导引时，该从者已在场上，因此其能力会触发。",
+      "card_name": "扬风妖精",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我在本回合中作为第三张卡牌使用此从者，它是否会触发自身的能力？",
+      "answer_cn": "不，不会。当你使用它时，它并不在场上，因此其能力不会触发。",
+      "card_name": "扬风妖精",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "我在回合开始时使用了此从者和船孃精灵。随后我进化了船孃精灵，此从者的能力是否会触发？",
+      "answer_cn": "不，不会。进化从者不计入使用卡牌。",
+      "card_name": "扬风妖精",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我在本回合中作为第四张卡牌使用此从者，然后使用一张妖精，我是否能通过此从者的能力抽一张卡？",
+      "answer_cn": "是的，你可以。",
+      "card_name": "扬风妖精",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我在本回合中作为第三张或之后卡牌使用此从者，然后又使用了两张卡牌，我能否通过此从者的能力使自己的主战者生命值+1？",
+      "answer_cn": "不，不能。在此从者之前使用的卡牌也计算在内。由于你本回合在第三张卡牌时此从者不在场上，你本回合无法再通过此从者的能力使自己的主战者生命值+1。",
+      "card_name": "扬风妖精",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-016": [
+    {
+      "question_cn": "如果在我使用此从者时EX区域已满，我是否仍能选择场上的一个敌方从者，并对其造成等同于我EX区域中妖精衍生物数量的伤害？",
+      "answer_cn": "是的，你可以。",
+      "card_name": "妖精参谋",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-018": [
+    {
+      "question_cn": "如果我的场上已满，我是否必须将一张那塔拉的大树衍生物放入EX区域？",
+      "answer_cn": "不，不必。",
+      "card_name": "战犀骑士·帕特里克",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-023": [
+    {
+      "question_cn": "如果我场上有该从者，并且我使用一名盗贼从者进行攻击，我是否能在对手使用具有迅疾能力的卡牌和能力的时机之前，先解决该从者的能力？",
+      "answer_cn": "是的。进行攻击时，所有被触发的能力都必须在非当前回合玩家能够使用具有迅疾能力的卡牌和能力之前解决。",
+      "card_name": "海贼女王·亚尔丽妲",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-024": [
+    {
+      "question_cn": "如果无法选择场上的敌方从者，我是否仍能使用该法术使我场上的自然从者获得+1攻击力和防御力？",
+      "answer_cn": "不，不能。",
+      "card_name": "信念之剑闪",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我可以在场上选择1个敌方从者，但我的场上没有那塔拉从者，我仍然可以施放这张法术吗？",
+      "answer_cn": "可以。“最多1个”包括0。",
+      "card_name": "信念之剑闪",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-025": [
+    {
+      "question_cn": "我的场上拥有这个从者和一张“苍空剑士·莉夏”。由于这个从者通过其被动能力拥有突袭，我宣告用它攻击一个储备中的敌方从者。如果我的对手在快速时机破坏了我场上的“苍空剑士·莉夏”，导致这个从者失去突袭，攻击是否仍然进行？",
+      "answer_cn": "是的，攻击仍以原始目标进行。",
+      "card_name": "黄昏之刃·奈诺",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-026": [
+    {
+      "question_cn": "我的场上拥有这个从者和一张“苍空剑士·莉夏”。由于这个从者通过其被动能力拥有突袭，我宣告用它攻击一个储备中的敌方从者。如果我的对手在快速时机破坏了我场上的“苍空剑士·莉夏”，导致这个从者失去突袭，攻击是否仍然进行？",
+      "answer_cn": "是的，攻击仍以原始目标进行。",
+      "card_name": "黄昏之刃·奈诺",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-027": [
+    {
+      "question_cn": "如果我的场上已满，我是否必须转而将一张那塔拉的大树衍生物放入我的EX区域？",
+      "answer_cn": "不，不需要。",
+      "card_name": "黑豹侦察者",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-028": [
+    {
+      "question_cn": "如果我的场上没有指挥官从者和士兵从者，我仍然可以施放这张法术吗？",
+      "answer_cn": "可以，但不会发生任何效果。",
+      "card_name": "优雅的款待",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我的场上只有1个从者，但它同时拥有指挥官和士兵属性，它是否满足这张法术的条件？",
+      "answer_cn": "是的，满足。",
+      "card_name": "优雅的款待",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-035": [
+    {
+      "question_cn": "这个从者的起动能力只能在手牌中发动吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "天地侵略者·贝尔弗特",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我的EX区域已满，我仍然可以发动这个从者的起动能力吗？",
+      "answer_cn": "可以。作为费用的一部分，首先将2个机械衍生从者从你的EX区域消失，从而腾出空间将这个从者放入你的EX区域。",
+      "card_name": "天地侵略者·贝尔弗特",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-037": [
+    {
+      "question_cn": "如果我查看牌堆顶的3张牌，其中没有法师法术，我仍然可以展示一张法师从者并将其加入手牌吗？",
+      "answer_cn": "是的，可以。如果存在法师法术但没有法师从者，同样适用。",
+      "card_name": "无尽巫师·桃乐丝",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我通过这个从者的起动能力将“次元超越”放入我的EX区域，然后本回合从我的墓场消失10张法术来施放它，费用会是多少？",
+      "answer_cn": "费用为4，因为将费用变为特定值的效果优先于那些增加或减少费用的效果。",
+      "card_name": "无尽巫师·桃乐丝",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-038": [
+    {
+      "question_cn": "如果我墓场中有至少8张不同原始费用的卡牌，我能否通过埃亚隆支配者·贝尔弗特的入场曲能力从牌堆顶5张卡牌中召唤此卡？",
+      "answer_cn": "不能。修改费用的能力只在打出卡牌时生效，不影响卡牌的原始费用。",
+      "card_name": "钢铁魔兽·莱柯罗埃",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-039": [
+    {
+      "question_cn": "如果我无法选择场上的敌方从者，我是否还能使用此从者的进化时能力来召唤一个组装机器人衍生物？",
+      "answer_cn": "不能。",
+      "card_name": "钢铁魔兽·莱柯罗埃",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-040": [
+    {
+      "question_cn": "我可以选择此从者两个入场曲能力的解决顺序吗？",
+      "answer_cn": "可以。",
+      "card_name": "巫魔公主·梅薇",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-041": [
+    {
+      "question_cn": "我能否选择不召唤一个费用为3或以下的机械从者，或者不将一张1费用的巫师法术置入EX区域？",
+      "answer_cn": "可以。即使两者都在你的牌堆中，你也可以选择“不找到”其中任意一个或两个。",
+      "card_name": "齐心的魔法",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我墓场中少于5张机械卡牌，我还能使用此法术吗？",
+      "answer_cn": "可以，但不会发生任何效果。",
+      "card_name": "齐心的魔法",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-043": [
+    {
+      "question_cn": "如果我无法选择场上的敌方从者，但我墓场中至少有5张巫师从者，我是否还能使用此从者的进化时能力来抽一张卡？",
+      "answer_cn": "不能。",
+      "card_name": "混沌巫术师",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-045": [
+    {
+      "question_cn": "如果我使用墓场中一张法术（如“将死”）的起动能力，此护符的能力会触发吗？",
+      "answer_cn": "不会。使用起动能力不同于使用法术。",
+      "card_name": "魔导具专卖店",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我在对手的回合中使用一张巫师法术，此护符的能力会触发吗？",
+      "answer_cn": "会触发。",
+      "card_name": "魔导具专卖店",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-048": [
+    {
+      "question_cn": "如果我在对手的回合中使用一张机械卡牌，此从者的能力仍然会触发吗？",
+      "answer_cn": "会。此从者的自动能力每回合最多触发一次，无论谁的回合。",
+      "card_name": "机具占卜师",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-050": [
+    {
+      "question_cn": "我场上有艾格妮丝·塔奇翁。如果我使用此法术的“在你的结束阶段开始时”能力，艾格妮丝·塔奇翁的“每当你使用法术时”能力会触发吗？",
+      "answer_cn": "不会。使用自动能力不同于使用法术。",
+      "card_name": "连锁雷击",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我的EX区域中有2张这张法术牌的复制，它们的能力会在我的结束阶段开始时都触发吗？",
+      "answer_cn": "是的，都会触发。",
+      "card_name": "连锁雷击",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-051": [
+    {
+      "question_cn": "如果场上没有可以选择的敌方从者，但我的场上有至少2个魔法师从者，我仍然可以使用这张法术来让我方主战者+2防御力吗？",
+      "answer_cn": "不能。",
+      "card_name": "吸纳之术",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-052": [
+    {
+      "question_cn": "我在结束阶段因手牌过多而丢弃了一张「光明之路」，其能力让我抽了一张牌。然后我需要再次因手牌上限丢弃。这个从者的自动能力触发几次？",
+      "answer_cn": "触发2次。当你丢弃「光明之路」时，其能力和这个从者的自动能力同时触发并待机，在下一个确认时机解决。然后由于手牌再次超过上限，你需要再次丢弃，这会额外触发一次这个从者的自动能力。",
+      "card_name": "狂涛蛇颈龙",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我在结束阶段因手牌过多同时丢弃2张或更多卡牌，这个从者的自动能力触发几次？",
+      "answer_cn": "触发1次。结束阶段因手牌上限丢弃的卡牌是同时丢弃的。",
+      "card_name": "狂涛蛇颈龙",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我在自己的回合中同时丢弃2张或更多卡牌，这个从者的自动能力触发几次？",
+      "answer_cn": "触发1次。",
+      "card_name": "狂涛蛇颈龙",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-053": [
+    {
+      "question_cn": "我在结束阶段因手牌过多而丢弃了一张「光明之路」，其能力让我抽了一张牌。然后我需要再次因手牌上限丢弃。这个从者的自动能力触发几次？",
+      "answer_cn": "触发2次。当你丢弃「光明之路」时，其能力和这个从者的自动能力同时触发并待机，在下一个确认时机解决。然后由于手牌再次超过上限，你需要再次丢弃，这会额外触发一次这个从者的自动能力。",
+      "card_name": "狂涛蛇颈龙",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我在结束阶段因手牌过多同时丢弃2张或更多卡牌，这个从者的自动能力触发几次？",
+      "answer_cn": "触发1次。结束阶段因手牌上限丢弃的卡牌是同时丢弃的。",
+      "card_name": "狂涛蛇颈龙",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我在自己的回合中同时丢弃2张或更多卡牌，这个从者的自动能力触发几次？",
+      "answer_cn": "触发1次。",
+      "card_name": "狂涛蛇颈龙",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-054": [
+    {
+      "question_cn": "这个从者的起动能力只能在其位于我方EX区域时才能使用吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "造极霸龙·吉尔沃",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我在结束阶段因手牌过多而丢弃了这个从者，我仍然能将它放入我的EX区域吗？",
+      "answer_cn": "是的，可以。",
+      "card_name": "造极霸龙·吉尔沃",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-058": [
+    {
+      "question_cn": "如果场上没有可以选择的敌方从者，我仍然可以施放这张法术来召唤那塔拉的大树衍生物吗？",
+      "answer_cn": "不，不能。",
+      "card_name": "龙之嗔怒",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-062": [
+    {
+      "question_cn": "能给我一个例子说明如何解决这张法术的选项2吗？",
+      "answer_cn": "例如，如果你选择X的值为1，你需要支付2次1点费用，合计2点PP，然后从牌堆中搜寻1张「星之不死鸟」并召唤。",
+      "card_name": "不死鸟之啸",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-063": [
+    {
+      "question_cn": "如果在结束阶段因为手牌过多丢弃这张从者，我仍然可以将其放入EX区域吗？",
+      "answer_cn": "可以。",
+      "card_name": "治愈的龙骑士",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-065": [
+    {
+      "question_cn": "我可以自行决定这张从者的两个「入场曲」能力的解决顺序吗？",
+      "answer_cn": "可以。",
+      "card_name": "岩槌甲龙",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-066": [
+    {
+      "question_cn": "如果我的场上包括这张从者共有3个从者，使用其「入场曲」能力将「解放的情绪」放入EX区域，那么本回合中「解放的情绪」的费用是否为0？",
+      "answer_cn": "是的，费用为0。",
+      "card_name": "唤厄之龙",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-068": [
+    {
+      "question_cn": "如果场上没有可以选择的敌方从者，我仍然可以施放这张法术来从牌堆中搜寻1张龙族从者并加入手牌吗？",
+      "answer_cn": "不，不能。",
+      "card_name": "威压猛击",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-071": [
+    {
+      "question_cn": "如果我的墓场中恰好有10张卡牌，包括这张从者，我可以使用它的起动能力吗？",
+      "answer_cn": "可以。当你使用该能力时，满足10张卡牌的条件。",
+      "card_name": "预视死期者·格莫瑞",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "我只能在墓场中才能使用这张从者的起动能力吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "预视死期者·格莫瑞",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-072": [
+    {
+      "question_cn": "如果这张从者在对手的回合中通过能力被放置到场上，我会因它的「入场曲」能力进化它吗？",
+      "answer_cn": "是的，会进化。",
+      "card_name": "机动刃凿掘者",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我通过「丹紫抵御者·安镍儿」的「入场曲」能力从牌堆中召唤这张从者，我能否使用它自身的「入场曲」能力使其进化？",
+      "answer_cn": "可以。由于它是通过能力被放置到场上，因此会进化。",
+      "card_name": "机动刃凿掘者",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我在拥有入场曲能力的情况下进化这个从者，我可以在同一回合内使用它的进化能力进化另一个从者吗？",
+      "answer_cn": "可以。虽然每个回合只能激活一次进化能力，但其他使从者进化的能力不在此限制之内。",
+      "card_name": "机动刃凿掘者",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-074": [
+    {
+      "question_cn": "我能否将因不弑绝杰·艾兹迪亚的能力变成护符的蛇作为这个从者起动能力的费用的一部分而将其埋葬？",
+      "answer_cn": "可以。",
+      "card_name": "魔眼蛇神·梅杜莎",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我作为这个从者起动能力的费用的一部分，从EX区域埋葬一张美杜希安娜，美杜希安娜的谢幕曲能力会触发吗？",
+      "answer_cn": "不会。谢幕曲能力仅在卡牌从场上被送入墓场时触发。",
+      "card_name": "魔眼蛇神·梅杜莎",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-079": [
+    {
+      "question_cn": "如果我和对手的主战者防御力均为1，并且我选择了选项1，游戏会以平局结束吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "血色圆舞曲",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-082": [
+    {
+      "question_cn": "我只能在墓场中使用这个从者的起动能力吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "圆滚滚1号",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我的场上有这个从者和丹紫抵御者·安镍儿，而对手使用了灼热风暴，这个从者会受到多少伤害？",
+      "answer_cn": "它受到1点伤害，因为受到伤害时丹紫抵御者·安镍儿仍然在场。",
+      "card_name": "圆滚滚1号",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "这个从者的能力是否意味着它每回合只能受到1点伤害？",
+      "answer_cn": "不是，它的意思是任何对这个从者造成的伤害如果超过1点，都会被减少至1点。",
+      "card_name": "圆滚滚1号",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-085": [
+    {
+      "question_cn": "如果我无法选择场上的敌方从者，我还能使用这个法术来召唤一个蛇衍生物吗？",
+      "answer_cn": "不能。",
+      "card_name": "猛毒之牙",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我在对手的结束阶段使用这个法术，我在下个主要阶段可以攻击我召唤的蛇吗？",
+      "answer_cn": "可以。",
+      "card_name": "猛毒之牙",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-086": [
+    {
+      "question_cn": "如果这个从者在对手的回合中被能力放置到场上，我会用它的入场曲能力进化它吗？",
+      "answer_cn": "是的，会。",
+      "card_name": "极炎龙骑士·洛乐",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我进化这个拥有入场曲能力的从者，我可以在同一回合使用它的进化能力进化另一个从者吗？",
+      "answer_cn": "可以。虽然每回合只能激活一次进化能力，但其他进化从者的能力不计入此限制。",
+      "card_name": "极炎龙骑士·洛乐",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-087": [
+    {
+      "question_cn": "如果无法选择场上的敌方从者，我仍然可以选择这个从者进化时能力的选项1，然后不发生任何事吗？",
+      "answer_cn": "不能。如果你无法选择敌方从者，则必须选择选项2。",
+      "card_name": "极炎龙骑士·洛乐",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-088": [
+    {
+      "question_cn": "如果无法选择场上的敌方从者，我仍然可以发动这个从者的入场曲能力来回复4点PP吗？",
+      "answer_cn": "不能。",
+      "card_name": "炎冰司祭·卡拉特",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-090": [
+    {
+      "question_cn": "如果无法选择场上的敌方从者，我仍然可以选择这个从者进化时能力的选项1，然后不发生任何事吗？",
+      "answer_cn": "不能。如果你无法选择敌方从者，则必须选择选项2。",
+      "card_name": "百机之王·格莱亚斯",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-095": [
+    {
+      "question_cn": "我只能在EX区域中发动这个从者的起动能力吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "狐耳神父",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-096": [
+    {
+      "question_cn": "如果我以墓场中的一张“残缺的圣女·莉莫涅姆”为对象使用这个法术，但我的场上已满，我仍然会将一个“修复模式”衍生物放入EX区域吗？",
+      "answer_cn": "是的，会放入。",
+      "card_name": "莉莫涅姆的救赎",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-099": [
+    {
+      "question_cn": "如果我在对手的回合使用一张“修复模式”，这个从者的自动能力会触发吗？",
+      "answer_cn": "是的，会触发。",
+      "card_name": "机械腕祈祷师",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-103": [
+    {
+      "question_cn": "如果我丢弃这个从者，我可以选择不使用它的能力吗？",
+      "answer_cn": "可以。在这种情况下，什么都不会发生。",
+      "card_name": "钢铁与大地之神",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我在自己的结束阶段因手牌过多而丢弃这个从者，我仍然可以起动我场上的“那塔拉的大树”，从墓场将一张除“钢铁与大地之神”以外的那塔拉卡牌返回手牌吗？",
+      "answer_cn": "可以，但你需要再次弃牌至7张。",
+      "card_name": "钢铁与大地之神",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-105": [
+    {
+      "question_cn": "如果我场上有2个那塔拉从者，EX区域有3个机械从者，我是否满足这个从者进化时能力的条件？",
+      "answer_cn": "是的，满足。",
+      "card_name": "双翼天使",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-106": [
+    {
+      "question_cn": "进化后的从者费用是否与进化前相同？",
+      "answer_cn": "是的，相同。",
+      "card_name": "炽天使之剑",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-109": [
+    {
+      "question_cn": "如果我发动此从者的进化时能力，随后破坏对手的终结兵器，我的主战者是否受到4点伤害？",
+      "answer_cn": "不，不会。",
+      "card_name": "爱之歌演唱者",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "在我发动此从者的进化时能力后，放置到对手场上的从者是否仍会在该回合造成伤害？",
+      "answer_cn": "是的，可以。",
+      "card_name": "爱之歌演唱者",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-114": [
+    {
+      "question_cn": "进化后的从者费用是否与进化前相同？",
+      "answer_cn": "是的，相同。",
+      "card_name": "恣意的画家",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ],
+  "BP12-115": [
+    {
+      "question_cn": "我需要声明卡牌的确切名称吗？",
+      "answer_cn": "不需要。只要你与对手双方能明确理解你指的是哪张卡牌，就无需复述卡牌的确切名称。此外，若在官方比赛或活动中忘记卡牌名称，你可以向裁判求助回忆，前提是遵守该比赛或活动的规则。",
+      "card_name": "侦探的推理",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "我可以声明衍生物卡牌的名称吗，例如妖精？",
+      "answer_cn": "是的，可以。",
+      "card_name": "侦探的推理",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "我可以声明合作卡牌的别称，例如“黑色骑士团总司令·鲁路修”吗？",
+      "answer_cn": "不可以。别称并非卡牌名称。但若你声明“魔将·赫克托”，然后展示鲁路修，你将抽取2张卡牌，因为鲁路修拥有卡牌名称“魔将·赫克托”。",
+      "card_name": "侦探的推理",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    },
+    {
+      "question_cn": "如果我展示的卡牌并非我声明的卡牌，我抽到的1张卡牌是否就是展示的这张卡牌？",
+      "answer_cn": "是的，正确。若声明正确，你抽取的2张卡牌将是展示的卡牌及额外1张。",
+      "card_name": "侦探的推理",
+      "source": "en_official_translated",
+      "exp": "BP12"
+    }
+  ]
+}

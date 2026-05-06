@@ -1,0 +1,956 @@
+{
+  "BP10-001": [
+    {
+      "question_cn": "什么是能力伤害？",
+      "answer_cn": "能力伤害是指来自非战斗来源的伤害，包括来自法术和从者能力的伤害。攻击时能力造成的伤害虽然由战斗触发，但也被视为能力伤害。",
+      "card_name": "《倒吊人》·罗弗拉德",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "这个从者能否被诸如狂狼战士·阿拉加维的入场曲等能力埋葬？",
+      "answer_cn": "可以。埋葬一张卡与破坏它是不同的。",
+      "card_name": "《倒吊人》·罗弗拉德",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-002": [
+    {
+      "question_cn": "我在自己的回合开始时从手牌使用这个从者，并从EX区域使用了一张妖精。然后我进化了这个从者，是否满足其进化时能力中的连击(3)条件？",
+      "answer_cn": "不满足。进化从者不计为使用卡牌，因此不计入你的连击计数。",
+      "card_name": "《倒吊人》·罗弗拉德",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "什么是能力伤害？",
+      "answer_cn": "能力伤害是指来自非战斗来源的伤害，包括来自法术和从者能力的伤害。攻击时能力造成的伤害虽然由战斗触发，但也被视为能力伤害。",
+      "card_name": "《倒吊人》·罗弗拉德",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "这个从者能否被诸如狂狼战士·阿拉加维的入场曲等能力埋葬？",
+      "answer_cn": "可以。埋葬一张卡与破坏它是不同的。",
+      "card_name": "《倒吊人》·罗弗拉德",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-003": [
+    {
+      "question_cn": "使用这个从者的起动能力时，需要从我的EX区域放逐哪5张卡？",
+      "answer_cn": "任意5张原始费用不同的卡即可满足条件。例如：妖精萤火（费用0）、古老的创造物（费用1）、荆棘之森（费用2）、神秘的创造物（费用3）和美女与野兽（费用6）。",
+      "card_name": "遗物守门人·璐契儿",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "我在使用这个从者前场上有4张卡。我能将古老的创造物和神秘的创造物都放入EX区域吗？",
+      "answer_cn": "不能。你必须选择其中一张放入EX区域。",
+      "card_name": "遗物守门人·璐契儿",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果我通过这个从者的入场曲召唤了古老的创造物，我还能将古老的创造物放入EX区域吗？",
+      "answer_cn": "不能。如果你召唤了古老的创造物，就必须将神秘的创造物放入EX区域，反之亦然。",
+      "card_name": "遗物守门人·璐契儿",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-004": [
+    {
+      "question_cn": "白霜之风能否选择敌方场上的一个进阶从者？",
+      "answer_cn": "可以。进阶从者不被视为进化从者。",
+      "card_name": "神秘的遗物·丝碧涅与璐契儿",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "使用巅峰斗技场时，我能否选择自己进化牌组中一张翻开状态的进阶从者？",
+      "answer_cn": "不能。进阶从者不被视为进化从者。",
+      "card_name": "神秘的遗物·丝碧涅与璐契儿",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "我场上有这个从者，对方使用了「断罪者·希尔薇娅」，并以其入场曲能力选择了这个从者。我能否仍使这个从者攻击，对「断罪者·希尔薇娅」造成6点伤害？",
+      "answer_cn": "不能。当「断罪者·希尔薇娅」被放入场上时，其入场曲和这个从者的自动能力会同时触发，双方能力均处于待处理状态。当双方玩家都拥有待处理能力时，当前回合玩家会先处理他们的能力。在此情况下，对方是当前回合玩家，因此他们先处理「断罪者·希尔薇娅」的入场曲，破坏了这个从者。接着你会处理这个从者的自动能力，但由于它现在已在墓场中，你无法支付攻击费用，因此无法对「断罪者·希尔薇娅」造成6点伤害。",
+      "card_name": "神秘的遗物·丝碧涅与璐契儿",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果2个或以上敌方从者被同时放入场上，我能否仍使这个从者攻击，对其中一个造成6点伤害？",
+      "answer_cn": "可以。只要你支付费用，就可以对其中一个从者造成6点伤害。",
+      "card_name": "神秘的遗物·丝碧涅与璐契儿",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "这个从者的“每当敌方从者被放入场上时”能力是否会在非我方回合触发？",
+      "answer_cn": "会触发。",
+      "card_name": "神秘的遗物·丝碧涅与璐契儿",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果一名具有“灵气”的敌方从者被放入场上，我能否使这个从者攻击并对其造成6点伤害？",
+      "answer_cn": "可以。“灵气”会防止该从者被敌方能力选择，但这个从者的“每当敌方从者被放入场上时”能力不进行选择。",
+      "card_name": "神秘的遗物·丝碧涅与璐契儿",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-005": [
+    {
+      "question_cn": "如果我方回合内，一名“佣兵”从者被放入我方场上，这个从者的“每当佣兵从者被放入你场上时”能力是否仍会触发？",
+      "answer_cn": "会触发，无论回合归属如何。",
+      "card_name": "船孃精灵",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-006": [
+    {
+      "question_cn": "如果对方回合内，一名“佣兵”从者被放入我方场上，这个从者的“每当佣兵从者被放入你场上时”能力是否仍会触发？",
+      "answer_cn": "会触发，无论回合归属如何。",
+      "card_name": "船孃精灵",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-010": [
+    {
+      "question_cn": "进化后的从者费用是否与其未进化形态相同？",
+      "answer_cn": "是的，相同。",
+      "card_name": "串红艳豹",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-017": [
+    {
+      "question_cn": "这个从者的起动能力只能在手牌中使用吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "森林之狼",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "我的EX区域有4张卡。如果我使用这个从者的起动能力并选择我场上的一个“妖精”，我会将哪张卡放入EX区域？",
+      "answer_cn": "你会作为能力费用的一部分将此从者放入你的EX区域。然后，由于你的EX区域已满，“妖精”将被迫留在场上。",
+      "card_name": "森林之狼",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果我的EX区域已满，我能否使用这个从者的起动能力？",
+      "answer_cn": "不能。你将无法支付费用中“将这张卡从手牌放入你的EX区域”这一部分。",
+      "card_name": "森林之狼",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-019": [
+    {
+      "question_cn": "如果我的场地已满，我还能选择选项1吗？",
+      "answer_cn": "可以。但是，「骑士」衍生物将无法被召唤。",
+      "card_name": "《战车》·奥辂昂",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-020": [
+    {
+      "question_cn": "在我的结束阶段开始时，我为这个从者的自动能力掷第一个骰子，掷出3或4，对每个敌方主战者造成7点伤害。如果这使对手主战者的生命值降至0以下，我是否不需要解决第二个骰子就能获胜？",
+      "answer_cn": "不能。你必须在确认时机到来前解决完整的能力。第二个骰子可能会对你的主战者造成7点伤害，因此如果你和对手的主战者生命值都降至0或以下，则会平局。",
+      "card_name": "《暴走》战车·奥辂昂",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "这个从者能否攻击已交战状态的敌方从者？",
+      "answer_cn": "不能。「敌方」指敌方主战者和敌方从者。",
+      "card_name": "《暴走》战车·奥辂昂",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "「白霜之风」能否选择场上的敌方进阶从者？",
+      "answer_cn": "可以。进阶从者不被视为进化从者。",
+      "card_name": "《暴走》战车·奥辂昂",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "使用「巅峰斗技场」时，我能选择进化牌堆中正面朝上的进阶从者吗？",
+      "answer_cn": "不能。进阶从者不被视为进化从者。",
+      "card_name": "《暴走》战车·奥辂昂",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-022": [
+    {
+      "question_cn": "如果我没有找到或选择不召唤「武器商人·艾尔涅丝塔」，我是否仍会将「灭绝兵器」衍生物放入EX区域？",
+      "answer_cn": "是的，仍会。",
+      "card_name": "战争商人·阿尔亚斯卡",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-023": [
+    {
+      "question_cn": "由于这个从者的被动能力，我场上的「钢甲骑士」拥有突进。如果我使用「钢甲骑士」攻击已交战状态的敌方从者，而对手使用「处决」等快速能力破坏了这个从者，我的攻击是否仍然进行？",
+      "answer_cn": "是的，仍然进行。",
+      "card_name": "静寂的元帅",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-024": [
+    {
+      "question_cn": "如果因为场地已满，我无法通过这个从者的「进化时」能力召唤「钢甲骑士」衍生物，我是否仍会给予我场上每个「钢甲骑士」+1/+1？",
+      "answer_cn": "是的，仍会。",
+      "card_name": "静寂的元帅",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "由于这个从者的被动能力，我场上的「钢甲骑士」拥有突进。如果我使用「钢甲骑士」攻击已交战状态的敌方从者，而对手使用「处决」等快速能力破坏了这个从者，我的攻击是否仍然进行？",
+      "answer_cn": "是的，仍然进行。",
+      "card_name": "静寂的元帅",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-026": [
+    {
+      "question_cn": "这个法术的起动能力只能在它位于我的墓场时使用吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "空翔斩击",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-029": [
+    {
+      "question_cn": "我可以自行决定这张从者的两个入场曲能力的解决顺序吗？",
+      "answer_cn": "可以。",
+      "card_name": "安宁的女王",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-030": [
+    {
+      "question_cn": "使用这张从者的入场曲能力时，如果无法选择场上的敌方从者，是否仍然可以选择选项1而不产生任何效果？",
+      "answer_cn": "不可以。如果无法选择敌方从者，则必须选择选项2。",
+      "card_name": "盛怒骑士·涅兰",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "我方对手场上有这张从者和一个骑士。对手用骑士发起攻击，我方使用“处决”等快速能力破坏了这张从者，导致骑士失去灵气。之后，我方能否使用“天使的圣箭”等卡片破坏那个骑士？",
+      "answer_cn": "可以。在使用快速卡片后会进行确认时机，允许之后再次使用其他快速卡片。",
+      "card_name": "盛怒骑士·涅兰",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-031": [
+    {
+      "question_cn": "如果我使用入场曲能力进化了这张从者，是否可以在同一回合内使用另一张从者的进化能力进行进化？",
+      "answer_cn": "可以。虽然每回合只能激活一次进化能力，但其他能力带来的进化不在此限制内。",
+      "card_name": "诚实的盗贼",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-034": [
+    {
+      "question_cn": "如果无法选择场上的敌方从者，我是否仍然可以弃掉手牌并抽3张卡？",
+      "answer_cn": "不可以。",
+      "card_name": "无私的贵族",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-036": [
+    {
+      "question_cn": "如果我方场上没有公主类型的从者，是否仍然可以选择选项2？",
+      "answer_cn": "可以。但不会产生任何效果。",
+      "card_name": "任性的差遣",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-039": [
+    {
+      "question_cn": "如果场上没有敌方从者，我是否仍然可以使用这张从者的入场曲能力？",
+      "answer_cn": "可以。“选最多1个”意味着可以选择0个。即使选择了0个，只要满足条件，仍然可以解决该能力的法术连锁部分。",
+      "card_name": "决意预言者·露妮",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-042": [
+    {
+      "question_cn": "当我使用这张法术牌时，它是否计入“自己墓场中的国际象棋卡片数量”？",
+      "answer_cn": "不计入。",
+      "card_name": "将死",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "这张法术的起动能力只能在它处于我方墓场时才能使用吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "将死",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-043": [
+    {
+      "question_cn": "这张法术的自动能力是否会触发“阿格妮丝·塔奇翁”等“每当你使用一张法术牌时”的能力？",
+      "answer_cn": "不会。解决自动能力不被视为使用法术牌。",
+      "card_name": "剥落的镇压",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果我EX区域中有2张这个法术，我的结束阶段开始时，它们各自的自动能力是否分别触发？",
+      "answer_cn": "是的，分别触发。",
+      "card_name": "剥落的镇压",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-045": [
+    {
+      "question_cn": "“给你的场上的蓄积+1”是什么意思？",
+      "answer_cn": "意思是你给你的场上1张拥有蓄积能力的护符放置1个蓄积计数。",
+      "card_name": "魔猫奇术师",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-047": [
+    {
+      "question_cn": "这个法术的自动能力会触发诸如“阿格尼丝·超光速”的“每当你使用法术时”的能力吗？",
+      "answer_cn": "不会。解决自动能力不被视为使用法术。",
+      "card_name": "蒙昧的术式",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果我EX区域中有2张这个法术，我的结束阶段开始时，它们各自的自动能力是否分别触发？",
+      "answer_cn": "是的，分别触发。",
+      "card_name": "蒙昧的术式",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-049": [
+    {
+      "question_cn": "使用这个从者的进化时能力时，如果我不能选择场上的敌方从者，是否仍能选择选项2来舍弃1张非巫师职业卡牌？",
+      "answer_cn": "不能。如果你无法选择敌方从者，你将必须选择选项1。但是，你可以选择不为任一选项支付费用，从而不发生任何效果。",
+      "card_name": "魔药巫师",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果我手牌中没有巫师职业卡牌，是否仍能选择选项1？",
+      "answer_cn": "可以。但是，由于你无法支付费用，不会发生任何效果。如果你手牌中没有非巫师职业卡牌并选择选项2，情况相同。",
+      "card_name": "魔药巫师",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-050": [
+    {
+      "question_cn": "我能否选择选项2但不执行土之秘术？",
+      "answer_cn": "可以。即使你的场上没有拥有蓄积能力的护符，你也可以选择选项2。在这两种情况下，都不会发生任何效果。",
+      "card_name": "创物魔法师",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果我场上没有拥有蓄积能力的护符，是否仍能选择选项1？",
+      "answer_cn": "可以。但是，不会发生任何效果。",
+      "card_name": "创物魔法师",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "“给你的场上的蓄积+1”是什么意思？",
+      "answer_cn": "意思是你给你的场上1张拥有蓄积能力的护符放置1个蓄积计数。",
+      "card_name": "创物魔法师",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-051": [
+    {
+      "question_cn": "使用这个从者的入场曲能力时，如果我无法选择墓场中的法术，是否仍能选择选项2来不发生任何效果？",
+      "answer_cn": "不能。如果你无法选择法术，你将必须选择选项1。",
+      "card_name": "魔导书撰写者",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-052": [
+    {
+      "question_cn": "如果对手场上只有一张具有灵气和“这个从者不会被能力破坏”的白骨奇美拉，选项1能否使其被埋葬？",
+      "answer_cn": "可以。灵气防止该卡被敌方能力选择，但在此情况下，白骨奇美拉并非被能力选择。而且，埋葬一张卡与破坏它不同。",
+      "card_name": "串击",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-053": [
+    {
+      "question_cn": "如果我无法选择场上的敌方从者，我还能发动大地魔印（2）并抽一张卡吗？",
+      "answer_cn": "不能。",
+      "card_name": "扩展的魔法",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "“大地魔印（2）”是什么意思？",
+      "answer_cn": "大地魔印（2）是卡牌和能力可能拥有的关键字能力。当你使用该卡或能力时，若选择支付从自己场上护符上移除2个蓄积计数物的费用，大地魔印（2）会提供额外效果。若该护符因此没有剩余蓄积计数物，则将其置入墓场。即使场上存在蓄积计数物，你也不必须支付该费用。",
+      "card_name": "扩展的魔法",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-054": [
+    {
+      "question_cn": "如果我用这个从者的入场曲能力使其进化，本回合还能用进化能力进化另一个从者吗？",
+      "answer_cn": "可以。虽然每回合只能发动一次进化能力，但其他使从者进化的能力不在此限制内。",
+      "card_name": "《正义》·伊兰翠",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果对手用混沌天使之类的卡从我的场上夺走这个从者，它的“这个从者离场时”能力会触发吗？",
+      "answer_cn": "不会。",
+      "card_name": "《正义》·伊兰翠",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-056": [
+    {
+      "question_cn": "如果我的觉醒未激活，我还能选择选项2吗？",
+      "answer_cn": "可以。但不会发生任何事情。",
+      "card_name": "羁绊龙剑士·艾拉",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "我能通过选项1回复超过自己最大PP数的PP吗？",
+      "answer_cn": "不能。你拥有的PP不能超过当前最大值。",
+      "card_name": "羁绊龙剑士·艾拉",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-057": [
+    {
+      "question_cn": "如果这个从者的必杀能力无法选择敌方场上的从者，我还能给自己的主战者+2防御力吗？",
+      "answer_cn": "不能。",
+      "card_name": "灭剑焰龙·双极模式α",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "白霜之风能否选择场上的敌方进阶从者？",
+      "answer_cn": "可以。进阶从者不被视为进化从者。",
+      "card_name": "灭剑焰龙·双极模式α",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "使用巅峰斗技场时，我能选择自己进化牌堆中表侧的进阶从者吗？",
+      "answer_cn": "不能。进阶从者不被视为进化从者。",
+      "card_name": "灭剑焰龙·双极模式α",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-058": [
+    {
+      "question_cn": "「白霜之风」能否选择敌方场上已进化的从者？",
+      "answer_cn": "可以。已进阶的从者不被视为已进化的从者。",
+      "card_name": "灭剑焰龙·双极模式β",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "使用「巅峰斗技场」时，能否选择自己进化牌堆中正面朝上的已进阶从者？",
+      "answer_cn": "不可以。已进阶的从者不被视为已进化的从者。",
+      "card_name": "灭剑焰龙·双极模式β",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-059": [
+    {
+      "question_cn": "「白霜之风」能否选择敌方场上已进阶的从者？",
+      "answer_cn": "可以。已进阶的从者不被视为已进化的从者。",
+      "card_name": "灭剑焰龙·双极模式γ",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "使用「巅峰斗技场」时，能否选择自己进化牌堆中正面朝上的已进阶从者？",
+      "answer_cn": "不可以。已进阶的从者不被视为已进化的从者。",
+      "card_name": "灭剑焰龙·双极模式γ",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-060": [
+    {
+      "question_cn": "若使用这个从者的「入场曲」能力时牌堆剩余4张或更少，我会输掉游戏吗？",
+      "answer_cn": "不会。从空牌堆抽牌会导致输掉游戏，但从空牌堆消失则不会。",
+      "card_name": "虐杀的龙人",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-061": [
+    {
+      "question_cn": "对方场上存在「帝王龙骑士·艾里欧斯」。若这个从者的「进化时」能力触发时，我的消失区有10张卡，则「帝王龙骑士·艾里欧斯」的「每当这个从者受到伤害时」能力会触发多少次？",
+      "answer_cn": "一次。「进化时」能力造成的伤害是单次伤害，而非多次2点伤害。",
+      "card_name": "虐杀的龙人",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-062": [
+    {
+      "question_cn": "我通过「篡夺绝杰·欧克托莉斯」的「进化时」能力，将对方墓场中的这个从者放置到自己场上，并成为其新控制者。若我场上的「永恒巨鲸」被破坏，会发生什么？",
+      "answer_cn": "你和对方会按以下顺序处理：1.「永恒巨鲸」被破坏，进入对方的墓场。虽然你是控制者，但对方是该卡的所有者。2.「永恒巨鲸」的「谢幕曲」触发，你执行该能力。3.你解决「谢幕曲」，对每个敌方主战者造成2点伤害。4.你选择将「永恒巨鲸」置于对方牌堆顶第2张的位置，或置于牌堆底。由于你不是该牌堆的所有者，因此由对方将「永恒巨鲸」放置在你指定的位置。",
+      "card_name": "永恒巨鲸",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-063": [
+    {
+      "question_cn": "若我没有找到或选择不将「武装从者」加入手牌，我是否仍能从手牌召唤「武装从者」？",
+      "answer_cn": "可以。",
+      "card_name": "双极盛怒",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "我能召唤搜索并加入手牌的那张「武装从者」吗？",
+      "answer_cn": "可以。",
+      "card_name": "双极盛怒",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "是否只有在场上存在「灭剑焰龙」和2张可供选择的「龙族武器」时，才能使用这个法术的「起动」能力？",
+      "answer_cn": "是的，没错。",
+      "card_name": "双极盛怒",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "这张法术牌的起动能力只能在它处于我方的墓场时才可以使用吗？",
+      "answer_cn": "是的，没错。",
+      "card_name": "双极盛怒",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-065": [
+    {
+      "question_cn": "如果我没有找到或选择不找到武装从者，我仍然会召唤一个龙族武装衍生物吗？",
+      "answer_cn": "是的，仍然会。",
+      "card_name": "瞬刃龙人",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-066": [
+    {
+      "question_cn": "如果这张从者在我方的EX区域中，它的“在每个自己的回合中仅限1次，当自己弃牌时”能力会触发吗？",
+      "answer_cn": "不会，不会触发。",
+      "card_name": "日轮之龙",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果我在自己的结束阶段因手牌过多而丢弃这张从者，我能否将其放入自己的EX区域？",
+      "answer_cn": "可以，你能够这样做。",
+      "card_name": "日轮之龙",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-069": [
+    {
+      "question_cn": "如果我无法选择场上的敌方从者，我是否仍能支付这张从者的进化时能力的费用来弃掉1张卡？",
+      "answer_cn": "不能，无法支付。如果你无法选择场上的敌方从者，就不能发动这张从者的进化时能力。",
+      "card_name": "召水驭龙使",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-074": [
+    {
+      "question_cn": "当使用这张从者的入场曲能力时，如果我场上包含这张从者共有4张卡，会如何？",
+      "answer_cn": "你会正常解决该能力，只是你会从展示的卡中选择1张从者召唤，并将另一张与其余展示的卡一起洗牌后置于自己牌堆底。",
+      "card_name": "《恋人》·米路缇欧",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果我展示了牌堆中的所有卡，且只展示了1张费用为3或以下的从者，我仍然会召唤那张从者吗？",
+      "answer_cn": "是的，仍然会召唤。",
+      "card_name": "《恋人》·米路缇欧",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果我展示了牌堆中的所有卡，但没有展示出任何费用为3或以下的从者，会发生什么？",
+      "answer_cn": "你会将所有展示的卡洗混，然后放回牌堆区。",
+      "card_name": "《恋人》·米路缇欧",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果我通过这张从者的自动能力进化了它，我是否可以在同一回合使用另一张从者的进化能力使其进化？",
+      "answer_cn": "可以。虽然每回合只能发动1次进化能力，但其他使从者进化的能力不计入此限制。",
+      "card_name": "《恋人》·米路缇欧",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-075": [
+    {
+      "question_cn": "如果对方主战者的防御力为5或以下，这张从者的进化时能力仍会将其防御力变为6吗？",
+      "answer_cn": "是的，仍然会。",
+      "card_name": "《恋人》·米路缇欧",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-076": [
+    {
+      "question_cn": "我方场上存在这个从者，对方使用「马纳历亚巫术师·克雷格」时，会怎么样？",
+      "answer_cn": "这个从者的能力会阻止抽牌，因此对方只会丢弃1张卡牌。",
+      "card_name": "《节制》·卢泽",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "我方场上存在这个从者时，对方能否使用「智慧之光」等抽牌卡牌？",
+      "answer_cn": "可以。但这个从者的能力会阻止抽牌的发生。",
+      "card_name": "《节制》·卢泽",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "我方场上存在这个从者时，对方能否通过检索效果或“查看牌堆顶X张卡牌，将其中1张加入手牌”等效果将牌堆中的卡牌加入手牌？",
+      "answer_cn": "可以。将卡牌加入手牌不属于抽牌。",
+      "card_name": "《节制》·卢泽",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "我方场上存在这个从者，对方场上存在进化后的「三戟鱼人」和1只「一尾狐」。由于「三戟鱼人」的能力使妖怪从者造成的伤害+1，如果对方用攻击力为1的「一尾狐」攻击我方主战者，我方主战者会受到多少伤害？",
+      "answer_cn": "我方主战者会受到0点或1点伤害，取决于我方选择。当有多个能力对造成的伤害进行修正时，承受伤害的玩家决定能力的适用顺序。根据顺序不同，最终受到的伤害可按以下两种方式计算：1. 我方先适用「三戟鱼人」的能力使伤害+1，因此「一尾狐」会先造成2点伤害，然后这个从者的能力使伤害-1，最终受到1点伤害。2. 我方先适用这个从者的能力使伤害-1，因此「一尾狐」会先造成0点伤害，然后「三戟鱼人」的能力使伤害+1。但由于「三戟鱼人」的能力仅在造成伤害时生效，而0点伤害不视为造成伤害，因此该能力不生效，我方主战者受到的伤害仍为0。",
+      "card_name": "《节制》·卢泽",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "当我方场上存在这个从者时，如果我方通过能力对自身主战者造成1点伤害，主战者不会受到任何伤害，但「嗜血」是否仍会激活？是否会计入本回合主战者失去防御力的次数？",
+      "answer_cn": "不会，也不会。这两个能力仅在主战者实际失去防御力时才会生效。",
+      "card_name": "《节制》·卢泽",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "当我方场上存在这个从者时，如果支付「庞克恶魔·戴莫尼亚」的起动能力费用，是否仍使主战者防御力-2？",
+      "answer_cn": "是的。使防御力-2与造成伤害不同。",
+      "card_name": "《节制》·卢泽",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果使用「汉萨」并选择防御力为5以下的对方《节制》·卢泽，是否能对其主战者造成2点伤害？",
+      "answer_cn": "不能，只能造成1点伤害。「汉萨」对《节制》·卢泽造成5点伤害，使其防御力降至0以下，但在「汉萨」完全解决前它不会被破坏，因此对主战者造成伤害时其能力仍然有效。",
+      "card_name": "《节制》·卢泽",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果使用具有法术链（10）的「火炎粉碎术」并选择对方的《节制》·卢泽，是否能对其主战者造成3点伤害？",
+      "answer_cn": "可以。在解决“对该从者的主战者造成3点伤害”时，《节制》·卢泽已被破坏并离场，因此其能力不再有效。",
+      "card_name": "《节制》·卢泽",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-077": [
+    {
+      "question_cn": "「白霜之风」能否选择对方场上的进阶从者？",
+      "answer_cn": "可以。进阶从者不视为进化后的从者。",
+      "card_name": "假面怨灵·S",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "使用「巅峰斗技场」时，能否选择我方进化牌组中表侧的进阶从者？",
+      "answer_cn": "不能。进阶从者不视为进化后的从者。",
+      "card_name": "假面怨灵·S",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-078": [
+    {
+      "question_cn": "如果无法选择场上敌方从者作为此从者入场曲的目标，能否仍给自己的主战者+2防御力？",
+      "answer_cn": "不能。",
+      "card_name": "死灭召来者",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-079": [
+    {
+      "question_cn": "如果无法选择场上敌方从者，能否仍给自己的主战者+2防御力？",
+      "answer_cn": "不能。",
+      "card_name": "死灭召来者",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-080": [
+    {
+      "question_cn": "此从者的「突进」能力造成的伤害，是否会使主战者因「吸血」而获得防御力回复？",
+      "answer_cn": "不会。「吸血」仅在该从者通过攻击造成伤害时触发。「突进」能力造成的伤害视为能力伤害。",
+      "card_name": "冲撞恶魔·戴莫尼亚",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-081": [
+    {
+      "question_cn": "这张法术的起动能力只能在它处于自己墓场时才能使用吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "真诚之魂",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-084": [
+    {
+      "question_cn": "这张法术的起动能力只能在它处于自己墓场时才能使用吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "无尽之渴望",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-085": [
+    {
+      "question_cn": "即使牌堆中没有费用为7的「秘术」卡牌，也能使用这张护符的起动搜索能力吗？",
+      "answer_cn": "可以。此外，即使牌堆中有费用为7的「秘术」卡牌，也可以选择不将其找到。",
+      "card_name": "无欲之恩宠",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-092": [
+    {
+      "question_cn": "我场上存在此从者和「巨铠牛头人」。若我的「巨铠牛头人」攻击攻击力为4的敌方从者，则「巨铠牛头人」会受到多少伤害？",
+      "answer_cn": "根据你的决定，会受到2点或1点伤害。当有多个能力改变所受伤害时，由承受伤害的从者的操控者决定能力适用的顺序。在此情况下，根据顺序，最终所受伤害可通过以下两种方式之一计算：1. 若你决定先适用「巨铠牛头人」的能力，将伤害减少至2点，此后此从者的能力不再适用，则「巨铠牛头人」受到2点伤害。2. 若你决定先适用此从者的能力，将4点伤害替换为3点，此后「巨铠牛头人」的能力再将该伤害减少至1点，则「巨铠牛头人」受到1点伤害。",
+      "card_name": "《力量》·索菲娜",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "此从者的常时能力是否意味着从者每回合只会受到3点伤害？",
+      "answer_cn": "不是。每次伤害分别处理。例：- 若一个从者将分别受到2次4点伤害，则会改为分别受到2次3点伤害。- 若一个从者将先受到4点伤害，再受到2点伤害，则会改为先受到3点伤害，再照常受到2点伤害。",
+      "card_name": "《力量》·索菲娜",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-093": [
+    {
+      "question_cn": "我场上存在此从者和「巨铠牛头人」。若我的「巨铠牛头人」攻击攻击力为4的敌方从者，则「巨铠牛头人」会受到多少伤害？",
+      "answer_cn": "根据你的决定，会受到2点或1点伤害。当有多个能力改变所受伤害时，由承受伤害的从者的操控者决定能力适用的顺序。在此情况下，根据顺序，最终所受伤害可通过以下两种方式之一计算：1. 若你决定先适用「巨铠牛头人」的能力，将伤害减少至2点，此后此从者的能力不再适用，则「巨铠牛头人」受到2点伤害。2. 若你决定先适用此从者的能力，将4点伤害替换为3点，此后「巨铠牛头人」的能力再将该伤害减少至1点，则「巨铠牛头人」受到1点伤害。",
+      "card_name": "《力量》·索菲娜",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "此从者的常时能力是否意味着从者每回合只会受到3点伤害？",
+      "answer_cn": "不是。每次伤害分别处理。例：- 若一个从者将分别受到2次4点伤害，则会改为分别受到2次3点伤害。- 若一个从者将先受到4点伤害，再受到2点伤害，则会改为先受到3点伤害，再照常受到2点伤害。",
+      "card_name": "《力量》·索菲娜",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-094": [
+    {
+      "question_cn": "这个从者的自动能力是否也会在不是我的回合时触发？",
+      "answer_cn": "是的，会触发。",
+      "card_name": "《命运之轮》·斯洛士",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-098": [
+    {
+      "question_cn": "从者的攻击力可以为负数吗？",
+      "answer_cn": "可以。从者的攻击力可以通过效果降至负数。攻击力为负数的从者不会造成攻击伤害或战斗伤害。",
+      "card_name": "虚脱的刚腕",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-101": [
+    {
+      "question_cn": "这个从者的起动能力只能在我手牌中时才能使用吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "光明神父",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-102": [
+    {
+      "question_cn": "进化后的从者费用与未进化时相同吗？",
+      "answer_cn": "是的，相同。",
+      "card_name": "惨祸的圆环",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-105": [
+    {
+      "question_cn": "处于我EX区域中、具有+1攻击力的「信念」从者被使用或召唤时，会保留那+1攻击力吗？",
+      "answer_cn": "是的。当效果对EX区域中的卡牌生效时，即使该卡牌被使用或召唤，该效果仍会持续。",
+      "card_name": "石青圣女",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-106": [
+    {
+      "question_cn": "使用这个从者的入场曲能力时，如果无法选择墓场中的护符，我是否可以选择选项2而什么都不发生？",
+      "answer_cn": "不能。如果你无法选择护符，则必须选择选项1。",
+      "card_name": "优雅的丽鸟",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-109": [
+    {
+      "question_cn": "是否可以用这个从者的第一个入场曲选择无法被破坏的卡牌，例如「XII. Wolfraud, Hanged Man」？",
+      "answer_cn": "可以。虽然「XII. Wolfraud, Hanged Man」会留在场上，但你仍会解决入场曲的剩余部分并抽一张牌。",
+      "card_name": "《世界》·捷尔加内亚",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "我的主战者防御力为11，场上没有从者，而对方只有一只兔灵邪法师。我在自己的回合使用这个从者，并用其入场曲破坏兔灵邪法师，触发兔灵邪法师的谢幕曲，使我的主战者防御力变为9。此时这个从者的另一个入场曲是否会生效，使我的主战者获得+5防御力？",
+      "answer_cn": "不会。这个从者的入场曲破坏兔灵邪法师时，兔灵邪法师的谢幕曲会触发并成为待处理能力。当双方玩家都有待处理能力时，当前回合玩家先解决自己的。在这个场景中，你是当前回合玩家，因此你会先解决这个从者的另一个入场曲。此时，由于兔灵邪法师的谢幕曲尚未生效，你的主战者防御力仍然是11，因此不会获得+5防御力。然而，如果你以某种方式在对方的回合召唤这个从者，同样情况下，由于对方是当前回合玩家，兔灵邪法师的谢幕曲会先解决，因此如果你选择先解决「选择并破坏」的入场曲，你的主战者可以从这个从者的入场曲获得+5防御力。",
+      "card_name": "《世界》·捷尔加内亚",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "这个从者的起动能力只能在我墓场中时才能使用吗？",
+      "answer_cn": "是的，正确。",
+      "card_name": "《世界》·捷尔加内亚",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "我可以自行决定这个从者的两个入场曲能力的解决顺序吗？",
+      "answer_cn": "是的，可以。",
+      "card_name": "《世界》·捷尔加内亚",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "如果无法选择场上的敌方从者作为这位从者的第一个入场曲的目标，我是否仍然可以抽卡？",
+      "answer_cn": "不可以。",
+      "card_name": "《世界》·捷尔加内亚",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-110": [
+    {
+      "question_cn": "这位从者的自动能力是否仅当它在我方的EX区域时才会触发？",
+      "answer_cn": "是的，正确。",
+      "card_name": "宏伟的《世界》·捷尔加内亚",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "白霜之风可以选择场上的敌方进阶从者吗？",
+      "answer_cn": "可以。进阶从者不被视为进化从者。",
+      "card_name": "宏伟的《世界》·捷尔加内亚",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "使用巅峰斗技场时，可以选择我方进化牌堆中的一张正面朝上的进阶从者吗？",
+      "answer_cn": "不可以。进阶从者不被视为进化从者。",
+      "card_name": "宏伟的《世界》·捷尔加内亚",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-113": [
+    {
+      "question_cn": "我通过撒哈利尔的入场曲召唤这位从者，使其获得“在你的结束阶段开始时，将这张卡返回其拥有者的手牌”的能力。两个“在你的结束阶段开始时”的能力都会触发吗？",
+      "answer_cn": "是的，你可以自行选择它们解决的顺序。请注意，即使你选择先将这位从者返回手牌，你仍然会使你场上每位其他从者获得{攻击}+1，因为该能力在此从者离场时已经处于待处理状态。",
+      "card_name": "天霸风神·斐兰",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-114": [
+    {
+      "question_cn": "我使用这张法术时，我的EX区域、对手的EX区域或两者都已满。会发生什么？",
+      "answer_cn": "如果对手的EX区域已满，所选择的敌方从者将留在场上。如果我方的EX区域已满，所选择的天使从者将留在我方墓场。",
+      "card_name": "坠情箭击",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    },
+    {
+      "question_cn": "我是否只能在能够同时选择我方墓场中的一位天使从者和场上的一个敌方从者时才能使用这张法术？",
+      "answer_cn": "是的，正确。",
+      "card_name": "坠情箭击",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ],
+  "BP10-118": [
+    {
+      "question_cn": "如果场上没有敌方从者，但我方墓场中有一张堕天使卡片，我能否使用这张法术使我方主战者获得+2防御？",
+      "answer_cn": "可以，“选择最多2张”意味着你可以选择0张。",
+      "card_name": "天使灭击",
+      "source": "en_official_translated",
+      "exp": "BP10"
+    }
+  ]
+}
