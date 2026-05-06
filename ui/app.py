@@ -119,13 +119,21 @@ def query_handler(user_input: str, selected_cardnos: list):
     for i, r in enumerate(result['search_results'], 1):
         meta = r['metadata']
         source = meta.get('source', '')
-        score = r['score']
-        text = r['text'][:300]
+        score = r.get('score')
+        text = r.get('text', '')[:300]
         cardno = meta.get('cardno', '')
         target_mark = ''
         if selected_cardnos and cardno in selected_cardnos:
             target_mark = ' ★目标卡'
-        score_str = f'{score:.4f}' if score is not None else '关联QA'
+        # 防御：score 可能为 None（来自 _merge_qa_results 追加的 QA 条目）
+        if score is None:
+            score_str = '关联QA'
+        else:
+            try:
+                score_str = f'{score:.4f}'
+            except (TypeError, ValueError) as e:
+                print(f'[DEBUG] score format error: score={score!r}, type={type(score).__name__}, error={e}')
+                score_str = f'{score}'
         search_info.append(
             f'**#{i}** 来源: {source} | cardno: {cardno} | 分数: {score_str}{target_mark}\n{text}...'
         )

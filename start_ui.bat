@@ -50,9 +50,19 @@ if not exist v4\index\ (
     echo       如需重建索引请先删除 v4\index\ 文件夹
 )
 
+:: 清理可能残留的旧进程（端口 7860）
+echo.
+echo [3/4] 清理旧进程...
+for /f "tokens=5" %%a in ('netstat -ano ^| findstr ":7860.*LISTENING" 2^>nul') do (
+    echo [清理] 终止旧进程 PID=%%a ...
+    taskkill /PID %%a /F >nul 2>&1
+    if not errorlevel 1 echo [OK] 旧进程已终止
+    timeout /t 1 /nobreak >nul
+)
+
 :: 启动 Web UI
 echo.
-echo [3/3] 启动 Web UI...
+echo [4/4] 启动 Web UI...
 echo.
 echo 浏览器打开 http://localhost:7860
 echo 按 Ctrl+C 停止服务
