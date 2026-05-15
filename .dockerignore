@@ -1,0 +1,44 @@
+# .dockerignore —— 构建时排除的文件
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 大文件（通过 volume 挂载）
+v4/index/*.faiss
+v4/index/*.pkl
+v4/models/
+v4/finetune/model/*.safetensors
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# 文档
+plans/
+*.md
+
+# 测试
+v4/test_*.py
+
+# 临时文件
+data/test.txt
+data/raw/
+data/ocr_rules.py
+
+# 环境（通过 docker-compose env_file 注入）
+.env
+.env.example

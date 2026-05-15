@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  # ============================================================
+  # FastAPI 后端
+  # ============================================================
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sve-rag-api
+    ports:
+      - "8001:8001"
+    env_file:
+      - .env
+    environment:
+      - LLM_ENABLED=true
+    volumes:
+      # 挂载索引和模型目录（避免每次重建都复制大文件）
+      - ./v4/index:/app/v4/index:ro
+      - ./v4/models:/app/v4/models:ro
+      - ./v4/finetune/model:/app/v4/finetune/model:ro
+    restart: unless-stopped
+    networks:
+      - sve-rag-net
+
+  # ============================================================
+  # Nginx 反向代理（生产环境启用）
+  # ============================================================
+  nginx:
+    image: nginx:alpine
+    container_name: sve-rag-nginx
+    ports:
+      - "${NGINX_PORT:-80}:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./web:/app/web:ro
+    depends_on:
+      - fastapi
+    restart: unless-stopped
+    networks:
+      - sve-rag-net
+
+networks:
+  sve-rag-net:
+    driver: bridge

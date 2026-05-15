@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVE RAG 查询助手</title>
+    <style>
+        :root {
+            --bg: #1a1a2e;
+            --card-bg: #16213e;
+            --accent: #e94560;
+            --accent-hover: #ff6b81;
+            --text: #eaeaea;
+            --text-muted: #888;
+            --border: #2a2a4a;
+            --success: #4ecca3;
+            --warning: #f0a500;
+            --radius: 8px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        
+        /* Header */
+        header {
+            text-align: center;
+            padding: 30px 0 20px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 24px;
+        }
+        header h1 { font-size: 1.8rem; color: var(--accent); }
+        header p { color: var(--text-muted); font-size: 0.9rem; margin-top: 4px; }
+
+        /* Controls */
+        .controls {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+        .toggle-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .toggle-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        .toggle {
+            position: relative;
+            width: 48px;
+            height: 26px;
+            background: var(--border);
+            border-radius: 13px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .toggle.active { background: var(--accent); }
+        .toggle::after {
+            content: '';
+            position: absolute;
+            top: 3px; left: 3px;
+            width: 20px; height: 20px;
+            background: white;
+            border-radius: 50%;
+            transition: transform 0.2s;
+        }
+        .toggle.active::after { transform: translateX(22px); }
+
+        /* Search */
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .search-box input {
+            flex: 1;
+            padding: 12px 16px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            color: var(--text);
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-box input:focus { border-color: var(--accent); }
+        .search-box button {
+            padding: 12px 24px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: var(--radius);
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            white-space: nowrap;
+        }
+        .search-box button:hover { background: var(--accent-hover); }
+        .search-box button:disabled {
+            background: var(--border);
+            cursor: not-allowed;
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-muted);
+        }
+        .spinner {
+            display: inline-block;
+            width: 24px; height: 24px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Card Selection */
+        .section-title {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .card-item {
+            background: var(--card-bg);
+            border: 2px solid var(--border);
+            border-radius: var(--radius);
+            padding: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        .card-item:hover { border-color: var(--accent); }
+        .card-item.selected {
+            border-color: var(--accent);
+            background: rgba(233, 69, 96, 0.1);
+        }
+        .card-item .card-name {
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 4px;
+            font-size: 0.95rem;
+        }
+        .card-item .card-no {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+        }
+        .card-item .card-desc {
+            font-size: 0.82rem;
+            color: var(--text);
+            max-height: 120px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+        .card-item .card-meta {
+            display: flex;
+            gap: 10px;
+            margin-top: 6px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+        .card-item .checkmark {
+            position: absolute;
+            top: 8px;
+            right: 10px;
+            color: var(--accent);
+            font-size: 1.2rem;
+            display: none;
+        }
+        .card-item.selected .checkmark { display: block; }
+
+        /* Query button area */
+        .query-area {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .query-area input {
+            width: 100%;
+            padding: 10px 14px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            color: var(--text);
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+            outline: none;
+        }
+        .query-area input:focus { border-color: var(--accent); }
+        .query-area button {
+            padding: 12px 40px;
+            background: var(--success);
+            color: #1a1a2e;
+            border: none;
+            border-radius: var(--radius);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .query-area button:hover { opacity: 0.85; }
+        .query-area button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Results */
+        .result-section {
+            margin-bottom: 24px;
+        }
+        .result-section h2 {
+            font-size: 1rem;
+            color: var(--accent);
+            margin-bottom: 10px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid var(--border);
+        }
+        .answer-box {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px;
+            line-height: 1.8;
+            word-wrap: break-word;
+        }
+        .answer-box code {
+            background: rgba(255,255,255,0.08);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .result-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+        }
+        .result-table th,
+        .result-table td {
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        .result-table th {
+            color: var(--text-muted);
+            font-weight: 500;
+            font-size: 0.78rem;
+            text-transform: uppercase;
+        }
+        .result-table tr:hover { background: rgba(255,255,255,0.03); }
+        .score-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .score-high { background: rgba(78, 204, 163, 0.15); color: var(--success); }
+        .score-mid { background: rgba(240, 165, 0, 0.15); color: var(--warning); }
+        .score-low { background: rgba(233, 69, 96, 0.15); color: var(--accent); }
+
+        /* Source tag */
+        .source-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            margin-right: 4px;
+            white-space: nowrap;
+        }
+        .source-qa_cn { background: rgba(78, 204, 163, 0.15); color: var(--success); }
+        .source-rule { background: rgba(240, 165, 0, 0.15); color: var(--warning); }
+        .source-card_effect { background: rgba(233, 69, 96, 0.12); color: var(--accent-hover); }
+        .source-card_name { background: rgba(100, 149, 237, 0.15); color: #6495ed; }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 0;
+            margin-bottom: 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .tab-btn {
+            padding: 10px 20px;
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 0.88rem;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        .tab-btn:hover { color: var(--text); }
+        .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+        .tab-content { display: none; padding: 16px 0; }
+        .tab-content.active { display: block; }
+
+        /* Prompt debug */
+        .prompt-box {
+            background: #0d1117;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 14px;
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 0.8rem;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-height: 400px;
+            overflow-y: auto;
+            color: #c9d1d9;
+        }
+
+        /* Error */
+        .error-msg {
+            background: rgba(233, 69, 96, 0.1);
+            border: 1px solid var(--accent);
+            color: var(--accent-hover);
+            padding: 12px 16px;
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+        }
+
+        /* Status bar */
+        .status-bar {
+            text-align: center;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            padding: 20px 0;
+            border-top: 1px solid var(--border);
+            margin-top: 30px;
+        }
+        .status-dot {
+            display: inline-block;
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+        .dot-ok { background: var(--success); }
+        .dot-err { background: var(--accent); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🃏 SVE 卡牌规则查询助手</h1>
+            <p>影之诗 EVOLVE · RAG 检索增强生成</p>
+        </header>
+
+        <!-- Controls -->
+        <div class="controls">
+            <div class="toggle-group">
+                <span class="toggle-label">🤖 LLM 回答</span>
+                <div class="toggle active" id="llmToggle" onclick="toggleLLM()"></div>
+            </div>
+            <div class="toggle-group">
+                <span class="toggle-label">🔬 LoRA</span>
+                <div class="toggle" id="loraToggle" onclick="toggleLoRA()"></div>
+            </div>
+        </div>
+
+        <!-- Step 1: Identify -->
+        <div id="step1">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="输入卡牌名称或问题，例如：龙之战士有什么效果？"
+                    autocomplete="off"
+                    onkeydown="if(event.key==='Enter') doIdentify()"
+                />
+                <button id="identifyBtn" onclick="doIdentify()">🔍 识别卡牌</button>
+            </div>
+            <div id="identifyLoading" class="loading" style="display:none">
+                <span class="spinner"></span>正在识别卡牌...
+            </div>
+            <div id="identifyError" class="error-msg" style="display:none"></div>
+            <div id="cardSelection" style="display:none">
+                <div class="section-title">选择相关卡牌（可多选）</div>
+                <div class="card-grid" id="cardGrid"></div>
+            </div>
+        </div>
+
+        <!-- Step 2: Query -->
+        <div id="step2" style="display:none">
+            <div class="query-area">
+                <input 
+                    type="text" 
+                    id="queryInput" 
+                    placeholder="输入具体问题，例如：入场效果怎么触发？"
+                    onkeydown="if(event.key==='Enter') doQuery()"
+                />
+                <button id="queryBtn" onclick="doQuery()">🚀 查询</button>
+            </div>
+            <div id="queryLoading" class="loading" style="display:none">
+                <span class="spinner"></span>正在检索<span id="loadingLLM"> + LLM 生成</span>...
+            </div>
+            <div id="queryError" class="error-msg" style="display:none"></div>
+        </div>
+
+        <!-- Results -->
+        <div id="results" style="display:none">
+            <div class="tabs">
+                <button class="tab-btn active" onclick="switchTab('answer')" id="tab-answer">💬 AI 回答</button>
+                <button class="tab-btn" onclick="switchTab('cards')" id="tab-cards">🃏 识别的卡牌</button>
+                <button class="tab-btn" onclick="switchTab('qa')" id="tab-qa">❓ 关联 Q&A</button>
+                <button class="tab-btn" onclick="switchTab('search')" id="tab-search">🔍 检索结果</button>
+                <button class="tab-btn" onclick="switchTab('prompt')" id="tab-prompt">📝 LLM Prompt</button>
+            </div>
+
+            <div class="tab-content active" id="content-answer">
+                <div class="answer-box" id="answerText"></div>
+            </div>
+            <div class="tab-content" id="content-cards">
+                <table class="result-table" id="cardsTable"></table>
+            </div>
+            <div class="tab-content" id="content-qa">
+                <div id="qaList"></div>
+            </div>
+            <div class="tab-content" id="content-search">
+                <table class="result-table" id="searchTable"></table>
+            </div>
+            <div class="tab-content" id="content-prompt">
+                <div class="prompt-box" id="promptText"></div>
+            </div>
+        </div>
+
+        <div class="status-bar">
+            <span class="status-dot dot-ok" id="statusDot"></span>
+            <span id="statusText">检查服务状态中...</span>
+        </div>
+    </div>
+
+    <script>
+        // ============================================================
+        // State
+        // ============================================================
+        const API_BASE = window.location.origin;
+        let enableLLM = true;
+        let useLoRA = false;
+        let candidates = [];
+        let selectedCardnos = new Set();
+        let lastResult = null;
+
+        // ============================================================
+        // Toggles
+        // ============================================================
+        function toggleLLM() {
+            enableLLM = !enableLLM;
+            document.getElementById('llmToggle').classList.toggle('active', enableLLM);
+            // Update answer tab visibility
+            updateAnswerTabVisibility();
+            // Update loading text
+            document.getElementById('loadingLLM').style.display = enableLLM ? 'inline' : 'none';
+        }
+
+        function toggleLoRA() {
+            useLoRA = !useLoRA;
+            document.getElementById('loraToggle').classList.toggle('active', useLoRA);
+        }
+
+        function updateAnswerTabVisibility() {
+            const tabAnswer = document.getElementById('tab-answer');
+            if (!enableLLM) {
+                tabAnswer.style.display = 'none';
+                // If answer tab was active, switch to cards
+                if (tabAnswer.classList.contains('active')) {
+                    switchTab('cards');
+                }
+            } else {
+                tabAnswer.style.display = '';
+            }
+        }
+
+        // ============================================================
+        // Step 1: Identify Cards
+        // ============================================================
+        async function doIdentify() {
+            const input = document.getElementById('searchInput').value.trim();
+            if (!input) return;
+
+            const btn = document.getElementById('identifyBtn');
+            const loading = document.getElementById('identifyLoading');
+            const error = document.getElementById('identifyError');
+            const selection = document.getElementById('cardSelection');
+            const step2 = document.getElementById('step2');
+            const results = document.getElementById('results');
+
+            btn.disabled = true;
+            loading.style.display = 'block';
+            error.style.display = 'none';
+            selection.style.display = 'none';
+            step2.style.display = 'none';
+            results.style.display = 'none';
+            candidates = [];
+            selectedCardnos.clear();
+            lastResult = null;
+
+            try {
+                const resp = await fetch(`${API_BASE}/api/identify`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ user_input: input }),
+                });
+                if (!resp.ok) {
+                    const err = await resp.json();
+                    throw new Error(err.detail || `HTTP ${resp.status}`);
+                }
+                const data = await resp.json();
+                candidates = data.candidates;
+
+                if (candidates.length === 0) {
+                    error.textContent = '未识别到相关卡牌，请尝试更具体的描述';
+                    error.style.display = 'block';
+                } else {
+                    renderCardSelection(candidates);
+                    selection.style.display = 'block';
+                    step2.style.display = 'block';
+                    document.getElementById('queryInput').value = input;
+                    document.getElementById('queryInput').focus();
+                }
+            } catch (e) {
+                error.textContent = `识别失败: ${e.message}`;
+                error.style.display = 'block';
+            } finally {
+                btn.disabled = false;
+                loading.style.display = 'none';
+            }
+        }
+
+        function renderCardSelection(cards) {
+            const grid = document.getElementById('cardGrid');
+            grid.innerHTML = '';
+
+            cards.forEach((card, idx) => {
+                const div = document.createElement('div');
+                div.className = 'card-item';
+                if (selectedCardnos.has(card.cardno)) {
+                    div.classList.add('selected');
+                }
+                div.innerHTML = `
+                    <span class="checkmark">✓</span>
+                    <div class="card-name">${escHtml(card.name)}</div>
+                    <div class="card-no">${escHtml(card.cardno)} · 匹配度: ${(card.score * 100).toFixed(0)}%</div>
+                    <div class="card-desc">${escHtml(card.description || '（无效果描述）')}</div>
+                    <div class="card-meta">
+                        ${card.card_type ? `<span>${escHtml(card.card_type)}</span>` : ''}
+                        ${card.class_ ? `<span>${escHtml(card.class_)}</span>` : ''}
+                        ${card.cost ? `<span>Cost: ${escHtml(card.cost)}</span>` : ''}
+                    </div>
+                `;
+                div.onclick = () => {
+                    if (selectedCardnos.has(card.cardno)) {
+                        selectedCardnos.delete(card.cardno);
+                        div.classList.remove('selected');
+                    } else {
+                        selectedCardnos.add(card.cardno);
+                        div.classList.add('selected');
+                    }
+                };
+                grid.appendChild(div);
+            });
+        }
+
+        // ============================================================
+        // Step 2: Query
+        // ============================================================
+        async function doQuery() {
+            const input = document.getElementById('queryInput').value.trim();
+            if (!input) return;
+
+            const btn = document.getElementById('queryBtn');
+            const loading = document.getElementById('queryLoading');
+            const error = document.getElementById('queryError');
+            const results = document.getElementById('results');
+
+            btn.disabled = true;
+            loading.style.display = 'block';
+            error.style.display = 'none';
+            results.style.display = 'none';
+
+            try {
+                const resp = await fetch(`${API_BASE}/api/query`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        user_input: input,
+                        selected_cardnos: Array.from(selectedCardnos),
+                        enable_llm: enableLLM,
+                        use_lora: useLoRA,
+                    }),
+                });
+                if (!resp.ok) {
+                    const err = await resp.json();
+                    throw new Error(err.detail || `HTTP ${resp.status}`);
+                }
+                const data = await resp.json();
+                lastResult = data;
+                renderResults(data);
+                results.style.display = 'block';
+            } catch (e) {
+                error.textContent = `查询失败: ${e.message}`;
+                error.style.display = 'block';
+            } finally {
+                btn.disabled = false;
+                loading.style.display = 'none';
+            }
+        }
+
+        // ============================================================
+        // Render Results
+        // ============================================================
+        function renderResults(data) {
+            // Answer
+            const answerText = document.getElementById('answerText');
+            if (data.answer) {
+                answerText.innerHTML = formatAnswer(data.answer);
+            } else {
+                answerText.innerHTML = '<em style="color:var(--text-muted)">LLM 未启用，仅展示向量检索结果</em>';
+            }
+            updateAnswerTabVisibility();
+
+            // Matched Cards
+            const cardsTable = document.getElementById('cardsTable');
+            if (data.matched_cards && data.matched_cards.length > 0) {
+                cardsTable.innerHTML = `
+                    <tr><th>编号</th><th>名称</th><th>类型</th><th>职业</th><th>费用</th><th>匹配度</th></tr>
+                    ${data.matched_cards.map(c => `
+                        <tr>
+                            <td>${escHtml(c.cardno)}</td>
+                            <td><strong>${escHtml(c.name)}</strong></td>
+                            <td>${escHtml(c.card_type)}</td>
+                            <td>${escHtml(c.class_)}</td>
+                            <td>${escHtml(c.cost)}</td>
+                            <td><span class="score-badge ${scoreClass(c.score)}">${(c.score * 100).toFixed(0)}%</span></td>
+                        </tr>
+                    `).join('')}
+                `;
+            } else {
+                cardsTable.innerHTML = '<tr><td style="color:var(--text-muted)">无匹配卡牌</td></tr>';
+            }
+
+            // QA
+            const qaList = document.getElementById('qaList');
+            if (data.qa_results && data.qa_results.length > 0) {
+                qaList.innerHTML = data.qa_results.map(qa => {
+                    const q = qa.qa.question || '（无问题）';
+                    const a = qa.qa.answer || '（无答案）';
+                    return `
+                        <div class="answer-box" style="margin-bottom:10px">
+                            <strong style="color:var(--accent)">${escHtml(qa.name)}</strong>
+                            <span style="color:var(--text-muted);font-size:0.78rem"> (${escHtml(qa.cardno)})</span>
+                            <p style="margin-top:6px"><strong>Q:</strong> ${escHtml(q)}</p>
+                            <p><strong>A:</strong> ${escHtml(a)}</p>
+                        </div>
+                    `;
+                }).join('');
+            } else {
+                qaList.innerHTML = '<p style="color:var(--text-muted)">无关联 Q&A</p>';
+            }
+
+            // Search Results
+            const searchTable = document.getElementById('searchTable');
+            if (data.search_results && data.search_results.length > 0) {
+                searchTable.innerHTML = `
+                    <tr><th>分数</th><th>内容</th><th>来源</th></tr>
+                    ${data.search_results.map(r => {
+                        const sourceLabel = sourceToLabel(r.source);
+                        const cardInfo = r.card_name || r.cardno || '';
+                        return `
+                        <tr>
+                            <td><span class="score-badge ${scoreClass(r.score)}">${(r.score * 100).toFixed(1)}%</span></td>
+                            <td>${escHtml(truncate(r.text, 120))}</td>
+                            <td><span class="source-tag source-${escHtml(r.source)}">${sourceLabel}</span>${cardInfo ? ` ${escHtml(cardInfo)}` : ''}</td>
+                        </tr>
+                        `;
+                    }).join('')}
+                `;
+            } else {
+                searchTable.innerHTML = '<tr><td style="color:var(--text-muted)">无检索结果</td></tr>';
+            }
+
+            // Prompt (debug)
+            const promptText = document.getElementById('promptText');
+            promptText.textContent = data.prompt || '（无 Prompt）';
+        }
+
+        function formatAnswer(text) {
+            // Simple Markdown-like formatting
+            return escHtml(text)
+                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\n\n/g, '</p><p>')
+                .replace(/\n/g, '<br>')
+                .replace(/^(.+)$/gm, (line) => {
+                    if (line.match(/^\d+[\.\)、]/)) return `<li>${line}</li>`;
+                    return line;
+                })
+                .replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>');
+        }
+
+        // ============================================================
+        // Tabs
+        // ============================================================
+        function switchTab(name) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            document.getElementById(`tab-${name}`).classList.add('active');
+            document.getElementById(`content-${name}`).classList.add('active');
+        }
+
+        // ============================================================
+        // Health Check
+        // ============================================================
+        async function checkHealth() {
+            const dot = document.getElementById('statusDot');
+            const text = document.getElementById('statusText');
+            try {
+                const resp = await fetch(`${API_BASE}/api/health`);
+                if (resp.ok) {
+                    const data = await resp.json();
+                    const ok = data.status === 'ok' && data.embedder_loaded;
+                    dot.className = `status-dot ${ok ? 'dot-ok' : 'dot-err'}`;
+                    text.textContent = `服务 ${data.status} · Embedder: ${data.embedder_loaded ? '✓' : '✗'} · LLM: ${data.llm_enabled ? '开启' : '关闭'} (${data.llm_provider})`;
+                } else {
+                    dot.className = 'status-dot dot-err';
+                    text.textContent = '服务异常';
+                }
+            } catch {
+                dot.className = 'status-dot dot-err';
+                text.textContent = '无法连接服务';
+            }
+        }
+
+        // ============================================================
+        // Helpers
+        // ============================================================
+        function escHtml(s) {
+            if (!s) return '';
+            s = String(s);
+            return s.replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"');
+        }
+
+        function truncate(s, len) {
+            if (!s) return '';
+            return s.length > len ? s.slice(0, len) + '...' : s;
+        }
+
+        function sourceToLabel(source) {
+            const map = {
+                'qa_cn': '❓ QA',
+                'rule': '📋 规则',
+                'card_effect': '📄 效果文本',
+                'card_name': '🃏 卡牌名',
+            };
+            return map[source] || source;
+        }
+
+        function scoreClass(score) {
+            if (score >= 0.80) return 'score-high';
+            if (score >= 0.60) return 'score-mid';
+            return 'score-low';
+        }
+
+        // Init
+        updateAnswerTabVisibility();
+        checkHealth();
+        setInterval(checkHealth, 30000);
+        document.getElementById('searchInput').focus();
+    </script>
+</body>
+</html>

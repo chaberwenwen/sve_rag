@@ -101,7 +101,7 @@ class RAGPipeline:
         并让用户选择后再调用 query() 进行检索。
 
         Returns:
-            list[dict]: 候选卡牌列表，每项包含 cardno, name, description 等
+            list[dict]: 候选卡牌列表，每项包含 cardno, name, description, score 等
         """
         name_hits = self.retriever.search_names(user_input, top_k=5)
 
@@ -120,7 +120,9 @@ class RAGPipeline:
         return found_cards
 
     def query(self, user_input: str,
-              selected_cardnos: list[str] = None) -> dict:
+              selected_cardnos: list[str] = None,
+              use_llm: bool = True,
+              use_lora: bool = False) -> dict:
         """
         执行一次完整的 RAG 查询。
 
@@ -129,6 +131,7 @@ class RAGPipeline:
             selected_cardnos: 可选，用户手动选择的卡牌编号列表。
                               为 None 时使用自动识别的全部卡牌。
                               为空列表 [] 时跳过卡牌识别，直接内容检索。
+            use_llm: 是否调用 LLM 生成回答。False 时仅返回检索结果。
 
         Steps:
           1. 名称索引：用全文匹配识别卡牌（或用 selected_cardnos）
@@ -138,11 +141,11 @@ class RAGPipeline:
           3c. 合并去重取 Top-K
           4. 收集已识别卡牌的关联 QA
           5. 构建 LLM 上下文
-          6. 调用 LLM 生成回答
+          6. （可选）调用 LLM 生成回答
 
         Returns:
             {
-                'answer': str,           # LLM 生成的回答
+                'answer': str,           # LLM 生成的回答（LLM 关闭时为 None）
                 'cards': list[dict],     # 识别的卡牌（名称索引）
                 'search_results': list,  # top-K 检索结果（内容索引合并）
                 'qa_results': list,      # 关联的 QA
@@ -166,6 +169,7 @@ class RAGPipeline:
                         'cost': full.get('cost', ''),
                         'power': full.get('power', ''),
                         'hp': full.get('hp', ''),
+                        'score': 1.0,  # 手动选择的卡牌，分数为 1.0
                     })
         else:
             # 自动识别模式
@@ -181,13 +185,16 @@ class RAGPipeline:
 
         # Step 3a/3b: 内容索引 — 双向量检索
         if effect_query:
-            results_effect = self.retriever.search_content(effect_query, top_k=TOP_K)
+            results_effect = self.retriever.search_content(effect_query, top_k=TOP_K, use_lora=use_lora)
         else:
             results_effect = []
-        results_question = self.retriever.search_content(user_input, top_k=TOP_K)
+        results_question = self.retriever.search_content(user_input, top_k=TOP_K, use_lora=use_lora)
 
         # Step 3c: 合并去重
-        search_results = _merge_results(results_effect, results_question, TOP_K)
+        # LoRA 模式下禁用绝对阈值（分数整体偏低），仅依赖相对比值过滤
+        _abs_threshold = 0.0 if use_lora else None  # None → 使用默认 CONTENT_SCORE_MIN_THRESHOLD
+        search_results = _merge_results(results_effect, results_question, TOP_K,
+                                        score_threshold=_abs_threshold)
 
         # Step 4: 收集关联 QA
         qa_results = []
@@ -206,7 +213,7 @@ class RAGPipeline:
         # Step 5: 构建上下文
         context = self.context_builder.build(found_cards, search_results)
 
-        # Step 6: 调用 LLM
+        # Step 6: 调用 LLM（可选）
         card_names = ', '.join([c.get('name', '') for c in found_cards])
 
         user_prompt = (
@@ -220,7 +227,10 @@ class RAGPipeline:
             f'3. 优先使用检索分数最高的结果，但若最高分结果明显不相关则跳过。'
         )
 
-        answer = self.llm.call(user_prompt, SYSTEM_PROMPT)
+        if use_llm:
+            answer = self.llm.call(user_prompt, SYSTEM_PROMPT)
+        else:
+            answer = None
 
         # 构建完整 prompt 文本（方便调试 LLM）
         full_prompt = f'[SYSTEM]\n{SYSTEM_PROMPT}\n\n[USER]\n{user_prompt}'
@@ -259,12 +269,14 @@ class RAGPipeline:
                         'cost': full.get('cost', ''),
                         'power': full.get('power', ''),
                         'hp': full.get('hp', ''),
+                        'score': hit.get('score', 0.0),
                     })
                 else:
                     cards.append({
                         'cardno': cardno,
                         'name': meta.get('name', ''),
                         'description': '',
+                        'score': hit.get('score', 0.0),
                     })
         return cards
 
@@ -336,7 +348,7 @@ class RAGPipeline:
                     'name': card_name,
                     'source': 'qa_cn',
                 },
-                'score': None,
+                'score': 0.0,
                 'index': -1,
             })
 

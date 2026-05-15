@@ -163,7 +163,8 @@ class Retriever:
         else:
             return None, [], [], False
 
-    def search_content(self, query: str, top_k: int = None) -> list[dict]:
+    def search_content(self, query: str, top_k: int = None,
+                       use_lora: bool = None) -> list[dict]:
         """
         在内容索引中检索，用于效果/问题语义匹配 QA 和规则。
 
@@ -171,9 +172,23 @@ class Retriever:
           - config.LORA_ENABLED=True  → content_lora（LoRA BGE 编码）
           - config.LORA_ENABLED=False → content（原始 BGE 编码）
 
-        编码器始终与索引保持一致。
+        Args:
+            use_lora: 显式指定编码模式。为 None 时使用 config.LORA_ENABLED 自动选择。
+                      显式传入 True/False 时覆盖默认行为。
         """
-        idx, metas, texts, use_lora = self._get_active_content()
+        if use_lora is not None:
+            # 显式指定模式
+            if use_lora and self.content_lora_index is not None:
+                idx, metas, texts = self.content_lora_index, self.content_lora_metadatas, self.content_lora_texts
+            elif self.content_index is not None:
+                idx, metas, texts = self.content_index, self.content_metadatas, self.content_texts
+            elif self.content_lora_index is not None:
+                idx, metas, texts = self.content_lora_index, self.content_lora_metadatas, self.content_lora_texts
+                use_lora = True
+            else:
+                return []
+        else:
+            idx, metas, texts, use_lora = self._get_active_content()
         if idx is None:
             return []
         return self._search_on(query, idx, metas, texts, top_k, use_lora=use_lora)
